@@ -7,8 +7,8 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 SERVER_SLUG = "genspark"
-MAX_BUILDINGS = 12
-MAX_PUBLIC = 8
+MAX_BUILDINGS = 18
+MAX_PUBLIC = 10
 DM_WINDOW_DAYS = 21
 TZ = ZoneInfo("Europe/Zurich")
 HERE = os.path.dirname(os.path.abspath(__file__))
