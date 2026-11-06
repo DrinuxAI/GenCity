@@ -291,6 +291,58 @@ def do_md(month, mask=False):
     print(f"Second brain aggiornato: {outdir} ({len(files)} chat, {len(recs)} messaggi)")
 
 
+def do_stats():
+    if not os.path.exists(ARCHIVE):
+        print("Archivio vuoto: esegui prima python3 archive.py")
+        return
+    from collections import Counter
+    chats, auth, months = Counter(), Counter(), Counter()
+    tot = th = 0
+    first = last = None
+    with open(ARCHIVE, encoding="utf-8") as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except Exception:
+                continue
+            tot += 1
+            chats[r.get("channel_name") or "?"] += 1
+            months[(r.get("ts") or "")[:7]] += 1
+            if r.get("thread"):
+                th += 1
+            auth[r.get("sender_name") or r.get("sender_type") or "?"] += 1
+            ts = r.get("ts") or ""
+            if ts:
+                if not first or ts < first:
+                    first = ts
+                if not last or ts > last:
+                    last = ts
+    print(f"📚 Archivio GenTeam — {tot} messaggi (di cui {th} in thread)")
+    print(f"   periodo: {first[:10]} → {last[:10]}\n")
+    print("Chat più attive:")
+    for n, c in chats.most_common(10):
+        print(f"   {c:>5}  {n}")
+    print("\nAutori top:")
+    for n, c in auth.most_common(10):
+        print(f"   {c:>5}  {n}")
+    print("\nPer mese:")
+    for m, c in sorted(months.items()):
+        print(f"   {c:>5}  {m}")
+
+
+def do_vault(path):
+    path = os.path.expanduser(path)
+    if not os.path.isdir(os.path.join(path, ".obsidian")):
+        print(f"'{path}' non sembra un vault Obsidian (manca .obsidian)")
+        return
+    link = os.path.join(path, "GenTeam")
+    if os.path.islink(link):
+        os.remove(link)
+    os.symlink(os.path.join(HERE, "brain"), link)
+    print(f"Vault collegato: {link} → {os.path.join(HERE, 'brain')}")
+    print("Obsidian indicizzerà automaticamente i file .md (aggiornati ogni venerdì)")
+
+
 def do_schedule():
     plist = os.path.expanduser("~/Library/LaunchAgents/com.masciadri.gencity-weekly.plist")
     label = "com.masciadri.gencity-weekly"
@@ -347,9 +399,14 @@ def main():
     ap.add_argument("--md", action="store_true", help="genera file .md del mese in brain/ per il secondo brain")
     ap.add_argument("--no-keys", action="store_true", help="maschera chiavi API/token nei file .md e nel PDF")
     ap.add_argument("--schedule", action="store_true", help="installa l'agente launchd settimanale (venerdì 18:30)")
+    ap.add_argument("--stats", action="store_true", help="statistiche dell'archivio (chat/autori top)")
+    ap.add_argument("--vault", help="collega un vault Obsidian (symlink <vault>/GenTeam → brain/)")
     args = ap.parse_args()
-    if args.schedule:
-        do_schedule()
+    if args.stats:
+        do_stats()
+        return
+    if args.vault:
+        do_vault(args.vault)
         return
     if args.export:
         month = args.month or __import__("datetime").datetime.now().strftime("%Y-%m")
