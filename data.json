@@ -1,0 +1,601 @@
+{
+ "generated_at": "2026-11-06T15:09:56.015635+00:00",
+ "mode": "safe",
+ "workspace": "genspark",
+ "projects": {
+  "medcloud": {
+   "name": "MedCloud",
+   "color": "#39d0c4"
+  },
+  "aurasphera": {
+   "name": "Aurasphera",
+   "color": "#ff6fae"
+  },
+  "argus": {
+   "name": "ARGUS — Romanzo",
+   "color": "#8f7bff"
+  },
+  "ufficio": {
+   "name": "Ufficio",
+   "color": "#5c9dff"
+  }
+ },
+ "chats": [
+  {
+   "id": "ch_ec1fe8023eb840b18720a10f12496a90",
+   "name": "MedCloud",
+   "project": "medcloud",
+   "type": "hq",
+   "unread": 0,
+   "last_activity": "2026-11-06T14:42:28+00:00",
+   "agents": [
+    {
+     "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Paolo Clinical & Research Advisor",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 15:42",
+     "progress": 50
+    },
+    {
+     "id": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Luca RevOps",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 15:42",
+     "progress": 50
+    },
+    {
+     "id": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 15:42",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "11:47",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "11:50",
+     "text": "Nuovo messaggio da Paolo Clinical & Research Advisor"
+    },
+    {
+     "time": "11:54",
+     "text": "Nuovo messaggio da Luca RevOps"
+    },
+    {
+     "time": "12:31",
+     "text": "Nuovo messaggio da Paolo Clinical & Research Advisor"
+    },
+    {
+     "time": "14:58",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "15:08",
+     "text": "Nuovo messaggio da Giulia CEO"
+    }
+   ]
+  },
+  {
+   "id": "ch_35aa2c8fd7164356a2dee985e98289c5",
+   "name": "Ufficio Personal Branding",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-10-30T18:01:49+00:00",
+   "agents": [
+    {
+     "id": "agent_r4cgk2crypr3@ch_35aa2c8fd7164356a2dee985e98289c5",
+     "name": "Vito Video",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 19:01",
+     "progress": 50
+    },
+    {
+     "id": "agent_yspaf60ehhkt@ch_35aa2c8fd7164356a2dee985e98289c5",
+     "name": "Gaia Visual",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 19:01",
+     "progress": 50
+    },
+    {
+     "id": "agent_69hm5p6n6qsr@ch_35aa2c8fd7164356a2dee985e98289c5",
+     "name": "Fabia Copy",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 19:01",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "18:59",
+     "text": "Nuovo messaggio da Vito Video"
+    },
+    {
+     "time": "19:00",
+     "text": "Nuovo messaggio da Gaia Visual"
+    },
+    {
+     "time": "19:00",
+     "text": "Nuovo messaggio da Fabia Copy"
+    },
+    {
+     "time": "19:00",
+     "text": "Nuovo messaggio da Nadia News"
+    },
+    {
+     "time": "19:00",
+     "text": "Nuovo messaggio da Chiara Brand"
+    },
+    {
+     "time": "19:01",
+     "text": "Nuovo messaggio da Gaia Visual"
+    }
+   ]
+  },
+  {
+   "id": "ch_b755c0b19674485b85804ff8dde8fa04",
+   "name": "Teen Ventures",
+   "project": "ufficio",
+   "type": "lab",
+   "unread": 0,
+   "last_activity": "2026-10-30T17:48:24+00:00",
+   "agents": [
+    {
+     "id": "agent_v6xr629mqty7@ch_b755c0b19674485b85804ff8dde8fa04",
+     "name": "Marco Exec Assistant",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 18:48",
+     "progress": 50
+    },
+    {
+     "id": "agent_4ejd2eqfk4az@ch_b755c0b19674485b85804ff8dde8fa04",
+     "name": "Andrea Legal",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "In attesa di attività",
+     "progress": 0
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "18:41",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "18:41",
+     "text": "Nuovo messaggio da Marco Exec Assistant"
+    },
+    {
+     "time": "18:42",
+     "text": "Nuovo messaggio da Marco Exec Assistant"
+    },
+    {
+     "time": "18:46",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "18:46",
+     "text": "Nuovo messaggio da Marco Exec Assistant"
+    },
+    {
+     "time": "18:46",
+     "text": "Nuovo messaggio da Marco Exec Assistant"
+    }
+   ]
+  },
+  {
+   "id": "ch_5a5a762e63544341a682388729fba73d",
+   "name": "Ufficio agenti",
+   "project": "ufficio",
+   "type": "workshop",
+   "unread": 0,
+   "last_activity": "2026-10-28T16:56:45+00:00",
+   "agents": [
+    {
+     "id": "agent_4aq7ncagc62r@ch_5a5a762e63544341a682388729fba73d",
+     "name": "Bruno Web",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 17:56",
+     "progress": 50
+    },
+    {
+     "id": "agent_v6xr629mqty7@ch_5a5a762e63544341a682388729fba73d",
+     "name": "Marco Exec Assistant",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 17:56",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "17:56",
+     "text": "Nuovo messaggio da Bruno Web"
+    },
+    {
+     "time": "17:56",
+     "text": "Nuovo messaggio da Marco Exec Assistant"
+    }
+   ]
+  },
+  {
+   "id": "ch_a8ff024adbae4f1fbf45a989d561d4da",
+   "name": "Legale",
+   "project": "ufficio",
+   "type": "hq",
+   "unread": 0,
+   "last_activity": "2026-10-28T16:31:17+00:00",
+   "agents": [
+    {
+     "id": "agent_v6xr629mqty7@ch_a8ff024adbae4f1fbf45a989d561d4da",
+     "name": "Marco Exec Assistant",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 17:31",
+     "progress": 50
+    },
+    {
+     "id": "agent_4ejd2eqfk4az@ch_a8ff024adbae4f1fbf45a989d561d4da",
+     "name": "Andrea Legal",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 17:31",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "17:31",
+     "text": "Nuovo messaggio da Marco Exec Assistant"
+    },
+    {
+     "time": "17:31",
+     "text": "Nuovo messaggio da Andrea Legal"
+    }
+   ]
+  },
+  {
+   "id": "ch_905c84bd045c4ef4b2d90828467dc2e5",
+   "name": "Argus — Romanzo",
+   "project": "argus",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-10-26T18:08:35+00:00",
+   "agents": [
+    {
+     "id": "agent_0defgzsj97sb@ch_905c84bd045c4ef4b2d90828467dc2e5",
+     "name": "ARGUS Scrittore — Voce Tecnica (Forsyth/Crichton)",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 19:08",
+     "progress": 50
+    },
+    {
+     "id": "agent_g18tbgs796fw@ch_905c84bd045c4ef4b2d90828467dc2e5",
+     "name": "ARGUS Showrunner",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 19:08",
+     "progress": 50
+    },
+    {
+     "id": "agent_mvyccmek2gs6@ch_905c84bd045c4ef4b2d90828467dc2e5",
+     "name": "Elena Research",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 19:08",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "22:32",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "22:36",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "22:41",
+     "text": "Nuovo messaggio da ARGUS Scrittore — Voce Tecnica (Forsyth/Crichton)"
+    },
+    {
+     "time": "22:42",
+     "text": "Nuovo messaggio da ARGUS Showrunner"
+    },
+    {
+     "time": "22:45",
+     "text": "Nuovo messaggio da Elena Research"
+    },
+    {
+     "time": "18:46",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    }
+   ]
+  },
+  {
+   "id": "ch_ec6832f30439474cb92d9ea77b5339c0",
+   "name": "Argus — Stanza",
+   "project": "argus",
+   "type": "lab",
+   "unread": 0,
+   "last_activity": "2026-10-16T19:52:09+00:00",
+   "agents": [
+    {
+     "id": "agent_g18tbgs796fw@ch_ec6832f30439474cb92d9ea77b5339c0",
+     "name": "ARGUS Showrunner",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 21:52",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "21:52",
+     "text": "Nuovo messaggio da ARGUS Showrunner"
+    }
+   ]
+  },
+  {
+   "id": "ch_4e2beb834ec54580b3bbfa33bb156f21",
+   "name": "CDA Aura",
+   "project": "aurasphera",
+   "type": "workshop",
+   "unread": 0,
+   "last_activity": "2026-10-08T09:11:53+00:00",
+   "agents": [
+    {
+     "id": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA Chair",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 11:11",
+     "progress": 50
+    },
+    {
+     "id": "agent_vrck136pr9ay@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "Genspark for WhatsApp",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "In attesa di attività",
+     "progress": 0
+    },
+    {
+     "id": "agent_6qq31m6qwrdt@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA CTO",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "In attesa di attività",
+     "progress": 0
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "17:19",
+     "text": "Nuovo messaggio da AURA Chair"
+    },
+    {
+     "time": "11:42",
+     "text": "Nuovo messaggio da AURA Chair"
+    },
+    {
+     "time": "17:06",
+     "text": "Nuovo messaggio da Alessia Primerano"
+    },
+    {
+     "time": "18:36",
+     "text": "Nuovo messaggio da Alessia Primerano"
+    },
+    {
+     "time": "11:09",
+     "text": "Nuovo messaggio da Alessia Primerano"
+    },
+    {
+     "time": "11:10",
+     "text": "Nuovo messaggio da AURA Chair"
+    }
+   ]
+  },
+  {
+   "id": "ch_dm_aefd54fa360feaf169ab",
+   "name": "MED-Legal",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-06T14:35:27+00:00",
+   "agents": [
+    {
+     "id": "agent_4ejd2eqfk4az@ch_dm_aefd54fa360feaf169ab",
+     "name": "Andrea Legal",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 15:35",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "15:11",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "15:11",
+     "text": "Nuovo messaggio da Andrea Legal"
+    },
+    {
+     "time": "15:15",
+     "text": "Nuovo messaggio da Andrea Legal"
+    },
+    {
+     "time": "15:15",
+     "text": "Nuovo messaggio da Andrea Legal"
+    },
+    {
+     "time": "15:32",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "15:32",
+     "text": "Nuovo messaggio da Andrea Legal"
+    }
+   ]
+  },
+  {
+   "id": "ch_dm_bede583ecd7e752d632b",
+   "name": "MED-Research",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-06T14:25:53+00:00",
+   "agents": [
+    {
+     "id": "agent_mvyccmek2gs6@ch_dm_bede583ecd7e752d632b",
+     "name": "Elena Research",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 15:25",
+     "progress": 50
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "16:58",
+     "text": "Nuovo messaggio da Elena Research"
+    },
+    {
+     "time": "14:58",
+     "text": "Nuovo messaggio da Elena Research"
+    },
+    {
+     "time": "15:14",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "15:14",
+     "text": "Nuovo messaggio da Elena Research"
+    },
+    {
+     "time": "15:19",
+     "text": "Nuovo messaggio da Elena Research"
+    },
+    {
+     "time": "15:20",
+     "text": "Nuovo messaggio da Elena Research"
+    }
+   ]
+  },
+  {
+   "id": "ch_dm_5238d05eb1c89cc8082d",
+   "name": "MED-Product",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-06T14:22:47+00:00",
+   "agents": [
+    {
+     "id": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
+     "name": "Sofia Product",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ultimo intervento 15:22",
+     "progress": 0
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "16:57",
+     "text": "Nuovo messaggio da Sofia Product"
+    },
+    {
+     "time": "14:58",
+     "text": "Nuovo messaggio da Sofia Product"
+    },
+    {
+     "time": "15:16",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "15:16",
+     "text": "Nuovo messaggio da Sofia Product"
+    },
+    {
+     "time": "15:20",
+     "text": "Nuovo messaggio da Sofia Product"
+    },
+    {
+     "time": "15:22",
+     "text": "Nuovo messaggio da Sofia Product"
+    }
+   ]
+  },
+  {
+   "id": "ch_dm_ea2aa11f6b29ea68831e",
+   "name": "MED-CTO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-06T14:22:37+00:00",
+   "agents": [
+    {
+     "id": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
+     "name": "Davide CTO",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ultimo intervento 15:22",
+     "progress": 0
+    }
+   ],
+   "messages": [],
+   "activity": [
+    {
+     "time": "16:56",
+     "text": "Nuovo messaggio da Davide CTO"
+    },
+    {
+     "time": "14:58",
+     "text": "Nuovo messaggio da Davide CTO"
+    },
+    {
+     "time": "15:17",
+     "text": "Nuovo messaggio da Marco Masciadri"
+    },
+    {
+     "time": "15:17",
+     "text": "Nuovo messaggio da Davide CTO"
+    },
+    {
+     "time": "15:19",
+     "text": "Nuovo messaggio da Davide CTO"
+    },
+    {
+     "time": "15:21",
+     "text": "Nuovo messaggio da Davide CTO"
+    }
+   ]
+  }
+ ]
+}

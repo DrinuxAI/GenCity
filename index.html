@@ -233,13 +233,13 @@ footer#tickerbar{height:42px;flex:0 0 auto;display:flex;align-items:center;justi
 <div id="toast"></div>
 <script>
 const TW=96,TH=48,OX=820,OY=230,GW=9,GH=7;
-const PROJECTS={
+const DEMO_PROJECTS={
   cosmetica:{name:"Cosmetica",color:"#ff6fae"},
   medtech:{name:"MedTech",color:"#39d0c4"},
   bizch:{name:"Business CH",color:"#ffb14d"},
   digitale:{name:"Digitale & AI",color:"#8f7bff"}
 };
-const CHATS=[
+const DEMO_CHATS=[
   {id:"launch-x",name:"Cosmetic Launch X",project:"cosmetica",type:"hq",pos:{x:1,y:1},
    agents:[
      {id:"nova",name:"Nova",role:"Stratega di lancio",status:"working",task:"Piano lancio Q1",progress:62},
@@ -349,9 +349,8 @@ const ST_LABEL={working:"Al lavoro",attention:"Attenzione",idle:"In pausa"};
 const ST_COLOR={working:"#ffcf5c",attention:"#ff5d6c",idle:"#7c86b8"};
 const VISOR={working:"#ffd66b",attention:"#ff5d6c",idle:"#9ad9ff"};
 const CONFIG={dmUrlTemplate:"",genteamUrl:"https://www.genspark.ai"};
-const AGENTS={};
-CHATS.forEach(c=>c.agents.forEach(a=>{AGENTS[a.id]=a;a.chat=c;}));
-let clockMin=9*60;
+let PROJECTS=DEMO_PROJECTS,CHATS=DEMO_CHATS,AGENTS={},liveMode=false,clockMin=9*60;
+const POSITIONS=[[0,1],[2,1],[6,1],[8,1],[0,4],[2,4],[6,4],[8,4],[0,7],[2,7],[6,7],[8,7]];
 const $=s=>document.querySelector(s);
 function iso(x,y){return{x:OX+(x-y)*TW/2,y:OY+(x+y)*TH/2};}
 function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
@@ -425,7 +424,7 @@ function labelSVG(chat){
   return '<g class="bld-label" data-chatid="'+chat.id+'">'+
     '<line x1="'+cx+'" y1="'+(yTop+15)+'" x2="'+cx+'" y2="'+(p.y-h-36)+'" stroke="#4c558f" stroke-width="1.5" stroke-dasharray="3 4"/>'+
     '<rect x="'+(cx-w/2)+'" y="'+(yTop-15)+'" width="'+w+'" height="30" rx="9" fill="#0d1130" stroke="'+proj.color+'" stroke-width="1.5"/>'+
-    '<text x="'+cx+'" y="'+(yTop+1)+'" text-anchor="middle" font-size="12.5" fill="#eef2ff" font-weight="600">'+esc(chat.name)+'</text>'+
+    '<text x="'+cx+'" y="'+(yTop+1)+'" text-anchor="middle" font-size="12.5" fill="#eef2ff" font-weight="600">'+esc(trunc(chat.name,22))+'</text>'+
     '<text x="'+cx+'" y="'+(yTop+11.5)+'" text-anchor="middle" font-size="9.5" fill="'+proj.color+'" opacity="0.85" letter-spacing="0.5">'+esc(PROJECTS[chat.project].name.toUpperCase())+'</text></g>';
 }
 function agentPos(chat,i,n){
@@ -490,7 +489,7 @@ function buildGround(){
     '<circle cx="'+pl.x+'" cy="'+pl.y+'" r="7" fill="#ffd66b"/>'+
     '<text x="'+pl.x+'" y="'+(pl.y+50)+'" text-anchor="middle" font-size="11" fill="#ffd66b" opacity="0.9" letter-spacing="1.5">COMMAND CENTER</text>'+
     '</g>';
-  for(const t of[[1,6],[2,5],[6,6],[7,5],[8,6],[9,6],[0,7],[2,7],[7,7],[9,7]])s+=treeSVG(t[0],t[1]);
+  for(const t of[[1,6],[3,6],[7,6],[9,6],[1,7],[9,7],[5,1],[1,2],[9,2],[5,4],[3,7]])s+=treeSVG(t[0],t[1]);
   return s;
 }
 function buildMid(){
@@ -506,15 +505,21 @@ function buildLabels(){
   return s;
 }
 const world=$("#world");
-world.innerHTML='<g id="ground">'+buildGround()+'</g><g id="mid">'+buildMid()+'</g><g id="labels">'+buildLabels()+'</g><g id="fx"></g>';
-const svg=$("#city"),fx=$("#fx");
-const ROBOT_EL={},LIGHT_EL={};
-for(const id in AGENTS){
-  const g=document.getElementById("ag-"+id);
-  if(g)ROBOT_EL[id]={g,visor:g.querySelector(".visor"),bubble:g.querySelector(".bubble"),bt:g.querySelector(".bubble-t"),ring:g.querySelector(".alert-ring")};
+const svg=$("#city");
+let view={x:0,y:0,s:1},fx=null,ROBOT_EL={},LIGHT_EL={};
+function buildCity(){
+  AGENTS={};
+  CHATS.forEach(c=>c.agents.forEach(a=>{AGENTS[a.id]=a;a.chat=c;}));
+  world.innerHTML='<g id="ground">'+buildGround()+'</g><g id="mid">'+buildMid()+'</g><g id="labels">'+buildLabels()+'</g><g id="fx"></g>';
+  fx=document.getElementById("fx");
+  ROBOT_EL={};LIGHT_EL={};
+  for(const id in AGENTS){
+    const g=document.getElementById("ag-"+id);
+    if(g)ROBOT_EL[id]={g,visor:g.querySelector(".visor"),bubble:g.querySelector(".bubble"),bt:g.querySelector(".bubble-t"),ring:g.querySelector(".alert-ring")};
+  }
+  for(const c of CHATS){const l=document.querySelector('[data-light="'+c.id+'"]');if(l)LIGHT_EL[c.id]=l;}
+  applyView();updateStats();refreshDynamic();
 }
-for(const c of CHATS){const l=document.querySelector('[data-light="'+c.id+'"]');if(l)LIGHT_EL[c.id]=l;}
-let view={x:0,y:0,s:1};
 function applyView(){world.setAttribute("transform","translate("+view.x+" "+view.y+") scale("+view.s+")");}
 function viewScale(){const r=svg.getBoundingClientRect();return Math.min(r.width/1600,r.height/680);}
 function toUser(e){
@@ -588,6 +593,7 @@ let cur={chat:null,tab:"chat"};
 function openChat(id){cur.agent=null;cur.chat=id;renderPanel();panel.classList.add("open");}
 function closePanel(){panel.classList.remove("open");cur.chat=null;cur.agent=null;}
 function chatHTML(c){
+  if(!c.messages.length)return '<div class="ad-empty">Contenuto nascosto: il bridge è in modalità privacy e pubblica solo stati e attività. Per il dialogo completo serve il bridge --full su una cartella protetta.</div>';
   const col=PROJECTS[c.project].color;
   return c.messages.map(m=>{
     if(m.from==="system")return '<div class="msg sys"><span>'+esc(m.text)+" · "+m.time+'</span></div>';
@@ -669,7 +675,7 @@ function renderPanel(){
   }
   const isPlaza=cur.chat==="plaza";
   panel.classList.toggle("plaza",isPlaza);
-  $("#p-sim").style.display=isPlaza?"none":"block";
+  $("#p-sim").style.display=(isPlaza||liveMode)?"none":"block";
   if(isPlaza){
     $("#p-dot").style.background="#ffd66b";
     $("#p-title").textContent="Command Center";
@@ -714,7 +720,7 @@ function toast(t){
   const el=$("#toast");el.textContent=t;el.classList.add("on");
   clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove("on"),2600);
 }
-$("#p-open").addEventListener("click",()=>toast("Demo: collega l'API di GenTeam per aprire la chat reale."));
+$("#p-open").addEventListener("click",()=>{window.open(CONFIG.genteamUrl,"_blank");});
 $("#p-sim").addEventListener("click",()=>{
   if(cur.chat&&cur.chat!=="plaza")simMessage(cur.chat);
 });
@@ -762,6 +768,7 @@ function refreshDynamic(){
   }
 }
 function updateStats(){
+  if(liveMode)clockMin=new Date().getHours()*60+new Date().getMinutes();
   const total=CHATS.reduce((n,c)=>n+c.agents.length,0);
   const working=CHATS.reduce((n,c)=>n+c.agents.filter(a=>a.status==="working").length,0);
   const attention=CHATS.reduce((n,c)=>n+c.agents.filter(a=>a.status==="attention").length,0);
@@ -828,17 +835,49 @@ function tick(){
   updateStats();
   if(panel.classList.contains("open"))renderPanel();
 }
-let live=true,timer=setInterval(tick,5000);
+function applyData(json){
+  liveMode=true;
+  PROJECTS=json.projects&&Object.keys(json.projects).length?json.projects:DEMO_PROJECTS;
+  CHATS=json.chats.map((c,i)=>Object.assign({},c,{pos:{x:POSITIONS[i%POSITIONS.length][0],y:POSITIONS[i%POSITIONS.length][1]}}));
+  buildCity();
+  if(json.mode==="full")ticker("GenTeam collegato: "+CHATS.length+" edifici con dialogo live");
+  else ticker("GenTeam collegato (privacy: solo stati) — "+CHATS.length+" edifici. Aggiornato "+(json.generated_at||"").slice(11,16));
+}
+async function refreshLive(){
+  try{
+    const r=await fetch("data.json",{cache:"no-store"});
+    if(!r.ok)return;
+    const prev={};CHATS.forEach(c=>prev[c.id]=c.messages.length);
+    const json=await r.json();
+    applyData(json);
+    CHATS.forEach(c=>{
+      if((prev[c.id]||0)<c.messages.length&&c.agents.length)transientBubble(c,c.agents[0],"Nuovi messaggi");
+    });
+    updateStats();
+  }catch(e){}
+}
+async function boot(){
+  try{
+    const r=await fetch("data.json",{cache:"no-store"});
+    if(r.ok){applyData(await r.json());startTimers();return;}
+  }catch(e){}
+  buildCity();
+  ticker("Modalità demo — dati simulati. Esegui bridge.py per collegare GenTeam.");
+  startTimers();
+}
+let live=true,fakeTimer=null,refetchTimer=null;
+function startTimers(){
+  clearInterval(fakeTimer);clearInterval(refetchTimer);
+  if(!live)return;
+  if(liveMode)refetchTimer=setInterval(refreshLive,60000);
+  else fakeTimer=setInterval(tick,5000);
+}
 $("#live").addEventListener("change",e=>{
   live=e.target.checked;
-  clearInterval(timer);
-  if(live){timer=setInterval(tick,5000);toast("Simulazione live attivata");}
-  else toast("Simulazione live in pausa");
+  startTimers();
+  toast(live?"Live attivata":"Live in pausa");
 });
-applyView();
-updateStats();
-refreshDynamic();
-ticker("Città generata: "+CHATS.length+" edifici, "+CHATS.reduce((n,c)=>n+c.agents.length,0)+" agenti. Clicca un edificio o un robot.");
+boot();
 </script>
 </body>
 </html>
