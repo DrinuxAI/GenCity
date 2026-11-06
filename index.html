@@ -217,6 +217,7 @@ footer#tickerbar{height:42px;flex:0 0 auto;display:flex;align-items:center;justi
     <div class="p-body" id="p-body"></div>
     <div class="p-foot">
       <button id="p-open">Apri in GenTeam</button>
+      <button id="p-report" style="display:none">Report attività</button>
       <button id="p-sim">+ Messaggio demo</button>
     </div>
   </aside>
@@ -348,7 +349,7 @@ const B_HEIGHT={hq:150,lab:84,studio:112,workshop:96};
 const ST_LABEL={working:"Al lavoro",attention:"Attenzione",idle:"In pausa"};
 const ST_COLOR={working:"#ffcf5c",attention:"#ff5d6c",idle:"#7c86b8"};
 const VISOR={working:"#ffd66b",attention:"#ff5d6c",idle:"#9ad9ff"};
-const CONFIG={dmUrlTemplate:"",genteamUrl:"https://www.genspark.ai"};
+const CONFIG={dmUrlTemplate:"",chatUrlTemplate:"",genteamUrl:"https://www.genspark.ai/agents",serverSlug:"genspark"};
 let PROJECTS=DEMO_PROJECTS,CHATS=DEMO_CHATS,AGENTS={},liveMode=false,clockMin=9*60;
 const POSITIONS=[[0,1],[2,1],[6,1],[8,1],[0,4],[2,4],[6,4],[8,4],[0,7],[2,7],[6,7],[8,7]];
 const $=s=>document.querySelector(s);
@@ -593,11 +594,12 @@ let cur={chat:null,tab:"chat"};
 function openChat(id){cur.agent=null;cur.chat=id;renderPanel();panel.classList.add("open");}
 function closePanel(){panel.classList.remove("open");cur.chat=null;cur.agent=null;}
 function chatHTML(c){
-  if(!c.messages.length)return '<div class="ad-empty">Contenuto nascosto: il bridge è in modalità privacy e pubblica solo stati e attività. Per il dialogo completo serve il bridge --full su una cartella protetta.</div>';
+  const banner=c.needs_marco?'<div class="ad-empty" style="border-color:#ff5d6c66;color:#ffb3bb;background:rgba(255,93,108,.08)">⚠️ Questa chat attende una tua risposta — '+c.unread+' messaggi non letti. Usa "Apri in GenTeam" qui sotto.</div>':'';
+  if(!c.messages.length)return banner+'<div class="ad-empty">Contenuto nascosto: il bridge è in modalità privacy e pubblica solo stati e attività. Per il dialogo completo serve il bridge --full su una cartella protetta.</div>';
   const col=PROJECTS[c.project].color;
-  return c.messages.map(m=>{
+  return banner+c.messages.map(m=>{
     if(m.from==="system")return '<div class="msg sys"><span>'+esc(m.text)+" · "+m.time+'</span></div>';
-    const a=AGENTS[m.from];
+    const a=AGENTS[m.from]||{name:"Tu",role:"Umano"};
     return '<div class="msg"><span class="av" style="background:'+col+'">'+esc(initials(a.name))+'</span>'+
       '<div class="bub"><div class="mh"><b style="color:'+col+'">'+esc(a.name)+'</b><i>'+m.time+'</i></div><p>'+esc(m.text)+'</p></div></div>';
   }).join("");
@@ -632,6 +634,83 @@ function openAgent(id){
   renderPanel();
   panel.classList.add("open");
 }
+function chatUrl(c){
+  if(CONFIG.chatUrlTemplate)return CONFIG.chatUrlTemplate.replace("{id}",encodeURIComponent(c.id)).replace("{slug}",encodeURIComponent(CONFIG.serverSlug));
+  return CONFIG.genteamUrl;
+}
+function reportOpen(agentId){
+  const a0=agentId?AGENTS[agentId]:null;
+  const stamp=new Date().toLocaleString("it-IT",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+  const waiting=CHATS.filter(c=>c.needs_marco);
+  let h='<!doctype html><html lang="it"><head><meta charset="utf-8"><title>GenCity — Report attività</title><style>'+
+    'body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0d1130;color:#e8ecff;margin:0;padding:30px}main{max-width:880px;margin:0 auto}'+
+    'h1{font-size:21px;margin:0}h2{font-size:14px;margin:24px 0 10px;color:#ffd66b;border-bottom:1px solid #2a3163;padding-bottom:6px}'+
+    '.meta{color:#8f97c9;font-size:12px;margin:6px 0 20px}'+
+    '.wait{background:rgba(255,93,108,.1);border:1px solid rgba(255,93,108,.35);border-radius:10px;padding:9px 13px;margin:8px 0;font-size:13px}'+
+    '.wait b{color:#ff8d98}'+
+    '.chat{border:1px solid #2a3163;border-radius:12px;padding:13px 15px;margin:12px 0;background:#121741}'+
+    '.chead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}'+
+    '.chead b{font-size:14.5px}.chead a{margin-left:auto}'+
+    '.pill{font-size:10.5px;padding:2px 8px;border-radius:20px;border:1px solid;font-weight:600}'+
+    '.ag{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0;border-top:1px dashed #1c2250}'+
+    '.ag span:last-child{color:#aab2d8;text-align:right}'+
+    '.msg{font-size:13px;padding:5px 0;border-top:1px solid #1c2250;line-height:1.45}'+
+    '.msg i{color:#8f97c9;font-style:normal;font-size:11px;margin-right:7px}.msg b{margin-right:5px}'+
+    'a{color:#7db4ff;text-decoration:none;font-size:12px;white-space:nowrap}'+
+    'button{background:#232a5e;color:#e8ecff;border:1px solid #39408a;border-radius:8px;padding:6px 14px;font-size:12px;cursor:pointer;float:right}'+
+    '.foot{margin-top:24px;color:#8f97c9;font-size:11px;clear:both}'+
+    '@media print{body{background:#fff;color:#111}h2{color:#333;border-color:#ddd}.chat{background:#fff;border-color:#ddd}'+
+    '.meta,.foot,.ag span:last-child,.msg i{color:#666}.msg,.ag{border-color:#eee}.wait{background:#fdeaea;border-color:#f3b0b6}button{display:none}}'+
+    '</style></head><body><main>'+
+    '<button onclick="window.print()">Stampa</button>'+
+    '<h1>GenCity — Report attività'+(a0?' · '+esc(a0.name):'')+'</h1>'+
+    '<div class="meta">Generato '+stamp+' · workspace '+esc(CONFIG.serverSlug)+' · '+CHATS.length+' chat monitorate · aggiornamento automatico ogni 10 min</div>';
+  if(!a0&&waiting.length){
+    h+='<h2>⚠️ Attende una tua risposta ('+waiting.length+')</h2>';
+    waiting.forEach(c=>{
+      const last=c.messages.length?c.messages[c.messages.length-1]:null;
+      h+='<div class="wait"><b>'+esc(c.name)+'</b> — '+c.unread+' non letti'+(last?' · "'+esc(trunc(last.text,150))+'"':'')+' <a href="'+chatUrl(c)+'" target="_blank">Apri ↗</a></div>';
+    });
+  }
+  if(!a0){
+    h+='<h2>Agenti — panoramica</h2>';
+    CHATS.forEach(c=>c.agents.forEach(ag=>{
+      if(ag.name==="Tu")return;
+      h+='<div class="ag"><span><b>'+esc(ag.name)+'</b> · '+esc(c.name)+'</span><span>'+ST_LABEL[ag.status]+' — '+esc(ag.task)+'</span></div>';
+    }));
+  }
+  const chats=a0?[a0.chat]:CHATS;
+  h+='<h2>'+(a0?'Chat dell\u2019agente':'Dettaglio chat')+'</h2>';
+  chats.forEach(c=>{
+    const st=chatStatus(c),col=PROJECTS[c.project].color;
+    h+='<div class="chat"><div class="chead"><b style="color:'+col+'">'+esc(c.name)+'</b>'+
+      '<span class="pill" style="color:'+ST_COLOR[st]+';border-color:'+ST_COLOR[st]+'55;background:'+ST_COLOR[st]+'22">'+ST_LABEL[st]+'</span>'+
+      (c.needs_marco?'<span class="pill" style="color:#ff8d98;border-color:#ff5d6c55;background:rgba(255,93,108,.1)">⚠️ attende te</span>':'')+
+      '<a href="'+chatUrl(c)+'" target="_blank">Apri in GenTeam ↗</a></div>';
+    h+=c.agents.map(ag=>'<div class="ag"><span><b>'+esc(ag.name)+'</b> · '+esc(ag.role)+'</span><span>'+ST_LABEL[ag.status]+' — '+esc(ag.task)+'</span></div>').join("");
+    if(c.messages.length){
+      h+='<div style="height:8px"></div>';
+      c.messages.slice(-6).forEach(m=>{
+        if(m.from==="system"){h+='<div class="msg"><i>'+m.time+'</i>'+esc(m.text)+'</div>';return;}
+        const am=AGENTS[m.from]||{name:"Tu"};
+        const isLast=m===c.messages[c.messages.length-1];
+        h+='<div class="msg"><i>'+m.time+'</i><b style="color:'+col+'">'+esc(am.name)+'</b>'+esc(m.text)+(isLast&&c.needs_marco?'<span style="color:#ff8d98;font-weight:600;font-size:11px;margin-left:6px">· attende risposta</span>':'')+'</div>';
+      });
+    }
+    h+='</div>';
+  });
+  if(a0){
+    h+='<h2>Interventi di '+esc(a0.name)+' nelle altre chat</h2>';
+    const base=a0.id.split("@")[0],hits=[];
+    CHATS.forEach(cc=>{if(cc!==a0.chat)cc.messages.forEach(m=>{if(m.from.split("@")[0]===base)hits.push({c:cc,m});});});
+    if(!hits.length)h+='<div class="meta">Nessun intervento negli ultimi messaggi raccolti.</div>';
+    else hits.slice(-10).reverse().forEach(x=>h+='<div class="msg"><i>'+x.m.time+' · '+esc(x.c.name)+'</i>'+esc(trunc(x.m.text,200))+'</div>');
+  }
+  h+='<div class="foot">Report generato da GenCity · fonte: bridge GenTeam (ultimi ~30 messaggi per chat) · si aggiorna automaticamente ogni 10 minuti</div></main></body></html>';
+  const w=window.open("","_blank");
+  if(!w){toast("Blocco popup: consenti le finestre per vedere il report.");return;}
+  w.document.open();w.document.write(h);w.document.close();
+}
 function dmOpen(a){
   if(CONFIG.dmUrlTemplate){
     window.open(CONFIG.dmUrlTemplate.replace("{agentId}",encodeURIComponent(a.id)).replace("{agentName}",encodeURIComponent(a.name)),"_blank");
@@ -653,7 +732,7 @@ function agentDetailHTML(a){
     '<div class="ad-pct">'+a.progress+'% completato</div>'+
     '<div class="ad-sec">Ultimi interventi</div>'+
     (msgs.length?msgs.map(m=>'<div class="log-line"><i>'+m.time+'</i><span>'+esc(m.text)+'</span></div>').join(""):'<div class="ad-empty">Nessun intervento recente.</div>')+
-    '<div class="ad-actions"><button id="ad-dm">Apri DM in GenTeam</button><button id="ad-chat">Chat di gruppo</button></div>';
+    '<div class="ad-actions"><button id="ad-dm">Apri DM in GenTeam</button><button id="ad-chat">Chat di gruppo</button><button id="ad-report">Report attività</button></div>';
 }
 function renderPanel(){
   const body=$("#p-body");
@@ -662,6 +741,7 @@ function renderPanel(){
     const a=AGENTS[cur.agent],c=a.chat,col=PROJECTS[c.project].color;
     panel.classList.remove("plaza");
     $("#p-sim").style.display="none";
+    $("#p-report").style.display="none";
     $("#p-dot").style.background=col;
     $("#p-title").textContent=a.name;
     $("#p-proj").textContent=a.role+" · "+c.name;
@@ -676,6 +756,7 @@ function renderPanel(){
   const isPlaza=cur.chat==="plaza";
   panel.classList.toggle("plaza",isPlaza);
   $("#p-sim").style.display=(isPlaza||liveMode)?"none":"block";
+  $("#p-report").style.display=isPlaza?"block":"none";
   if(isPlaza){
     $("#p-dot").style.background="#ffd66b";
     $("#p-title").textContent="Command Center";
@@ -707,6 +788,7 @@ $("#p-body").addEventListener("click",e=>{
   if(e.target.closest("[data-back]")){cur.agent=null;cur.tab="chat";renderPanel();return;}
   if(e.target.id==="ad-chat"){cur.agent=null;cur.tab="chat";renderPanel();return;}
   if(e.target.id==="ad-dm"&&cur.agent){dmOpen(AGENTS[cur.agent]);return;}
+  if(e.target.id==="ad-report"&&cur.agent){reportOpen(cur.agent);return;}
   const r=e.target.closest("[data-open]");
   if(r){cur.agent=null;cur.tab="chat";openChat(r.dataset.open);}
 });
@@ -720,7 +802,11 @@ function toast(t){
   const el=$("#toast");el.textContent=t;el.classList.add("on");
   clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove("on"),2600);
 }
-$("#p-open").addEventListener("click",()=>{window.open(CONFIG.genteamUrl,"_blank");});
+$("#p-open").addEventListener("click",()=>{
+  const c=cur.agent?AGENTS[cur.agent].chat:CHATS.find(x=>x.id===cur.chat);
+  window.open(c?chatUrl(c):CONFIG.genteamUrl,"_blank");
+});
+$("#p-report").addEventListener("click",()=>reportOpen(null));
 $("#p-sim").addEventListener("click",()=>{
   if(cur.chat&&cur.chat!=="plaza")simMessage(cur.chat);
 });

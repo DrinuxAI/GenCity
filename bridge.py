@@ -123,7 +123,7 @@ def main():
         except Exception:
             members = []
         try:
-            read = gsk("genteam", "read", "--channel_id", cid, "--limit", "8")
+            read = gsk("genteam", "read", "--channel_id", cid, "--limit", "30")
         except Exception:
             read = {}
         items = read.get("items", [])
@@ -202,7 +202,7 @@ def main():
 
         messages = []
         activity = []
-        for m in msgs[:6]:
+        for m in msgs[:12]:
             ts = next((it["ts"] for it in items if it.get("data", {}).get("comet_message_id") == m.get("comet_message_id")), None)
             sender = m.get("sender_display_name") or "?"
             if FULL:
@@ -213,6 +213,10 @@ def main():
                 activity.append({"time": hhmm(ts), "text": "Nuovo messaggio da " + sender})
         if not FULL:
             messages = []
+
+        last_is_human = bool(msgs) and msgs[-1].get("sender_actor_type") == "human"
+        needs_marco = bool(unread > 0 and msgs and not last_is_human)
+        marco_mentioned = any("marco" in (m.get("content") or "").lower() for m in msgs[-5:])
 
         if is_dm:
             btype = "studio"
@@ -232,6 +236,8 @@ def main():
             "agents": chat_agents,
             "messages": messages,
             "activity": activity,
+            "needs_marco": needs_marco,
+            "marco_mentioned": marco_mentioned,
         })
 
     out = {
