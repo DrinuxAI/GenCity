@@ -120,7 +120,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 #office-back:hover{background:#e6e9f4}
 #office-title{font-size:14px}
 #office-open{color:#2563eb;font-size:12px;text-decoration:none;font-weight:600}
-.lbl{cursor:pointer}
+.lbl{cursor:pointer;position:relative}
+.lbl .ub{position:absolute;top:-8px;right:-8px;background:#ff5d6c;color:#fff;border-radius:50%;min-width:19px;height:19px;padding:0 4px;font-size:10.5px;display:flex;align-items:center;justify-content:center;font-weight:700;border:2px solid #fff;box-shadow:0 2px 8px rgba(255,93,108,.4)}
+.ov-search{margin-bottom:10px}
+.ov-search input{width:100%;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:12.5px;background:#f8f9fd;color:var(--ink);outline:none}
+.ov-search input:focus{border-color:#4c558f;background:#fff}
+.qrow{display:flex;gap:8px;align-items:flex-start;padding:7px 8px;border-radius:9px;cursor:pointer;border-bottom:1px solid var(--line2)}
+.qrow:hover{background:#f2f4fa}
+.qrow i{width:9px;height:9px;border-radius:50%;flex:none;margin-top:5px}
+.qrow b{font-size:12px}
+.qrow>span{margin-left:auto;font-size:10px;color:var(--sub);white-space:nowrap}
+.qrow .qmain{min-width:0}
+.qrow .qmain p{font-size:11.5px;color:var(--sub);margin-top:2px;line-height:1.4}
+.qcount{font-size:10.5px;color:var(--sub);text-align:center;padding:8px 0 2px}
 .hint3d{position:absolute;left:16px;bottom:14px;font-size:11px;color:var(--sub);background:rgba(255,255,255,.85);border:1px solid var(--line);border-radius:9px;padding:6px 10px;pointer-events:none}
 @media(max-width:760px){#panel{width:calc(100vw - 20px)}.tstat span{display:none}}
 </style>
@@ -404,7 +416,7 @@ function label3D(c){
   const proj=PROJECTS[c.project];
   const div=document.createElement("div");
   div.className="lbl"+(chatStatus(c)==="attention"?" att":"");
-  div.innerHTML="<b>"+esc(trunc(c.name,24))+"</b><i style=\"color:"+proj.color+"\">"+esc(proj.name.toUpperCase())+"</i>";
+  div.innerHTML="<b>"+esc(trunc(c.name,24))+"</b><i style=\"color:"+proj.color+"\">"+esc(proj.name.toUpperCase())+"</i><i class=\"ub\" style=\"display:"+(c.unread>0?"flex":"none")+"\">"+(c.unread||0)+"</i>";
   div.addEventListener("pointerdown",e=>e.stopPropagation());
   div.addEventListener("click",e=>{e.stopPropagation();cur.tab="chat";openChat(c.id);openOffice(c.id);});
   const o=new CSS2DObject(div);
@@ -881,7 +893,16 @@ function applyStatuses(){
     L.material.color.set(col);
     L.material.emissive.set(col);
   });
-  LBL.forEach(l=>{if(l.chat)l.div.classList.toggle("att",chatStatus(l.chat)==="attention");});
+  LBL.forEach(l=>{
+    if(!l.chat)return;
+    l.div.classList.toggle("att",chatStatus(l.chat)==="attention");
+    const ub=l.div.querySelector(".ub");
+    if(ub){
+      const u=l.chat.unread||0;
+      ub.style.display=u>0?"flex":"none";
+      ub.textContent=u;
+    }
+  });
 }
 function transientBubble(chat,agent,text){
   const R=ROBOT[agent.id];
@@ -898,6 +919,7 @@ function transientBubble(chat,agent,text){
 /* ---------- panel (invariato) ---------- */
 const panel=$("#panel");
 let cur={chat:null,tab:"chat",agent:null};
+let query="";
 function openChat(id){cur.agent=null;cur.chat=id;renderPanel();panel.classList.add("open");}
 function closePanel(){panel.classList.remove("open");cur.chat=null;cur.agent=null;}
 function chatUrl(c){
@@ -939,6 +961,29 @@ function overviewHTML(){
       '<span class="pill" style="color:'+ST_CSS[st]+';border-color:'+ST_CSS[st]+'55;background:'+ST_CSS[st]+'18">'+ST_LABEL[st]+'</span></div>'+
       '<div class="ov-mid">'+dots+'<span class="ov-last">'+esc(last?trunc(last.text,90):"")+'</span></div></div>';
   }).join("");
+}
+function searchResults(q){
+  const s=q.toLowerCase().trim();
+  if(s.length<2)return '<div class="ad-empty">Scrivi almeno 2 caratteri.</div>';
+  const res=[];
+  CHATS.forEach(c=>{
+    c.messages.forEach(m=>{
+      const t=String(m.text||"");
+      if(t.toLowerCase().includes(s))res.push({c,m});
+    });
+    if(c.name.toLowerCase().includes(s))res.push({c,chatHit:true});
+    c.agents.forEach(a=>{if(a.name.toLowerCase().includes(s))res.push({c,a,agentHit:true});});
+  });
+  if(!res.length)return '<div class="ad-empty">Nessun risultato per "'+esc(q)+'".</div>';
+  return res.slice(0,40).map(r=>{
+    if(r.chatHit)return '<div class="qrow" data-open="'+r.c.id+'"><i style="background:'+PROJECTS[r.c.project].color+'"></i><b>💬 '+esc(r.c.name)+'</b><span>chat</span></div>';
+    if(r.agentHit)return '<div class="qrow" data-open="'+r.c.id+'"><i style="background:'+PROJECTS[r.c.project].color+'"></i><b>🤖 '+esc(r.a.name)+'</b><span>'+esc(trunc(r.c.name,20))+'</span></div>';
+    const am=AGENTS[r.m.from]||{name:"Tu"};
+    return '<div class="qrow" data-open="'+r.c.id+'"><i style="background:'+PROJECTS[r.c.project].color+'"></i><div class="qmain"><b>'+esc(am.name)+' · '+esc(trunc(r.c.name,20))+' · '+r.m.time+'</b><p>'+esc(trunc(r.m.text,130))+'</p></div></div>';
+  }).join("")+'<div class="qcount">'+Math.min(res.length,40)+' risultati</div>';
+}
+function plazaHTML(){
+  return '<div class="ov-search"><input id="qsearch" type="text" placeholder="Cerca nei dialoghi, agenti, chat…" value="'+esc(query)+'" autocomplete="off"></div><div id="qres">'+(query.trim()?searchResults(query):overviewHTML())+'</div>';
 }
 function openAgent(id){
   if(!AGENTS[id])return;
@@ -1066,7 +1111,7 @@ function renderPanel(){
     const pill=$("#p-status");
     if(n>0){pill.textContent=n+" in attenzione";pill.style.color=ST_CSS.attention;pill.style.borderColor=ST_CSS.attention+"55";pill.style.background=ST_CSS.attention+"18";}
     else{pill.textContent="Tutto in movimento";pill.style.color=ST_CSS.working;pill.style.borderColor=ST_CSS.working+"55";pill.style.background=ST_CSS.working+"18";}
-    body.innerHTML=overviewHTML();
+    body.innerHTML=plazaHTML();
   }else{
     const c=CHATS.find(x=>x.id===cur.chat);
     if(!c)return closePanel();
@@ -1092,6 +1137,12 @@ $("#p-body").addEventListener("click",e=>{
   if(e.target.id==="ad-report"&&cur.agent){reportOpen(cur.agent);return;}
   const r=e.target.closest("[data-open]");
   if(r){cur.agent=null;cur.tab="chat";openChat(r.dataset.open);}
+});
+$("#p-body").addEventListener("input",e=>{
+  if(e.target.id==="qsearch"){
+    query=e.target.value;
+    $("#qres").innerHTML=query.trim()?searchResults(query):overviewHTML();
+  }
 });
 document.querySelector(".tabs").addEventListener("click",e=>{
   const b=e.target.closest("[data-tab]");
