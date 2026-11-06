@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T17:34:55.503057+00:00",
+ "generated_at": "2026-11-06T17:48:36.782421+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-06T17:45:17+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 18:45",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ciao, sono MED-CEO. Obiettivi di mercato vaghi trasformati in risultati concreti — gestisco l'intero stack GTM. Da quale pezzo partiamo oggi? A proposito, posso usare direttamente anche il tuo Second Brain e il tuo AgentBase — e con email e calendario collegati posso inviare email e fissare riunioni per te.",
+     "time": "16:55"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì, la mia: mandamela qui.  Mi serve in sola lettura, senza permessi di amministrazione — la uso per l'unica cosa che mi riguarda davvero, la storia di integrazione che vendiamo a un licenziatario (endpoint FHIR, formati di export, cosa può leggere un EHR esterno) e per verificare dall'esterno i numeri che finiscono nei materiali commerciali. Scritture e gestione utenti non mi servono.  Due cose sulla forma, visto che le hai generate tu: una chiave per agente è la scelta giusta — è l'unico modo perché un'azione sia attribuibile a chi l'ha fatta, ed è il buco che Legal ha segnalato sulla passw…",
+     "time": "14:58"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "mck\\_0ae78f91555415dd6935cc9ea7da10442f30126d9a5eb3b2",
+     "time": "15:06"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ricevuta — la uso subito in sola lettura e ti dico cosa copre e cosa no.",
+     "time": "15:06"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Provata subito. La chiave apre **solo il perimetro FHIR in lettura** — è il pezzo che mi serviva per la storia di integrazione, ma è meno di quello che serve al team.  **Copre:** `/api/fhir/metadata|Patient|Observation|RiskAssessment|DeviceMetric` in GET, con header `X-API-Key`. Senza chiave o con chiave sbagliata: 401. **Non copre:** `/api/patients*`, `/api/trpc`, `/api/auth/*`, export e analytics → 401. Quindi i numeri delle schermate (prevenzione, risparmio, sensibilità) **restano non verificabili dall'esterno**: per quelli l'handoff di login serve ancora. La chiave non è uno strumento di …",
+     "time": "15:08"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "dai indicazioni di correggere via Gencode",
+     "time": "15:10"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Arrivano: te li scrivo chiave per chiave, pronti da incollare in GenCode.",
+     "time": "15:10"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Pronti, in ordine di rischio. Ho estratto le chiavi i18n esatte dal bundle attuale, così GenCode non deve cercarle.  **Prima incolla questo — è il contesto che deve restare valido per ogni prompt successivo:**  > Contesto: app MedCloud / DermaTrex (React + Express, i18n it/en/de). Regole non negoziabili, da rispettare anche nelle modifiche future: > 1. Mai «brevettato», «patent pending», «multi-brevettato» / «patented» / «patentiert» in nessuna lingua. Esiste una sola domanda di brevetto italiana, nessun PCT: nessun brevetto è concesso. > 2. Mai affermare né implicare una riduzione dell'incid…",
+     "time": "15:11"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "**PROMPT 3 — Prezzo (bloccante)** `facilityStats.cost.subtitle` oggi dice «Costo DermaTrex: €1.200/paz/anno». Sostituisci con: «Prezzo di listino al licenziatario: 58 €/posto letto-mese (reparto), 270 €/posto letto-mese (terapia intensiva)». Il numero deve venire da una configurazione per struttura (default 58 / 270), non da una costante hardcoded; etichetta sempre «listino al licenziatario», mai «costo DermaTrex» — noi non vendiamo il software al letto, incassiamo quota iniziale, milestone e royalty. Nello stesso blocco c'è «Costo medio lesione: €25.000 (fonte: EPUAP)»: EPUAP non pubblica un…",
+     "time": "15:11"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "**PROMPT 7 — Paginazione e ricerca FHIR** - `Bundle.total` deve essere il conteggio reale, non la dimensione della pagina (oggi `_count=2` restituisce `total: 2` su 100 pazienti reali). - Aggiungi `link[self|next|prev]` con URL assoluti, `_count` (default 50, max 500) e `_offset` funzionante. Nessun troncamento silenzioso: se un client chiede più del massimo, si ferma ai 500 ma lo dice nei `link`. - Implementa `?identifier=` e `?name=` su Patient (oggi restituiscono tutti i pazienti, il che in clinica è un errore di paziente). Se un parametro non è supportato, rispondi `OperationOutcome` 400 …",
+     "time": "15:11"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "**Il prompt 6 che ti ho mandato dieci minuti fa ha un errore: non incollarlo così.**  Diceva di cambiare `category` da `vital-signs` a `device` su una lettura di pressione. È sbagliato: `vital-signs` è la categoria corretta per pressione e temperatura, e così com'è farebbe correggere ai dev una cosa giusta. Quello che manca davvero sono i codici LOINC su `code` e su `component.code` (e il valore nei component, che resta il difetto principale).  Davide ha preso in carico tutta la parte FHIR e ha riscritto i sei punti in cinque prompt con i test di accettazione, nel thread qui sopra. **Da adess…",
+     "time": "15:12"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "dove devo incollare i prompt, in GenCode?",
+     "time": "15:12"
+    }
+   ],
+   "activity": [
+    {
+     "time": "16:55",
+     "text": "Giulia CEO: Ciao, sono MED-CEO. Obiettivi di mercato vaghi trasformati in risulta…"
+    },
+    {
+     "time": "14:58",
+     "text": "Giulia CEO: Sì, la mia: mandamela qui.  Mi serve in sola lettura, senza permessi …"
+    },
+    {
+     "time": "15:06",
+     "text": "Marco Masciadri: mck\\_0ae78f91555415dd6935cc9ea7da10442f30126d9a5eb3b2"
+    },
+    {
+     "time": "15:06",
+     "text": "Giulia CEO: Ricevuta — la uso subito in sola lettura e ti dico cosa copre e cosa …"
+    },
+    {
+     "time": "15:08",
+     "text": "Giulia CEO: Provata subito. La chiave apre **solo il perimetro FHIR in lettura** …"
+    },
+    {
+     "time": "15:10",
+     "text": "Marco Masciadri: dai indicazioni di correggere via Gencode"
+    },
+    {
+     "time": "15:10",
+     "text": "Giulia CEO: Arrivano: te li scrivo chiave per chiave, pronti da incollare in GenC…"
+    },
+    {
+     "time": "15:11",
+     "text": "Giulia CEO: Pronti, in ordine di rischio. Ho estratto le chiavi i18n esatte dal b…"
+    },
+    {
+     "time": "15:11",
+     "text": "Giulia CEO: **PROMPT 3 — Prezzo (bloccante)** `facilityStats.cost.subtitle` oggi …"
+    },
+    {
+     "time": "15:11",
+     "text": "Giulia CEO: **PROMPT 7 — Paginazione e ricerca FHIR** - `Bundle.total` deve esser…"
+    },
+    {
+     "time": "15:12",
+     "text": "Giulia CEO: **Il prompt 6 che ti ho mandato dieci minuti fa ha un errore: non inc…"
+    },
+    {
+     "time": "15:12",
+     "text": "Marco Masciadri: dove devo incollare i prompt, in GenCode?"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_aefd54fa360feaf169ab",
    "name": "MED-Legal",
    "project": "medcloud",
@@ -1659,66 +1791,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_958997874e4f4f80cd11",
-   "name": "MED-CFO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-06T14:18:58+00:00",
-   "agents": [
-    {
-     "id": "agent_e8a9epfcxybq@ch_dm_958997874e4f4f80cd11",
-     "name": "Marta CFO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:18",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_e8a9epfcxybq@ch_dm_958997874e4f4f80cd11",
-     "text": "Ciao, sono MED-CFO. Chiusura di fine mese, riconciliazioni e rendiconti che quadrano — pronti per la tua approvazione. Quale periodo stiamo chiudendo? A proposito, posso usare direttamente anche il tuo Second Brain e il tuo AgentBase — e con email e calendario collegati posso inviare email e fissare riunioni per te.",
-     "time": "16:55"
-    },
-    {
-     "from": "agent_e8a9epfcxybq@ch_dm_958997874e4f4f80cd11",
-     "text": "Chiave API: la chiedo qui, come da istruzione — e approfitto del canale privato per dirti come la userei.  Per il mio perimetro mi serve **in sola lettura**: controlli di riconciliazione (consumo reale contro consumo dichiarato, letti configurati contro letti effettivamente in uso, export contro righe esportate). Non ho nulla da scrivere e non voglio una permissione che non uso.  Tre cose che rendono la chiave governabile anche a revisione finita: un nome riconoscibile (per esempio `marta.cfo-read`), scope di sola lettura, e una scadenza dichiarata — se una chiave non scade, dopo sei mesi nes…",
-     "time": "14:58"
-    },
-    {
-     "from": "human@ch_dm_958997874e4f4f80cd11",
-     "text": "mck\\_36f5ca041969b7c0207016a8bdb885bac36ff80eb9a6136d",
-     "time": "15:18"
-    },
-    {
-     "from": "agent_e8a9epfcxybq@ch_dm_958997874e4f4f80cd11",
-     "text": "Ricevuta. Non la ripeto e non la salvo: nessun file, nessuna nota — resta qui nella chat e da qui la userei, se servisse. Per la revisione non ho un'integrazione da provare, quindi oggi non la tocco.  Il punto che devi sapere, perché è la stessa cosa che ha trovato Giulia (msg 8974814): le chiavi generate non hanno scope né scadenza. Sulla mia, «sola lettura» è una mia disciplina d'uso, non un limite tecnico — chi legge l'audit trail non distingue una mia lettura da una scrittura. Per il controllo interno la differenza conta: serviva a dire che chi riconcilia non poteva correggere il dato che…",
-     "time": "15:18"
-    }
-   ],
-   "activity": [
-    {
-     "time": "16:55",
-     "text": "Marta CFO: Ciao, sono MED-CFO. Chiusura di fine mese, riconciliazioni e rendicon…"
-    },
-    {
-     "time": "14:58",
-     "text": "Marta CFO: Chiave API: la chiedo qui, come da istruzione — e approfitto del cana…"
-    },
-    {
-     "time": "15:18",
-     "text": "Marco Masciadri: mck\\_36f5ca041969b7c0207016a8bdb885bac36ff80eb9a6136d"
-    },
-    {
-     "time": "15:18",
-     "text": "Marta CFO: Ricevuta. Non la ripeto e non la salvo: nessun file, nessuna nota — r…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
   }
  ]
 }
