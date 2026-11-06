@@ -535,7 +535,7 @@ function zoomAt(ux,uy,f){
   view.s=ns;applyView();
 }
 let drag=null;
-svg.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,moved:0};svg.classList.add("dragging");svg.setPointerCapture(e.pointerId);});
+svg.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,moved:0,target:e.target};svg.classList.add("dragging");svg.setPointerCapture(e.pointerId);});
 svg.addEventListener("pointermove",e=>{
   if(drag){
     const s=viewScale(),dx=e.clientX-drag.x,dy=e.clientY-drag.y;
@@ -548,7 +548,7 @@ svg.addEventListener("pointermove",e=>{
 svg.addEventListener("pointerup",e=>{
   svg.classList.remove("dragging");
   if(drag&&drag.moved<6){
-    const t=e.target.closest("[data-chatid],[data-agentid],[data-plaza]");
+    const t=drag.target.closest("[data-chatid],[data-agentid],[data-plaza]");
     if(t){
       if(t.dataset.agentid){openAgent(t.dataset.agentid);}
       else if(t.dataset.chatid){cur.tab="chat";openChat(t.dataset.chatid);}
@@ -594,10 +594,11 @@ let cur={chat:null,tab:"chat"};
 function openChat(id){cur.agent=null;cur.chat=id;renderPanel();panel.classList.add("open");}
 function closePanel(){panel.classList.remove("open");cur.chat=null;cur.agent=null;}
 function chatHTML(c){
+  const openLink='<div style="margin-bottom:10px"><a href="'+chatUrl(c)+'" target="_blank" style="color:#7db4ff;font-size:12.5px;text-decoration:none;font-weight:600">↗ Apri '+esc(c.name)+' in GenTeam</a></div>';
   const banner=c.needs_marco?'<div class="ad-empty" style="border-color:#ff5d6c66;color:#ffb3bb;background:rgba(255,93,108,.08)">⚠️ Questa chat attende una tua risposta — '+c.unread+' messaggi non letti. Usa "Apri in GenTeam" qui sotto.</div>':'';
-  if(!c.messages.length)return banner+'<div class="ad-empty">Contenuto nascosto: il bridge è in modalità privacy e pubblica solo stati e attività. Per il dialogo completo serve il bridge --full su una cartella protetta.</div>';
+  if(!c.messages.length)return openLink+banner+'<div class="ad-empty">Contenuto nascosto: il bridge è in modalità privacy e pubblica solo stati e attività. Per il dialogo completo serve il bridge --full su una cartella protetta.</div>';
   const col=PROJECTS[c.project].color;
-  return banner+c.messages.map(m=>{
+  return openLink+banner+c.messages.map(m=>{
     if(m.from==="system")return '<div class="msg sys"><span>'+esc(m.text)+" · "+m.time+'</span></div>';
     const a=AGENTS[m.from]||{name:"Tu",role:"Umano"};
     return '<div class="msg"><span class="av" style="background:'+col+'">'+esc(initials(a.name))+'</span>'+
@@ -721,6 +722,7 @@ function agentDetailHTML(a){
     '<div class="agent-hero"><span class="av" style="background:'+col+'">'+esc(initials(a.name))+'</span>'+
     '<div><b>'+esc(a.name)+'</b><span class="r">'+esc(a.role)+'</span></div>'+
     '<span class="pill" style="color:'+ST_COLOR[a.status]+';background:'+ST_COLOR[a.status]+'22;border-color:'+ST_COLOR[a.status]+'55">'+ST_LABEL[a.status]+'</span></div>'+
+    '<div style="margin:10px 0"><a href="'+chatUrl(c)+'" target="_blank" style="color:#7db4ff;font-size:12.5px;text-decoration:none;font-weight:600">↗ Apri '+esc(c.name)+' in GenTeam</a></div>'+
     '<div class="ad-sec">Sta facendo ora</div>'+
     '<div class="ad-task">'+esc(a.task)+'</div>'+
     '<div class="bar"><i style="width:'+a.progress+'%;background:'+col+'"></i></div>'+
