@@ -349,7 +349,7 @@ const B_HEIGHT={hq:150,lab:84,studio:112,workshop:96};
 const ST_LABEL={working:"Al lavoro",attention:"Attenzione",idle:"In pausa"};
 const ST_COLOR={working:"#ffcf5c",attention:"#ff5d6c",idle:"#7c86b8"};
 const VISOR={working:"#ffd66b",attention:"#ff5d6c",idle:"#9ad9ff"};
-const CONFIG={dmUrlTemplate:"",chatUrlTemplate:"",genteamUrl:"https://www.genspark.ai/agents",serverSlug:"genspark"};
+const CONFIG={dmUrlTemplate:"",chatUrlTemplate:"https://www.genspark.ai/genteam/{slug}/channel/{id}",genteamUrl:"https://www.genspark.ai/agents",serverSlug:"genspark"};
 let PROJECTS=DEMO_PROJECTS,CHATS=DEMO_CHATS,AGENTS={},liveMode=false,clockMin=9*60;
 const POSITIONS=[[0,1],[2,1],[6,1],[8,1],[0,4],[2,4],[6,4],[8,4],[0,7],[2,7],[6,7],[8,7]];
 const $=s=>document.querySelector(s);
@@ -712,12 +712,7 @@ function reportOpen(agentId){
   w.document.open();w.document.write(h);w.document.close();
 }
 function dmOpen(a){
-  if(CONFIG.dmUrlTemplate){
-    window.open(CONFIG.dmUrlTemplate.replace("{agentId}",encodeURIComponent(a.id)).replace("{agentName}",encodeURIComponent(a.name)),"_blank");
-  }else{
-    toast("Deep-link DM non configurato: imposta CONFIG.dmUrlTemplate. Apro GenTeam.");
-    window.open(CONFIG.genteamUrl,"_blank");
-  }
+  window.open(chatUrl(a.chat),"_blank");
 }
 function agentDetailHTML(a){
   const c=a.chat,col=PROJECTS[c.project].color;
