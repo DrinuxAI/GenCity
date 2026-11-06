@@ -675,10 +675,9 @@ function buildOfficeRoom(c){
     const o=makeOfficeRobot(col,a);
     const kind=spots[i]||"coffee";
     o.kind=kind;
+    desk3D(-18+(i%4)*7.5,-9);
     if(kind==="desk"){
-      const dx=-18+(i%4)*7.5;
-      desk3D(dx,-9);
-      o.target={x:dx,z:-5.6,yaw:Math.PI};
+      o.target={x:-18+(i%4)*7.5,z:-5.6,yaw:Math.PI};
     }else if(kind==="meeting"){
       const ang=-Math.PI*0.28+mi*0.42;mi++;
       const px=12+Math.cos(ang)*7.2,pz=-6+Math.sin(ang)*5.6;
@@ -686,7 +685,7 @@ function buildOfficeRoom(c){
     }else{
       o.target={x:8.5+(ci%3)*2.6,z:5+Math.floor(ci/3)*2.4+(ci%2),yaw:Math.random()*6.3};ci++;
     }
-    o.g.position.set(-19,0,10);
+    o.g.position.set(-19-(i%2)*1.8,0,10-i*2);
     o.delay=i*0.55;
     office.robots.push(o);
     officeScene.add(o.g);
@@ -729,6 +728,7 @@ function openOffice(chatId){
   controls.enabled=false;
   officeControls.enabled=true;
   officeControls.target.set(2,4,0);
+  labelRenderer.domElement.style.display="none";
   $("#officebar").classList.add("on");
   $("#office-title").textContent=c.name+" — Ufficio";
   $("#office-open").href=chatUrl(c);
@@ -739,6 +739,7 @@ function closeOffice(){
   clearOffice();
   officeControls.enabled=false;
   controls.enabled=true;
+  labelRenderer.domElement.style.display="";
   $("#officebar").classList.remove("on");
 }
 function updateOffice(dt,t){
