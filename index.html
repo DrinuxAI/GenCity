@@ -1174,11 +1174,13 @@ function syncNight(){
 }
 $("#nightbtn").addEventListener("click",toggleNight);
 const hashOffice=location.hash.match(/office=(ch_[A-Za-z0-9_]+)/);
-if(location.hash.includes("notte")){NIGHT=!NIGHT;applyNightEnv();$("#nightbtn").textContent=NIGHT?"🌙":"☀️";}
-if(hashOffice)setTimeout(()=>openOffice(hashOffice[1]),1200);
+const wantNightHash=location.hash.includes("notte");
 resize3d();
 animate();
-boot();
+boot().then(()=>{
+  if(wantNightHash)toggleNight();
+  if(hashOffice)setTimeout(()=>openOffice(hashOffice[1]),600);
+});
 </script>
 </body>
 </html>
