@@ -19,6 +19,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .tstat span{font-size:10px;color:var(--sub);letter-spacing:.4px;text-transform:uppercase}
 .switch{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--sub);cursor:pointer;margin-left:8px}
 .switch input{accent-color:#1c2340}
+#nightbtn{border:1px solid var(--line);background:#fff;border-radius:9px;padding:4px 9px;cursor:pointer;font-size:14px;line-height:1;margin-left:6px}
+#nightbtn:hover{border-color:#4c558f}
 #wrap{position:fixed;inset:56px 0 34px 0}
 #scene{position:absolute;inset:0}
 #scene canvas{display:block}
@@ -121,6 +123,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
     <div class="tstat"><b id="st-clock">–</b><span id="st-clocklab">ora reale</span></div>
   </div>
   <label class="switch"><input type="checkbox" id="live" checked>Live</label>
+  <button id="nightbtn" title="Giorno / notte">☀️</button>
 </header>
 <main id="wrap">
   <div id="scene">
@@ -188,6 +191,7 @@ const DEMO_CHATS=[
   activity:[{time:"08:40",text:"Test bancario avviato"}]}
 ];
 let PROJECTS=DEMO_PROJECTS,CHATS=DEMO_CHATS,AGENTS={},liveMode=false,clockMin=9*60;
+let NIGHT=false;
 const $=s=>document.querySelector(s);
 function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
 function trunc(s,n){s=String(s==null?"":s);return s.length>n?s.slice(0,n-1)+"…":s;}
@@ -225,6 +229,7 @@ controls.minPolarAngle=0.12;controls.maxPolarAngle=1.44;
 function resize3d(){const w=sceneEl.clientWidth,h=sceneEl.clientHeight;if(!w||!h)return;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h);labelRenderer.setSize(w,h);officeCamera.aspect=w/h;officeCamera.updateProjectionMatrix();}
 addEventListener("resize",resize3d);
 scene.add(new THREE.HemisphereLight(0xffffff,0xc8cfdf,1.05));
+const hemi=scene.children[scene.children.length-1];
 const sun=new THREE.DirectionalLight(0xffffff,1.5);
 sun.position.set(320,480,220);
 sun.castShadow=true;
@@ -233,6 +238,7 @@ sun.shadow.camera.left=-780;sun.shadow.camera.right=780;sun.shadow.camera.top=78
 sun.shadow.bias=-0.0004;
 scene.add(sun);
 scene.add(new THREE.AmbientLight(0xffffff,0.22));
+const amb=scene.children[scene.children.length-1];
 const ground=new THREE.Mesh(new THREE.PlaneGeometry(2400,2400),new THREE.MeshStandardMaterial({color:0xc7ddba,roughness:1}));
 ground.rotation.x=-Math.PI/2;ground.receiveShadow=true;scene.add(ground);
 const cityG=new THREE.Group(),labelG=new THREE.Group(),fxG=new THREE.Group();
@@ -244,12 +250,17 @@ function slotWorld(g){const gx=Array.isArray(g)?g[0]:g.x,gy=Array.isArray(g)?g[1
 function windowTexture(seed,floors){
   const cv=document.createElement("canvas");cv.width=192;cv.height=64*floors;
   const ctx=cv.getContext("2d");
-  ctx.fillStyle="#f5f7fc";ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.fillStyle=NIGHT?"#232a45":"#f5f7fc";ctx.fillRect(0,0,cv.width,cv.height);
   const cols=5,rows=floors*4,cw=cv.width/cols,ch=cv.height/rows;
   for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){
     const k=hash(seed+"w"+r+"_"+c)%100;
-    let fill="#c9d0e2";
-    if(k<32)fill="#31406b";else if(k<40)fill="#ffd66b";
+    let fill;
+    if(NIGHT){
+      if(k<55)fill="#ffd66b";else if(k<78)fill="#5a6b9c";else fill="#141a30";
+    }else{
+      fill="#c9d0e2";
+      if(k<32)fill="#31406b";else if(k<40)fill="#ffd66b";
+    }
     ctx.fillStyle=fill;
     ctx.fillRect(c*cw+cw*0.22,r*ch+ch*0.22,cw*0.56,ch*0.5);
   }
@@ -300,7 +311,7 @@ function building3D(c){
   const floors=Math.max(3,Math.round(h/16));
   const tex=windowTexture(c.id,floors);tex.repeat.set(1,Math.max(1,Math.round(h/96)));
   const side=new THREE.MeshStandardMaterial({map:tex,roughness:0.85});
-  const top=std(0xdfe3ee,0.9);
+  const top=std(NIGHT?0x39415f:0xdfe3ee,0.9);
   const body=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),[side,side,top,top,side,side]);
   body.position.set(p.x,h/2,p.z);
   body.castShadow=true;body.receiveShadow=true;
@@ -331,7 +342,7 @@ function building3D(c){
   }
   const pole=new THREE.Mesh(new THREE.CylinderGeometry(0.5,0.5,9,6),std(0x8a93c4,0.5));
   pole.position.set(p.x-w/2+5,h+4.5,p.z-d/2+5);g.add(pole);
-  const lightM=new THREE.MeshStandardMaterial({color:0x9aa3c9,emissive:0x9aa3c9,emissiveIntensity:1.1});
+  const lightM=new THREE.MeshStandardMaterial({color:0x9aa3c9,emissive:0x9aa3c9,emissiveIntensity:NIGHT?1.9:1.1});
   const light=new THREE.Mesh(new THREE.SphereGeometry(3.1,14,10),lightM);
   light.position.set(p.x-w/2+5,h+10.5,p.z-d/2+5);g.add(light);
   BLIGHT[c.id]=light;
@@ -404,13 +415,13 @@ function plaza3D(){
   LBL.push({obj:o,div,chat:null});
 }
 function roads3D(){
-  const mat=new THREE.MeshStandardMaterial({color:0xc6ccdc,roughness:1});
+  const mat=new THREE.MeshStandardMaterial({color:NIGHT?0x3a4156:0xc6ccdc,roughness:1});
   for(const r of[[2400,16,0,0.05],[16,2400,0.05,0]]){
     const m=new THREE.Mesh(new THREE.BoxGeometry(r[0],0.1,r[1]),mat);
     m.position.set(r[2],r[3],r[4]==null?0:0);
     m.position.y=0.05;m.receiveShadow=true;cityG.add(m);
   }
-  const dashMat=new THREE.MeshBasicMaterial({color:0xf7f9ff});
+  const dashMat=new THREE.MeshBasicMaterial({color:NIGHT?0xffd66b:0xf7f9ff});
   for(let i=-12;i<=12;i++){
     if(Math.abs(i)<3)continue;
     const d1=new THREE.Mesh(new THREE.BoxGeometry(6,0.06,1.1),dashMat);d1.position.set(i*16,0.12,0);cityG.add(d1);
@@ -527,7 +538,7 @@ function startWalk(id){
   if(!tgt||!tgt.pos3)return;
   const f=chatFront(tgt);
   const path=[{x:R.home.x,z:R.home.z},{x:R.home.x,z:0},{x:f.x,z:0},{x:f.x,z:f.z}];
-  WALK[id]={path,seg:0,pos:{x:R.g.position.x,z:R.g.position.z},state:"out",pause:0,speed:11+Math.random()*5,tgt};
+  WALK[id]={path,seg:0,pos:{x:R.g.position.x,z:R.g.position.z},state:"out",pause:0,speed:13+Math.random()*5,tgt};
 }
 function updateCityWalks(dt){
   for(const id in WALK){
@@ -547,7 +558,7 @@ function updateCityWalks(dt){
     if(d<0.8){
       W.seg++;
       if(W.seg>=W.path.length){
-        if(W.state==="out"){W.state="pause";W.pause=6+Math.random()*6;transientBubble(AGENTS[id].chat,AGENTS[id],"In visita: "+W.tgt.name);}
+        if(W.state==="out"){W.state="pause";W.pause=8+Math.random()*6;transientBubble(AGENTS[id].chat,AGENTS[id],"In visita: "+W.tgt.name);}
         else delete WALK[id];
       }
       continue;
@@ -561,8 +572,8 @@ function updateCityWalks(dt){
 setInterval(()=>{
   if(office.active||!live)return;
   const ids=Object.keys(ROBOT).filter(id=>!WALK[id]);
-  if(ids.length&&Math.random()<0.5)startWalk(ids[Math.floor(Math.random()*ids.length)]);
-},9000);
+  if(ids.length&&Math.random()<0.6)startWalk(ids[Math.floor(Math.random()*ids.length)]);
+},7000);
 
 /* ---------- interno ufficio ---------- */
 const officeScene=new THREE.Scene();
@@ -607,7 +618,7 @@ function chair3D(){
   backr.position.set(0,3.9,-1.1);g.add(backr);
   return g;
 }
-function makeOfficeRobot(colorHex,a){
+function makeOfficeRobot(colorHex,a,kind){
   const g=new THREE.Group();
   g.userData.agentid=a.id;
   g.scale.set(0.2,0.2,0.2);
@@ -629,6 +640,12 @@ function makeOfficeRobot(colorHex,a){
   }
   const ring=new THREE.Mesh(new THREE.TorusGeometry(10.5,0.9,10,40),new THREE.MeshStandardMaterial({color:0xff5d6c,emissive:0xff5d6c,emissiveIntensity:1.3}));
   ring.rotation.x=Math.PI/2;ring.position.y=44;ring.visible=a.status==="attention";g.add(ring);
+  if(kind==="coffee"){
+    const cup=new THREE.Mesh(new THREE.CylinderGeometry(1.5,1.2,2.8,10),std(0xf6f4ee,0.7));
+    cup.position.set(11.5,17.5,2);g.add(cup);
+    const cof=new THREE.Mesh(new THREE.CylinderGeometry(1.2,1.2,0.3,10),std(0x4a2c1a,0.8));
+    cof.position.set(11.5,19,2);g.add(cof);
+  }
   return{g,kind:"desk",state:"wait",target:null,pos:{x:-19,z:10},speed:6.5,phase:Math.random()*6.28,delay:0,wt:0};
 }
 function officeAssignment(c){
@@ -663,16 +680,25 @@ function buildOfficeRoom(c){
     glass.position.set(wx,6,-13.6);officeScene.add(glass);
   }
   officeScene.add(new THREE.HemisphereLight(0xffffff,0xd8d2c4,1.05));
+  const hemiO=officeScene.children[officeScene.children.length-1];
   const ol=new THREE.DirectionalLight(0xfff4e0,1.1);
   ol.position.set(18,28,22);ol.castShadow=true;
   ol.shadow.mapSize.set(1024,1024);
   ol.shadow.camera.left=-34;ol.shadow.camera.right=34;ol.shadow.camera.top=34;ol.shadow.camera.bottom=-34;
   officeScene.add(ol);
+  officeScene.background.set(NIGHT?0x222839:0xf6f4ee);
+  hemiO.intensity=NIGHT?0.5:1.05;
+  ol.intensity=NIGHT?0.55:1.1;
+  ol.color.set(NIGHT?0xffd9a0:0xfff4e0);
+  if(NIGHT)for(const px of[-12,0,12]){
+    const panel=new THREE.Mesh(new THREE.BoxGeometry(9,0.3,2.6),new THREE.MeshStandardMaterial({color:0x888890,emissive:0xfff2cc,emissiveIntensity:1.2}));
+    panel.position.set(px,10.4,0);officeScene.add(panel);
+  }
   const spots=officeAssignment(c);
   let mi=0,ci=0;
   c.agents.forEach((a,i)=>{
     const col=a.name==="Tu"?0xe8b93c:proj.color;
-    const o=makeOfficeRobot(col,a);
+    const o=makeOfficeRobot(col,a,kind);
     const kind=spots[i]||"coffee";
     o.kind=kind;
     desk3D(-18+(i%4)*7.5,-9);
@@ -1095,6 +1121,7 @@ async function refreshLive(){
   }catch(e){}
 }
 async function boot(){
+  syncNight();
   let loaded=false;
   try{
     const r=await fetch("data.json",{cache:"no-store"});
@@ -1118,6 +1145,34 @@ $("#live").addEventListener("change",e=>{
   startTimers();
   toast(live?"Live attivata":"Live in pausa");
 });
+function applyNightEnv(){
+  if(NIGHT){
+    scene.background.set(0x10162c);scene.fog.color.set(0x10162c);scene.fog.near=700;scene.fog.far=1900;
+    ground.material.color.set(0x22352b);
+    sun.color.set(0x7788cc);sun.intensity=0.35;sun.position.set(320,480,-220);
+    hemi.intensity=0.55;hemi.color.set(0x334066);hemi.groundColor.set(0x111827);
+    amb.intensity=0.32;
+  }else{
+    scene.background.set(0xd4ecc8);scene.fog.color.set(0xd4ecc8);scene.fog.near=900;scene.fog.far=2100;
+    ground.material.color.set(0xc7ddba);
+    sun.color.set(0xffffff);sun.intensity=1.5;sun.position.set(320,480,220);
+    hemi.intensity=1.05;hemi.color.set(0xffffff);hemi.groundColor.set(0xc8cfdf);
+    amb.intensity=0.22;
+  }
+}
+function toggleNight(){
+  NIGHT=!NIGHT;
+  applyNightEnv();
+  $("#nightbtn").textContent=NIGHT?"🌙":"☀️";
+  if(office.active){clearOffice();buildOfficeRoom(office.chat);}
+  else buildCity();
+}
+function syncNight(){
+  const h=new Date().getHours();
+  const want=h<7||h>=19;
+  if(want!==NIGHT){NIGHT=want;applyNightEnv();$("#nightbtn").textContent=NIGHT?"🌙":"☀️";}
+}
+$("#nightbtn").addEventListener("click",toggleNight);
 const hashOffice=location.hash.match(/office=(ch_[A-Za-z0-9_]+)/);
 if(hashOffice)setTimeout(()=>openOffice(hashOffice[1]),1200);
 resize3d();
