@@ -7,6 +7,13 @@ import subprocess
 HERE = os.path.dirname(os.path.abspath(__file__))
 ARCHIVE = os.path.join(HERE, "archive.jsonl")
 SERVER_SLUG = "genspark"
+CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+MESI = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
+        "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"]
+
+
+def esc(s):
+    return (str(s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
 def gsk(*args, timeout=180):
@@ -100,13 +107,124 @@ def paginate_read(out, cid, known, label, ch_type, is_thread=False, inc=False):
     return new
 
 
+def do_export(month, out_pdf):
+    if not os.path.exists(ARCHIVE):
+        print("Archivio vuoto: esegui prima python3 archive.py")
+        return
+    recs = []
+    with open(ARCHIVE, encoding="utf-8") as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except Exception:
+                continue
+            ts = r.get("ts") or ""
+            if month and not ts.startswith(month):
+                continue
+            if (r.get("text") or "").strip():
+                recs.append(r)
+    if not recs:
+        print(f"Nessun messaggio nel mese {month}")
+        return
+    recs.sort(key=lambda r: r.get("ts") or "")
+    by_chat = {}
+    for r in recs:
+        by_chat.setdefault(r.get("channel_name") or "?", []).append(r)
+    anno, mese = month.split("-")
+    titolo = f"{MESI[int(mese) - 1]} {anno}"
+
+    def day_hist(rows):
+        from collections import Counter
+        c = Counter((r.get("ts") or "")[8:10] for r in rows)
+        mx = max(c.values()) or 1
+        days = sorted(c)
+        return "".join(
+            f'<div class="d"><span class="b" style="height:{max(8, int(34 * c[d] / mx))}px"></span>'
+            f'<span class="n">{int(d)}</span></div>' for d in days)
+
+    def authors(rows):
+        from collections import Counter
+        c = Counter((r.get("sender_name") or r.get("sender_type") or "?") for r in rows)
+        return ", ".join(f"{esc(k)} ({v})" for k, v in c.most_common(6))
+
+    h = """<!doctype html><html lang="it"><head><meta charset="utf-8"><style>
+    @page{margin:16mm 14mm}
+    body{font:10.5px/1.5 -apple-system,Helvetica,sans-serif;color:#1c2340;margin:0}
+    .cover{border-bottom:3px solid #1c2340;padding-bottom:14px;margin-bottom:18px}
+    h1{font-size:21px;margin:0 0 3px}
+    .meta{color:#6b7299;font-size:10px}
+    .stats{display:flex;gap:26px;margin:12px 0 2px}
+    .stats b{font-size:17px;display:block}
+    .stats span{font-size:9px;color:#6b7299;text-transform:uppercase;letter-spacing:.5px}
+    .chat{page-break-inside:auto;margin:16px 0 22px;border:1px solid #dfe3ee;border-radius:8px;overflow:hidden}
+    .chead{background:#f2f4fa;padding:8px 12px;page-break-inside:avoid;page-break-after:avoid}
+    .chead b{font-size:13.5px}
+    .chead .cn{color:#6b7299;font-size:9.5px;margin-top:2px}
+    .hist{display:flex;align-items:flex-end;gap:2px;height:44px;padding:4px 12px 0}
+    .hist .d{display:flex;flex-direction:column;align-items:center;width:16px}
+    .hist .b{background:#39d0c4;border-radius:2px;width:10px;display:block}
+    .hist .n{font-size:7px;color:#6b7299;margin-top:1px}
+    .au{padding:4px 12px 8px;font-size:9.5px;color:#4a5280}
+    table.msg{width:100%;border-collapse:collapse}
+    table.msg td{border-top:1px solid #eef1f7;padding:3px 12px;vertical-align:top;font-size:9.5px}
+    td.t{color:#6b7299;white-space:nowrap;width:86px}
+    td.w{width:110px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    td.x{word-break:break-word}
+    .th{background:#1c2340;color:#fff;padding:6px 12px;font-weight:700;font-size:10.5px;page-break-before:always}
+    </style></head><body>"""
+    n_chat = len(by_chat)
+    n_auth = len({(r.get("sender_id") or r.get("sender_name")) for r in recs})
+    n_th = len({r["id"] for r in recs if r.get("thread")})
+    h += f'<div class="cover"><h1>GenTeam — Report mensile · {esc(titolo)}</h1>'
+    h += f'<div class="meta">Archivio locale GenCity · generato {__import__("datetime").datetime.now().strftime("%d/%m/%Y %H:%M")}</div>'
+    h += f'<div class="stats"><div><b>{len(recs)}</b><span>messaggi</span></div><div><b>{n_chat}</b><span>chat</span></div><div><b>{n_auth}</b><span>partecipanti</span></div><div><b>{n_th}</b><span>in thread</span></div></div></div>'
+    for name, rows in sorted(by_chat.items(), key=lambda kv: -len(kv[1])):
+        h += f'<div class="chat"><div class="chead"><b>{esc(name)}</b><div class="cn">{len(rows)} messaggi · attività: {esc((rows[0].get("ts") or "")[8:10] + "/" + mese)} → {esc((rows[-1].get("ts") or "")[8:10] + "/" + mese)} · autori: {authors(rows)}</div></div>'
+        h += f'<div class="hist">{day_hist(rows)}</div></div>'
+    for name, rows in sorted(by_chat.items(), key=lambda kv: -len(kv[1])):
+        h += f'<div class="th">Transcript · {esc(name)} ({len(rows)} messaggi)</div><table class="msg">'
+        for r in rows:
+            t = (r.get("ts") or "")[11:16]
+            g = (r.get("ts") or "")[8:10] + "/" + mese
+            who = r.get("sender_name") or r.get("sender_type") or "?"
+            th = " 🧵" if r.get("thread") else ""
+            h += f'<tr><td class="t">{esc(g)} {esc(t)}{th}</td><td class="w">{esc(who)}</td><td class="x">{esc(r.get("text"))}</td></tr>'
+        h += "</table>"
+    h += "</body></html>"
+
+    rdir = os.path.join(HERE, "reports")
+    os.makedirs(rdir, exist_ok=True)
+    base = os.path.join(rdir, f"report-{month}")
+    htmlp = base + ".html"
+    pdfp = out_pdf if out_pdf else base + ".pdf"
+    with open(htmlp, "w", encoding="utf-8") as f:
+        f.write(h)
+    if not os.path.exists(CHROME):
+        print(f"Chrome non trovato: HTML pronto in {htmlp} (aprilo e stampa in PDF)")
+        return
+    r = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox",
+                        f"--print-to-pdf={pdfp}", "--no-pdf-header-footer", htmlp],
+                       capture_output=True, text=True, timeout=120)
+    if os.path.exists(pdfp):
+        print(f"PDF esportato: {pdfp} | {len(recs)} messaggi, {n_chat} chat")
+    else:
+        print("PDF non generato:", (r.stderr or "")[:200], f"— HTML disponibile: {htmlp}")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Archivio storico GenTeam (locale, JSONL)")
     ap.add_argument("--inc", action="store_true", help="solo incremento (ultimi messaggi per chat)")
     ap.add_argument("--search", help="cerca testo nell'archivio")
     ap.add_argument("--chat", help="filtra ricerca per nome chat")
     ap.add_argument("--limit", type=int, default=20, help="risultati mostrati (default 20)")
+    ap.add_argument("--export", action="store_true", help="esporta report mensile in PDF")
+    ap.add_argument("--month", help="mese da esportare, formato YYYY-MM (default: corrente)")
+    ap.add_argument("--out", help="percorso PDF di destinazione (default: reports/report-YYYY-MM.pdf)")
     args = ap.parse_args()
+    if args.export:
+        month = args.month or __import__("datetime").datetime.now().strftime("%Y-%m")
+        do_export(month, args.out)
+        return
     if args.search is not None:
         do_search(args.search, args.chat, args.limit)
         return
