@@ -62,6 +62,28 @@ def main():
             h += '<td style="padding:5px 0">' + esc(trunc(a.get("task"), 110)) + '</td></tr>'
     h += '</table>'
 
+    names = {}
+    for c in chats:
+        for a in c.get("agents", []):
+            names[str(a.get("id", "")).split("@")[0]] = a.get("name")
+    cross = {}
+    for c in chats:
+        for m in c.get("messages", []):
+            f = str(m.get("from", ""))
+            if f.startswith("agent_"):
+                cross.setdefault(f.split("@")[0], set()).add(c["name"])
+    multi = sorted(
+        ((names.get(b, b), s) for b, s in cross.items() if len(s) > 1),
+        key=lambda x: -len(x[1]),
+    )
+    if multi:
+        h += '<h2 style="font-size:15px;margin:20px 0 8px">🔁 Attività incrociata tra chat</h2>'
+        for nm, s in multi[:12]:
+            h += '<div style="font-size:13px;padding:5px 0;border-bottom:1px solid #eef0f6"><b>' + esc(nm) + '</b> attivo in: ' + esc(", ".join(sorted(s))) + '</div>'
+    else:
+        h += '<h2 style="font-size:15px;margin:20px 0 8px">🔁 Attività incrociata tra chat</h2>'
+        h += '<div style="font-size:13px;color:#6b7299">Nessun agente attivo in più chat negli ultimi messaggi raccolti.</div>'
+
     h += '<h2 style="font-size:15px;margin:20px 0 8px">Chat — ultimo messaggio</h2>'
     for c in chats:
         last = c["messages"][-1] if c.get("messages") else None
