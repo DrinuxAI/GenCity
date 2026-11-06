@@ -751,13 +751,19 @@ function tick(){
   if(panel.classList.contains("open"))renderPanel();
 }
 function refreshDynamic(){applyStatuses();updateStats();if(panel.classList.contains("open"))renderPanel();}
+function safeBuild(){
+  try{buildCity();return true;}
+  catch(err){console.error("[GenCity]",err);ticker("⚠️ Errore città: "+(err&&err.message?err.message:err));return false;}
+}
 function applyData(json){
   liveMode=true;
   PROJECTS=json.projects&&Object.keys(json.projects).length?json.projects:DEMO_PROJECTS;
   CHATS=json.chats.map((c,i)=>Object.assign({},c,{pos:{x:POSITIONS[i%POSITIONS.length][0],y:POSITIONS[i%POSITIONS.length][1]}}));
-  buildCity();
-  if(json.mode==="full")ticker("GenTeam collegato: "+CHATS.length+" edifici con dialogo live");
-  else ticker("GenTeam collegato (privacy: solo stati) — "+CHATS.length+" edifici. Aggiornato "+(json.generated_at||"").slice(11,16));
+  const ok=safeBuild();
+  if(ok){
+    if(json.mode==="full")ticker("GenTeam collegato: "+CHATS.length+" edifici con dialogo live");
+    else ticker("GenTeam collegato (privacy: solo stati) — "+CHATS.length+" edifici. Aggiornato "+(json.generated_at||"").slice(11,16));
+  }
 }
 async function refreshLive(){
   try{
@@ -773,13 +779,15 @@ async function refreshLive(){
   }catch(e){}
 }
 async function boot(){
+  let loaded=false;
   try{
     const r=await fetch("data.json",{cache:"no-store"});
-    if(r.ok){applyData(await r.json());startTimers();return;}
+    if(r.ok&&await r.json().then(j=>{applyData(j);return true;}).catch(()=>false))loaded=true;
   }catch(e){}
-  CHATS.forEach((c,i)=>Object.assign(c,{pos:{x:POSITIONS[i%POSITIONS.length][0],y:POSITIONS[i%POSITIONS.length][1]}}));
-  buildCity();
-  ticker("Modalità demo — dati simulati. Esegui bridge.py per collegare GenTeam.");
+  if(!loaded){
+    CHATS.forEach((c,i)=>Object.assign(c,{pos:{x:POSITIONS[i%POSITIONS.length][0],y:POSITIONS[i%POSITIONS.length][1]}}));
+    if(safeBuild())ticker("Modalità demo — dati simulati. Esegui bridge.py per collegare GenTeam.");
+  }
   startTimers();
 }
 let live=true,fakeTimer=null,refetchTimer=null;
