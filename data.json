@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T15:09:56.015635+00:00",
+ "generated_at": "2026-11-06T15:55:00.375710+00:00",
  "mode": "safe",
  "workspace": "genspark",
  "projects": {
@@ -27,14 +27,14 @@
    "project": "medcloud",
    "type": "hq",
    "unread": 0,
-   "last_activity": "2026-11-06T14:42:28+00:00",
+   "last_activity": "2026-11-06T15:14:38+00:00",
    "agents": [
     {
      "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Paolo Clinical & Research Advisor",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ha scritto alle 15:42",
+     "task": "Ha scritto alle 16:14",
      "progress": 50
     },
     {
@@ -42,7 +42,7 @@
      "name": "Luca RevOps",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ha scritto alle 15:42",
+     "task": "Ha scritto alle 16:14",
      "progress": 50
     },
     {
@@ -50,16 +50,12 @@
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ha scritto alle 15:42",
+     "task": "Ha scritto alle 16:14",
      "progress": 50
     }
    ],
    "messages": [],
    "activity": [
-    {
-     "time": "11:47",
-     "text": "Nuovo messaggio da Marco Masciadri"
-    },
     {
      "time": "11:50",
      "text": "Nuovo messaggio da Paolo Clinical & Research Advisor"
@@ -79,6 +75,10 @@
     {
      "time": "15:08",
      "text": "Nuovo messaggio da Giulia CEO"
+    },
+    {
+     "time": "15:18",
+     "text": "Nuovo messaggio da Marta CFO"
     }
    ]
   },
@@ -429,9 +429,9 @@
      "id": "agent_4ejd2eqfk4az@ch_dm_aefd54fa360feaf169ab",
      "name": "Andrea Legal",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 15:35",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [],
@@ -474,9 +474,9 @@
      "id": "agent_mvyccmek2gs6@ch_dm_bede583ecd7e752d632b",
      "name": "Elena Research",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 15:25",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [],
