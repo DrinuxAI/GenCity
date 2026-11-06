@@ -2,6 +2,7 @@
 import argparse
 import json
 import os
+import re
 import subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -10,6 +11,14 @@ SERVER_SLUG = "genspark"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 MESI = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
         "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"]
+
+KEY_RE = re.compile(
+    r"(mck_|sk-|sk_|pk_live|pk_test|ghp_|gho_|ghu_|ghs_|ghr_|github_pat_|xox[baprs]-|AKIA|AIza)[A-Za-z0-9_\-]{12,}"
+    r"|[A-Fa-f0-9]{32,}")
+
+
+def mask_keys(text):
+    return KEY_RE.sub(lambda m: m.group(0)[:4] + "••••••[mascherata]", text or "")
 
 
 def esc(s):
@@ -107,7 +116,7 @@ def paginate_read(out, cid, known, label, ch_type, is_thread=False, inc=False):
     return new
 
 
-def do_export(month, out_pdf):
+def do_export(month, out_pdf, mask=False):
     if not os.path.exists(ARCHIVE):
         print("Archivio vuoto: esegui prima python3 archive.py")
         return
@@ -188,7 +197,10 @@ def do_export(month, out_pdf):
             g = (r.get("ts") or "")[8:10] + "/" + mese
             who = r.get("sender_name") or r.get("sender_type") or "?"
             th = " 🧵" if r.get("thread") else ""
-            h += f'<tr><td class="t">{esc(g)} {esc(t)}{th}</td><td class="w">{esc(who)}</td><td class="x">{esc(r.get("text"))}</td></tr>'
+            txt = r.get("text")
+            if mask:
+                txt = mask_keys(txt)
+            h += f'<tr><td class="t">{esc(g)} {esc(t)}{th}</td><td class="w">{esc(who)}</td><td class="x">{esc(txt)}</td></tr>'
         h += "</table>"
     h += "</body></html>"
 
@@ -215,7 +227,7 @@ def sanitize(s):
     return "".join(c for c in (s or "?") if c not in '/\\:*?"<>|').strip() or "chat"
 
 
-def do_md(month):
+def do_md(month, mask=False):
     if not os.path.exists(ARCHIVE):
         print("Archivio vuoto: esegui prima python3 archive.py")
         return
@@ -257,7 +269,10 @@ def do_md(month):
             t = ts[11:16]
             who = esc(r.get("sender_name") or r.get("sender_type") or "?")
             th = " 🧵" if r.get("thread") else ""
-            txt = esc(r.get("text")).replace("\n", "\n  ")
+            txt = esc(r.get("text"))
+            if mask:
+                txt = mask_keys(txt)
+            txt = txt.replace("\n", "\n  ")
             body += f"- **{t} · {who}**{th} — {txt}\n"
         fp = os.path.join(outdir, safe + ".md")
         with open(fp, "w", encoding="utf-8") as f:
@@ -330,6 +345,7 @@ def main():
     ap.add_argument("--month", help="mese da esportare, formato YYYY-MM (default: corrente)")
     ap.add_argument("--out", help="percorso PDF di destinazione (default: reports/report-YYYY-MM.pdf)")
     ap.add_argument("--md", action="store_true", help="genera file .md del mese in brain/ per il secondo brain")
+    ap.add_argument("--no-keys", action="store_true", help="maschera chiavi API/token nei file .md e nel PDF")
     ap.add_argument("--schedule", action="store_true", help="installa l'agente launchd settimanale (venerdì 18:30)")
     args = ap.parse_args()
     if args.schedule:
@@ -337,11 +353,11 @@ def main():
         return
     if args.export:
         month = args.month or __import__("datetime").datetime.now().strftime("%Y-%m")
-        do_export(month, args.out)
+        do_export(month, args.out, mask=args.no_keys)
         return
     if args.md:
         month = args.month or __import__("datetime").datetime.now().strftime("%Y-%m")
-        do_md(month)
+        do_md(month, mask=args.no_keys)
         return
     if args.search is not None:
         do_search(args.search, args.chat, args.limit)
