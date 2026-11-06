@@ -251,7 +251,7 @@ function windowTexture(seed,floors){
   return tx;
 }
 
-let ROBOT={},BLIGHT={},LBL={},BLINK=[];
+let ROBOT={},BLIGHT={},LBL=[],BLINK=[];
 function clearCity(){
   cityG.traverse(o=>{if(o.geometry)o.geometry.dispose();if(o.material){(Array.isArray(o.material)?o.material:[o.material]).forEach(m=>{if(m.map)m.map.dispose();m.dispose();});}});
   cityG.clear();fxG.clear();
