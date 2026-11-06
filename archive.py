@@ -14,7 +14,7 @@ MESI = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
 
 KEY_RE = re.compile(
     r"(mck_|sk-|sk_|pk_live|pk_test|ghp_|gho_|ghu_|ghs_|ghr_|github_pat_|xox[baprs]-|AKIA|AIza)[A-Za-z0-9_\-]{12,}"
-    r"|[A-Fa-f0-9]{32,}")
+    r"|(?<!ch_)(?<!dm_)(?<!srv_)(?<!agent_)(?<![A-Za-z0-9])[A-Fa-f0-9]{32,}")
 
 
 def mask_keys(text):
