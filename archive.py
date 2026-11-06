@@ -211,6 +211,115 @@ def do_export(month, out_pdf):
         print("PDF non generato:", (r.stderr or "")[:200], f"— HTML disponibile: {htmlp}")
 
 
+def sanitize(s):
+    return "".join(c for c in (s or "?") if c not in '/\\:*?"<>|').strip() or "chat"
+
+
+def do_md(month):
+    if not os.path.exists(ARCHIVE):
+        print("Archivio vuoto: esegui prima python3 archive.py")
+        return
+    recs = []
+    with open(ARCHIVE, encoding="utf-8") as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except Exception:
+                continue
+            if (r.get("ts") or "").startswith(month) and (r.get("text") or "").strip():
+                recs.append(r)
+    if not recs:
+        print(f"Nessun messaggio nel mese {month}")
+        return
+    recs.sort(key=lambda r: r.get("ts") or "")
+    by_chat = {}
+    for r in recs:
+        by_chat.setdefault(r.get("channel_name") or "?", []).append(r)
+    anno, mese = month.split("-")
+    outdir = os.path.join(HERE, "brain", month)
+    os.makedirs(outdir, exist_ok=True)
+    files = []
+    for name, rows in sorted(by_chat.items(), key=lambda kv: -len(kv[1])):
+        safe = sanitize(name)
+        fm = (f"---\ntitle: \"{esc(name)} — {MESI[int(mese) - 1]} {anno}\"\n"
+              f"type: transcript\nsource: GenTeam\nchat: \"{name}\"\n"
+              f"period: {month}\nmessages: {len(rows)}\n"
+              f"generated: {__import__('datetime').datetime.now().strftime('%Y-%m-%d')}\n"
+              "tags: [genteam, transcript]\n---\n\n")
+        body = fm
+        cur_day = None
+        for r in rows:
+            ts = r.get("ts") or ""
+            day = ts[8:10] + "/" + mese + "/" + anno
+            if day != cur_day:
+                body += f"\n## 📅 {day}\n\n"
+                cur_day = day
+            t = ts[11:16]
+            who = esc(r.get("sender_name") or r.get("sender_type") or "?")
+            th = " 🧵" if r.get("thread") else ""
+            txt = esc(r.get("text")).replace("\n", "\n  ")
+            body += f"- **{t} · {who}**{th} — {txt}\n"
+        fp = os.path.join(outdir, safe + ".md")
+        with open(fp, "w", encoding="utf-8") as f:
+            f.write(body)
+        files.append((safe, len(rows)))
+    idx = (f"---\ntitle: \"GenTeam — indice {MESI[int(mese) - 1]} {anno}\"\n"
+           f"type: index\nperiod: {month}\n"
+           f"generated: {__import__('datetime').datetime.now().strftime('%Y-%m-%d')}\n"
+           "tags: [genteam, indice]\n---\n\n"
+           f"# GenTeam — {MESI[int(mese) - 1]} {anno}\n\n"
+           f"{len(recs)} messaggi · {len(by_chat)} chat\n\n")
+    for safe, n in sorted(files, key=lambda x: -x[1]):
+        idx += f"- [[{safe}]] — {n} messaggi\n"
+    with open(os.path.join(outdir, "_index.md"), "w", encoding="utf-8") as f:
+        f.write(idx)
+    print(f"Second brain aggiornato: {outdir} ({len(files)} chat, {len(recs)} messaggi)")
+
+
+def do_schedule():
+    plist = os.path.expanduser("~/Library/LaunchAgents/com.masciadri.gencity-weekly.plist")
+    label = "com.masciadri.gencity-weekly"
+    content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>{label}</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>{HERE}/weekly-run.sh</string>
+	</array>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Weekday</key>
+		<integer>5</integer>
+		<key>Hour</key>
+		<integer>18</integer>
+		<key>Minute</key>
+		<integer>30</integer>
+	</dict>
+	<key>Nice</key>
+	<integer>10</integer>
+	<key>StandardOutPath</key>
+	<string>/Users/marcomasciadri/Library/Logs/gencity-weekly.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/marcomasciadri/Library/Logs/gencity-weekly.log</string>
+</dict>
+</plist>
+"""
+    with open(plist, "w") as f:
+        f.write(content)
+    uid = os.getuid()
+    subprocess.run(["launchctl", "bootout", f"gui/{uid}/{label}"], capture_output=True)
+    r = subprocess.run(["launchctl", "bootstrap", f"gui/{uid}", plist], capture_output=True, text=True)
+    if r.returncode == 0:
+        print(f"Agente settimanale installato: ogni venerdì 18:30 → {plist}")
+        print("  genera: PDF mensile aggiornato + file .md del mese in brain/")
+    else:
+        print("Errore bootstrap:", (r.stderr or "")[:200])
+
+
 def main():
     ap = argparse.ArgumentParser(description="Archivio storico GenTeam (locale, JSONL)")
     ap.add_argument("--inc", action="store_true", help="solo incremento (ultimi messaggi per chat)")
@@ -220,10 +329,19 @@ def main():
     ap.add_argument("--export", action="store_true", help="esporta report mensile in PDF")
     ap.add_argument("--month", help="mese da esportare, formato YYYY-MM (default: corrente)")
     ap.add_argument("--out", help="percorso PDF di destinazione (default: reports/report-YYYY-MM.pdf)")
+    ap.add_argument("--md", action="store_true", help="genera file .md del mese in brain/ per il secondo brain")
+    ap.add_argument("--schedule", action="store_true", help="installa l'agente launchd settimanale (venerdì 18:30)")
     args = ap.parse_args()
+    if args.schedule:
+        do_schedule()
+        return
     if args.export:
         month = args.month or __import__("datetime").datetime.now().strftime("%Y-%m")
         do_export(month, args.out)
+        return
+    if args.md:
+        month = args.month or __import__("datetime").datetime.now().strftime("%Y-%m")
+        do_md(month)
         return
     if args.search is not None:
         do_search(args.search, args.chat, args.limit)
