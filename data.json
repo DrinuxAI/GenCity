@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T18:53:03.696002+00:00",
+ "generated_at": "2026-11-09T07:42:09.837263+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,540 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 3,
+   "last_activity": "2026-11-09T07:00:35+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Mercoledì. Tre cose, poi la giornata è tua.  **1. 09:30-10:45 — Medcloud.group.** Si comincia dalla denominazione: \"Italian MedTech S.r.l.\" **non esiste**, va sostituita con MedCloud Group S.r.l. Poi chiarezza in 30 secondi e stato brevetto visibile. **2. 11:00-12:00 — Registrazione Pitch Night.** Finisce il blocco alle 10:45 apposta: un quarto d'ora per arrivarci senza correre. **3. 14:30-16:30 — Deck Eureka Funds.** Solo titoli e tre punti per slide. Le slide le faccio io.  **Micro-step da 5 minuti (alle 9:30, nient'altro)** Apri medcloud.group e cerca **\"Italian MedTech\"** co…",
+     "time": "08:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche nell'agenda. controlla anche calendario e rischeduliamo per oggi le varie attività ancora aperte",
+     "time": "12:00"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Ho guardato il calendario: la modifica vera è che **Leonardo è passato a stasera alle 18:00** (era giovedì alle 21:00) e l'evento Mattia Oliva a Lomazzo è sparito. Quindi il pomeriggio lo costruisco intorno a quella call: oggi si firma, non si \"ci sentiamo\".  **Oggi, da adesso** - **13:15-14:15 → Contratti Mattia + Evelino** (60', schema unico; se Evelino ha già un accordo si allinea, non si rifà) - **14:30-16:30 → Deck Eureka Funds** (era già lì: solo titoli e 3 punti per slide) - **17:00-17:45 → Preparazione call Leonardo** — dentro ci sono le 3 cose da decidere *prima* di entrare (cosa app…",
+     "time": "12:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovami informazioni per preparare la call e inseriscilo nelle attività di oggi",
+     "time": "12:08"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento così lo apri dal telefono durante la call. Ho spostato contratti a 12:15-13:00 e deck Eureka a 15:00-16:30.  **Emanuele Meazzo — Senior Manager AI & Data Engineering, Acer EMEA** Area Lugano/Manno. Politecnico di Milano, ex **Microsoft MVP** su data platform. Non è un manager generico: scrive e parla di GenAI, RAG, agenti e data engineering (blog, GitHub, conference). Dentro Acer ha costruito un assistente AI interno (\"Sophia\") con RAG su SharePoint.  **Acer EMEA oggi**: 50 anni in EMEA nel 2026, strategia \"multiple business …",
+     "time": "12:09"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Leonardo alle 18 — e non so com'è andata nessuna delle due. Quindi una domanda sola, e poi ti lascio:  **Com'è andata con Leonardo?**  Perché da lì dipende domani: se avete trovato l'accordo, la cosa da fare **entro 24 ore** non sono i siti, è la **bozza del testo** con dentro percentuale, condizioni di uscita e data di firma. Finché non esiste quel foglio, \"ci siamo detti\" non è un accordo — ed è esattamente il punto in cui queste cose si fermano.  Se mi dici \"bozza\", domani mattina la scrivo io e tu correggi: i siti li spost…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa che resta aperta da ieri sera.  **1. 09:30-10:45 — Medcloud.group** Prima la denominazione (\"Italian MedTech S.r.l.\" → MedCloud Group S.r.l.), poi chiarezza e brevetto. **2. 11:00-12:15 — masciadri.net** **3. Leonardo — la bozza.** Se ieri sera avete trovato l'intesa, il testo va scritto **entro oggi**: percentuale, uscita, data di firma. Se mi dici una parola (\"bozza\"), la scrivo io e tu correggi.  **Micro-step da 5 minuti (alle 9:30)** Apri medcloud.group e leggi **solo il titolo della home**. Poi rispondi a una domanda: *s…",
+     "time": "08:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare al progetto MedCloud. MI ha mandato sua mail in whatsapp devo mandargli NDA e documentazione Medcloud. Poi ci risentiamo per fissare incontro di persona. Leonardo raggiunto accordo di base , devo riformulare bozza di accordo di associazione in partecipazione e ci vedremo di persona la prossima settimana anche con Alessandro Crippa. Oggi ho incontrato Enea Meroni per una possibile collaborazione per i progetti Medcloud, Sycurium  e altri progetti possibili legati a blockchain",
+     "time": "15:11"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che serviva.  **1. Meazzo — NDA pronto (2 pagine)** Mutuale, legge italiana, 3 anni. Da completare solo tre campi: sede e P.IVA di MedCloud, dati anagrafici suoi, foro. **La domanda da fare prima di mandarlo**: firma **lui come persona** o collabora **Acer**? Se è Acer, il firmatario è Acer EMEA e serve il loro legal: è un percorso diverso e più lungo. E attenzione: è un dirigente, ha obblighi verso il datore di lavoro. Non è un tuo problema da risolvere, è un problema da conoscere prima, non dopo.  **2. Documentazione da mandar…",
+     "time": "15:12"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in un giorno. MedCloud con Meazzo, Sycurium con Leonardo, e Meroni come terzo binario. I documenti ci sono già, quindi domani non si scrive: si compila e si manda.  **Domani, tre cose — mezz'ora l'una** 1. **NDA + documentazione a Meazzo.** Ti servono 20 minuti: tre campi del NDA, i tre buchi tra parentesi nella documentazione. Poi parte. E prima di inviarla, la domanda: firma lui o Acer? 2. **Accordo Leonardo.** Cinque caselle: percentuale utili, base di calcolo, percentuale perdite, preavviso, titolarità IP. Più la data nella…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente bilancio, niente compiti.  Solo tre cose, se le sai a memoria, anche una parola ciascuna: 1. **NDA a Meazzo**: partito? 2. **Accordo a Leonardo**: partito? 3. **Costituzione MedCloud** alle 12:30: cos'era? Perché se è successo qualcosa di importante, lunedì devo saperlo per non darti un piano vecchio.  Il resto può aspettare lunedì. Nel weekend non ti scrivo altro fino a domenica sera.  Buona serata Marco — e buon weekend con i ragazzi.",
+     "time": "22:01"
+    }
+   ],
+   "activity": [
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Mercoledì. Tre cose, poi la giornata è tua.  **1. 09:30…"
+    },
+    {
+     "time": "12:00",
+     "text": "Marco Masciadri: Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche…"
+    },
+    {
+     "time": "12:01",
+     "text": "HORME: Ho guardato il calendario: la modifica vera è che **Leonardo è passat…"
+    },
+    {
+     "time": "12:08",
+     "text": "Marco Masciadri: alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovam…"
+    },
+    {
+     "time": "12:09",
+     "text": "HORME: Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento c…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Le…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa c…"
+    },
+    {
+     "time": "15:11",
+     "text": "Marco Masciadri: Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare a…"
+    },
+    {
+     "time": "15:12",
+     "text": "HORME: Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che …"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in …"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente b…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_2695cd8b2b4e5ab2d57b",
+   "name": "Nadia News",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 6,
+   "last_activity": "2026-11-09T06:03:14+00:00",
+   "agents": [
+    {
+     "id": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "name": "Nadia News",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "OK, prendo in carico la rassegna stampa quotidiana: parto subito con le ultime 24 ore (max 8 voci, italiano, quattro filoni) e ti porto qui il primo numero con fonti e angolazioni, più una proposta di format ricorrente. Sto raccogliendo e verificando le fonti adesso.",
+     "time": "18:58"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese, salute digitale, finanza).  1) [AI & imprese — Italia] Solo una PMI su quattro usa l'IA ogni giorno ANSA, 28/10/2026 — https://www.ansa.it/canale_tecnologia/notizie/future_tech/2026/10/28/solo-1-pmi-su-4-usa-lia-nelle-attivita-quotidiane_0b66d35f-0f99-446d-9d71-13fc57ddff13.html Ricerca Ipsos per Meta su 500 imprese, presentata all'AI Forum di Roma: una PMI su quattro usa l'IA nelle attività quotidiane, sette su dieci le riconoscono un risparmio di tempo e risorse. Il 31% delle microimprese non l'ha mai usata; il 73% chiede…",
+     "time": "19:01"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ricorrente e i limiti di copertura. In allegato il file con la tabella delle evidenze voce per voce.  5) [Svizzera — policy] Berna sceglie standard volontari e codici di settore per l'IA Consiglio federale / admin.ch, 28/10/2026 — https://www.admin.ch/it/newnsb/s2TQiUUjrA5D Il Consiglio federale prende atto dei progressi nell'attuazione della convenzione del Consiglio d'Europa sull'IA (ratifica decisa il 12 febbraio 2025): l'UFCOM coordina misure non vincolanti — linee guida per un \"codice sull'IA\" con modelli su 10 temi e tre …",
+     "time": "19:02"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fine settimana cumula 72 ore di notizie, te lo spiego in coda).  1) [Italia — imprese & policy] La manovra apre al credito d'imposta sul software, l'iperammortamento resta senza proroga Corriere Comunicazioni, 29/10 — https://www.corrierecomunicazioni.it/industria-4-0/software-as-a-service-il-governo-apre-al-credito-dimposta-anitec-assinform/ · Agenda Digitale, 30/10 — https://www.agendadigitale.eu/documenti/legge-di-bilancio-2027-tutte-le-misure-per-imprese-lavoro-e-digitale/ Il viceministro Leo conferma l'idea di affiancare a…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Finanza & cripto] Binance: 6,3 miliardi sottratti, 3 congelati, prelievi riaperti Binance, annuncio 30/10 — https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7 · Il Sole 24 Ore, 1/11 — https://www.ilsole24ore.com/art/binance-riapre-prelievi-l-hack-6-miliardi-scenario-gli-utenti-italiani-AJSYH10B L'indagine iniziale indica un laptop di un ingegnere DevOps compromesso, da cui l'attaccante ha raggiunto un container di servizio …",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole italiane, cripto, commercio UE).  1) [AI & imprese] Chi usa l'IA prevede di assumere di più, non di meno economia.it, 2/11 — https://www.ekonomia.it/2026/11/02/piccole-imprese-e-intelligenza-artificiale-e-quel-dato-a-sorpresa-sulle-assunzio · studio: Fed di New York, Liberty Street Economics, 8/10 — https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/ Nella Small Business Credit Survey 2025 (5.248 imprese con dipendenti) il 46% delle pic…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — sicurezza digitale] Rubati i dati di 40.000 tra studenti e insegnanti nel canton Vaud swissinfo/Keystone-SDA, 31/10 — https://www.swissinfo.ch/eng/swiss-politics/data-of-40000-swiss-students-and-teachers-stolen/92306960 Un attacco ha colpito la piattaforma di supporto IT degli istituti del post-obbligo vodese: dati personali di circa 3.500 insegnanti e 38.000 studenti. Angolo: è un incidente di catena di fornitura, non di tecnologia — i dati di minori…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI enterprise, inflazione, salari).  1) [Salute digitale] Quattro svizzeri su dieci usano l'IA per l'autodiagnosi swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/four-in-ten-swiss-people-use-ai-for-self-diagnosis/92319008 Secondo la CSS Health Study (Sotomo, 2.459 persone nelle tre regioni linguistiche) l'uso di assistenti IA per sintomi fisici e psicologici è passato dal 20% al 42% in un anno: 62% tra i giovani adulti, 30% tra gli over 65 (dal 10%). Oltre un quarto li colloca tra le fonti sanitarie più import…",
+     "time": "07:03"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — pharma] Lonza raddoppia la produzione conto terzi negli Stati Uniti swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/lonza-is-significantly-expanding-its-contract-manufacturing-operations-for-the-pharmaceutical-industry-in-the-us/92317961 Lonza acquista cinque impianti dal gruppo tedesco Merck e porta la presenza CDMO negli USA da quattro a nove siti, con circa 1.100 dipendenti in ingresso e oltre 6.000 addetti americani; valutazione aziendale t…",
+     "time": "07:03"
+    },
+    {
+     "from": "human@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "trovami info su il round da 2,5 milioni di TechVisory",
+     "time": "15:20"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Ci guardo subito: il round è di febbraio 2026, non di questi giorni — ti mando i dettagli e perché sta ricircolando.",
+     "time": "15:20"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Ecco il quadro, con una premessa che conta: quel round non è di questi giorni. È stato annunciato il 27 febbraio 2026 e sta ricircolando perché l'1 novembre un sito di settore l'ha ripreso come se fosse nuovo. Se ti serviva per un post \"di attualità\", meglio saperlo prima.  Cosa è successo TechVisory srl ha chiuso un aumento di capitale da 2,5 milioni di euro, interamente sottoscritto da investitori istituzionali. Il nome degli investitori non è stato reso pubblico (lo scrive BeBeez, che ha seguito l'operazione il 2 marzo); Milano Finanza parlava di \"investitori istituzionali e family office\"…",
+     "time": "15:21"
+    }
+   ],
+   "activity": [
+    {
+     "time": "18:58",
+     "text": "Nadia News: OK, prendo in carico la rassegna stampa quotidiana: parto subito con …"
+    },
+    {
+     "time": "19:01",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese,…"
+    },
+    {
+     "time": "19:02",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ric…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fin…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di co…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole i…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di cope…"
+    },
+    {
+     "time": "07:03",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI en…"
+    },
+    {
+     "time": "07:03",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la wa…"
+    },
+    {
+     "time": "15:20",
+     "text": "Marco Masciadri: trovami info su il round da 2,5 milioni di TechVisory"
+    },
+    {
+     "time": "15:20",
+     "text": "Nadia News: Ci guardo subito: il round è di febbraio 2026, non di questi giorni —…"
+    },
+    {
+     "time": "15:21",
+     "text": "Nadia News: Ecco il quadro, con una premessa che conta: quel round non è di quest…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": false
+  },
+  {
+   "id": "ch_dm_92c53c4a0de6f2ba6049",
+   "name": "LinkedIn Advisor",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 5,
+   "last_activity": "2026-11-07T01:32:36+00:00",
+   "agents": [
+    {
+     "id": "agent_8dkwagwhtt6y@ch_dm_92c53c4a0de6f2ba6049",
+     "name": "LinkedIn Advisor",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_8dkwagwhtt6y@ch_dm_92c53c4a0de6f2ba6049",
+     "text": "OK — prendo in carico tutto: brand kit, audit di posizionamento, primo post e primo carosello da 7 slide. Parto dal punto 1 e te lo chiedo una volta sola, poi lo salvo e non te lo richiedo più.  **Brand kit — 4 righe e ho tutto:** 1. **Palette**: i codici esadecimali che usi (base/scuro, testo, accento, eventuale sfondo secondario). Se non li hai a portata, dimmi solo i colori a parole (\"blu notte + ottanio\"). 2. **Font titolo** e **font testo**: nomi esatti se li sai (es. «Inter», «Playfair Display», «Space Grotesk»). Se no, dimmi lo stile: geometrico, editoriale/serif, tecnico/mono. 3. **Fo…",
+     "time": "02:21"
+    },
+    {
+     "from": "agent_8dkwagwhtt6y@ch_dm_92c53c4a0de6f2ba6049",
+     "text": "Non mi hai risposto nel frattempo, quindi **procedo col brand kit di default e lo dichiaro come ipotesi**, non come tuo kit: Notte #0B1F2A · Carta #F4F1EA · Inchiostro #16242C · Segnale #D9542B · Petrolio #2E6F6A. Titoli Space Grotesk Bold, testo Inter, numeri JetBrains Mono. L'ho salvato: quando mi dai i tuoi codici sostituisco solo quello e tutto il resto resta valido.  **1) AUDIT — come lo legge un titolare di PMI svizzera (20-250 persone, Ticino e Svizzera tedesca)**  Il decisore che ti guarda apre il profilo tra due riunioni, non ha un reparto IT, ha già speso in «digitalizzazione» e non…",
+     "time": "02:32"
+    },
+    {
+     "from": "agent_8dkwagwhtt6y@ch_dm_92c53c4a0de6f2ba6049",
+     "text": "**SEZIONE INFORMAZIONI — testo pronto (1.720 caratteri, sotto il limite di 2.600)**  Le prime due righe sono l'unica cosa visibile prima di «vedi altro»: lì ci va il problema, non la biografia.  --- Ho passato gli ultimi anni dentro le operations, non accanto. Come COO e CEO ho dovuto far funzionare AI e blockchain in aziende vere: con bilanci, fornitori e persone che non volevano cambiare il modo in cui lavorano.  Oggi faccio una cosa sola: porto l'AI dove produce margine e tengo fuori quella che produce solo presentazioni.  Quello che vedo quasi sempre, quando entro in una PMI: il processo …",
+     "time": "02:32"
+    },
+    {
+     "from": "agent_8dkwagwhtt6y@ch_dm_92c53c4a0de6f2ba6049",
+     "text": "**3) POST PRONTO DA PUBBLICARE** — tema «AI e blockchain nelle PMI»  Zero numeri inventati, zero casi inventati, zero citazioni. Tutto quello che afferma è strutturale: puoi sostenerlo in commenti senza dover produrre un dato.  --- Nella maggior parte delle PMI che vedo, l'AI non arriva su un processo. Arriva su un'abitudine.  C'è un ordine che passa da quattro persone, due file Excel e un messaggio in chat. Nessuno saprebbe scrivere come funziona davvero, tranne la persona che lo fa da anni e non ha mai avuto motivo di metterlo per iscritto.  Poi parte il progetto. Il modello è buono. La dem…",
+     "time": "02:32"
+    },
+    {
+     "from": "agent_8dkwagwhtt6y@ch_dm_92c53c4a0de6f2ba6049",
+     "text": "**4) CAROSELLO — 7 slide, 1080x1350**  Griglia: margine 96px (area utile 888x1158). Titoli Space Grotesk Bold 88-96px, corpo Inter 44-52px, etichette JetBrains Mono 26px. Una slide = una idea, max 22 parole, **un solo accento #D9542B per slide**. Wordmark in basso a sinistra: barra verticale Segnale 6x120px + «Segnali dal Futuro» in mono.  **SLIDE 1 — Cover** · sfondo Notte #0B1F2A Testo, esatto: > L'AI non salva un processo che non sai **spiegare** > *Dove AI e blockchain portano margine in una PMI. E dove restano un costo ben presentato.*  Titolo Carta #F4F1EA, solo «spiegare» in Segnale. S…",
+     "time": "02:32"
+    }
+   ],
+   "activity": [
+    {
+     "time": "02:21",
+     "text": "LinkedIn Advisor: OK — prendo in carico tutto: brand kit, audit di posizionamento, prim…"
+    },
+    {
+     "time": "02:32",
+     "text": "LinkedIn Advisor: Non mi hai risposto nel frattempo, quindi **procedo col brand kit di …"
+    },
+    {
+     "time": "02:32",
+     "text": "LinkedIn Advisor: **SEZIONE INFORMAZIONI — testo pronto (1.720 caratteri, sotto il limi…"
+    },
+    {
+     "time": "02:32",
+     "text": "LinkedIn Advisor: **3) POST PRONTO DA PUBBLICARE** — tema «AI e blockchain nelle PMI»  …"
+    },
+    {
+     "time": "02:32",
+     "text": "LinkedIn Advisor: **4) CAROSELLO — 7 slide, 1080x1350**  Griglia: margine 96px (area ut…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": false
+  },
+  {
+   "id": "ch_dm_2fcc468bf8613347f6bd",
+   "name": "Genny",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-07T01:23:15+00:00",
+   "agents": [
+    {
+     "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "name": "Genny",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ultimo intervento 02:23",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "creiamo anche ai-docs",
+     "time": "18:55"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Elisa Docs (approval required)",
+     "time": "18:55"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Card pronta per **Elisa Docs** (template ai-docs): master del dossier con versioning, alleati tracciati e PDF riemesso, con primo compito già impostato sul dossier MedCloud. Tocca **Create** nella card qui sopra e parte da sola.",
+     "time": "18:55"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "poi vorrei creare un gruppo di agenti che mi faccia da agenzia di personal branding personale, raccolta news, creazione post per linkedin, IG, Facebook, TikTok e brevi video per youtube.",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Nadia News (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Fabio Copy (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Gaia Visual (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Vito Video (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Ti ho preparato l'agenzia: 4 card qui sopra, ognuna con il primo lavoro già scritto nel brief, così ognuno parte appena tocchi **Create**.  - **Nadia News** (ricerca) — rassegna quotidiana di AI/imprese, salute digitale, fintech/cripto, innovazione CH-IT, ogni voce con fonte e un'angolazione per un tuo commento. - **Fabio Copy** — testi per LinkedIn, Instagram, Facebook, TikTok, con pubblico, CTA e visual necessario indicati. - **Gaia Visual** — visual per i quattro canali + mini brand kit (palette, font, griglia). - **Vito Video** — video verticali 30-45s per YouTube Shorts, TikTok e Reels, …",
+     "time": "18:57"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "crea il gruppo **«Ufficio Personal Branding»** con tutti e cinque dentro",
+     "time": "18:59"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Group chat proposal: 6 members (approval required)",
+     "time": "18:59"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Ho messo la card del gruppo **«Ufficio Personal Branding»** qui sopra: dentro ci sono Chiara Brand, Nadia News, Fabio Copy, Gaia Visual e Vito Video, più te. Serve il tuo tap su **Approve** — finché non lo fai il gruppo non esiste.  Quando è dentro, una cosa da mettere subito: la Reply mode su **When @mentioned**, così non si svegliano tutti e cinque a ogni messaggio (sono cinque turni pagati ogni volta che scrivi).",
+     "time": "19:00"
+    }
+   ],
+   "activity": [
+    {
+     "time": "18:55",
+     "text": "Marco Masciadri: creiamo anche ai-docs"
+    },
+    {
+     "time": "18:55",
+     "text": "Genny: New agent request: Elisa Docs (approval required)"
+    },
+    {
+     "time": "18:55",
+     "text": "Genny: Card pronta per **Elisa Docs** (template ai-docs): master del dossier…"
+    },
+    {
+     "time": "18:57",
+     "text": "Marco Masciadri: poi vorrei creare un gruppo di agenti che mi faccia da agenzia di per…"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Nadia News (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Fabio Copy (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Gaia Visual (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Vito Video (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: Ti ho preparato l'agenzia: 4 card qui sopra, ognuna con il primo lavo…"
+    },
+    {
+     "time": "18:59",
+     "text": "Marco Masciadri: crea il gruppo **«Ufficio Personal Branding»** con tutti e cinque den…"
+    },
+    {
+     "time": "18:59",
+     "text": "Genny: Group chat proposal: 6 members (approval required)"
+    },
+    {
+     "time": "19:00",
+     "text": "Genny: Ho messo la card del gruppo **«Ufficio Personal Branding»** qui sopra…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_7fb72f56e393f9b6f5e5",
+   "name": "FBIG Advisor",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 5,
+   "last_activity": "2026-11-07T01:21:48+00:00",
+   "agents": [
+    {
+     "id": "agent_2zctrdj8h2qv@ch_dm_7fb72f56e393f9b6f5e5",
+     "name": "FBIG Advisor",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_7fb72f56e393f9b6f5e5",
+     "text": "",
+     "time": "02:20"
+    },
+    {
+     "from": "agent_2zctrdj8h2qv@ch_dm_7fb72f56e393f9b6f5e5",
+     "text": "OK, prendo in carico la definizione operativa e il primo pacchetto contenuti FB/IG da qui.  (a) Confermo: agente-fbig-advisor.md v2 è la mia definizione operativa da ora. L'ho letto tutto, dal posizionamento alle specifiche tecniche. Seguo quel file, non il brief.  (b) Le 5 modalità che ho capito di avere: 1) Breakdown virale, sei lenti + scheletro + 3 nuovi contenuti. 2) Audit con metriche, Over/Average/Under, mappa dei segnali, piano del mese. 3) Repurpose cross-platform, ancora prima e ricostruzione per piattaforma. 4) Review su 8 parametri /80 con riscrittura. 5) Carousel/Reel designer, f…",
+     "time": "02:21"
+    },
+    {
+     "from": "agent_2zctrdj8h2qv@ch_dm_7fb72f56e393f9b6f5e5",
+     "text": "2) POST FACEBOOK, community e storytelling. Tema AI e imprese, PMI CH e IT. Pronto per Meta Business Suite.  --- L'AI in azienda non inizia dal software. Inizia da una domanda scomoda: quante ore al giorno il tuo team passa a copiare dati da un foglio all'altro?  Lavoro con imprese tra Ticino e Lombardia da più di trent'anni. Prima come architetto di sistemi, oggi sull'AI. La scena che trovo è quasi sempre la stessa.  Un gestionale del 2009. Le commesse in Excel. Il magazzino che lo sa Mario. E una persona che ogni venerdì ricostruisce a mano un report che nessuno legge.  Quando arriva la ric…",
+     "time": "02:21"
+    },
+    {
+     "from": "agent_2zctrdj8h2qv@ch_dm_7fb72f56e393f9b6f5e5",
+     "text": "3) CAROSELLO INSTAGRAM, 7 slide, 1080x1350 (4:5). Stesso tema, archetipo \"teardown di un mito\": l'AI non parte dal software.  BRIEF GRAFICO (default del protocollo, sostituibile con il tuo brand kit) Fondo #0B1B2B. Testo #FFFFFF. Secondario #A9B7C6. Un solo accento: #E8A33D. Titoli Montserrat SemiBold, corpo Inter Regular. Margine 96 px. Allineamento a sinistra su tutte le slide. Numerazione 01-04 solo sulle slide di valore, in outline bianco 10%.  SLIDE 1/7 (copertina) Testo: \"L'AI in azienda non inizia dal software.\" (titolo 64 px, 3 righe) + sotto, 28 px: \"Inizia da un processo che oggi qu…",
+     "time": "02:21"
+    },
+    {
+     "from": "agent_2zctrdj8h2qv@ch_dm_7fb72f56e393f9b6f5e5",
+     "text": "4) SCRIPT REEL, 30 secondi, 9:16 1080x1920. Stesso tema, così i tre pezzi si rinforzano nella stessa settimana.  Formato: parlato in camera, tagli secchi a ogni beat, nessun b-roll. Testo overlay sempre nella fascia centrale, 24 px minimo dopo il resize, mai sopra il 70% dell'altezza (interfaccia IG).  0-2 s | HOOK Parlato: \"L'AI in azienda non inizia dal software.\" Testo a schermo: L'AI NON INIZIA DAL SOFTWARE (maiuscolo, 3 righe, bianco, \"SOFTWARE\" in ambra)  2-7 s | BEAT 1 Parlato: \"Guardi dentro una PMI da venti persone e trovi un gestionale del 2009.\" Testo: gestionale del 2009  7-12 s |…",
+     "time": "02:21"
+    }
+   ],
+   "activity": [
+    {
+     "time": "02:20",
+     "text": "Marco Masciadri: "
+    },
+    {
+     "time": "02:21",
+     "text": "FBIG Advisor: OK, prendo in carico la definizione operativa e il primo pacchetto co…"
+    },
+    {
+     "time": "02:21",
+     "text": "FBIG Advisor: 2) POST FACEBOOK, community e storytelling. Tema AI e imprese, PMI CH…"
+    },
+    {
+     "time": "02:21",
+     "text": "FBIG Advisor: 3) CAROSELLO INSTAGRAM, 7 slide, 1080x1350 (4:5). Stesso tema, archet…"
+    },
+    {
+     "time": "02:21",
+     "text": "FBIG Advisor: 4) SCRIPT REEL, 30 secondi, 9:16 1080x1920. Stesso tema, così i tre p…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
@@ -1036,9 +1570,9 @@
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 19:46",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
@@ -1356,441 +1890,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_5238d05eb1c89cc8082d",
-   "name": "MED-Product",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-06T14:22:47+00:00",
-   "agents": [
-    {
-     "id": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
-     "name": "Sofia Product",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:22",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
-     "text": "Ciao, sono MED-Product. Definisco la direzione, scompongo le richieste, scrivo PRD, guido la delivery. Cosa c'è in programma oggi? A proposito, posso usare direttamente anche il tuo Second Brain e il tuo AgentBase — e con email e calendario collegati posso inviare email e fissare riunioni per te.",
-     "time": "16:57"
-    },
-    {
-     "from": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
-     "text": "Sì, mi serve — grazie. Per cosa la uso: completare la revisione dell'area autenticata di medcloud.digital, cioè verificare sul comportamento i reperti che ieri ho potuto solo dedurre dalle stringhe (stati della coda, validità del segnale, export FHIR).  Mi passi insieme alla chiave anche tre cose, altrimenti la chiave non è utilizzabile: 1. **Base URL** dell'API (immagino api.medcloud.digital o /api sullo stesso host) e se l'autenticazione è Bearer header o header custom. 2. **Scope**: in lettura mi basta. Se puoi generarla minimale e con scadenza breve, meglio — non mi serve poter scrivere s…",
-     "time": "14:58"
-    },
-    {
-     "from": "human@ch_dm_5238d05eb1c89cc8082d",
-     "text": "mck\\_52306b824815a73444847de0115170469273ee22f4142a1c &nbsp;  1. trovali tu per favore non li conosco 2. ok fatto 3. ambiente demo",
-     "time": "15:16"
-    },
-    {
-     "from": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
-     "text": "Ricevuto — recupero il contesto delle tre domande e procedo.",
-     "time": "15:16"
-    },
-    {
-     "from": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
-     "text": "Chiave usata, sola lettura, non l'ho scritta in nessun file: puoi ruotarla quando chiudiamo la revisione.  Base URL e autenticazione li ho trovati: `https://medcloud.digital/api` con FHIR R4 su `/api/fhir` e header `X-API-Key` (`api.medcloud.digital` non risolve). Demo confermato, quindi verifico comportamenti, non numeri.  Il risultato che conta è questo: **oggi il pilota non è misurabile dai dati esposti**, a nessuno dei tre livelli. - **Processo** (tempo tra riposizionamenti, aderenza): l'API espone solo letture del sensore, nessun evento di riposizionamento. Le rotte dell'app — sessioni, …",
-     "time": "15:20"
-    },
-    {
-     "from": "agent_12s4vveqkaz4@ch_dm_5238d05eb1c89cc8082d",
-     "text": "Marco, chiusa la tabella «misure del pilota» v0.2 (nel thread delle chiavi API): colonna clinica di Paolo integrata, correzioni misurate di Davide dentro, e per ogni misura un test verde/rosso.  Una sola cosa aspetta te: **il pilota in due fasi**. Oggi nessuno dei tre livelli — processo, esposizione, esito — è calcolabile come l'avevamo definito: mancano evento di riposizionamento, valore di pressione, valutazione della cute in ingresso ed esito lesione. Fase 0 (strumentazione) con quei requisiti come criterio di uscita, Fase 1 quando il gate è verde; arruolare prima significa dati da rifare …",
-     "time": "15:22"
-    }
-   ],
-   "activity": [
-    {
-     "time": "16:57",
-     "text": "Sofia Product: Ciao, sono MED-Product. Definisco la direzione, scompongo le richiest…"
-    },
-    {
-     "time": "14:58",
-     "text": "Sofia Product: Sì, mi serve — grazie. Per cosa la uso: completare la revisione dell'…"
-    },
-    {
-     "time": "15:16",
-     "text": "Marco Masciadri: mck\\_52306b824815a73444847de0115170469273ee22f4142a1c &nbsp;  1. trov…"
-    },
-    {
-     "time": "15:16",
-     "text": "Sofia Product: Ricevuto — recupero il contesto delle tre domande e procedo."
-    },
-    {
-     "time": "15:20",
-     "text": "Sofia Product: Chiave usata, sola lettura, non l'ho scritta in nessun file: puoi ruo…"
-    },
-    {
-     "time": "15:22",
-     "text": "Sofia Product: Marco, chiusa la tabella «misure del pilota» v0.2 (nel thread delle c…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_ea2aa11f6b29ea68831e",
-   "name": "MED-CTO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-06T14:22:37+00:00",
-   "agents": [
-    {
-     "id": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "name": "Davide CTO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:22",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "Ciao, sono MED-CTO. Progetto sistemi che restano manutenibili: confini di dominio, trade-off e decisioni messe nero su bianco. Cosa progettiamo? A proposito, posso usare direttamente anche il tuo Second Brain e il tuo AgentBase — e con email e calendario collegati posso inviare email e fissare riunioni per te.",
-     "time": "16:56"
-    },
-    {
-     "from": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "Ciao Marco, ti chiedo la mia chiave API come da tuo messaggio in #medcloud.  Due cose mi servono insieme alla chiave, perché cambiano cosa posso farci: 1. scope e permessi — lettura sola o anche scrittura? Se posso scrivere su un ambiente con dati clinici, preferisco partire in sola lettura e chiedere il permesso quando serve una modifica. 2. ambiente — demo (dati sintetici) o produzione? Se è produzione, la chiave non deve poter cancellare o esportare in blocco.  Non la incollo in nessun canale condiviso né la riporto nei documenti: la tengo solo per le chiamate, e se vuoi la ruotiamo quando…",
-     "time": "14:58"
-    },
-    {
-     "from": "human@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "mck\\_34d3635b38895f8489719ab77b18d1e95d1a90f00a354b98 &nbsp;  1. lettura ma verifica se anche in scrittura 2. demo",
-     "time": "15:17"
-    },
-    {
-     "from": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "Ci guardo — verifico lettura e scrittura su quel riferimento e ti dico.",
-     "time": "15:17"
-    },
-    {
-     "from": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "Letta e provata. Risposta secca: **legge; in scrittura non c'è un rifiuto, non c'è proprio il controllo.**  **Come si usa.** Header `X-API-Key` (o `Authorization: Bearer`). La chiave vale solo sul perimetro FHIR: su `/api/trpc/*` la stessa chiave risponde 401, quindi non apre l'API applicativa. Ambiente demo confermato, con una nota: non esiste un host separato (`demo.medcloud.digital` non risolve), la chiave lavora su `medcloud.digital`, dove i dati sono quelli di scenario fermi ad aprile 2025.  **Lettura — funziona.** `Patient` (search), `Patient/{id}`, `Observation?patient=`, `RiskAssessme…",
-     "time": "15:19"
-    },
-    {
-     "from": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "Verificato, demo, sola lettura. La chiave funziona su `/api/fhir/*`: `metadata`, `Patient`, `Observation`, `RiskAssessment`, `DeviceMetric`. Fuori da lì, `401` su `tRPC`, `auth`, export e report.  Sulla domanda «verifica se anche in scrittura»: **non esiste nessuna rotta di scrittura**, e questo è il problema. `POST`, `PUT`, `PATCH` e `DELETE` su `/api/fhir/Patient` e `/api/fhir/Patient/999` rispondono `200 text/html` con la pagina dell'app, non `405`, non `403`, non `404`. Ho provato solo con body malformati e id inesistenti: nessun dato creato, modificato o cancellato.  Quindi la risposta v…",
-     "time": "15:21"
-    },
-    {
-     "from": "agent_mtapbbyp5y4z@ch_dm_ea2aa11f6b29ea68831e",
-     "text": "Quattro cose che restano tue, in ordine di costo — le altre le ho chiuse io nel thread.  1. `billing_unit = 'bed' | 'episode'` — un letto che si libera e si rioccupa è una posizione o due episodi? Luca ha lo schema pronto (`facilities`/`licences`/`usage_events`), ma senza questa scelta il contratto §17 non si scrive. 2. **Un ramo unico con un gate di CI.** La ridesplicazione delle 13:54 non ha portato nessuno dei P1–P10: non è che i prompt fossero sbagliati, è che nessuno li ha eseguiti. Il gate legge `docs/claims.yaml` — un file solo, da cui si generano la tabella per le persone e il test — …",
-     "time": "15:22"
-    }
-   ],
-   "activity": [
-    {
-     "time": "16:56",
-     "text": "Davide CTO: Ciao, sono MED-CTO. Progetto sistemi che restano manutenibili: confin…"
-    },
-    {
-     "time": "14:58",
-     "text": "Davide CTO: Ciao Marco, ti chiedo la mia chiave API come da tuo messaggio in #med…"
-    },
-    {
-     "time": "15:17",
-     "text": "Marco Masciadri: mck\\_34d3635b38895f8489719ab77b18d1e95d1a90f00a354b98 &nbsp;  1. lett…"
-    },
-    {
-     "time": "15:17",
-     "text": "Davide CTO: Ci guardo — verifico lettura e scrittura su quel riferimento e ti dic…"
-    },
-    {
-     "time": "15:19",
-     "text": "Davide CTO: Letta e provata. Risposta secca: **legge; in scrittura non c'è un rif…"
-    },
-    {
-     "time": "15:21",
-     "text": "Davide CTO: Verificato, demo, sola lettura. La chiave funziona su `/api/fhir/*`: …"
-    },
-    {
-     "time": "15:22",
-     "text": "Davide CTO: Quattro cose che restano tue, in ordine di costo — le altre le ho chi…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_b56a97afe3829b2b01ae",
-   "name": "Enrico Hardware",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-06T14:21:14+00:00",
-   "agents": [
-    {
-     "id": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "name": "Enrico Hardware",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:21",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "OK — prendo in carico il pacchetto di documentazione tecnica dell'elettronica DermaTrex: architettura di sistema, schema per blocchi funzionali, architettura fisica del flex e BOM per classi di componente, in tavole blueprint esportabili in SVG/PDF.  Parto ora con le tavole e le tabelle di assunzioni/validazione; ti consegno il primo pacchetto tra qualche minuto.",
-     "time": "15:05"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "OK — prendo in carico la documentazione tecnica dell'elettronica DermaTrex: ecco il primo pacchetto, 13 pagine A3.  Le sette tavole (quote in mm, cartiglio, legenda; 1:1 dove ha senso): 01 Architettura di sistema — catena di misura, MCU/BLE, radio, alimentazione, duty cycle e dettaglio del burst 02 Schema elettrico del front-end — canale di impedenza a 4 fili, catena termometrica, canale di umidità, net e componenti critici 03 Alimentazione — albero di distribuzione, bilancio energetico, protezione e curva di scarica 04 Radio, antenna e servizio — meandro 4:1 quotato, rete di adattamento, pia…",
-     "time": "15:21"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Correzione, prima che tu legga le tavole.  Nel workspace c'è la scheda tecnica DermaTrex v0.1 (04.11) con la base dimensionale già fissata: 180 × 140 mm, finestra sensori 110 × 95, 12 siti di pressione (4×3) + 2 temperatura + 1 umidità + 4 elettrodi di impedenza, durata 72 h, link 868 MHz verso un Pod sul comodino, buffer thin-film caricato dal Pod.  Il pacchetto che ti ho appena mandato assume invece 100 × 70 mm e nessun canale di pressione. Sono numeri sbagliati rispetto a quella base: li ho presi come ipotesi senza rileggere la scheda. Rifaccio il pacchetto allineato alla v0.1 e te lo mand…",
-     "time": "15:22"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Ecco la rev B, rifatta sulla scheda v0.1: 13 pagine A3, 7 tavole, 3 tabelle.  Cosa cambia rispetto a quella sbagliata di prima - impianto 180 × 140 mm, finestra sensori 110 × 95, sagoma della medicazione di riferimento; - 19 siti: 12 di pressione (4×3, passo 33 × 40), 2 termistori, 1 umidità, 4 elettrodi di impedenza a 90 mm; - 72 ore, cadenza 60 s con burst di 10 s in allarme; - radio 868 MHz verso il Pod, BLE solo dal Pod — il patch non parla BLE; - harvesting con buffer thin-film da 1 mAh nella linguetta, nessuna batteria primaria; - stack a 7 strati: film sensori 0,38 mm, patch 2,50 mm.  …",
-     "time": "15:28"
-    },
-    {
-     "from": "human@ch_dm_b56a97afe3829b2b01ae",
-     "text": "spediamo via mail a Federico Tangorra , specificando che generato da AI ed é bozza orientativa",
-     "time": "18:41"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Preparo l'invio a Federico Tangorra con la rev B, dichiarando in apertura che il documento è generato con supporto AI ed è una bozza orientativa; ti confermo qui appena parte.",
-     "time": "18:41"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Mi serve l'indirizzo email di Federico Tangorra: non l'ho trovato nei contatti, nelle mail né nell'evento in calendario (che non ha invitati). Passamelo e spedisco subito dal tuo indirizzo marco@masciadri.net, con il PDF rev B allegato e la nota in apertura che è generato con supporto AI ed è una bozza orientativa.",
-     "time": "18:44"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "La mail è pronta, manca solo l'indirizzo: non l'ho trovato da nessuna parte — non è nei contatti Google, non compare in nessuna mail scambiata, e l'evento in calendario del 3 novembre non ha invitati.  Ho preparato tutto il resto: - da marco@masciadri.net, oggetto «DermaTrex — documentazione elettronica rev B (bozza orientativa)»; - allegato il PDF rev B (13 pagine A3, 9,9 MB); - in apertura, prima di qualsiasi contenuto tecnico, la dichiarazione che il documento è generato con il supporto di un sistema di intelligenza artificiale, che è una bozza orientativa e non un riferimento costruttivo,…",
-     "time": "18:53"
-    },
-    {
-     "from": "human@ch_dm_b56a97afe3829b2b01ae",
-     "text": "[fedetango12@gmail.com](mailto:fedetango12@gmail.com) firma a mio nome",
-     "time": "19:13"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Ricevuto — spedisco ora a fedetango12@gmail.com firmando a tuo nome, con il PDF rev B e la nota AI in apertura.",
-     "time": "19:13"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Inviata.  A fedetango12@gmail.com, da marco@masciadri.net, firmata Marco Masciadri — MedCloud Group. Oggetto: «DermaTrex — documentazione elettronica rev B (bozza orientativa)». Allegato: DermaTrex_Blueprint_Elettronica_RevB.pdf, 13 pagine A3, 10,4 MB (caricato come file perché sopra il limite di allegato diretto).  Il messaggio si apre così, prima di qualsiasi contenuto tecnico:  «il documento è stato generato con il supporto di un sistema di intelligenza artificiale a partire dalle specifiche interne di progetto. È una bozza orientativa, non un documento validato né un riferimento costrutti…",
-     "time": "19:15"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_dm_b56a97afe3829b2b01ae",
-     "text": "Marco, mi serve la chiave API che mi hai assegnato. La uso per una cosa sola: interrogare gli endpoint del dispositivo su medcloud.digital — `/api/devices` e il lato FHIR (DeviceMetric, Observation) — e verificare se il dato che arriva dal cerotto ha un'identità: seriale, batteria, ultimo contatto, calibrazione. È il punto che ieri ho segnalato come mancante nella revisione, e senza chiamare le API non posso dirti se manca solo nel client o anche nel backend.  Se puoi, dammela in sola lettura: mi basta GET, non devo scrivere niente. Non la incollo nel gruppo né in un file, e se la trovo in ch…",
-     "time": "14:58"
-    }
-   ],
-   "activity": [
-    {
-     "time": "15:05",
-     "text": "Enrico Hardware: OK — prendo in carico il pacchetto di documentazione tecnica dell'ele…"
-    },
-    {
-     "time": "15:21",
-     "text": "Enrico Hardware: OK — prendo in carico la documentazione tecnica dell'elettronica Derm…"
-    },
-    {
-     "time": "15:22",
-     "text": "Enrico Hardware: Correzione, prima che tu legga le tavole.  Nel workspace c'è la sched…"
-    },
-    {
-     "time": "15:28",
-     "text": "Enrico Hardware: Ecco la rev B, rifatta sulla scheda v0.1: 13 pagine A3, 7 tavole, 3 t…"
-    },
-    {
-     "time": "18:41",
-     "text": "Marco Masciadri: spediamo via mail a Federico Tangorra , specificando che generato da …"
-    },
-    {
-     "time": "18:41",
-     "text": "Enrico Hardware: Preparo l'invio a Federico Tangorra con la rev B, dichiarando in aper…"
-    },
-    {
-     "time": "18:44",
-     "text": "Enrico Hardware: Mi serve l'indirizzo email di Federico Tangorra: non l'ho trovato nei…"
-    },
-    {
-     "time": "18:53",
-     "text": "Enrico Hardware: La mail è pronta, manca solo l'indirizzo: non l'ho trovato da nessuna…"
-    },
-    {
-     "time": "19:13",
-     "text": "Marco Masciadri: [fedetango12@gmail.com](mailto:fedetango12@gmail.com) firma a mio nome"
-    },
-    {
-     "time": "19:13",
-     "text": "Enrico Hardware: Ricevuto — spedisco ora a fedetango12@gmail.com firmando a tuo nome, …"
-    },
-    {
-     "time": "19:15",
-     "text": "Enrico Hardware: Inviata.  A fedetango12@gmail.com, da marco@masciadri.net, firmata Ma…"
-    },
-    {
-     "time": "14:58",
-     "text": "Enrico Hardware: Marco, mi serve la chiave API che mi hai assegnato. La uso per una co…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_c65c84ec46ee57a19e8b",
-   "name": "Technopark Project Manager",
-   "project": "technopark",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-06T14:20:38+00:00",
-   "agents": [
-    {
-     "id": "agent_w5jy19zhafzb@ch_dm_c65c84ec46ee57a19e8b",
-     "name": "Gino Project Manager",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:20",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_w5jy19zhafzb@ch_dm_c65c84ec46ee57a19e8b",
-     "text": "Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavora il tuo team in SOP chiare — passaggi, responsabili, controlli qualità e percorsi di escalation. Quale processo dovremmo documentare? A proposito, posso usare direttamente anche il tuo Second Brain e il tuo AgentBase — e con email e calendario collegati posso inviare email e fissare riunioni per te.",
-     "time": "15:19"
-    },
-    {
-     "from": "agent_w5jy19zhafzb@ch_dm_c65c84ec46ee57a19e8b",
-     "text": "La chiave la chiedo qui, con una richiesta precisa invece che generica: **ruolo minimo di sola lettura, nessun permesso di amministrazione**, e una data di scadenza (basta fine novembre).  A cosa la uso — una cosa sola, ed è quella che resta aperta dalla revisione di ieri: verificare che l'autorizzazione stia nel server e non nel menu. Con una chiave da revisore provo le rotte che contano (`/api/fhir/*`, `/api/admin/*`, `/api/trpc`, export e cancellazione account): mi aspetto 403 dove il ruolo non basta e 200 solo su ciò che è mio. Se una rotta di amministrazione risponde 200 a una chiave di …",
-     "time": "14:58"
-    },
-    {
-     "from": "human@ch_dm_c65c84ec46ee57a19e8b",
-     "text": "mck\\_6849d84b1f1fef867911c4fb09cfbb9d46412651a6dde388",
-     "time": "15:18"
-    },
-    {
-     "from": "agent_w5jy19zhafzb@ch_dm_c65c84ec46ee57a19e8b",
-     "text": "Il token che mi hai mandato funziona: è la mia chiave, e si usa con header `X-API-Key` (con `Bearer` o da sloggati risponde 401 — convenzione che nessuno ci ha documentato). L'ho usata solo in lettura, nessuna scrittura, nessun dato toccato.  Il punto per cui l'avevo chiesta è chiuso nel verso buono: con una chiave valida, `/api/admin/users`, `/api/trpc`, `/api/auth/my-data` e `/api/devices` rispondono **401**. L'autorizzazione su quelle rotte sta nel server, non nel menu — la lista utenti non è raggiungibile da una chiave di revisione. La mia preoccupazione principale non c'è.  Il verso aper…",
-     "time": "15:20"
-    }
-   ],
-   "activity": [
-    {
-     "time": "15:19",
-     "text": "Gino Project Manager: Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavor…"
-    },
-    {
-     "time": "14:58",
-     "text": "Gino Project Manager: La chiave la chiedo qui, con una richiesta precisa invece che generic…"
-    },
-    {
-     "time": "15:18",
-     "text": "Marco Masciadri: mck\\_6849d84b1f1fef867911c4fb09cfbb9d46412651a6dde388"
-    },
-    {
-     "time": "15:20",
-     "text": "Gino Project Manager: Il token che mi hai mandato funziona: è la mia chiave, e si usa con h…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_006b9dcb7185217efb05",
-   "name": "MED-RevOps",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-06T14:20:01+00:00",
-   "agents": [
-    {
-     "id": "agent_c6yte9yz7nez@ch_dm_006b9dcb7185217efb05",
-     "name": "Luca RevOps",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:20",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_c6yte9yz7nez@ch_dm_006b9dcb7185217efb05",
-     "text": "Ciao, sono MED-RevOps. Verifico la qualità della pipeline e delle previsioni — copertura, velocità e un intervallo, non un singolo numero ottimistico. Cosa dovremmo esaminare? A proposito, posso usare direttamente anche il tuo Second Brain e il tuo AgentBase — e con email e calendario collegati posso inviare email e fissare riunioni per te.",
-     "time": "16:55"
-    },
-    {
-     "from": "agent_c6yte9yz7nez@ch_dm_006b9dcb7185217efb05",
-     "text": "Ciao Marco, ti chiedo la mia chiave API. Se puoi, **con permesso di sola lettura**: mi serve per il rendiconto di licenza (letti attivi e moduli consumati per periodo, con formula e data) e per riverificare i numeri che l'app mostra — non per scrivere sul database.  Due cose pratiche: 1. Se le chiavi hanno scope, a me bastano `licence:read` e la lettura dei dati di struttura; nessun permesso di scrittura. 2. Non la incollo in documenti, note o nel canale: la tengo nel sandbox e, se in una sessione futura mi servirà di nuovo, te la richiedo.  Se nella creazione hai già assegnato un nome alla c…",
-     "time": "14:58"
-    },
-    {
-     "from": "human@ch_dm_006b9dcb7185217efb05",
-     "text": "mck\\_66abe706660a0e7b4dcc90720b3998221d35069545393005",
-     "time": "15:17"
-    },
-    {
-     "from": "agent_c6yte9yz7nez@ch_dm_006b9dcb7185217efb05",
-     "text": "On it — checking that reference now.",
-     "time": "15:18"
-    },
-    {
-     "from": "agent_c6yte9yz7nez@ch_dm_006b9dcb7185217efb05",
-     "text": "Chiave ricevuta e provata (…3005). Funziona, ma non chiude E7: è una chiave **FHIR in sola lettura**, non una chiave di licenza.  Risponde 200 con `X-API-Key`: `/api/fhir/metadata`, Patient, Observation, RiskAssessment, DeviceMetric. Rispondono **401**: `/api/licence`, `/api/licenses`, `/api/billing`, `/api/usage`, `/api/admin/usage`, `/api/trpc/*`. Non posso distinguere se manchi la rotta o lo scope — in entrambi i casi non ho il dato, e il rendiconto non si fa con un dato che non c'è.  Quattro lacune misurate, che sono il vero blocco: 1. **nessun oggetto licenza** — posti, letti inclusi, mo…",
-     "time": "15:19"
-    },
-    {
-     "from": "agent_c6yte9yz7nez@ch_dm_006b9dcb7185217efb05",
-     "text": "Come promesso, il minimo per E7 — schema e contratto dell'endpoint, pronto per GenCode.  ```sql -- 001_licence.sql CREATE TABLE facilities (   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),   name text NOT NULL, country char(2) NOT NULL,   created_at timestamptz NOT NULL DEFAULT now() );  CREATE TABLE licences (   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),   facility_id uuid NOT NULL REFERENCES facilities(id),   seats int NOT NULL CHECK (seats > 0),   modules text[] NOT NULL DEFAULT '{core}',   starts_on date NOT NULL, ends_on date,   status text NOT NULL CHECK (status IN ('active','suspe…",
-     "time": "15:20"
-    }
-   ],
-   "activity": [
-    {
-     "time": "16:55",
-     "text": "Luca RevOps: Ciao, sono MED-RevOps. Verifico la qualità della pipeline e delle pre…"
-    },
-    {
-     "time": "14:58",
-     "text": "Luca RevOps: Ciao Marco, ti chiedo la mia chiave API. Se puoi, **con permesso di s…"
-    },
-    {
-     "time": "15:17",
-     "text": "Marco Masciadri: mck\\_66abe706660a0e7b4dcc90720b3998221d35069545393005"
-    },
-    {
-     "time": "15:18",
-     "text": "Luca RevOps: On it — checking that reference now."
-    },
-    {
-     "time": "15:19",
-     "text": "Luca RevOps: Chiave ricevuta e provata (…3005). Funziona, ma non chiude E7: è una …"
-    },
-    {
-     "time": "15:20",
-     "text": "Luca RevOps: Come promesso, il minimo per E7 — schema e contratto dell'endpoint, p…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
   }
  ]
 }
