@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T21:00:19.760215+00:00",
+ "generated_at": "2026-11-09T21:13:25.631551+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1033,6 +1033,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 4,
+   "last_activity": "2026-11-09T21:01:19+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche nell'agenda. controlla anche calendario e rischeduliamo per oggi le varie attività ancora aperte",
+     "time": "12:00"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Ho guardato il calendario: la modifica vera è che **Leonardo è passato a stasera alle 18:00** (era giovedì alle 21:00) e l'evento Mattia Oliva a Lomazzo è sparito. Quindi il pomeriggio lo costruisco intorno a quella call: oggi si firma, non si \"ci sentiamo\".  **Oggi, da adesso** - **13:15-14:15 → Contratti Mattia + Evelino** (60', schema unico; se Evelino ha già un accordo si allinea, non si rifà) - **14:30-16:30 → Deck Eureka Funds** (era già lì: solo titoli e 3 punti per slide) - **17:00-17:45 → Preparazione call Leonardo** — dentro ci sono le 3 cose da decidere *prima* di entrare (cosa app…",
+     "time": "12:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovami informazioni per preparare la call e inseriscilo nelle attività di oggi",
+     "time": "12:08"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento così lo apri dal telefono durante la call. Ho spostato contratti a 12:15-13:00 e deck Eureka a 15:00-16:30.  **Emanuele Meazzo — Senior Manager AI & Data Engineering, Acer EMEA** Area Lugano/Manno. Politecnico di Milano, ex **Microsoft MVP** su data platform. Non è un manager generico: scrive e parla di GenAI, RAG, agenti e data engineering (blog, GitHub, conference). Dentro Acer ha costruito un assistente AI interno (\"Sophia\") con RAG su SharePoint.  **Acer EMEA oggi**: 50 anni in EMEA nel 2026, strategia \"multiple business …",
+     "time": "12:09"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Leonardo alle 18 — e non so com'è andata nessuna delle due. Quindi una domanda sola, e poi ti lascio:  **Com'è andata con Leonardo?**  Perché da lì dipende domani: se avete trovato l'accordo, la cosa da fare **entro 24 ore** non sono i siti, è la **bozza del testo** con dentro percentuale, condizioni di uscita e data di firma. Finché non esiste quel foglio, \"ci siamo detti\" non è un accordo — ed è esattamente il punto in cui queste cose si fermano.  Se mi dici \"bozza\", domani mattina la scrivo io e tu correggi: i siti li spost…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa che resta aperta da ieri sera.  **1. 09:30-10:45 — Medcloud.group** Prima la denominazione (\"Italian MedTech S.r.l.\" → MedCloud Group S.r.l.), poi chiarezza e brevetto. **2. 11:00-12:15 — masciadri.net** **3. Leonardo — la bozza.** Se ieri sera avete trovato l'intesa, il testo va scritto **entro oggi**: percentuale, uscita, data di firma. Se mi dici una parola (\"bozza\"), la scrivo io e tu correggi.  **Micro-step da 5 minuti (alle 9:30)** Apri medcloud.group e leggi **solo il titolo della home**. Poi rispondi a una domanda: *s…",
+     "time": "08:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare al progetto MedCloud. MI ha mandato sua mail in whatsapp devo mandargli NDA e documentazione Medcloud. Poi ci risentiamo per fissare incontro di persona. Leonardo raggiunto accordo di base , devo riformulare bozza di accordo di associazione in partecipazione e ci vedremo di persona la prossima settimana anche con Alessandro Crippa. Oggi ho incontrato Enea Meroni per una possibile collaborazione per i progetti Medcloud, Sycurium  e altri progetti possibili legati a blockchain",
+     "time": "15:11"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che serviva.  **1. Meazzo — NDA pronto (2 pagine)** Mutuale, legge italiana, 3 anni. Da completare solo tre campi: sede e P.IVA di MedCloud, dati anagrafici suoi, foro. **La domanda da fare prima di mandarlo**: firma **lui come persona** o collabora **Acer**? Se è Acer, il firmatario è Acer EMEA e serve il loro legal: è un percorso diverso e più lungo. E attenzione: è un dirigente, ha obblighi verso il datore di lavoro. Non è un tuo problema da risolvere, è un problema da conoscere prima, non dopo.  **2. Documentazione da mandar…",
+     "time": "15:12"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in un giorno. MedCloud con Meazzo, Sycurium con Leonardo, e Meroni come terzo binario. I documenti ci sono già, quindi domani non si scrive: si compila e si manda.  **Domani, tre cose — mezz'ora l'una** 1. **NDA + documentazione a Meazzo.** Ti servono 20 minuti: tre campi del NDA, i tre buchi tra parentesi nella documentazione. Poi parte. E prima di inviarla, la domanda: firma lui o Acer? 2. **Accordo Leonardo.** Cinque caselle: percentuale utili, base di calcolo, percentuale perdite, preavviso, titolarità IP. Più la data nella…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente bilancio, niente compiti.  Solo tre cose, se le sai a memoria, anche una parola ciascuna: 1. **NDA a Meazzo**: partito? 2. **Accordo a Leonardo**: partito? 3. **Costituzione MedCloud** alle 12:30: cos'era? Perché se è successo qualcosa di importante, lunedì devo saperlo per non darti un piano vecchio.  Il resto può aspettare lunedì. Nel weekend non ti scrivo altro fino a domenica sera.  Buona serata Marco — e buon weekend con i ragazzi.",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo: questo è solo il messaggio che dice che non c'è niente da fare.  Nessuna priorità, nessun micro-step. Lunedì alle 8 riparto con due cose sole: chiudere Meazzo e Leonardo (o quello che resta aperto), poi i siti.  Buon weekend con i ragazzi, Marco.",
+     "time": "08:01"
+    }
+   ],
+   "activity": [
+    {
+     "time": "12:00",
+     "text": "Marco Masciadri: Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche…"
+    },
+    {
+     "time": "12:01",
+     "text": "HORME: Ho guardato il calendario: la modifica vera è che **Leonardo è passat…"
+    },
+    {
+     "time": "12:08",
+     "text": "Marco Masciadri: alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovam…"
+    },
+    {
+     "time": "12:09",
+     "text": "HORME: Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento c…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Le…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa c…"
+    },
+    {
+     "time": "15:11",
+     "text": "Marco Masciadri: Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare a…"
+    },
+    {
+     "time": "15:12",
+     "text": "HORME: Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che …"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in …"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente b…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo:…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_6590d278d9d7a256b108",
    "name": "dm-6590d278d9d7a256b108",
    "project": "ufficio",
@@ -1286,138 +1418,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 3,
-   "last_activity": "2026-11-09T07:00:35+00:00",
-   "agents": [
-    {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
-     "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Mercoledì. Tre cose, poi la giornata è tua.  **1. 09:30-10:45 — Medcloud.group.** Si comincia dalla denominazione: \"Italian MedTech S.r.l.\" **non esiste**, va sostituita con MedCloud Group S.r.l. Poi chiarezza in 30 secondi e stato brevetto visibile. **2. 11:00-12:00 — Registrazione Pitch Night.** Finisce il blocco alle 10:45 apposta: un quarto d'ora per arrivarci senza correre. **3. 14:30-16:30 — Deck Eureka Funds.** Solo titoli e tre punti per slide. Le slide le faccio io.  **Micro-step da 5 minuti (alle 9:30, nient'altro)** Apri medcloud.group e cerca **\"Italian MedTech\"** co…",
-     "time": "08:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche nell'agenda. controlla anche calendario e rischeduliamo per oggi le varie attività ancora aperte",
-     "time": "12:00"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Ho guardato il calendario: la modifica vera è che **Leonardo è passato a stasera alle 18:00** (era giovedì alle 21:00) e l'evento Mattia Oliva a Lomazzo è sparito. Quindi il pomeriggio lo costruisco intorno a quella call: oggi si firma, non si \"ci sentiamo\".  **Oggi, da adesso** - **13:15-14:15 → Contratti Mattia + Evelino** (60', schema unico; se Evelino ha già un accordo si allinea, non si rifà) - **14:30-16:30 → Deck Eureka Funds** (era già lì: solo titoli e 3 punti per slide) - **17:00-17:45 → Preparazione call Leonardo** — dentro ci sono le 3 cose da decidere *prima* di entrare (cosa app…",
-     "time": "12:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovami informazioni per preparare la call e inseriscilo nelle attività di oggi",
-     "time": "12:08"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento così lo apri dal telefono durante la call. Ho spostato contratti a 12:15-13:00 e deck Eureka a 15:00-16:30.  **Emanuele Meazzo — Senior Manager AI & Data Engineering, Acer EMEA** Area Lugano/Manno. Politecnico di Milano, ex **Microsoft MVP** su data platform. Non è un manager generico: scrive e parla di GenAI, RAG, agenti e data engineering (blog, GitHub, conference). Dentro Acer ha costruito un assistente AI interno (\"Sophia\") con RAG su SharePoint.  **Acer EMEA oggi**: 50 anni in EMEA nel 2026, strategia \"multiple business …",
-     "time": "12:09"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Leonardo alle 18 — e non so com'è andata nessuna delle due. Quindi una domanda sola, e poi ti lascio:  **Com'è andata con Leonardo?**  Perché da lì dipende domani: se avete trovato l'accordo, la cosa da fare **entro 24 ore** non sono i siti, è la **bozza del testo** con dentro percentuale, condizioni di uscita e data di firma. Finché non esiste quel foglio, \"ci siamo detti\" non è un accordo — ed è esattamente il punto in cui queste cose si fermano.  Se mi dici \"bozza\", domani mattina la scrivo io e tu correggi: i siti li spost…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa che resta aperta da ieri sera.  **1. 09:30-10:45 — Medcloud.group** Prima la denominazione (\"Italian MedTech S.r.l.\" → MedCloud Group S.r.l.), poi chiarezza e brevetto. **2. 11:00-12:15 — masciadri.net** **3. Leonardo — la bozza.** Se ieri sera avete trovato l'intesa, il testo va scritto **entro oggi**: percentuale, uscita, data di firma. Se mi dici una parola (\"bozza\"), la scrivo io e tu correggi.  **Micro-step da 5 minuti (alle 9:30)** Apri medcloud.group e leggi **solo il titolo della home**. Poi rispondi a una domanda: *s…",
-     "time": "08:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare al progetto MedCloud. MI ha mandato sua mail in whatsapp devo mandargli NDA e documentazione Medcloud. Poi ci risentiamo per fissare incontro di persona. Leonardo raggiunto accordo di base , devo riformulare bozza di accordo di associazione in partecipazione e ci vedremo di persona la prossima settimana anche con Alessandro Crippa. Oggi ho incontrato Enea Meroni per una possibile collaborazione per i progetti Medcloud, Sycurium  e altri progetti possibili legati a blockchain",
-     "time": "15:11"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che serviva.  **1. Meazzo — NDA pronto (2 pagine)** Mutuale, legge italiana, 3 anni. Da completare solo tre campi: sede e P.IVA di MedCloud, dati anagrafici suoi, foro. **La domanda da fare prima di mandarlo**: firma **lui come persona** o collabora **Acer**? Se è Acer, il firmatario è Acer EMEA e serve il loro legal: è un percorso diverso e più lungo. E attenzione: è un dirigente, ha obblighi verso il datore di lavoro. Non è un tuo problema da risolvere, è un problema da conoscere prima, non dopo.  **2. Documentazione da mandar…",
-     "time": "15:12"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in un giorno. MedCloud con Meazzo, Sycurium con Leonardo, e Meroni come terzo binario. I documenti ci sono già, quindi domani non si scrive: si compila e si manda.  **Domani, tre cose — mezz'ora l'una** 1. **NDA + documentazione a Meazzo.** Ti servono 20 minuti: tre campi del NDA, i tre buchi tra parentesi nella documentazione. Poi parte. E prima di inviarla, la domanda: firma lui o Acer? 2. **Accordo Leonardo.** Cinque caselle: percentuale utili, base di calcolo, percentuale perdite, preavviso, titolarità IP. Più la data nella…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente bilancio, niente compiti.  Solo tre cose, se le sai a memoria, anche una parola ciascuna: 1. **NDA a Meazzo**: partito? 2. **Accordo a Leonardo**: partito? 3. **Costituzione MedCloud** alle 12:30: cos'era? Perché se è successo qualcosa di importante, lunedì devo saperlo per non darti un piano vecchio.  Il resto può aspettare lunedì. Nel weekend non ti scrivo altro fino a domenica sera.  Buona serata Marco — e buon weekend con i ragazzi.",
-     "time": "22:01"
-    }
-   ],
-   "activity": [
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Mercoledì. Tre cose, poi la giornata è tua.  **1. 09:30…"
-    },
-    {
-     "time": "12:00",
-     "text": "Marco Masciadri: Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche…"
-    },
-    {
-     "time": "12:01",
-     "text": "HORME: Ho guardato il calendario: la modifica vera è che **Leonardo è passat…"
-    },
-    {
-     "time": "12:08",
-     "text": "Marco Masciadri: alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovam…"
-    },
-    {
-     "time": "12:09",
-     "text": "HORME: Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento c…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Le…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa c…"
-    },
-    {
-     "time": "15:11",
-     "text": "Marco Masciadri: Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare a…"
-    },
-    {
-     "time": "15:12",
-     "text": "HORME: Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che …"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in …"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente b…"
-    }
-   ],
-   "needs_marco": true,
-   "marco_mentioned": true
   },
   {
    "id": "ch_dm_2695cd8b2b4e5ab2d57b",
