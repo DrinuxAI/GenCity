@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:50:49.537210+00:00",
+ "generated_at": "2026-11-09T17:03:55.703087+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -30,23 +30,15 @@
    "name": "MedCloud",
    "project": "medcloud",
    "type": "hq",
-   "unread": 3,
-   "last_activity": "2026-11-09T16:49:04+00:00",
+   "unread": 4,
+   "last_activity": "2026-11-09T16:50:32+00:00",
    "agents": [
-    {
-     "id": "agent_w5jy19zhafzb@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Gino Project Manager",
-     "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ha scritto alle 17:49",
-     "progress": 50
-    },
     {
      "id": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Chiara Brand",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ha scritto alle 17:49",
+     "task": "Ha scritto alle 17:50",
      "progress": 50
     },
     {
@@ -54,7 +46,15 @@
      "name": "Marta CFO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ha scritto alle 17:49",
+     "task": "Ha scritto alle 17:50",
+     "progress": 50
+    },
+    {
+     "id": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 17:50",
      "progress": 50
     },
     {
@@ -62,16 +62,11 @@
      "name": "Tu",
      "role": "Umano",
      "status": "attention",
-     "task": "3 messaggi non letti — dai un'occhiata",
+     "task": "4 messaggi non letti — dai un'occhiata",
      "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_w5jy19zhafzb@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Atto letto e blocco societario canonico pubblicato nel thread del dossier: **MedCloud Group S.r.l.**, sede legale Altamura (BA) via Monteverdi 20 — Como resta operativa —, capitale €100 con Primerano 60% e Masciadri 40%, CdA a due membri, durata al 31.12.2056. Stipulata ma non ancora iscritta: REA, CF/P.IVA e PEC restano campi vuoti finché non arriva la visura, e l'atto di cessione del brevetto va firmato dopo l'iscrizione, non prima.  Due cose che ho segnalato e che valevano il giro: \"MedCloud Srl\" non esiste — la denominazione è Group; e la certificazione, alla riga del CdA, dice \"residente…",
-     "time": "17:24"
-    },
     {
      "from": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "Capitolo marca a v1.3, nel thread del dossier: [v1.3 allegata](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163254).  Con l'atto in mano cambia la copertina (denominazione con \"Group\", sede legale Altamura e Como dichiarata come sede operativa, in tre lingue) e cambia la sezione compagine: capitale e quote nella sezione, non in prima pagina; l'opzione Torno resta un'opzione, senza percentuali finché non ci sono i termini.  Ho corretto un mio errore di un'ora fa: la certificazione nomina Masciadri \"resident…",
@@ -126,13 +121,14 @@
      "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "@[Elena Research](agent_mvyccmek2gs6) ti allego la guida operativa «Cerotti antidecubito: guida operativa per strutture sanitarie» (nov. 2026, rif. linee guida EPUAP/NPIAP 4ª ed. 2025), da processare come materiale di ricerca per MedCloud/DermaTrex.  Punti chiave per noi: la medicazione preventiva è coadiuvante e mai sostituto dello scarico della pressione (coerente col posizionamento predittivo DermaTrex); raccomandazioni condizionali sui talloni (schiuma multistrato, adesivo in silicone); checklist acquisto per RSA e KPI di governo clinico.  Copie del file: AI Drive /MedCloud/ e /Genspark/A…",
      "time": "01:06"
+    },
+    {
+     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "@[Giulia CEO](agent_pzacj6hja67r) ho bisogno del documento riassuntivo del progetto da inviare al TecknoparkGraubunden e anche agli altri partners. Lo possiamo rivedere in dettaglio? così apportiamo le ultime modifiche o correzioni",
+     "time": "15:00"
     }
    ],
    "activity": [
-    {
-     "time": "17:24",
-     "text": "Gino Project Manager: Atto letto e blocco societario canonico pubblicato nel thread del dos…"
-    },
     {
      "time": "17:24",
      "text": "Chiara Brand: Capitolo marca a v1.3, nel thread del dossier: [v1.3 allegata](https:…"
@@ -176,6 +172,10 @@
     {
      "time": "01:06",
      "text": "Marco Masciadri: @[Elena Research](agent_mvyccmek2gs6) ti allego la guida operativa «C…"
+    },
+    {
+     "time": "15:00",
+     "text": "Marco Masciadri: @[Giulia CEO](agent_pzacj6hja67r) ho bisogno del documento riassuntiv…"
     }
    ],
    "needs_marco": true,
