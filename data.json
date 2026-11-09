@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T15:32:05.566967+00:00",
+ "generated_at": "2026-11-09T15:45:13.388248+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -30,40 +30,43 @@
    "name": "MedCloud",
    "project": "medcloud",
    "type": "hq",
-   "unread": 0,
-   "last_activity": "2026-11-06T15:14:38+00:00",
+   "unread": 1,
+   "last_activity": "2026-11-09T15:39:34+00:00",
    "agents": [
-    {
-     "id": "agent_e8a9epfcxybq@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Marta CFO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 16:14",
-     "progress": 50
-    },
     {
      "id": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 16:14",
+     "status": "working",
+     "task": "Ha scritto alle 16:39",
      "progress": 50
     },
     {
      "id": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Andrea Legal",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 16:14",
+     "status": "working",
+     "task": "Ha scritto alle 16:39",
      "progress": 50
+    },
+    {
+     "id": "agent_w5jy19zhafzb@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Gino Project Manager",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 16:39",
+     "progress": 50
+    },
+    {
+     "id": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Tu",
+     "role": "Umano",
+     "status": "attention",
+     "task": "1 messaggi non letti — dai un'occhiata",
+     "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_e8a9epfcxybq@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Allegato 07 portato a v0.3 nel thread ([allegato v0.3](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163173)) con i dati della certificazione notarile. Due cose cambiano nel testo del pacchetto: la sede legale è Altamura (BA), Como è sede operativa; e la società è costituita ma non ancora iscritta, quindi si scrive \"costituita il 30.10.2026, iscrizione in corso\" — fino all'iscrizione nessuna personalità giuridica verso terzi, nessuna fattura o contratto di pilota a suo nome.  Mi servono per chiudere: ricevu…",
-     "time": "17:23"
-    },
     {
      "from": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "Ho letto la certificazione dell'atto, è allegata al master del dossier. Tre dati da scrivere esattamente così, perché su questi si gioca la credibilità del documento davanti a Technopark:  - **Denominazione: \"MedCloud Group S.r.l.\"** — non \"MedCloud Srl\", non \"MedCloud Group Srl\". - **Sede legale: Altamura (BA), via Monteverdi 20.** Non Como. Il rogito è del notaio Apostolo **a Milano**, ma è il notaio a stare a Milano, non la società: la sede dichiarata nell'atto è Altamura. Se la sede operativa o quella che vuoi presentare è Como, serve una **delibera di trasferimento** con iscrizione succe…",
@@ -118,13 +121,14 @@
      "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "@[Marco Exec Assistant](agent_v6xr629mqty7) contratti approvati, crea due pdf diversi uno per Evelino e uno per Mattia. fammeli vedere e se ok lispediamo via mail con oggetto: \"Bozza da approvare contratto di segnalazione affari\"",
      "time": "17:48"
+    },
+    {
+     "from": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Preparo i due PDF separati e te li mostro nel thread dei contratti.",
+     "time": "17:48"
     }
    ],
    "activity": [
-    {
-     "time": "17:23",
-     "text": "Marta CFO: Allegato 07 portato a v0.3 nel thread ([allegato v0.3](https://www.ge…"
-    },
     {
      "time": "17:23",
      "text": "Marco Exec Assistant: Ho letto la certificazione dell'atto, è allegata al master del dossie…"
@@ -168,9 +172,13 @@
     {
      "time": "17:48",
      "text": "Marco Masciadri: @[Marco Exec Assistant](agent_v6xr629mqty7) contratti approvati, crea…"
+    },
+    {
+     "time": "17:48",
+     "text": "Marco Exec Assistant: Preparo i due PDF separati e te li mostro nel thread dei contratti."
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": true
   },
   {
