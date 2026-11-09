@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T14:39:32.194590+00:00",
+ "generated_at": "2026-11-09T14:52:35.782834+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1159,9 +1159,9 @@
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 14:54",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
