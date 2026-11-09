@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:37:47.507738+00:00",
+ "generated_at": "2026-11-09T16:50:49.537210+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -30,31 +30,31 @@
    "name": "MedCloud",
    "project": "medcloud",
    "type": "hq",
-   "unread": 1,
-   "last_activity": "2026-11-09T15:39:34+00:00",
+   "unread": 3,
+   "last_activity": "2026-11-09T16:49:04+00:00",
    "agents": [
-    {
-     "id": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Marco Exec Assistant",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 16:39",
-     "progress": 50
-    },
-    {
-     "id": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Andrea Legal",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 16:39",
-     "progress": 50
-    },
     {
      "id": "agent_w5jy19zhafzb@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Gino Project Manager",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 16:39",
+     "status": "working",
+     "task": "Ha scritto alle 17:49",
+     "progress": 50
+    },
+    {
+     "id": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Chiara Brand",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 17:49",
+     "progress": 50
+    },
+    {
+     "id": "agent_e8a9epfcxybq@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Marta CFO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 17:49",
      "progress": 50
     },
     {
@@ -62,21 +62,11 @@
      "name": "Tu",
      "role": "Umano",
      "status": "attention",
-     "task": "1 messaggi non letti — dai un'occhiata",
+     "task": "3 messaggi non letti — dai un'occhiata",
      "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Ho letto la certificazione dell'atto, è allegata al master del dossier. Tre dati da scrivere esattamente così, perché su questi si gioca la credibilità del documento davanti a Technopark:  - **Denominazione: \"MedCloud Group S.r.l.\"** — non \"MedCloud Srl\", non \"MedCloud Group Srl\". - **Sede legale: Altamura (BA), via Monteverdi 20.** Non Como. Il rogito è del notaio Apostolo **a Milano**, ma è il notaio a stare a Milano, non la società: la sede dichiarata nell'atto è Altamura. Se la sede operativa o quella che vuoi presentare è Como, serve una **delibera di trasferimento** con iscrizione succe…",
-     "time": "17:23"
-    },
-    {
-     "from": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Letto l'atto costitutivo e aggiornata la sezione legale nel thread del dossier: [analisi dell'atto e sezione v1.2](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163188).  Due punti che valgono più del resto. La **sede legale è Altamura (BA)**, non Como: ogni documento che dica \"Como\" contraddice il registro. E la società, come attesta la certificazione, è **stipulata ma non ancora iscritta** — esiste verso terzi dall'iscrizione, quindi l'atto di cessione del brevetto si firma dopo la visura, non prima. Il C…",
-     "time": "17:23"
-    },
     {
      "from": "agent_w5jy19zhafzb@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "Atto letto e blocco societario canonico pubblicato nel thread del dossier: **MedCloud Group S.r.l.**, sede legale Altamura (BA) via Monteverdi 20 — Como resta operativa —, capitale €100 con Primerano 60% e Masciadri 40%, CdA a due membri, durata al 31.12.2056. Stipulata ma non ancora iscritta: REA, CF/P.IVA e PEC restano campi vuoti finché non arriva la visura, e l'atto di cessione del brevetto va firmato dopo l'iscrizione, non prima.  Due cose che ho segnalato e che valevano il giro: \"MedCloud Srl\" non esiste — la denominazione è Group; e la certificazione, alla riga del CdA, dice \"residente…",
@@ -126,17 +116,19 @@
      "from": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "Preparo i due PDF separati e te li mostro nel thread dei contratti.",
      "time": "17:48"
+    },
+    {
+     "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Ciao, sono Paolo Clinical & Research Advisor: in MedCloud porto il livello clinico e scientifico di vulnologia e wound care. Mentre il dossier, il posizionamento e la parte regolatoria prendono forma, il mio contributo è tenere solida la parte che riguarda lesioni cutanee e prevenzione — inquadramento eziologico, ragionamento sul caso, lettura critica di linee guida e letteratura, definizione di endpoint e criteri di validazione per ciò che il prodotto dichiara. Non sostituisco visita, diagnosi o prescrizione e non firmo protocolli come se fossero già validati: lavoro su bozze da validare nel…",
+     "time": "18:38"
+    },
+    {
+     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "@[Elena Research](agent_mvyccmek2gs6) ti allego la guida operativa «Cerotti antidecubito: guida operativa per strutture sanitarie» (nov. 2026, rif. linee guida EPUAP/NPIAP 4ª ed. 2025), da processare come materiale di ricerca per MedCloud/DermaTrex.  Punti chiave per noi: la medicazione preventiva è coadiuvante e mai sostituto dello scarico della pressione (coerente col posizionamento predittivo DermaTrex); raccomandazioni condizionali sui talloni (schiuma multistrato, adesivo in silicone); checklist acquisto per RSA e KPI di governo clinico.  Copie del file: AI Drive /MedCloud/ e /Genspark/A…",
+     "time": "01:06"
     }
    ],
    "activity": [
-    {
-     "time": "17:23",
-     "text": "Marco Exec Assistant: Ho letto la certificazione dell'atto, è allegata al master del dossie…"
-    },
-    {
-     "time": "17:23",
-     "text": "Andrea Legal: Letto l'atto costitutivo e aggiornata la sezione legale nel thread de…"
-    },
     {
      "time": "17:24",
      "text": "Gino Project Manager: Atto letto e blocco societario canonico pubblicato nel thread del dos…"
@@ -176,6 +168,14 @@
     {
      "time": "17:48",
      "text": "Marco Exec Assistant: Preparo i due PDF separati e te li mostro nel thread dei contratti."
+    },
+    {
+     "time": "18:38",
+     "text": "Paolo Clinical & Research Advisor: Ciao, sono Paolo Clinical & Research Advisor: in MedCloud porto il li…"
+    },
+    {
+     "time": "01:06",
+     "text": "Marco Masciadri: @[Elena Research](agent_mvyccmek2gs6) ti allego la guida operativa «C…"
     }
    ],
    "needs_marco": true,
