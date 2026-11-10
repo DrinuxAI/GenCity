@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T06:01:26.228958+00:00",
+ "generated_at": "2026-11-10T06:14:45.813117+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_2695cd8b2b4e5ab2d57b",
+   "name": "Nadia News",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 8,
+   "last_activity": "2026-11-10T06:03:11+00:00",
+   "agents": [
+    {
+     "id": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "name": "Nadia News",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "OK, prendo in carico la rassegna stampa quotidiana: parto subito con le ultime 24 ore (max 8 voci, italiano, quattro filoni) e ti porto qui il primo numero con fonti e angolazioni, più una proposta di format ricorrente. Sto raccogliendo e verificando le fonti adesso.",
+     "time": "18:58"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese, salute digitale, finanza).  1) [AI & imprese — Italia] Solo una PMI su quattro usa l'IA ogni giorno ANSA, 28/10/2026 — https://www.ansa.it/canale_tecnologia/notizie/future_tech/2026/10/28/solo-1-pmi-su-4-usa-lia-nelle-attivita-quotidiane_0b66d35f-0f99-446d-9d71-13fc57ddff13.html Ricerca Ipsos per Meta su 500 imprese, presentata all'AI Forum di Roma: una PMI su quattro usa l'IA nelle attività quotidiane, sette su dieci le riconoscono un risparmio di tempo e risorse. Il 31% delle microimprese non l'ha mai usata; il 73% chiede…",
+     "time": "19:01"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ricorrente e i limiti di copertura. In allegato il file con la tabella delle evidenze voce per voce.  5) [Svizzera — policy] Berna sceglie standard volontari e codici di settore per l'IA Consiglio federale / admin.ch, 28/10/2026 — https://www.admin.ch/it/newnsb/s2TQiUUjrA5D Il Consiglio federale prende atto dei progressi nell'attuazione della convenzione del Consiglio d'Europa sull'IA (ratifica decisa il 12 febbraio 2025): l'UFCOM coordina misure non vincolanti — linee guida per un \"codice sull'IA\" con modelli su 10 temi e tre …",
+     "time": "19:02"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fine settimana cumula 72 ore di notizie, te lo spiego in coda).  1) [Italia — imprese & policy] La manovra apre al credito d'imposta sul software, l'iperammortamento resta senza proroga Corriere Comunicazioni, 29/10 — https://www.corrierecomunicazioni.it/industria-4-0/software-as-a-service-il-governo-apre-al-credito-dimposta-anitec-assinform/ · Agenda Digitale, 30/10 — https://www.agendadigitale.eu/documenti/legge-di-bilancio-2027-tutte-le-misure-per-imprese-lavoro-e-digitale/ Il viceministro Leo conferma l'idea di affiancare a…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Finanza & cripto] Binance: 6,3 miliardi sottratti, 3 congelati, prelievi riaperti Binance, annuncio 30/10 — https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7 · Il Sole 24 Ore, 1/11 — https://www.ilsole24ore.com/art/binance-riapre-prelievi-l-hack-6-miliardi-scenario-gli-utenti-italiani-AJSYH10B L'indagine iniziale indica un laptop di un ingegnere DevOps compromesso, da cui l'attaccante ha raggiunto un container di servizio …",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole italiane, cripto, commercio UE).  1) [AI & imprese] Chi usa l'IA prevede di assumere di più, non di meno economia.it, 2/11 — https://www.ekonomia.it/2026/11/02/piccole-imprese-e-intelligenza-artificiale-e-quel-dato-a-sorpresa-sulle-assunzio · studio: Fed di New York, Liberty Street Economics, 8/10 — https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/ Nella Small Business Credit Survey 2025 (5.248 imprese con dipendenti) il 46% delle pic…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — sicurezza digitale] Rubati i dati di 40.000 tra studenti e insegnanti nel canton Vaud swissinfo/Keystone-SDA, 31/10 — https://www.swissinfo.ch/eng/swiss-politics/data-of-40000-swiss-students-and-teachers-stolen/92306960 Un attacco ha colpito la piattaforma di supporto IT degli istituti del post-obbligo vodese: dati personali di circa 3.500 insegnanti e 38.000 studenti. Angolo: è un incidente di catena di fornitura, non di tecnologia — i dati di minori…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI enterprise, inflazione, salari).  1) [Salute digitale] Quattro svizzeri su dieci usano l'IA per l'autodiagnosi swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/four-in-ten-swiss-people-use-ai-for-self-diagnosis/92319008 Secondo la CSS Health Study (Sotomo, 2.459 persone nelle tre regioni linguistiche) l'uso di assistenti IA per sintomi fisici e psicologici è passato dal 20% al 42% in un anno: 62% tra i giovani adulti, 30% tra gli over 65 (dal 10%). Oltre un quarto li colloca tra le fonti sanitarie più import…",
+     "time": "07:03"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — pharma] Lonza raddoppia la produzione conto terzi negli Stati Uniti swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/lonza-is-significantly-expanding-its-contract-manufacturing-operations-for-the-pharmaceutical-industry-in-the-us/92317961 Lonza acquista cinque impianti dal gruppo tedesco Merck e porta la presenza CDMO negli USA da quattro a nove siti, con circa 1.100 dipendenti in ingresso e oltre 6.000 addetti americani; valutazione aziendale t…",
+     "time": "07:03"
+    },
+    {
+     "from": "human@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "trovami info su il round da 2,5 milioni di TechVisory",
+     "time": "15:20"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Ci guardo subito: il round è di febbraio 2026, non di questi giorni — ti mando i dettagli e perché sta ricircolando.",
+     "time": "15:20"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Ecco il quadro, con una premessa che conta: quel round non è di questi giorni. È stato annunciato il 27 febbraio 2026 e sta ricircolando perché l'1 novembre un sito di settore l'ha ripreso come se fosse nuovo. Se ti serviva per un post \"di attualità\", meglio saperlo prima.  Cosa è successo TechVisory srl ha chiuso un aumento di capitale da 2,5 milioni di euro, interamente sottoscritto da investitori istituzionali. Il nome degli investitori non è stato reso pubblico (lo scrive BeBeez, che ha seguito l'operazione il 2 marzo); Milano Finanza parlava di \"investitori istituzionali e family office\"…",
+     "time": "15:21"
+    }
+   ],
+   "activity": [
+    {
+     "time": "18:58",
+     "text": "Nadia News: OK, prendo in carico la rassegna stampa quotidiana: parto subito con …"
+    },
+    {
+     "time": "19:01",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese,…"
+    },
+    {
+     "time": "19:02",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ric…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fin…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di co…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole i…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di cope…"
+    },
+    {
+     "time": "07:03",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI en…"
+    },
+    {
+     "time": "07:03",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la wa…"
+    },
+    {
+     "time": "15:20",
+     "text": "Marco Masciadri: trovami info su il round da 2,5 milioni di TechVisory"
+    },
+    {
+     "time": "15:20",
+     "text": "Nadia News: Ci guardo subito: il round è di febbraio 2026, non di questi giorni —…"
+    },
+    {
+     "time": "15:21",
+     "text": "Nadia News: Ecco il quadro, con una premessa che conta: quel round non è di quest…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
@@ -1409,138 +1541,6 @@
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_2695cd8b2b4e5ab2d57b",
-   "name": "Nadia News",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 6,
-   "last_activity": "2026-11-09T06:03:14+00:00",
-   "agents": [
-    {
-     "id": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "name": "Nadia News",
-     "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "OK, prendo in carico la rassegna stampa quotidiana: parto subito con le ultime 24 ore (max 8 voci, italiano, quattro filoni) e ti porto qui il primo numero con fonti e angolazioni, più una proposta di format ricorrente. Sto raccogliendo e verificando le fonti adesso.",
-     "time": "18:58"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese, salute digitale, finanza).  1) [AI & imprese — Italia] Solo una PMI su quattro usa l'IA ogni giorno ANSA, 28/10/2026 — https://www.ansa.it/canale_tecnologia/notizie/future_tech/2026/10/28/solo-1-pmi-su-4-usa-lia-nelle-attivita-quotidiane_0b66d35f-0f99-446d-9d71-13fc57ddff13.html Ricerca Ipsos per Meta su 500 imprese, presentata all'AI Forum di Roma: una PMI su quattro usa l'IA nelle attività quotidiane, sette su dieci le riconoscono un risparmio di tempo e risorse. Il 31% delle microimprese non l'ha mai usata; il 73% chiede…",
-     "time": "19:01"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ricorrente e i limiti di copertura. In allegato il file con la tabella delle evidenze voce per voce.  5) [Svizzera — policy] Berna sceglie standard volontari e codici di settore per l'IA Consiglio federale / admin.ch, 28/10/2026 — https://www.admin.ch/it/newnsb/s2TQiUUjrA5D Il Consiglio federale prende atto dei progressi nell'attuazione della convenzione del Consiglio d'Europa sull'IA (ratifica decisa il 12 febbraio 2025): l'UFCOM coordina misure non vincolanti — linee guida per un \"codice sull'IA\" con modelli su 10 temi e tre …",
-     "time": "19:02"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fine settimana cumula 72 ore di notizie, te lo spiego in coda).  1) [Italia — imprese & policy] La manovra apre al credito d'imposta sul software, l'iperammortamento resta senza proroga Corriere Comunicazioni, 29/10 — https://www.corrierecomunicazioni.it/industria-4-0/software-as-a-service-il-governo-apre-al-credito-dimposta-anitec-assinform/ · Agenda Digitale, 30/10 — https://www.agendadigitale.eu/documenti/legge-di-bilancio-2027-tutte-le-misure-per-imprese-lavoro-e-digitale/ Il viceministro Leo conferma l'idea di affiancare a…",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Finanza & cripto] Binance: 6,3 miliardi sottratti, 3 congelati, prelievi riaperti Binance, annuncio 30/10 — https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7 · Il Sole 24 Ore, 1/11 — https://www.ilsole24ore.com/art/binance-riapre-prelievi-l-hack-6-miliardi-scenario-gli-utenti-italiani-AJSYH10B L'indagine iniziale indica un laptop di un ingegnere DevOps compromesso, da cui l'attaccante ha raggiunto un container di servizio …",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole italiane, cripto, commercio UE).  1) [AI & imprese] Chi usa l'IA prevede di assumere di più, non di meno economia.it, 2/11 — https://www.ekonomia.it/2026/11/02/piccole-imprese-e-intelligenza-artificiale-e-quel-dato-a-sorpresa-sulle-assunzio · studio: Fed di New York, Liberty Street Economics, 8/10 — https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/ Nella Small Business Credit Survey 2025 (5.248 imprese con dipendenti) il 46% delle pic…",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — sicurezza digitale] Rubati i dati di 40.000 tra studenti e insegnanti nel canton Vaud swissinfo/Keystone-SDA, 31/10 — https://www.swissinfo.ch/eng/swiss-politics/data-of-40000-swiss-students-and-teachers-stolen/92306960 Un attacco ha colpito la piattaforma di supporto IT degli istituti del post-obbligo vodese: dati personali di circa 3.500 insegnanti e 38.000 studenti. Angolo: è un incidente di catena di fornitura, non di tecnologia — i dati di minori…",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI enterprise, inflazione, salari).  1) [Salute digitale] Quattro svizzeri su dieci usano l'IA per l'autodiagnosi swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/four-in-ten-swiss-people-use-ai-for-self-diagnosis/92319008 Secondo la CSS Health Study (Sotomo, 2.459 persone nelle tre regioni linguistiche) l'uso di assistenti IA per sintomi fisici e psicologici è passato dal 20% al 42% in un anno: 62% tra i giovani adulti, 30% tra gli over 65 (dal 10%). Oltre un quarto li colloca tra le fonti sanitarie più import…",
-     "time": "07:03"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — pharma] Lonza raddoppia la produzione conto terzi negli Stati Uniti swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/lonza-is-significantly-expanding-its-contract-manufacturing-operations-for-the-pharmaceutical-industry-in-the-us/92317961 Lonza acquista cinque impianti dal gruppo tedesco Merck e porta la presenza CDMO negli USA da quattro a nove siti, con circa 1.100 dipendenti in ingresso e oltre 6.000 addetti americani; valutazione aziendale t…",
-     "time": "07:03"
-    },
-    {
-     "from": "human@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "trovami info su il round da 2,5 milioni di TechVisory",
-     "time": "15:20"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Ci guardo subito: il round è di febbraio 2026, non di questi giorni — ti mando i dettagli e perché sta ricircolando.",
-     "time": "15:20"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Ecco il quadro, con una premessa che conta: quel round non è di questi giorni. È stato annunciato il 27 febbraio 2026 e sta ricircolando perché l'1 novembre un sito di settore l'ha ripreso come se fosse nuovo. Se ti serviva per un post \"di attualità\", meglio saperlo prima.  Cosa è successo TechVisory srl ha chiuso un aumento di capitale da 2,5 milioni di euro, interamente sottoscritto da investitori istituzionali. Il nome degli investitori non è stato reso pubblico (lo scrive BeBeez, che ha seguito l'operazione il 2 marzo); Milano Finanza parlava di \"investitori istituzionali e family office\"…",
-     "time": "15:21"
-    }
-   ],
-   "activity": [
-    {
-     "time": "18:58",
-     "text": "Nadia News: OK, prendo in carico la rassegna stampa quotidiana: parto subito con …"
-    },
-    {
-     "time": "19:01",
-     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese,…"
-    },
-    {
-     "time": "19:02",
-     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ric…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fin…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di co…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole i…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di cope…"
-    },
-    {
-     "time": "07:03",
-     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI en…"
-    },
-    {
-     "time": "07:03",
-     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la wa…"
-    },
-    {
-     "time": "15:20",
-     "text": "Marco Masciadri: trovami info su il round da 2,5 milioni di TechVisory"
-    },
-    {
-     "time": "15:20",
-     "text": "Nadia News: Ci guardo subito: il round è di febbraio 2026, non di questi giorni —…"
-    },
-    {
-     "time": "15:21",
-     "text": "Nadia News: Ecco il quadro, con una premessa che conta: quel round non è di quest…"
-    }
-   ],
-   "needs_marco": true,
    "marco_mentioned": false
   },
   {
