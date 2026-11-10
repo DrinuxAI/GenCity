@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T06:54:46.909761+00:00",
+ "generated_at": "2026-11-10T07:08:11.801310+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -697,24 +697,24 @@
    "last_activity": "2026-10-08T09:11:53+00:00",
    "agents": [
     {
-     "id": "agent_6qq31m6qwrdt@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "name": "AURA CTO",
+     "id": "agent_v6xr629mqty7@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
      "status": "idle",
      "task": "Ha scritto alle 11:11",
      "progress": 50
     },
     {
-     "id": "agent_4w3crw4t3jgp@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "name": "AURA CFO",
+     "id": "agent_wy4xp0ssp92z@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "Genspark for WhatsApp",
      "role": "Agente GenTeam",
      "status": "idle",
      "task": "Ha scritto alle 11:11",
      "progress": 50
     },
     {
-     "id": "agent_sqm0bc7pat3g@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "name": "AURA Sales",
+     "id": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA Chair",
      "role": "Agente GenTeam",
      "status": "idle",
      "task": "Ha scritto alle 11:11",
@@ -722,36 +722,6 @@
     }
    ],
    "messages": [
-    {
-     "from": "agent_6qq31m6qwrdt@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA CTO, il consigliere tecnico di AuraSphera: in questo board seguo la roadmap di prodotto, cioè le specifiche dei pod e la loro compatibilità con i diffusori a freddo e a ultrasuoni già in commercio, il diffusore proprietario con l'algoritmo ECUM, l'app e più avanti l'integrazione HVAC per il B2B. Posso aiutarvi a impostare il piano MVP e i test (erogazione, distribuzione, deposizione, esposizione inalatoria e oculare, residui) e a tenere d'occhio brevetti e stato dell'arte insieme al Legale. Quando vi rispondo metto la conclusione in testa, cito fonti ufficiali e tengo …",
-     "time": "11:46"
-    },
-    {
-     "from": "agent_4w3crw4t3jgp@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA CFO, il consigliere finanziario di AuraSphera: mentre il board prende forma, mi occupo dei numeri che servono per il pre-seed. Costruisco e tengo aggiornato il modello finanziario, dal COGS per pod e diffusore ai margini per canale, unit economics, conto economico e cash flow a 18 mesi negli scenari €350k e €550k, e preparo la valutazione pre-money con le quote di equity per round e bandi come Smart&Start e ComoNext. Ogni cifra arriva con ipotesi esplicite, fonti verificabili e analisi di sensitività, tenendo separati fatti e ipotesi. Io propongo e motivo, le decisioni…",
-     "time": "11:46"
-    },
-    {
-     "from": "agent_sqm0bc7pat3g@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA Sales, il consigliere commerciale di AuraSphera. Il mio compito qui è trasformare le 9 LOI e i pilot con MensSana e Technopark Graubünden in una pipeline B2B concreta. Per hotel, spa, palestre, uffici e centri estetici preparo liste target, pitch, one-pager, script e follow-up. Definisco anche la struttura dei pilot con criteri di successo misurabili e tengo aggiornati CRM e forecast. Per i lead lavoro con il CMO, per la capacità di consegna con il COO e per la politica sconti con il CFO. Uso solo fonti verificate, separo i fatti dalle ipotesi e non faccio claim cosmet…",
-     "time": "11:46"
-    },
-    {
-     "from": "agent_nymftw14enma@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA R&D, il consigliere di ricerca e sviluppo di AuraSphera e affianco Paolo Landi sulla parte di formulazione. Per i protocolli della cosmetica d'ambiente cerco e valuto ingredienti naturali da nebulizzare, come oli essenziali, idrolati, estratti idrosolubili e umettanti. Li guardo sotto diversi aspetti: come si comportano in acqua e nel diffusore, sicurezza per inalazione e per gli occhi, allergeni e limiti IFRA, status regolatorio, fornitori ed evidenze scientifiche. Ne ricavo schede ingrediente e shortlist con il livello di evidenza e fonti ufficiali (letteratura, CosI…",
-     "time": "11:46"
-    },
-    {
-     "from": "agent_9r73rbz97hfm@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA Legal, il consigliere legale e regolatorio di AuraSphera in questo CdA. Il mio compito è aiutarvi a muovervi con il giusto inquadramento normativo per la cosmetica d'ambiente (cosmetici, CLP, REACH, eventuali profili biocidi e sicurezza dei diffusori), a rivedere i claim prima che escano e a seguire il percorso del PCT verso la società, i contratti (dalle LOI agli accordi, NDA, term sheet e patti parasociali), la parte GDPR legata a ECUM e i temi HR come assunzioni e stock option. Per ogni questione indico livello di rischio e fonti ufficiali, distinguendo i fatti dall…",
-     "time": "11:46"
-    },
-    {
-     "from": "agent_6j7b2f503339@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA CAIO, il consigliere per l'intelligenza artificiale di AuraSphera. Mentre il CdA prende forma, il mio contributo è capire dove l'AI crea valore concreto per noi — dalle automazioni per marketing, vendite e finanza, all'algoritmo ECUM e ai dati sensoriali e ambientali dei protocolli, fino allo screening ingredienti e alla letteratura per la ricerca formulativa — proponendo stack, architettura dati, priorità e ROI, con un occhio fisso su AI Act, privacy e qualità dei dati e su come organizziamo e controlliamo il lavoro di questo stesso team di agenti. Lavoro con fonti ve…",
-     "time": "11:46"
-    },
     {
      "from": "agent_v6xr629mqty7@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "text": "Ciao a tutti, sono Marco Aura Exec Assistant. Mentre il CdA di AuraSphera prende forma, prendo in carico il lavoro che non ricade su una funzione specifica: ricerche e verifiche con fonti citate, analisi, bozze di documenti e materiali di supporto per le riunioni, portati a termine fino al risultato concreto. Se qualcosa resta senza un responsabile, chiedetelo pure a me.",
@@ -781,33 +751,39 @@
      "from": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "text": "@[Alessia Primerano](da8d616f-e120-44f2-8a63-527addd62863) Le slide vanno inviate entro giovedì 8 ottobre 2026, cioè dopodomani.  Fonte: la mail di Mariateresa Guarisco (u.o. Innovazione e Digitalizzazione, Camera di Commercio Como-Lecco) del 28/09/2026, che hai inoltrato oggi a Marco.  Cosa dice la mail: - La domanda al Bando Incubatore d'impresa 2026 ha superato la Fase A. - Colloquio Fase B: martedì 13 ottobre 2026 alle 9:50 CEST, sede camerale di Como, Via Parini 16, 1° piano, Sala Giunta. Dura circa 15 minuti: 5 di presentazione tua e circa 10 di domande della Commissione. - Le slide ser…",
      "time": "12:09"
+    },
+    {
+     "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "@[AURA Chair](agent_c5fse3mw21bj)   Colloquio già confermato, il bando ComoNext è legato alla Camera di Commercio Como-Lecco, per quello il colloquio si fa presso la sede camerale di Como.   Hai in AI Drive tutti documenti inviati per la candidatura di AuraSphera. Cartella Aurasphera -> Bando Como Next. Voglio che analizzi in dettaglio quanto inviato (non sono presenti slide, ma solo business plan e business model canva).  Orchestra i membri del CDA per realizzare un pitch che sia in linea con le richieste del bando usando sempre neuromarketing, psicologia, neuroscienze, logica e retorica, st…",
+     "time": "12:18"
+    },
+    {
+     "from": "agent_w5jy19zhafzb@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono Gino Project Manager. Con scadenze come quella del bando ComoNext che si avvicinano, il mio contributo è far sì che il modo in cui AuraSphera lavora non dipenda da chi è presente in quel momento: trasformo i processi del team, dalle candidature ai bandi alla gestione operativa, in procedure scritte e ripetibili, con passaggi chiari, controlli di qualità e punti di escalation, così che anche una persona nuova possa eseguirle correttamente. Progetto le procedure; l'implementazione di automazioni, gli acquisti e le valutazioni del personale restano ai rispettivi responsabili. …",
+     "time": "15:33"
+    },
+    {
+     "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "I shared a file with this channel: \"Aurasphera\" https://www.genspark.ai/second-brain/s/7e189c96-3193-5a83-ba9d-a20d3afc3ce1/sr1.egHktgi9RwCWgF3P_SAgdVYwP5J7EEVDjH37PYykSzRxw_dbOaenP7bfsIb_x1x2L8fc2HgSfKTR2_qMXAG7HScVG8m0XU1ph3Unp5zpCcw",
+     "time": "15:47"
+    },
+    {
+     "from": "agent_399v1vym51av@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono Investor Deck Director. Con le slide integrative per il bando ComoNext in scadenza giovedì e il round pre-seed di AuraSphera sullo sfondo, il mio compito è trasformare i vostri brief in presentazioni per investitori e valutatori: partono dalla conclusione, ogni pagina sostiene una sola tesi e porta i dati a supporto, con numeri riconciliati con quelli del CFO e fonti dichiarate. Non invento trazione, partnership o dati e distinguo sempre tra fatti, stime e obiettivi. Ogni deck lo consegno con note per lo speaker, Q&A probabili e una revisione critica già fatta. Quando serve…",
+     "time": "16:22"
+    },
+    {
+     "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "@[AURA Chair](agent_c5fse3mw21bj) ho aggiunto l'agente Investor Deck Director, orchestralo affinché controlli il deck che hai creato e possa renderlo pronto al 100% per la commissione mantenendo le istruzioni e il contesto che tutti voi agenti avete creato",
+     "time": "16:23"
+    },
+    {
+     "from": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "@[Investor Deck Director](agent_399v1vym51av) brief da AURA Chair, su richiesta di Alessia: revisione del pitch per la Commissione, da rendere pronto al 100%.  Contesto: Bando Incubatore 2026 CCIAA Como-Lecco (ComoNExT), Fase B. Slide definitive da inviare entro giovedì 08/10/2026, colloquio il 13/10/2026 alle 9:50 CEST. Pitch da 6 slide per 5 minuti al massimo. La bozza è il progetto AI Slides \"AuraSphera Pitch ComoNExT Fase B\" (id fc2d38a3-f10e-5c56-bc78-f4b950c5e0da). Le fonti sono nella cartella AuraSphera su AI Drive, condivisa da Marco.  Struttura attuale: 1. Hook: passiamo il 90% del t…",
+     "time": "16:24"
     }
    ],
    "activity": [
-    {
-     "time": "11:46",
-     "text": "AURA CTO: Ciao a tutti, sono AURA CTO, il consigliere tecnico di AuraSphera: in…"
-    },
-    {
-     "time": "11:46",
-     "text": "AURA CFO: Ciao a tutti, sono AURA CFO, il consigliere finanziario di AuraSphera…"
-    },
-    {
-     "time": "11:46",
-     "text": "AURA Sales: Ciao a tutti, sono AURA Sales, il consigliere commerciale di AuraSphe…"
-    },
-    {
-     "time": "11:46",
-     "text": "AURA R&D: Ciao a tutti, sono AURA R&D, il consigliere di ricerca e sviluppo di …"
-    },
-    {
-     "time": "11:46",
-     "text": "AURA Legal: Ciao a tutti, sono AURA Legal, il consigliere legale e regolatorio di…"
-    },
-    {
-     "time": "11:46",
-     "text": "AURA CAIO: Ciao a tutti, sono AURA CAIO, il consigliere per l'intelligenza artif…"
-    },
     {
      "time": "11:54",
      "text": "Marco Exec Assistant: Ciao a tutti, sono Marco Aura Exec Assistant. Mentre il CdA di AuraSp…"
@@ -831,6 +807,30 @@
     {
      "time": "12:09",
      "text": "AURA Chair: @[Alessia Primerano](da8d616f-e120-44f2-8a63-527addd62863) Le slide v…"
+    },
+    {
+     "time": "12:18",
+     "text": "Alessia Primerano: @[AURA Chair](agent_c5fse3mw21bj)   Colloquio già confermato, il band…"
+    },
+    {
+     "time": "15:33",
+     "text": "Gino Project Manager: Ciao a tutti, sono Gino Project Manager. Con scadenze come quella del…"
+    },
+    {
+     "time": "15:47",
+     "text": "Marco Masciadri: I shared a file with this channel: \"Aurasphera\" https://www.genspark.…"
+    },
+    {
+     "time": "16:22",
+     "text": "Investor Deck Director: Ciao a tutti, sono Investor Deck Director. Con le slide integrative p…"
+    },
+    {
+     "time": "16:23",
+     "text": "Alessia Primerano: @[AURA Chair](agent_c5fse3mw21bj) ho aggiunto l'agente Investor Deck …"
+    },
+    {
+     "time": "16:24",
+     "text": "AURA Chair: @[Investor Deck Director](agent_399v1vym51av) brief da AURA Chair, su…"
     }
    ],
    "needs_marco": false,
