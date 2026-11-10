@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T08:01:48.767184+00:00",
+ "generated_at": "2026-11-10T08:15:16.317170+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -37,7 +37,7 @@
      "id": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 08:19",
      "progress": 50
     },
@@ -45,7 +45,7 @@
      "id": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Chiara Brand",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 08:19",
      "progress": 50
     },
@@ -53,7 +53,7 @@
      "id": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Andrea Legal",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 08:19",
      "progress": 50
     }
