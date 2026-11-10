@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:30:00.471620+00:00",
+ "generated_at": "2026-11-10T12:43:28.287854+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1030,33 +1030,18 @@
    "project": "medcloud",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-10T12:19:57+00:00",
+   "last_activity": "2026-11-10T12:31:35+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 13:19",
+     "task": "Ultimo intervento 13:31",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ok punto 1 livello base dammi il prompt per gencode",
-     "time": "11:54"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco il prompt. Un ruolo, non un'eccezione.",
-     "time": "11:54"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "``` PUNTO 15-bis — ruolo «evaluator»: il valutatore vede tutto e non tocca niente. Chi arriva dal form demo deve poter vedere il prodotto intero senza avere né scrittura, né export, né amministrazione. Oggi l'attivazione lo crea come nurse e vede un prodotto dimezzato: le analisi, i report di reparto e la pagina costi — cioè le schermate che vendono — restano nascoste.  1. Nuovo ruolo `evaluator` nell'enum dei ruoli (nome API in inglese come billing_reader). Etichette:    IT «Valutatore», EN «Evaluator», DE «Interessent» — le stringhe passano dal dizionario, la copy la    rivede Chiara. 2. Pe…",
-     "time": "11:54"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "passato a gencode, ti avviso quando ha fatto push",
@@ -1101,21 +1086,24 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "``` PUNTO 15-ter — copy del Valutatore approvata, e due correzioni di sostanza sul percorso demo. Le stringhe vanno nei dizionari it/en/de, le chiavi tecniche non si toccano.  A. TEDESCO: «nur Lesen» → «schreibgeschützt» dove significa sola lettura (4 punti).    badge:              Demo-Umgebung — schreibgeschützt    descrizione livello: Demo-Umgebung, schreibgeschützt    nota form:          Die Anfrage wird mit dem Profil Interessent aktiviert: eine Demo-Umgebung, schreibgeschützt.    email di attivazione: Profil Interessent: Demo-Umgebung, schreibgeschützt, ohne Export oder Administration  …",
      "time": "12:24"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "inviato a gencode",
+     "time": "12:26"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Bene. Al deploy guardo due cose sole: le stringhe tedesche e la validazione del form.",
+     "time": "12:26"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Bene. Quando è in produzione guardo due cose sole, perché sono le uniche due che possono rompere qualcosa per un prospect: che in tedesco non resti nessun «nur Lesen» dove serve «schreibgeschützt», e che il form rifiuti un'email lunga **prima** di creare la richiesta — provandolo davvero, non leggendo il codice.  Se nel frattempo vuoi andare avanti: il prossimo della lista resta il **14-bis**, le due strutture nel seed. È l'unico che cambia cosa possiamo mostrare in una demo, e da solo vale più di tutte le stringhe di oggi.",
+     "time": "12:26"
     }
    ],
    "activity": [
-    {
-     "time": "11:54",
-     "text": "Marco Masciadri: ok punto 1 livello base dammi il prompt per gencode"
-    },
-    {
-     "time": "11:54",
-     "text": "Giulia CEO: Ecco il prompt. Un ruolo, non un'eccezione."
-    },
-    {
-     "time": "11:54",
-     "text": "Giulia CEO: ``` PUNTO 15-bis — ruolo «evaluator»: il valutatore vede tutto e non …"
-    },
     {
      "time": "12:03",
      "text": "Marco Masciadri: passato a gencode, ti avviso quando ha fatto push"
@@ -1151,6 +1139,18 @@
     {
      "time": "12:24",
      "text": "Giulia CEO: ``` PUNTO 15-ter — copy del Valutatore approvata, e due correzioni di…"
+    },
+    {
+     "time": "12:26",
+     "text": "Marco Masciadri: inviato a gencode"
+    },
+    {
+     "time": "12:26",
+     "text": "Giulia CEO: Bene. Al deploy guardo due cose sole: le stringhe tedesche e la valid…"
+    },
+    {
+     "time": "12:26",
+     "text": "Giulia CEO: Bene. Quando è in produzione guardo due cose sole, perché sono le uni…"
     }
    ],
    "needs_marco": false,
