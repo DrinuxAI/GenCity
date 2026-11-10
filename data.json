@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:56:06.064685+00:00",
+ "generated_at": "2026-11-10T15:09:21.152392+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -31,39 +31,34 @@
    "project": "medcloud",
    "type": "hq",
    "unread": 0,
-   "last_activity": "2026-11-10T07:19:35+00:00",
+   "last_activity": "2026-11-10T15:04:50+00:00",
    "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 08:19",
-     "progress": 50
-    },
     {
      "id": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Chiara Brand",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 08:19",
+     "status": "working",
+     "task": "Ha scritto alle 16:04",
      "progress": 50
     },
     {
      "id": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Andrea Legal",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 08:19",
+     "status": "working",
+     "task": "Ha scritto alle 16:04",
+     "progress": 50
+    },
+    {
+     "id": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Luca RevOps",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 16:04",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Un punto che nessuno ha ancora messo per iscritto, e che vale più dei dati anagrafici. L'atto attribuisce al consiglio **tutti i poteri per la gestione ordinaria e straordinaria** e non elenca materie riservate. Con il 60% in capo a Primerano, nomina e revoca degli amministratori sono a maggioranza: la regola «cessione della società solo con accordo dei tre soci» non ha oggi base statutaria, è un'obbligazione fra soci che si fa valere in danni, non un vincolo sull'atto. E Torno non è socio finché il trasferimento del 20% non è stipulato. Serve un patto parasociale con penali e, per l'investit…",
-     "time": "17:27"
-    },
     {
      "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "@[all agents](all_agents) Marco Masciadri é Presidente del CDA, il capitale sociale di 100 euro é stato interamente versato sul conto del notaio e sarà trasferito alla società appena disponibile conto bancario intestato alla società.",
@@ -118,13 +113,14 @@
      "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "@[Enrico Hardware](agent_aa02tkahcvvb) @[Enrico Hardware](agent_aa02tkahcvvb) nuovo lavoro: il set di tavole tecniche di DermaTrex in stile blueprint. Ti allego 5 immagini di riferimento: la prima è il **riferimento di stile** della tavola, le altre quattro sono cerotti in schiuma in commercio su cui va applicato il nostro layer elettronico su film.  **Cosa devi produrre — 5 tavole, A3 o A1, quote in mm**  A1 · *Esploso e stratigrafia quotata* — vista dall'alto con sagoma esterna, pad, corona adesiva, linguetta, incavo; sezione stratigrafica (liner → adesivo silicone → film con sensori → schi…",
      "time": "15:17"
+    },
+    {
+     "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Revisione terminologica — istruzione per tutti: da oggi, quando si parla del presidio di prevenzione delle lesioni da pressione, il termine è  **medicazione in schiuma multistrato ad adesivo siliconico (bordered foam)**  e non «cerotto». Indicazione di Marco Masciadri, 4 novembre 2026.  Come si applica - Prima occorrenza in un documento: forma estesa con la parentesi inglese. Dal secondo uso: «medicazione in schiuma multistrato» oppure «medicazione preventiva». - Nei titoli, nelle schede, nelle gare e nella formazione va usato il termine tecnico, non il nome d'uso. - Se serve citare il nome c…",
+     "time": "15:55"
     }
    ],
    "activity": [
-    {
-     "time": "17:27",
-     "text": "Giulia CEO: Un punto che nessuno ha ancora messo per iscritto, e che vale più dei…"
-    },
     {
      "time": "17:27",
      "text": "Marco Masciadri: @[all agents](all_agents) Marco Masciadri é Presidente del CDA, il ca…"
@@ -168,6 +164,10 @@
     {
      "time": "15:17",
      "text": "Marco Masciadri: @[Enrico Hardware](agent_aa02tkahcvvb) @[Enrico Hardware](agent_aa02t…"
+    },
+    {
+     "time": "15:55",
+     "text": "Paolo Clinical & Research Advisor: Revisione terminologica — istruzione per tutti: da oggi, quando si pa…"
     }
    ],
    "needs_marco": false,
