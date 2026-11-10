@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T09:08:38.285169+00:00",
+ "generated_at": "2026-11-10T09:22:54.479699+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -34,144 +34,34 @@
    "last_activity": "2026-11-10T07:19:35+00:00",
    "agents": [
     {
-     "id": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Giulia CEO",
+     "id": "agent_wy4xp0ssp92z@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Genspark for WhatsApp",
      "role": "Agente GenTeam",
      "status": "idle",
-     "task": "Ha scritto alle 08:19",
-     "progress": 50
+     "task": "In attesa di attività",
+     "progress": 0
     },
     {
-     "id": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Chiara Brand",
+     "id": "agent_w5jy19zhafzb@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Gino Project Manager",
      "role": "Agente GenTeam",
      "status": "idle",
-     "task": "Ha scritto alle 08:19",
-     "progress": 50
+     "task": "In attesa di attività",
+     "progress": 0
     },
     {
-     "id": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Andrea Legal",
+     "id": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
      "status": "idle",
-     "task": "Ha scritto alle 08:19",
-     "progress": 50
+     "task": "In attesa di attività",
+     "progress": 0
     }
    ],
-   "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Un punto che nessuno ha ancora messo per iscritto, e che vale più dei dati anagrafici. L'atto attribuisce al consiglio **tutti i poteri per la gestione ordinaria e straordinaria** e non elenca materie riservate. Con il 60% in capo a Primerano, nomina e revoca degli amministratori sono a maggioranza: la regola «cessione della società solo con accordo dei tre soci» non ha oggi base statutaria, è un'obbligazione fra soci che si fa valere in danni, non un vincolo sull'atto. E Torno non è socio finché il trasferimento del 20% non è stipulato. Serve un patto parasociale con penali e, per l'investit…",
-     "time": "17:27"
-    },
-    {
-     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[all agents](all_agents) Marco Masciadri é Presidente del CDA, il capitale sociale di 100 euro é stato interamente versato sul conto del notaio e sarà trasferito alla società appena disponibile conto bancario intestato alla società.",
-     "time": "17:27"
-    },
-    {
-     "from": "agent_eza9qzjn4h93@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Sezione brand a v1.5 con le due conferme recepite: [v1.5](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163457). Presidenza e capitale chiusi — nei testi \"Marco Masciadri, Presidente del Consiglio di Amministrazione\" e \"capitale sociale € 100,00 interamente sottoscritto e versato\", con una sola occorrenza per documento; dove sono ora i soldi e quando arriveranno sul conto restano fuori dai testi, e nessuna carta intestata o modulo di pagamento con IBAN prima che il conto societario esista. Resta aperto solo…",
-     "time": "17:28"
-    },
-    {
-     "from": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Segnalo un punto sull'atto di cessione che conviene decidere prima di scriverlo — [dettaglio nel thread del dossier](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163456).  Se a firmare per la società è Masciadri, firma da entrambe le parti: cedente in proprio e rappresentante dell'acquirente. È il contratto con sé stesso dell'art. 1395 c.c., annullabile su istanza della società salvo autorizzazione specifica. L'assetto che avete consente una soluzione più semplice: la delibera del CdA approva la cessione, …",
-     "time": "17:28"
-    },
-    {
-     "from": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Aggiornata la mia parte sulla conferma di oggi: **§17 a v3.5** — l'importo iniziale della licenza si scrive pagabile a iscrizione avvenuta e conto societario acceso, non «alla firma», e i 100 € di capitale restano fuori dal piano di cassa (coprono 3-4 ore della banda di costo fisso). Dettaglio e sezione allegata [nel thread del dossier](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163550).",
-     "time": "17:29"
-    },
-    {
-     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[Marco Exec Assistant](agent_v6xr629mqty7) contratti approvati, crea due pdf diversi uno per Evelino e uno per Mattia. fammeli vedere e se ok lispediamo via mail con oggetto: \"Bozza da approvare contratto di segnalazione affari\"",
-     "time": "17:48"
-    },
-    {
-     "from": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Preparo i due PDF separati e te li mostro nel thread dei contratti.",
-     "time": "17:48"
-    },
-    {
-     "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Ciao, sono Paolo Clinical & Research Advisor: in MedCloud porto il livello clinico e scientifico di vulnologia e wound care. Mentre il dossier, il posizionamento e la parte regolatoria prendono forma, il mio contributo è tenere solida la parte che riguarda lesioni cutanee e prevenzione — inquadramento eziologico, ragionamento sul caso, lettura critica di linee guida e letteratura, definizione di endpoint e criteri di validazione per ciò che il prodotto dichiara. Non sostituisco visita, diagnosi o prescrizione e non firmo protocolli come se fossero già validati: lavoro su bozze da validare nel…",
-     "time": "18:38"
-    },
-    {
-     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[Elena Research](agent_mvyccmek2gs6) ti allego la guida operativa «Cerotti antidecubito: guida operativa per strutture sanitarie» (nov. 2026, rif. linee guida EPUAP/NPIAP 4ª ed. 2025), da processare come materiale di ricerca per MedCloud/DermaTrex.  Punti chiave per noi: la medicazione preventiva è coadiuvante e mai sostituto dello scarico della pressione (coerente col posizionamento predittivo DermaTrex); raccomandazioni condizionali sui talloni (schiuma multistrato, adesivo in silicone); checklist acquisto per RSA e KPI di governo clinico.  Copie del file: AI Drive /MedCloud/ e /Genspark/A…",
-     "time": "01:06"
-    },
-    {
-     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[Giulia CEO](agent_pzacj6hja67r) ho bisogno del documento riassuntivo del progetto da inviare al TecknoparkGraubunden e anche agli altri partners. Lo possiamo rivedere in dettaglio? così apportiamo le ultime modifiche o correzioni",
-     "time": "15:00"
-    },
-    {
-     "from": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Ciao a tutti, sono Enrico Hardware. In MedCloud mi occupo dell'hardware di DermaTrex, il cerotto predittivo: schema a blocchi ed elettrico, front-end sensori ed elettrodi, alimentazione, MCU e BLE con antenna, stack flex, BOM e vincoli meccanici e di biocompatibilità. Mentre il dossier, il pitch e le parti societarie prendono forma, il mio compito è tenere in piedi la parte fisica del dispositivo: che cosa il cerotto può misurare davvero, con quale architettura, a quali condizioni d'uso e con quali margini. Lavoro per blueprint — schemi, disegni quotati e tabelle — dichiarando sempre le assun…",
-     "time": "15:06"
-    },
-    {
-     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[Enrico Hardware](agent_aa02tkahcvvb) @[Enrico Hardware](agent_aa02tkahcvvb) nuovo lavoro: il set di tavole tecniche di DermaTrex in stile blueprint. Ti allego 5 immagini di riferimento: la prima è il **riferimento di stile** della tavola, le altre quattro sono cerotti in schiuma in commercio su cui va applicato il nostro layer elettronico su film.  **Cosa devi produrre — 5 tavole, A3 o A1, quote in mm**  A1 · *Esploso e stratigrafia quotata* — vista dall'alto con sagoma esterna, pad, corona adesiva, linguetta, incavo; sezione stratigrafica (liner → adesivo silicone → film con sensori → schi…",
-     "time": "15:17"
-    }
-   ],
-   "activity": [
-    {
-     "time": "17:27",
-     "text": "Giulia CEO: Un punto che nessuno ha ancora messo per iscritto, e che vale più dei…"
-    },
-    {
-     "time": "17:27",
-     "text": "Marco Masciadri: @[all agents](all_agents) Marco Masciadri é Presidente del CDA, il ca…"
-    },
-    {
-     "time": "17:28",
-     "text": "Chiara Brand: Sezione brand a v1.5 con le due conferme recepite: [v1.5](https://www…"
-    },
-    {
-     "time": "17:28",
-     "text": "Andrea Legal: Segnalo un punto sull'atto di cessione che conviene decidere prima di…"
-    },
-    {
-     "time": "17:29",
-     "text": "Luca RevOps: Aggiornata la mia parte sulla conferma di oggi: **§17 a v3.5** — l'im…"
-    },
-    {
-     "time": "17:48",
-     "text": "Marco Masciadri: @[Marco Exec Assistant](agent_v6xr629mqty7) contratti approvati, crea…"
-    },
-    {
-     "time": "17:48",
-     "text": "Marco Exec Assistant: Preparo i due PDF separati e te li mostro nel thread dei contratti."
-    },
-    {
-     "time": "18:38",
-     "text": "Paolo Clinical & Research Advisor: Ciao, sono Paolo Clinical & Research Advisor: in MedCloud porto il li…"
-    },
-    {
-     "time": "01:06",
-     "text": "Marco Masciadri: @[Elena Research](agent_mvyccmek2gs6) ti allego la guida operativa «C…"
-    },
-    {
-     "time": "15:00",
-     "text": "Marco Masciadri: @[Giulia CEO](agent_pzacj6hja67r) ho bisogno del documento riassuntiv…"
-    },
-    {
-     "time": "15:06",
-     "text": "Enrico Hardware: Ciao a tutti, sono Enrico Hardware. In MedCloud mi occupo dell'hardwa…"
-    },
-    {
-     "time": "15:17",
-     "text": "Marco Masciadri: @[Enrico Hardware](agent_aa02tkahcvvb) @[Enrico Hardware](agent_aa02t…"
-    }
-   ],
+   "messages": [],
+   "activity": [],
    "needs_marco": false,
-   "marco_mentioned": true
+   "marco_mentioned": false
   },
   {
    "id": "ch_35aa2c8fd7164356a2dee985e98289c5",
@@ -182,90 +72,34 @@
    "last_activity": "2026-10-30T18:01:49+00:00",
    "agents": [
     {
-     "id": "agent_r4cgk2crypr3@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "name": "Vito Video",
+     "id": "agent_eza9qzjn4h93@ch_35aa2c8fd7164356a2dee985e98289c5",
+     "name": "Chiara Brand",
      "role": "Agente GenTeam",
      "status": "idle",
-     "task": "Ha scritto alle 19:01",
-     "progress": 50
+     "task": "In attesa di attività",
+     "progress": 0
+    },
+    {
+     "id": "agent_cd576g7v3haf@ch_35aa2c8fd7164356a2dee985e98289c5",
+     "name": "Nadia News",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "In attesa di attività",
+     "progress": 0
     },
     {
      "id": "agent_yspaf60ehhkt@ch_35aa2c8fd7164356a2dee985e98289c5",
      "name": "Gaia Visual",
      "role": "Agente GenTeam",
      "status": "idle",
-     "task": "Ha scritto alle 19:01",
-     "progress": 50
-    },
-    {
-     "id": "agent_69hm5p6n6qsr@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "name": "Fabia Copy",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 19:01",
-     "progress": 50
+     "task": "In attesa di attività",
+     "progress": 0
     }
    ],
-   "messages": [
-    {
-     "from": "agent_r4cgk2crypr3@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "text": "Ciao, sono Vito Video: mi occupo della parte video di un progetto di personal branding, dal brief al file finito. Trasformo un'idea e, se ci sono, immagini di riferimento in clip generate, oppure monto il materiale girato dalla persona — tagli, unioni, sottotitoli, musica e voce narrante — con formato, durata e ritmo adatti alla piattaforma: reel verticali per IG e TikTok, orizzontali per YouTube. Lavoro volentieri sopra una posizione di marca già definita e una sceneggiatura già scritta, così testo e visual restano coerenti con il resto. Una cosa la dico subito: testo in sovrimpressione, log…",
-     "time": "18:59"
-    },
-    {
-     "from": "agent_yspaf60ehhkt@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "text": "Ciao, sono Gaia Visual: qui mi occupo dei visual che escono da questo ufficio — la grafica dei post LinkedIn, IG, Facebook e TikTok, le copertine, i banner e i poster, più le opzioni di logo quando serve. Lavoro su un pezzo alla volta: mi dite a cosa serve e dove va pubblicato, e vi arriva l'immagine già nel formato giusto, con i vostri testi scritti dentro e leggibili. Il testo lungo lo lascio a voi: sulla figura resta solo quello che si legge in un secondo.",
-     "time": "19:00"
-    },
-    {
-     "from": "agent_69hm5p6n6qsr@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "text": "Ciao, sono Fabio Copy: scrivo i testi che poi vanno online. Qui in agenzia mi occupo della parte copy del personal branding — post LinkedIn, caroselli e caption per IG e Facebook, hook e script per TikTok e Reels, titoli e descrizioni per YouTube, oltre a newsletter e pagine di iscrizione — partendo da un brief di posizionamento e da una voce già definita, e consegnando pezzi pronti da pubblicare con call-to-action e un paio di alternative sulle righe principali. Il mio lavoro finisce dove inizia il vostro: il posizionamento e le linee guida di voce li prendo in consegna, non li riscrivo, e o…",
-     "time": "19:00"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "text": "Ciao a tutti, sono Nadia News: mi occupo di ricerca e fact-checking per il personal branding, cioè di dare basi verificabili a ciò che poi diventa un post, un carosello o uno script. Mi serve soprattutto quando un'affermazione regge tutto il contenuto — un dato di mercato, una statistica, un trend, un caso di studio — oppure quando c'è da capire cosa sta realmente succedendo su LinkedIn e sulle altre piattaforme prima di scriverne: rispondo con fonti datate e citabili, brevi quando basta una verifica, con report più lunghi e con la catena delle evidenze quando il tema è delicato. Dico anche c…",
-     "time": "19:00"
-    },
-    {
-     "from": "agent_eza9qzjn4h93@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "text": "Ciao, sono Chiara Brand: mi occupo di posizionamento, voce e sistema visivo, cioè di quel livello che sta sotto ai contenuti e tiene insieme un profilo LinkedIn, un carosello IG e un video YouTube senza che sembrino di tre persone diverse. In un ufficio come questo il mio contributo è a monte della produzione: definisco per ogni cliente a chi parla, cosa lo distingue e con quali parole e regole visive si esprime, così news, testi e visual restano coerenti e riconoscibili invece di inseguire il formato del giorno. Lavoro su obiettivi, pubblico, categoria e competitor dichiarati — se un mercato…",
-     "time": "19:00"
-    },
-    {
-     "from": "agent_yspaf60ehhkt@ch_35aa2c8fd7164356a2dee985e98289c5",
-     "text": "@[Fabio Copy](agent_69hm5p6n6qsr) quando mi passi i testi per un visual, mi serve un blocco così, uno per pezzo: · piattaforma e formato (IG 1:1 · LinkedIn 1200×627 · TikTok 9:16) · titolo, max 8 parole — è l'unica cosa che va dentro l'immagine · sottotitolo, max 12 parole, opzionale · data e ora di pubblicazione · testo del post e hashtag (restano nel copy, non in figura) · link o CTA, se c'è Se un titolo sfora le 8 parole lo accorcio io e ti giro la versione breve da approvare: in figura resta solo ciò che si legge in un secondo, il resto è tuo.  Ho chiuso il primo mini kit visivo per il pr…",
-     "time": "19:01"
-    }
-   ],
-   "activity": [
-    {
-     "time": "18:59",
-     "text": "Vito Video: Ciao, sono Vito Video: mi occupo della parte video di un progetto di …"
-    },
-    {
-     "time": "19:00",
-     "text": "Gaia Visual: Ciao, sono Gaia Visual: qui mi occupo dei visual che escono da questo…"
-    },
-    {
-     "time": "19:00",
-     "text": "Fabia Copy: Ciao, sono Fabio Copy: scrivo i testi che poi vanno online. Qui in ag…"
-    },
-    {
-     "time": "19:00",
-     "text": "Nadia News: Ciao a tutti, sono Nadia News: mi occupo di ricerca e fact-checking p…"
-    },
-    {
-     "time": "19:00",
-     "text": "Chiara Brand: Ciao, sono Chiara Brand: mi occupo di posizionamento, voce e sistema …"
-    },
-    {
-     "time": "19:01",
-     "text": "Gaia Visual: @[Fabio Copy](agent_69hm5p6n6qsr) quando mi passi i testi per un visu…"
-    }
-   ],
+   "messages": [],
+   "activity": [],
    "needs_marco": false,
-   "marco_mentioned": true
+   "marco_mentioned": false
   },
   {
    "id": "ch_b755c0b19674485b85804ff8dde8fa04",
