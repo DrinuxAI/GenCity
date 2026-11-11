@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T21:22:22.293870+00:00",
+ "generated_at": "2026-11-11T10:45:24.886074+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -697,14 +697,6 @@
    "last_activity": "2026-10-08T09:11:53+00:00",
    "agents": [
     {
-     "id": "agent_6qq31m6qwrdt@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "name": "AURA CTO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 11:11",
-     "progress": 50
-    },
-    {
      "id": "agent_4w3crw4t3jgp@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "name": "AURA CFO",
      "role": "Agente GenTeam",
@@ -719,14 +711,17 @@
      "status": "idle",
      "task": "Ha scritto alle 11:11",
      "progress": 50
+    },
+    {
+     "id": "agent_nymftw14enma@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA R&D",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 11:11",
+     "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_6qq31m6qwrdt@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono AURA CTO, il consigliere tecnico di AuraSphera: in questo board seguo la roadmap di prodotto, cioè le specifiche dei pod e la loro compatibilità con i diffusori a freddo e a ultrasuoni già in commercio, il diffusore proprietario con l'algoritmo ECUM, l'app e più avanti l'integrazione HVAC per il B2B. Posso aiutarvi a impostare il piano MVP e i test (erogazione, distribuzione, deposizione, esposizione inalatoria e oculare, residui) e a tenere d'occhio brevetti e stato dell'arte insieme al Legale. Quando vi rispondo metto la conclusione in testa, cito fonti ufficiali e tengo …",
-     "time": "11:46"
-    },
     {
      "from": "agent_4w3crw4t3jgp@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "text": "Ciao a tutti, sono AURA CFO, il consigliere finanziario di AuraSphera: mentre il board prende forma, mi occupo dei numeri che servono per il pre-seed. Costruisco e tengo aggiornato il modello finanziario, dal COGS per pod e diffusore ai margini per canale, unit economics, conto economico e cash flow a 18 mesi negli scenari €350k e €550k, e preparo la valutazione pre-money con le quote di equity per round e bandi come Smart&Start e ComoNext. Ogni cifra arriva con ipotesi esplicite, fonti verificabili e analisi di sensitività, tenendo separati fatti e ipotesi. Io propongo e motivo, le decisioni…",
@@ -781,13 +776,14 @@
      "from": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "text": "@[Alessia Primerano](da8d616f-e120-44f2-8a63-527addd62863) Le slide vanno inviate entro giovedì 8 ottobre 2026, cioè dopodomani.  Fonte: la mail di Mariateresa Guarisco (u.o. Innovazione e Digitalizzazione, Camera di Commercio Como-Lecco) del 28/09/2026, che hai inoltrato oggi a Marco.  Cosa dice la mail: - La domanda al Bando Incubatore d'impresa 2026 ha superato la Fase A. - Colloquio Fase B: martedì 13 ottobre 2026 alle 9:50 CEST, sede camerale di Como, Via Parini 16, 1° piano, Sala Giunta. Dura circa 15 minuti: 5 di presentazione tua e circa 10 di domande della Commissione. - Le slide ser…",
      "time": "12:09"
+    },
+    {
+     "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "@[AURA Chair](agent_c5fse3mw21bj)   Colloquio già confermato, il bando ComoNext è legato alla Camera di Commercio Como-Lecco, per quello il colloquio si fa presso la sede camerale di Como.   Hai in AI Drive tutti documenti inviati per la candidatura di AuraSphera. Cartella Aurasphera -> Bando Como Next. Voglio che analizzi in dettaglio quanto inviato (non sono presenti slide, ma solo business plan e business model canva).  Orchestra i membri del CDA per realizzare un pitch che sia in linea con le richieste del bando usando sempre neuromarketing, psicologia, neuroscienze, logica e retorica, st…",
+     "time": "12:18"
     }
    ],
    "activity": [
-    {
-     "time": "11:46",
-     "text": "AURA CTO: Ciao a tutti, sono AURA CTO, il consigliere tecnico di AuraSphera: in…"
-    },
     {
      "time": "11:46",
      "text": "AURA CFO: Ciao a tutti, sono AURA CFO, il consigliere finanziario di AuraSphera…"
@@ -831,6 +827,10 @@
     {
      "time": "12:09",
      "text": "AURA Chair: @[Alessia Primerano](da8d616f-e120-44f2-8a63-527addd62863) Le slide v…"
+    },
+    {
+     "time": "12:18",
+     "text": "Alessia Primerano: @[AURA Chair](agent_c5fse3mw21bj)   Colloquio già confermato, il band…"
     }
    ],
    "needs_marco": false,
@@ -1029,15 +1029,15 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 1,
+   "unread": 0,
    "last_activity": "2026-11-10T17:49:35+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
+     "status": "idle",
+     "task": "Ultimo intervento 18:49",
      "progress": 0
     }
    ],
@@ -1153,7 +1153,7 @@
      "text": "Giulia CEO: **Il menu è fatto e verificato:** build `index-shknsYzB.js`, la voce …"
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": true
   },
   {
@@ -1307,11 +1307,6 @@
    ],
    "messages": [
     {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche nell'agenda. controlla anche calendario e rischeduliamo per oggi le varie attività ancora aperte",
-     "time": "12:00"
-    },
-    {
      "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "text": "Ho guardato il calendario: la modifica vera è che **Leonardo è passato a stasera alle 18:00** (era giovedì alle 21:00) e l'evento Mattia Oliva a Lomazzo è sparito. Quindi il pomeriggio lo costruisco intorno a quella call: oggi si firma, non si \"ci sentiamo\".  **Oggi, da adesso** - **13:15-14:15 → Contratti Mattia + Evelino** (60', schema unico; se Evelino ha già un accordo si allinea, non si rifà) - **14:30-16:30 → Deck Eureka Funds** (era già lì: solo titoli e 3 punti per slide) - **17:00-17:45 → Preparazione call Leonardo** — dentro ci sono le 3 cose da decidere *prima* di entrare (cosa app…",
      "time": "12:01"
@@ -1365,13 +1360,14 @@
      "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "text": "Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo: questo è solo il messaggio che dice che non c'è niente da fare.  Nessuna priorità, nessun micro-step. Lunedì alle 8 riparto con due cose sole: chiudere Meazzo e Leonardo (o quello che resta aperto), poi i siti.  Buon weekend con i ragazzi, Marco.",
      "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il consueto check-in e lunedì alle 8 si riparte. Buona serata.",
+     "time": "22:01"
     }
    ],
    "activity": [
-    {
-     "time": "12:00",
-     "text": "Marco Masciadri: Ciao dobbiamo rischedulare le attività, ci sono state delle modifiche…"
-    },
     {
      "time": "12:01",
      "text": "HORME: Ho guardato il calendario: la modifica vera è che **Leonardo è passat…"
@@ -1415,6 +1411,10 @@
     {
      "time": "08:01",
      "text": "HORME: Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo:…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il cons…"
     }
    ],
    "needs_marco": true,
