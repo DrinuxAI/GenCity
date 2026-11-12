@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T17:24:10.134680+00:00",
+ "generated_at": "2026-11-12T17:37:34.330122+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1029,39 +1029,19 @@
    "name": "Aura Exec Assistant",
    "project": "aurasphera",
    "type": "studio",
-   "unread": 2,
-   "last_activity": "2026-11-12T17:21:49+00:00",
+   "unread": 0,
+   "last_activity": "2026-11-12T17:27:05+00:00",
    "agents": [
     {
      "id": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
      "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
+     "status": "working",
+     "task": "Ultimo intervento 18:27",
+     "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
-     "text": "⏰ Attività programmata: Novatrend — verificare il pagamento (CHF 13.95, domini)",
-     "time": "12:07"
-    },
-    {
-     "from": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
-     "text": "Fatto: promemoria domani alle 10:00, blocco in calendario 11:00–11:15.  La fattura è piccola ma concreta: **CHF 13.95**, numero 550093 del 27 ottobre, **scadenza 27 novembre**. È il rinnovo del dominio **digitalbanker.ch** per il periodo 29.11.2026 – 28.11.2027, IVA 8,1% inclusa, cliente 041224, indirizzo Via Guidino 1 a Paradiso. Nella fattura gli incassi risultano a 0,00, quindi a oggi non è pagata.  Da verificare è una cosa sola: se l'addebito è automatico o se va fatto a mano. Si paga dal portale member.novatrend.ch con carta, Twint o postcard svizzera, oppure col QR della fattura. Se res…",
-     "time": "12:07"
-    },
-    {
-     "from": "human@ch_dm_61f1358c6c8cd27ed544",
-     "text": "memorizza da processare com Equis SAGL, eventualmente crea un Hub dove inserire tutte queste mail",
-     "time": "12:10"
-    },
-    {
-     "from": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
-     "text": "Fatto tutto: memoria e archivio.  **In memoria**, in `notes/amministrazione.md`: le pratiche aperte con date, importi e referenti. Carta •6297, Ticino alimenti, EQUIS, Novatrend, bando Cyber.  **L'archivio** è in AI Drive, cartella **`/Amministrazione`**, con quattro sottocartelle e un `INDICE.md` che fa da cruscotto: una riga per pratica, con priorità e scadenza. Dentro ci sono tredici email, rinominate in modo da capirsi dal nome — \"2026-11-01 Alibaba Cloud - carta scaduta\" invece del nome originale.  Le quattro cartelle: 01 Pagamenti e carte, 02 EQUIS SAGL, 03 Ticino alimenti, 04 Fornitori…",
-     "time": "12:11"
-    },
     {
      "from": "human@ch_dm_61f1358c6c8cd27ed544",
      "text": "ricordamelo venerdi",
@@ -1101,25 +1081,29 @@
      "from": "human@ch_dm_61f1358c6c8cd27ed544",
      "text": "ricordamelo domani per inviare a Maruska",
      "time": "12:15"
+    },
+    {
+     "from": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
+     "text": "⏰ Attività programmata: EQUIS — inviare a Maruska i documenti di Tiziano",
+     "time": "12:15"
+    },
+    {
+     "from": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
+     "text": "Promemoria per domani alle 9:40, ma l'ho **unito a quello di EQUIS** che avevamo già: è la stessa pratica, e due avvisi sulla stessa cosa ti confonderebbero.  Il contenuto nuovo, preso dal thread con Tiziano: - **9 settembre**: Tiziano ti ha mandato la visura di Koinsquare e il verbale con il bilancio Multichain. - **15 settembre**: ti ha mandato il bilancio Koinsquare 2024. Quindi i pezzi che mancavano a Maruska in gran parte **ci sono già**, sono solo fermi nella tua posta.  Due cose restano aperte: 1. Il **bonifico di 1.020 euro** dell'11 gennaio 2023 con causale \"acquisizione quote Koinsq…",
+     "time": "12:15"
+    },
+    {
+     "from": "human@ch_dm_61f1358c6c8cd27ed544",
+     "text": "si domani prepara email per maruska il bonifico di gennaio 2023 era un conguaglio",
+     "time": "14:43"
+    },
+    {
+     "from": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
+     "text": "⏰ Attività programmata: EQUIS — preparare e inviare a Maruska l'email con i documenti",
+     "time": "14:43"
     }
    ],
    "activity": [
-    {
-     "time": "12:07",
-     "text": "Marco Exec Assistant: ⏰ Attività programmata: Novatrend — verificare il pagamento (CHF 13.9…"
-    },
-    {
-     "time": "12:07",
-     "text": "Marco Exec Assistant: Fatto: promemoria domani alle 10:00, blocco in calendario 11:00–11:15…"
-    },
-    {
-     "time": "12:10",
-     "text": "Marco Masciadri: memorizza da processare com Equis SAGL, eventualmente crea un Hub dov…"
-    },
-    {
-     "time": "12:11",
-     "text": "Marco Exec Assistant: Fatto tutto: memoria e archivio.  **In memoria**, in `notes/amministr…"
-    },
     {
      "time": "12:11",
      "text": "Marco Masciadri: ricordamelo venerdi"
@@ -1151,9 +1135,25 @@
     {
      "time": "12:15",
      "text": "Marco Masciadri: ricordamelo domani per inviare a Maruska"
+    },
+    {
+     "time": "12:15",
+     "text": "Marco Exec Assistant: ⏰ Attività programmata: EQUIS — inviare a Maruska i documenti di Tizi…"
+    },
+    {
+     "time": "12:15",
+     "text": "Marco Exec Assistant: Promemoria per domani alle 9:40, ma l'ho **unito a quello di EQUIS** …"
+    },
+    {
+     "time": "14:43",
+     "text": "Marco Masciadri: si domani prepara email per maruska il bonifico di gennaio 2023 era u…"
+    },
+    {
+     "time": "14:43",
+     "text": "Marco Exec Assistant: ⏰ Attività programmata: EQUIS — preparare e inviare a Maruska l'email…"
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": false
   },
   {
