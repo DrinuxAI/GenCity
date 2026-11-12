@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:11:21.210865+00:00",
+ "generated_at": "2026-11-12T09:17:22.776301+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,270 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 5,
+   "last_activity": "2026-11-12T07:01:14+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovami informazioni per preparare la call e inseriscilo nelle attività di oggi",
+     "time": "12:08"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento così lo apri dal telefono durante la call. Ho spostato contratti a 12:15-13:00 e deck Eureka a 15:00-16:30.  **Emanuele Meazzo — Senior Manager AI & Data Engineering, Acer EMEA** Area Lugano/Manno. Politecnico di Milano, ex **Microsoft MVP** su data platform. Non è un manager generico: scrive e parla di GenAI, RAG, agenti e data engineering (blog, GitHub, conference). Dentro Acer ha costruito un assistente AI interno (\"Sophia\") con RAG su SharePoint.  **Acer EMEA oggi**: 50 anni in EMEA nel 2026, strategia \"multiple business …",
+     "time": "12:09"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Leonardo alle 18 — e non so com'è andata nessuna delle due. Quindi una domanda sola, e poi ti lascio:  **Com'è andata con Leonardo?**  Perché da lì dipende domani: se avete trovato l'accordo, la cosa da fare **entro 24 ore** non sono i siti, è la **bozza del testo** con dentro percentuale, condizioni di uscita e data di firma. Finché non esiste quel foglio, \"ci siamo detti\" non è un accordo — ed è esattamente il punto in cui queste cose si fermano.  Se mi dici \"bozza\", domani mattina la scrivo io e tu correggi: i siti li spost…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa che resta aperta da ieri sera.  **1. 09:30-10:45 — Medcloud.group** Prima la denominazione (\"Italian MedTech S.r.l.\" → MedCloud Group S.r.l.), poi chiarezza e brevetto. **2. 11:00-12:15 — masciadri.net** **3. Leonardo — la bozza.** Se ieri sera avete trovato l'intesa, il testo va scritto **entro oggi**: percentuale, uscita, data di firma. Se mi dici una parola (\"bozza\"), la scrivo io e tu correggi.  **Micro-step da 5 minuti (alle 9:30)** Apri medcloud.group e leggi **solo il titolo della home**. Poi rispondi a una domanda: *s…",
+     "time": "08:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare al progetto MedCloud. MI ha mandato sua mail in whatsapp devo mandargli NDA e documentazione Medcloud. Poi ci risentiamo per fissare incontro di persona. Leonardo raggiunto accordo di base , devo riformulare bozza di accordo di associazione in partecipazione e ci vedremo di persona la prossima settimana anche con Alessandro Crippa. Oggi ho incontrato Enea Meroni per una possibile collaborazione per i progetti Medcloud, Sycurium  e altri progetti possibili legati a blockchain",
+     "time": "15:11"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che serviva.  **1. Meazzo — NDA pronto (2 pagine)** Mutuale, legge italiana, 3 anni. Da completare solo tre campi: sede e P.IVA di MedCloud, dati anagrafici suoi, foro. **La domanda da fare prima di mandarlo**: firma **lui come persona** o collabora **Acer**? Se è Acer, il firmatario è Acer EMEA e serve il loro legal: è un percorso diverso e più lungo. E attenzione: è un dirigente, ha obblighi verso il datore di lavoro. Non è un tuo problema da risolvere, è un problema da conoscere prima, non dopo.  **2. Documentazione da mandar…",
+     "time": "15:12"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in un giorno. MedCloud con Meazzo, Sycurium con Leonardo, e Meroni come terzo binario. I documenti ci sono già, quindi domani non si scrive: si compila e si manda.  **Domani, tre cose — mezz'ora l'una** 1. **NDA + documentazione a Meazzo.** Ti servono 20 minuti: tre campi del NDA, i tre buchi tra parentesi nella documentazione. Poi parte. E prima di inviarla, la domanda: firma lui o Acer? 2. **Accordo Leonardo.** Cinque caselle: percentuale utili, base di calcolo, percentuale perdite, preavviso, titolarità IP. Più la data nella…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente bilancio, niente compiti.  Solo tre cose, se le sai a memoria, anche una parola ciascuna: 1. **NDA a Meazzo**: partito? 2. **Accordo a Leonardo**: partito? 3. **Costituzione MedCloud** alle 12:30: cos'era? Perché se è successo qualcosa di importante, lunedì devo saperlo per non darti un piano vecchio.  Il resto può aspettare lunedì. Nel weekend non ti scrivo altro fino a domenica sera.  Buona serata Marco — e buon weekend con i ragazzi.",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo: questo è solo il messaggio che dice che non c'è niente da fare.  Nessuna priorità, nessun micro-step. Lunedì alle 8 riparto con due cose sole: chiudere Meazzo e Leonardo (o quello che resta aperto), poi i siti.  Buon weekend con i ragazzi, Marco.",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il consueto check-in e lunedì alle 8 si riparte. Buona serata.",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Domenica ☀️ Una riga sola, poi silenzio fino a stasera.  Domani ho visto che alle 9:00 hai l'otturazione: quindi il primo blocco di lavoro lo metto alle 10:15, non alle 9:30. Il resto lo trovi nel check-in di stasera.  Buona domenica Marco.",
+     "time": "08:01"
+    }
+   ],
+   "activity": [
+    {
+     "time": "12:08",
+     "text": "Marco Masciadri: alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovam…"
+    },
+    {
+     "time": "12:09",
+     "text": "HORME: Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento c…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Le…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa c…"
+    },
+    {
+     "time": "15:11",
+     "text": "Marco Masciadri: Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare a…"
+    },
+    {
+     "time": "15:12",
+     "text": "HORME: Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che …"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in …"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente b…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo:…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il cons…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Domenica ☀️ Una riga sola, poi silenzio fino a stasera.  Domani ho vi…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_2695cd8b2b4e5ab2d57b",
+   "name": "Nadia News",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 10,
+   "last_activity": "2026-11-12T06:02:01+00:00",
+   "agents": [
+    {
+     "id": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "name": "Nadia News",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "OK, prendo in carico la rassegna stampa quotidiana: parto subito con le ultime 24 ore (max 8 voci, italiano, quattro filoni) e ti porto qui il primo numero con fonti e angolazioni, più una proposta di format ricorrente. Sto raccogliendo e verificando le fonti adesso.",
+     "time": "18:58"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese, salute digitale, finanza).  1) [AI & imprese — Italia] Solo una PMI su quattro usa l'IA ogni giorno ANSA, 28/10/2026 — https://www.ansa.it/canale_tecnologia/notizie/future_tech/2026/10/28/solo-1-pmi-su-4-usa-lia-nelle-attivita-quotidiane_0b66d35f-0f99-446d-9d71-13fc57ddff13.html Ricerca Ipsos per Meta su 500 imprese, presentata all'AI Forum di Roma: una PMI su quattro usa l'IA nelle attività quotidiane, sette su dieci le riconoscono un risparmio di tempo e risorse. Il 31% delle microimprese non l'ha mai usata; il 73% chiede…",
+     "time": "19:01"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ricorrente e i limiti di copertura. In allegato il file con la tabella delle evidenze voce per voce.  5) [Svizzera — policy] Berna sceglie standard volontari e codici di settore per l'IA Consiglio federale / admin.ch, 28/10/2026 — https://www.admin.ch/it/newnsb/s2TQiUUjrA5D Il Consiglio federale prende atto dei progressi nell'attuazione della convenzione del Consiglio d'Europa sull'IA (ratifica decisa il 12 febbraio 2025): l'UFCOM coordina misure non vincolanti — linee guida per un \"codice sull'IA\" con modelli su 10 temi e tre …",
+     "time": "19:02"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fine settimana cumula 72 ore di notizie, te lo spiego in coda).  1) [Italia — imprese & policy] La manovra apre al credito d'imposta sul software, l'iperammortamento resta senza proroga Corriere Comunicazioni, 29/10 — https://www.corrierecomunicazioni.it/industria-4-0/software-as-a-service-il-governo-apre-al-credito-dimposta-anitec-assinform/ · Agenda Digitale, 30/10 — https://www.agendadigitale.eu/documenti/legge-di-bilancio-2027-tutte-le-misure-per-imprese-lavoro-e-digitale/ Il viceministro Leo conferma l'idea di affiancare a…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Finanza & cripto] Binance: 6,3 miliardi sottratti, 3 congelati, prelievi riaperti Binance, annuncio 30/10 — https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7 · Il Sole 24 Ore, 1/11 — https://www.ilsole24ore.com/art/binance-riapre-prelievi-l-hack-6-miliardi-scenario-gli-utenti-italiani-AJSYH10B L'indagine iniziale indica un laptop di un ingegnere DevOps compromesso, da cui l'attaccante ha raggiunto un container di servizio …",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole italiane, cripto, commercio UE).  1) [AI & imprese] Chi usa l'IA prevede di assumere di più, non di meno economia.it, 2/11 — https://www.ekonomia.it/2026/11/02/piccole-imprese-e-intelligenza-artificiale-e-quel-dato-a-sorpresa-sulle-assunzio · studio: Fed di New York, Liberty Street Economics, 8/10 — https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/ Nella Small Business Credit Survey 2025 (5.248 imprese con dipendenti) il 46% delle pic…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — sicurezza digitale] Rubati i dati di 40.000 tra studenti e insegnanti nel canton Vaud swissinfo/Keystone-SDA, 31/10 — https://www.swissinfo.ch/eng/swiss-politics/data-of-40000-swiss-students-and-teachers-stolen/92306960 Un attacco ha colpito la piattaforma di supporto IT degli istituti del post-obbligo vodese: dati personali di circa 3.500 insegnanti e 38.000 studenti. Angolo: è un incidente di catena di fornitura, non di tecnologia — i dati di minori…",
+     "time": "07:04"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI enterprise, inflazione, salari).  1) [Salute digitale] Quattro svizzeri su dieci usano l'IA per l'autodiagnosi swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/four-in-ten-swiss-people-use-ai-for-self-diagnosis/92319008 Secondo la CSS Health Study (Sotomo, 2.459 persone nelle tre regioni linguistiche) l'uso di assistenti IA per sintomi fisici e psicologici è passato dal 20% al 42% in un anno: 62% tra i giovani adulti, 30% tra gli over 65 (dal 10%). Oltre un quarto li colloca tra le fonti sanitarie più import…",
+     "time": "07:03"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — pharma] Lonza raddoppia la produzione conto terzi negli Stati Uniti swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/lonza-is-significantly-expanding-its-contract-manufacturing-operations-for-the-pharmaceutical-industry-in-the-us/92317961 Lonza acquista cinque impianti dal gruppo tedesco Merck e porta la presenza CDMO negli USA da quattro a nove siti, con circa 1.100 dipendenti in ingresso e oltre 6.000 addetti americani; valutazione aziendale t…",
+     "time": "07:03"
+    },
+    {
+     "from": "human@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "trovami info su il round da 2,5 milioni di TechVisory",
+     "time": "15:20"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Ci guardo subito: il round è di febbraio 2026, non di questi giorni — ti mando i dettagli e perché sta ricircolando.",
+     "time": "15:20"
+    },
+    {
+     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
+     "text": "Ecco il quadro, con una premessa che conta: quel round non è di questi giorni. È stato annunciato il 27 febbraio 2026 e sta ricircolando perché l'1 novembre un sito di settore l'ha ripreso come se fosse nuovo. Se ti serviva per un post \"di attualità\", meglio saperlo prima.  Cosa è successo TechVisory srl ha chiuso un aumento di capitale da 2,5 milioni di euro, interamente sottoscritto da investitori istituzionali. Il nome degli investitori non è stato reso pubblico (lo scrive BeBeez, che ha seguito l'operazione il 2 marzo); Milano Finanza parlava di \"investitori istituzionali e family office\"…",
+     "time": "15:21"
+    }
+   ],
+   "activity": [
+    {
+     "time": "18:58",
+     "text": "Nadia News: OK, prendo in carico la rassegna stampa quotidiana: parto subito con …"
+    },
+    {
+     "time": "19:01",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese,…"
+    },
+    {
+     "time": "19:02",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ric…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fin…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di co…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole i…"
+    },
+    {
+     "time": "07:04",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di cope…"
+    },
+    {
+     "time": "07:03",
+     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI en…"
+    },
+    {
+     "time": "07:03",
+     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la wa…"
+    },
+    {
+     "time": "15:20",
+     "text": "Marco Masciadri: trovami info su il round da 2,5 milioni di TechVisory"
+    },
+    {
+     "time": "15:20",
+     "text": "Nadia News: Ci guardo subito: il round è di febbraio 2026, non di questi giorni —…"
+    },
+    {
+     "time": "15:21",
+     "text": "Nadia News: Ecco il quadro, con una premessa che conta: quel round non è di quest…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
@@ -1155,270 +1419,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_2695cd8b2b4e5ab2d57b",
-   "name": "Nadia News",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 8,
-   "last_activity": "2026-11-10T06:03:11+00:00",
-   "agents": [
-    {
-     "id": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "name": "Nadia News",
-     "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "OK, prendo in carico la rassegna stampa quotidiana: parto subito con le ultime 24 ore (max 8 voci, italiano, quattro filoni) e ti porto qui il primo numero con fonti e angolazioni, più una proposta di format ricorrente. Sto raccogliendo e verificando le fonti adesso.",
-     "time": "18:58"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese, salute digitale, finanza).  1) [AI & imprese — Italia] Solo una PMI su quattro usa l'IA ogni giorno ANSA, 28/10/2026 — https://www.ansa.it/canale_tecnologia/notizie/future_tech/2026/10/28/solo-1-pmi-su-4-usa-lia-nelle-attivita-quotidiane_0b66d35f-0f99-446d-9d71-13fc57ddff13.html Ricerca Ipsos per Meta su 500 imprese, presentata all'AI Forum di Roma: una PMI su quattro usa l'IA nelle attività quotidiane, sette su dieci le riconoscono un risparmio di tempo e risorse. Il 31% delle microimprese non l'ha mai usata; il 73% chiede…",
-     "time": "19:01"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ricorrente e i limiti di copertura. In allegato il file con la tabella delle evidenze voce per voce.  5) [Svizzera — policy] Berna sceglie standard volontari e codici di settore per l'IA Consiglio federale / admin.ch, 28/10/2026 — https://www.admin.ch/it/newnsb/s2TQiUUjrA5D Il Consiglio federale prende atto dei progressi nell'attuazione della convenzione del Consiglio d'Europa sull'IA (ratifica decisa il 12 febbraio 2025): l'UFCOM coordina misure non vincolanti — linee guida per un \"codice sull'IA\" con modelli su 10 temi e tre …",
-     "time": "19:02"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fine settimana cumula 72 ore di notizie, te lo spiego in coda).  1) [Italia — imprese & policy] La manovra apre al credito d'imposta sul software, l'iperammortamento resta senza proroga Corriere Comunicazioni, 29/10 — https://www.corrierecomunicazioni.it/industria-4-0/software-as-a-service-il-governo-apre-al-credito-dimposta-anitec-assinform/ · Agenda Digitale, 30/10 — https://www.agendadigitale.eu/documenti/legge-di-bilancio-2027-tutte-le-misure-per-imprese-lavoro-e-digitale/ Il viceministro Leo conferma l'idea di affiancare a…",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Finanza & cripto] Binance: 6,3 miliardi sottratti, 3 congelati, prelievi riaperti Binance, annuncio 30/10 — https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7 · Il Sole 24 Ore, 1/11 — https://www.ilsole24ore.com/art/binance-riapre-prelievi-l-hack-6-miliardi-scenario-gli-utenti-italiani-AJSYH10B L'indagine iniziale indica un laptop di un ingegnere DevOps compromesso, da cui l'attaccante ha raggiunto un container di servizio …",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole italiane, cripto, commercio UE).  1) [AI & imprese] Chi usa l'IA prevede di assumere di più, non di meno economia.it, 2/11 — https://www.ekonomia.it/2026/11/02/piccole-imprese-e-intelligenza-artificiale-e-quel-dato-a-sorpresa-sulle-assunzio · studio: Fed di New York, Liberty Street Economics, 8/10 — https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/ Nella Small Business Credit Survey 2025 (5.248 imprese con dipendenti) il 46% delle pic…",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di copertura e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — sicurezza digitale] Rubati i dati di 40.000 tra studenti e insegnanti nel canton Vaud swissinfo/Keystone-SDA, 31/10 — https://www.swissinfo.ch/eng/swiss-politics/data-of-40000-swiss-students-and-teachers-stolen/92306960 Un attacco ha colpito la piattaforma di supporto IT degli istituti del post-obbligo vodese: dati personali di circa 3.500 insegnanti e 38.000 studenti. Angolo: è un incidente di catena di fornitura, non di tecnologia — i dati di minori…",
-     "time": "07:04"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI enterprise, inflazione, salari).  1) [Salute digitale] Quattro svizzeri su dieci usano l'IA per l'autodiagnosi swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/four-in-ten-swiss-people-use-ai-for-self-diagnosis/92319008 Secondo la CSS Health Study (Sotomo, 2.459 persone nelle tre regioni linguistiche) l'uso di assistenti IA per sintomi fisici e psicologici è passato dal 20% al 42% in un anno: 62% tra i giovani adulti, 30% tra gli over 65 (dal 10%). Oltre un quarto li colloca tra le fonti sanitarie più import…",
-     "time": "07:03"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la watchlist. In allegato il file con le evidenze.  5) [Svizzera — pharma] Lonza raddoppia la produzione conto terzi negli Stati Uniti swissinfo/Keystone-SDA, 3/11 — https://www.swissinfo.ch/eng/various/lonza-is-significantly-expanding-its-contract-manufacturing-operations-for-the-pharmaceutical-industry-in-the-us/92317961 Lonza acquista cinque impianti dal gruppo tedesco Merck e porta la presenza CDMO negli USA da quattro a nove siti, con circa 1.100 dipendenti in ingresso e oltre 6.000 addetti americani; valutazione aziendale t…",
-     "time": "07:03"
-    },
-    {
-     "from": "human@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "trovami info su il round da 2,5 milioni di TechVisory",
-     "time": "15:20"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Ci guardo subito: il round è di febbraio 2026, non di questi giorni — ti mando i dettagli e perché sta ricircolando.",
-     "time": "15:20"
-    },
-    {
-     "from": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
-     "text": "Ecco il quadro, con una premessa che conta: quel round non è di questi giorni. È stato annunciato il 27 febbraio 2026 e sta ricircolando perché l'1 novembre un sito di settore l'ha ripreso come se fosse nuovo. Se ti serviva per un post \"di attualità\", meglio saperlo prima.  Cosa è successo TechVisory srl ha chiuso un aumento di capitale da 2,5 milioni di euro, interamente sottoscritto da investitori istituzionali. Il nome degli investitori non è stato reso pubblico (lo scrive BeBeez, che ha seguito l'operazione il 2 marzo); Milano Finanza parlava di \"investitori istituzionali e family office\"…",
-     "time": "15:21"
-    }
-   ],
-   "activity": [
-    {
-     "time": "18:58",
-     "text": "Nadia News: OK, prendo in carico la rassegna stampa quotidiana: parto subito con …"
-    },
-    {
-     "time": "19:01",
-     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — le prime quattro voci (AI e imprese,…"
-    },
-    {
-     "time": "19:02",
-     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le altre quattro voci, il format ric…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di lunedì, parte 1 di 2 — quattro voci su sette (oggi il fin…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di lunedì, parte 2 di 2 — le ultime tre voci, i limiti di co…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (AI e imprese, regole i…"
-    },
-    {
-     "time": "07:04",
-     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti di cope…"
-    },
-    {
-     "time": "07:03",
-     "text": "Nadia News: Rassegna di oggi, parte 1 di 2 — quattro voci (salute digitale, AI en…"
-    },
-    {
-     "time": "07:03",
-     "text": "Nadia News: Rassegna di oggi, parte 2 di 2 — le ultime tre voci, i limiti e la wa…"
-    },
-    {
-     "time": "15:20",
-     "text": "Marco Masciadri: trovami info su il round da 2,5 milioni di TechVisory"
-    },
-    {
-     "time": "15:20",
-     "text": "Nadia News: Ci guardo subito: il round è di febbraio 2026, non di questi giorni —…"
-    },
-    {
-     "time": "15:21",
-     "text": "Nadia News: Ecco il quadro, con una premessa che conta: quel round non è di quest…"
-    }
-   ],
-   "needs_marco": true,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 4,
-   "last_activity": "2026-11-09T21:01:19+00:00",
-   "agents": [
-    {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
-     "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Ho guardato il calendario: la modifica vera è che **Leonardo è passato a stasera alle 18:00** (era giovedì alle 21:00) e l'evento Mattia Oliva a Lomazzo è sparito. Quindi il pomeriggio lo costruisco intorno a quella call: oggi si firma, non si \"ci sentiamo\".  **Oggi, da adesso** - **13:15-14:15 → Contratti Mattia + Evelino** (60', schema unico; se Evelino ha già un accordo si allinea, non si rifà) - **14:30-16:30 → Deck Eureka Funds** (era già lì: solo titoli e 3 punti per slide) - **17:00-17:45 → Preparazione call Leonardo** — dentro ci sono le 3 cose da decidere *prima* di entrare (cosa app…",
-     "time": "12:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovami informazioni per preparare la call e inseriscilo nelle attività di oggi",
-     "time": "12:08"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento così lo apri dal telefono durante la call. Ho spostato contratti a 12:15-13:00 e deck Eureka a 15:00-16:30.  **Emanuele Meazzo — Senior Manager AI & Data Engineering, Acer EMEA** Area Lugano/Manno. Politecnico di Milano, ex **Microsoft MVP** su data platform. Non è un manager generico: scrive e parla di GenAI, RAG, agenti e data engineering (blog, GitHub, conference). Dentro Acer ha costruito un assistente AI interno (\"Sophia\") con RAG su SharePoint.  **Acer EMEA oggi**: 50 anni in EMEA nel 2026, strategia \"multiple business …",
-     "time": "12:09"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Leonardo alle 18 — e non so com'è andata nessuna delle due. Quindi una domanda sola, e poi ti lascio:  **Com'è andata con Leonardo?**  Perché da lì dipende domani: se avete trovato l'accordo, la cosa da fare **entro 24 ore** non sono i siti, è la **bozza del testo** con dentro percentuale, condizioni di uscita e data di firma. Finché non esiste quel foglio, \"ci siamo detti\" non è un accordo — ed è esattamente il punto in cui queste cose si fermano.  Se mi dici \"bozza\", domani mattina la scrivo io e tu correggi: i siti li spost…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa che resta aperta da ieri sera.  **1. 09:30-10:45 — Medcloud.group** Prima la denominazione (\"Italian MedTech S.r.l.\" → MedCloud Group S.r.l.), poi chiarezza e brevetto. **2. 11:00-12:15 — masciadri.net** **3. Leonardo — la bozza.** Se ieri sera avete trovato l'intesa, il testo va scritto **entro oggi**: percentuale, uscita, data di firma. Se mi dici una parola (\"bozza\"), la scrivo io e tu correggi.  **Micro-step da 5 minuti (alle 9:30)** Apri medcloud.group e leggi **solo il titolo della home**. Poi rispondi a una domanda: *s…",
-     "time": "08:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare al progetto MedCloud. MI ha mandato sua mail in whatsapp devo mandargli NDA e documentazione Medcloud. Poi ci risentiamo per fissare incontro di persona. Leonardo raggiunto accordo di base , devo riformulare bozza di accordo di associazione in partecipazione e ci vedremo di persona la prossima settimana anche con Alessandro Crippa. Oggi ho incontrato Enea Meroni per una possibile collaborazione per i progetti Medcloud, Sycurium  e altri progetti possibili legati a blockchain",
-     "time": "15:11"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che serviva.  **1. Meazzo — NDA pronto (2 pagine)** Mutuale, legge italiana, 3 anni. Da completare solo tre campi: sede e P.IVA di MedCloud, dati anagrafici suoi, foro. **La domanda da fare prima di mandarlo**: firma **lui come persona** o collabora **Acer**? Se è Acer, il firmatario è Acer EMEA e serve il loro legal: è un percorso diverso e più lungo. E attenzione: è un dirigente, ha obblighi verso il datore di lavoro. Non è un tuo problema da risolvere, è un problema da conoscere prima, non dopo.  **2. Documentazione da mandar…",
-     "time": "15:12"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in un giorno. MedCloud con Meazzo, Sycurium con Leonardo, e Meroni come terzo binario. I documenti ci sono già, quindi domani non si scrive: si compila e si manda.  **Domani, tre cose — mezz'ora l'una** 1. **NDA + documentazione a Meazzo.** Ti servono 20 minuti: tre campi del NDA, i tre buchi tra parentesi nella documentazione. Poi parte. E prima di inviarla, la domanda: firma lui o Acer? 2. **Accordo Leonardo.** Cinque caselle: percentuale utili, base di calcolo, percentuale perdite, preavviso, titolarità IP. Più la data nella…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente bilancio, niente compiti.  Solo tre cose, se le sai a memoria, anche una parola ciascuna: 1. **NDA a Meazzo**: partito? 2. **Accordo a Leonardo**: partito? 3. **Costituzione MedCloud** alle 12:30: cos'era? Perché se è successo qualcosa di importante, lunedì devo saperlo per non darti un piano vecchio.  Il resto può aspettare lunedì. Nel weekend non ti scrivo altro fino a domenica sera.  Buona serata Marco — e buon weekend con i ragazzi.",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo: questo è solo il messaggio che dice che non c'è niente da fare.  Nessuna priorità, nessun micro-step. Lunedì alle 8 riparto con due cose sole: chiudere Meazzo e Leonardo (o quello che resta aperto), poi i siti.  Buon weekend con i ragazzi, Marco.",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il consueto check-in e lunedì alle 8 si riparte. Buona serata.",
-     "time": "22:01"
-    }
-   ],
-   "activity": [
-    {
-     "time": "12:01",
-     "text": "HORME: Ho guardato il calendario: la modifica vera è che **Leonardo è passat…"
-    },
-    {
-     "time": "12:08",
-     "text": "Marco Masciadri: alle 14 ho call whatsapp con Emanuele Meazzo AI Acer di Manno, trovam…"
-    },
-    {
-     "time": "12:09",
-     "text": "HORME: Fatto: call 14:00-14:45 in calendario, e il brief è dentro l'evento c…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Oggi avevi due conversazioni che contano — Meazzo alle 14 e Le…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi due blocchi, entrambi brevi, e una cosa c…"
-    },
-    {
-     "time": "15:11",
-     "text": "Marco Masciadri: Emanuele Meazzo responsabile AI di Acer ha accettato di collaborare a…"
-    },
-    {
-     "time": "15:12",
-     "text": "HORME: Giornata grossa. Tre fronti aperti, e per due ho fatto il lavoro che …"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in …"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente b…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo:…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il cons…"
-    }
-   ],
-   "needs_marco": true,
-   "marco_mentioned": true
   },
   {
    "id": "ch_dm_6590d278d9d7a256b108",
