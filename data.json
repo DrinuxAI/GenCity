@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T11:05:46.764120+00:00",
+ "generated_at": "2026-11-12T11:19:18.339524+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -37,7 +37,7 @@
      "id": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 11:22",
      "progress": 50
     },
@@ -45,7 +45,7 @@
      "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Paolo Clinical & Research Advisor",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 11:22",
      "progress": 50
     },
@@ -53,7 +53,7 @@
      "id": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Enrico Hardware",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 11:22",
      "progress": 50
     },
