@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:04:29.918790+00:00",
+ "generated_at": "2026-11-12T18:18:01.649164+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1036,9 +1036,9 @@
      "id": "agent_v6xr629mqty7@ch_dm_61f1358c6c8cd27ed544",
      "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 18:27",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
@@ -1168,9 +1168,9 @@
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 18:20",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
