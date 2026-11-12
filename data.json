@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:57:02.911334+00:00",
+ "generated_at": "2026-11-12T17:10:29.345743+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1030,68 +1030,18 @@
    "project": "medcloud",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-12T16:55:38+00:00",
+   "last_activity": "2026-11-12T17:09:39+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 17:55",
+     "task": "Ultimo intervento 18:09",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Con NDA firmato il fascicolo si può montare. Preparo l'indice e la copertina — e ho una cosa da dirti sull'Allegato A, la ripeto per l'ultima volta perché ora è firmato.",
-     "time": "14:01"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Allora il fascicolo può partire. È pronto in inglese, 93 pagine: copertina e indice, il deck a 28 slide, il blueprint rev C, la guida della piattaforma, la presentazione partner e i certificati Bernstein — ogni sezione con i suoi segnaposti.  **Non l'ho mandato, e non lo mando senza il tuo sì: è un invio esterno e irreversibile.** Prima però due cose da correggere, perché con l'NDA firmato non sono più dettagli redazionali ma dichiarazioni.  **1. La copertina dice «MedCloud Group — a division of SBC Swiss Beauty Cosmetic SA»** (in italiano «divisione di SBC»). Non è vero: sono due società dis…",
-     "time": "14:03"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Resto in attesa: **non ho inviato niente** e non lo faccio senza il tuo via esplicito — è un invio esterno e irreversibile.  Quando torni mi servono solo due cose: se mando il fascicolo inglese e a chi (i tre, o solo Arpagaus con gli altri in copia più avanti), e la conferma sulla lettera di rettifica dell'Allegato A. Nel frattempo correggo la copertina: «una divisione di SBC» diventa la formula vera — MedCloud Group S.r.l. sviluppo e siti pilota in Italia, SBC licenziataria e titolare della domanda — in italiano e in inglese. È una riga, ma è la prima che leggono.",
-     "time": "14:13"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ti allego il documento Docusign NDA firmato dai menmbri Technopark cosi' lo archivi insieme ai documento del Porgetto Medcloud",
-     "time": "15:59"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Archivio. Lo leggo anche tutto, perché è la v17 e voglio vedere se l'Allegato A è stato corretto prima della firma.",
-     "time": "15:59"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Archiviato — e l'ho letto tutto, perché una cosa così va letta prima di riporla.  **Era già in Drive**: `/MedCloud/Technopark Graubunden`, dal 22 ottobre, insieme alle bozze v1.3, v1.4 e v1.6 e al PNG delle firme. Ho caricato la mia copia, mi sono accorta del doppione, l'ho rimossa e ho **rinominato l'esistente** in `NDA_SBC_Technopark_CSEM_v17_DocuSign_2026-10-12.pdf` — così non si confonde più con le bozze. Copia di lavoro nel workspace, con il testo estratto, così posso citarlo senza riaprirlo.  **Non è un NDA con il Technopark: è tripartito**, e la terza parte è il **CSEM SA** (Revol e Sc…",
-     "time": "16:01"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "1. Kurt Egger é entrambi 2. ok sistema 3. lascia invariato poi a dicembre ricordamelo 4. per chiarirti: nel progetto ci sono 3 società coinvolte:  a. SBC Swiss Business Cosmetic SA nella quale abbiamo creato la divisione Medcloud Group per la svizzera. Attualmente la società é domiciliata a Chiasso e verrà spostata a Landquart all'interno del Technopark. b. MedCloud Group Srl in italia, costituita e iscritta nel registro delle startup innovative. Sede Legale ad Altamura (Bari) sede secondaria operativa ad Abese con Cassano Via Luigi Cadorna 2. E' la soceità che opera in italia per firma agree…",
-     "time": "16:43"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Chiaro quasi tutto: sistemo Egger e Schmid, metto il promemoria per dicembre sull'Allegato A, e ti dico le tre cose che non mi tornano nella catena delle società.",
-     "time": "16:43"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "**Sistemato**: Kurt Egger diventa «Kurt Egger — Technopark Graubünden · KUBEX18 AG», e David Schmid si scrive con una «d», con la funzione descritta come «per il progetto elettronico» invece che come qualifica ufficiale. L'Allegato A resta com'è: **promemoria impostato per il 1° dicembre alle 9:00 (Europe/Rome)** — lo vedi in Tasks › Scheduled, e se vuoi un altro giorno lo sposto.  La struttura è chiara. La registro così: **SBC SA** a Chiasso, in spostamento a Landquart, con la divisione MedCloud Group per la Svizzera dentro, titolare della domanda e licenziante; **MedCloud Group S.r.l.**, st…",
-     "time": "16:44"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "nome: scusa errore mio, quello corretto é SBC Swiss **Beauty** Cosmetic SA  **La catena della licenza: corretto ricordami di sistemare**  errore mio ti confermo **Albese con Cassano**, provincia di Como, Via Luigi Cadorna 2, confermo sede legale Altamura",
-     "time": "16:47"
-    },
     {
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Perfetto, allora i documenti sono già corretti su tutti e tre i punti. Metto il promemoria per la catena della licenza.",
@@ -1101,49 +1051,59 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Allora su due dei tre punti non c'era niente da correggere: tutti i documenti dicono già **SBC Swiss Beauty Cosmetic SA**, e **Albese con Cassano (Como), Via Luigi Cadorna 2** con la sede legale ad Altamura combacia con quello che ho archiviato.  Resta la catena della licenza, e il promemoria è impostato: **lunedì 16 novembre alle 9:00 (Europe/Rome)**, in Tasks › Scheduled. Se preferisci legarlo a un momento preciso — prima di firmare il primo accordo italiano, o prima di una domanda di finanziamento — dimmelo e lo sposto, perché la data giusta non è una data di calendario ma quella della pri…",
      "time": "16:47"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "fammi solo una verifica se per i bandi italiani é indispensabile che il brevetto sia inserito nella società o puo' essere una licenza da parte di SBC, considerando che nella società italiana, startup innovativa c'e' la presenza come soci dei due proprietari del brevetto Marco Torno e MArco Masciadri",
+     "time": "16:49"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Verifico sulle regole, non a memoria: startup innovativa e requisito di titolarità/licenza, poi ti dico cosa regge bando per bando.",
+     "time": "16:49"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "**No, la titolarità non è indispensabile: la licenza basta — per la qualifica di startup innovativa, che è il requisito di ingresso di quasi tutti i bandi italiani.**  L'art. 25 comma 2 n. 3 del DL 179/2012 dice «titolare **o depositaria o licenziataria** di almeno una privativa industriale», con una condizione sola: che la privativa sia **direttamente afferente all'oggetto sociale e all'attività d'impresa**. E le guide operative di Smart&Start, quando elencano i requisiti, scrivono «brevetto, licenze, software» — la licenza è messa sullo stesso piano. Quindi non devi spostare il brevetto in …",
+     "time": "16:50"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok ricordami questi punti a calendario la prossima settimana venerdi così guardiamo bene insieme e sistemiamo",
+     "time": "16:52"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto: **venerdì 20 novembre alle 9:30 (Europe/Rome)** — ho spostato lì il promemoria invece di crearne un secondo, così non ti trovi due avvisi per la stessa cosa. Lo vedi in Tasks › Scheduled, e l'orario lo cambio in un minuto se preferisci il pomeriggio.  In quella sessione porto, in quest'ordine: la **catena delle firme** (inventori → SBC → licenza esclusiva Italia, con l'atto in cui SBC conferma il consenso degli inventori e il diritto di sub-licenziare alle strutture cliniche), le **quattro condizioni perché la licenza regga davanti a un bando**, e — se lo vuoi — il **brief di una pagin…",
+     "time": "16:53"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "perfetto con brief",
+     "time": "16:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Te lo scrivo subito, così venerdì lo portiamo già in mano.",
+     "time": "16:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco il brief, una pagina: sei domande con i riferimenti, la situazione com'è oggi, e cosa chiedere di avere per iscritto. Venerdì lo guardiamo insieme, ma è già in forma da mandare a un consulente italiano senza riscriverlo.  Le domande, in sintesi: **se la licenza basta** per la qualifica di startup innovativa e con quale contenuto (art. 25 c.2 n.3 DL 179/2012, «titolare o depositaria **o licenziataria**», con l'afferenza all'oggetto sociale da dimostrare); **a che data** deve essere in vigore e se la cessione a SBC deve essere già trascritta perché sia opponibile; **se Smart&Start, Nuova S…",
+     "time": "16:54"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "memorizza che attualmente il brevetto é stato depositato in italia: depositante Marco Masciadri persona fisica, titolari brevetto 50% Marco Torno 50% Marco Masciadri.  Anche la sede di Altamura é sede operativa oltre che sede legale",
+     "time": "16:57"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Memorizzato così: **domanda depositata in Italia il 12.10.2026, depositante Marco Masciadri persona fisica, titolarità 50% Torno e 50% Masciadri**; e **Altamura è sede legale e anche operativa**, con Albese con Cassano come sede secondaria operativa. Ho aggiornato il brief di conseguenza, in allegato la versione corretta.  Il secondo dato migliora la posizione per i bandi: se la sede operativa è al Sud e non solo quella legale, il requisito territoriale non è una formalità da difendere ma un fatto da documentare. La domanda per il consulente resta una sola, più facile: cosa serve per dimostra…",
+     "time": "16:58"
     }
    ],
    "activity": [
-    {
-     "time": "14:01",
-     "text": "Giulia CEO: Con NDA firmato il fascicolo si può montare. Preparo l'indice e la co…"
-    },
-    {
-     "time": "14:03",
-     "text": "Giulia CEO: Allora il fascicolo può partire. È pronto in inglese, 93 pagine: cope…"
-    },
-    {
-     "time": "14:13",
-     "text": "Giulia CEO: Resto in attesa: **non ho inviato niente** e non lo faccio senza il t…"
-    },
-    {
-     "time": "15:59",
-     "text": "Marco Masciadri: ti allego il documento Docusign NDA firmato dai menmbri Technopark co…"
-    },
-    {
-     "time": "15:59",
-     "text": "Giulia CEO: Archivio. Lo leggo anche tutto, perché è la v17 e voglio vedere se l'…"
-    },
-    {
-     "time": "16:01",
-     "text": "Giulia CEO: Archiviato — e l'ho letto tutto, perché una cosa così va letta prima …"
-    },
-    {
-     "time": "16:43",
-     "text": "Marco Masciadri: 1. Kurt Egger é entrambi 2. ok sistema 3. lascia invariato poi a dice…"
-    },
-    {
-     "time": "16:43",
-     "text": "Giulia CEO: Chiaro quasi tutto: sistemo Egger e Schmid, metto il promemoria per d…"
-    },
-    {
-     "time": "16:44",
-     "text": "Giulia CEO: **Sistemato**: Kurt Egger diventa «Kurt Egger — Technopark Graubünden…"
-    },
-    {
-     "time": "16:47",
-     "text": "Marco Masciadri: nome: scusa errore mio, quello corretto é SBC Swiss **Beauty** Cosmet…"
-    },
     {
      "time": "16:47",
      "text": "Giulia CEO: Perfetto, allora i documenti sono già corretti su tutti e tre i punti…"
@@ -1151,10 +1111,50 @@
     {
      "time": "16:47",
      "text": "Giulia CEO: Allora su due dei tre punti non c'era niente da correggere: tutti i d…"
+    },
+    {
+     "time": "16:49",
+     "text": "Marco Masciadri: fammi solo una verifica se per i bandi italiani é indispensabile che …"
+    },
+    {
+     "time": "16:49",
+     "text": "Giulia CEO: Verifico sulle regole, non a memoria: startup innovativa e requisito …"
+    },
+    {
+     "time": "16:50",
+     "text": "Giulia CEO: **No, la titolarità non è indispensabile: la licenza basta — per la q…"
+    },
+    {
+     "time": "16:52",
+     "text": "Marco Masciadri: ok ricordami questi punti a calendario la prossima settimana venerdi …"
+    },
+    {
+     "time": "16:53",
+     "text": "Giulia CEO: Fatto: **venerdì 20 novembre alle 9:30 (Europe/Rome)** — ho spostato …"
+    },
+    {
+     "time": "16:54",
+     "text": "Marco Masciadri: perfetto con brief"
+    },
+    {
+     "time": "16:54",
+     "text": "Giulia CEO: Te lo scrivo subito, così venerdì lo portiamo già in mano."
+    },
+    {
+     "time": "16:54",
+     "text": "Giulia CEO: Ecco il brief, una pagina: sei domande con i riferimenti, la situazio…"
+    },
+    {
+     "time": "16:57",
+     "text": "Marco Masciadri: memorizza che attualmente il brevetto é stato depositato in italia: d…"
+    },
+    {
+     "time": "16:58",
+     "text": "Giulia CEO: Memorizzato così: **domanda depositata in Italia il 12.10.2026, depos…"
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": true
+   "marco_mentioned": false
   },
   {
    "id": "ch_dm_84f86f488c883fac6295",
