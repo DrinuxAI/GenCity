@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T17:51:02.434361+00:00",
+ "generated_at": "2026-11-12T18:04:29.918790+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1300,9 +1300,9 @@
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 18:13",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
@@ -1432,9 +1432,9 @@
      "id": "agent_cd576g7v3haf@ch_dm_2695cd8b2b4e5ab2d57b",
      "name": "Nadia News",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 18:12",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
