@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T10:11:56.971849+00:00",
+ "generated_at": "2026-11-12T10:25:21.692792+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -30,45 +30,43 @@
    "name": "MedCloud",
    "project": "medcloud",
    "type": "hq",
-   "unread": 0,
-   "last_activity": "2026-11-11T11:17:56+00:00",
+   "unread": 2,
+   "last_activity": "2026-11-12T10:22:36+00:00",
    "agents": [
-    {
-     "id": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Andrea Legal",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 12:17",
-     "progress": 50
-    },
-    {
-     "id": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Luca RevOps",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 12:17",
-     "progress": 50
-    },
     {
      "id": "agent_v6xr629mqty7@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Marco Exec Assistant",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 12:17",
+     "status": "working",
+     "task": "Ha scritto alle 11:22",
      "progress": 50
+    },
+    {
+     "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Paolo Clinical & Research Advisor",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 11:22",
+     "progress": 50
+    },
+    {
+     "id": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Enrico Hardware",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 11:22",
+     "progress": 50
+    },
+    {
+     "id": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Tu",
+     "role": "Umano",
+     "status": "attention",
+     "task": "2 messaggi non letti — dai un'occhiata",
+     "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_4ejd2eqfk4az@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Segnalo un punto sull'atto di cessione che conviene decidere prima di scriverlo — [dettaglio nel thread del dossier](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163456).  Se a firmare per la società è Masciadri, firma da entrambe le parti: cedente in proprio e rappresentante dell'acquirente. È il contratto con sé stesso dell'art. 1395 c.c., annullabile su istanza della società salvo autorizzazione specifica. L'assetto che avete consente una soluzione più semplice: la delibera del CdA approva la cessione, …",
-     "time": "17:28"
-    },
-    {
-     "from": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "Aggiornata la mia parte sulla conferma di oggi: **§17 a v3.5** — l'importo iniziale della licenza si scrive pagabile a iscrizione avvenuta e conto societario acceso, non «alla firma», e i 100 € di capitale restano fuori dal piano di cassa (coprono 3-4 ore della banda di costo fisso). Dettaglio e sezione allegata [nel thread del dossier](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_65b334ebde48ef2e68a2e28eca1d5953&msg=8163550).",
-     "time": "17:29"
-    },
     {
      "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "@[Marco Exec Assistant](agent_v6xr629mqty7) contratti approvati, crea due pdf diversi uno per Evelino e uno per Mattia. fammeli vedere e se ok lispediamo via mail con oggetto: \"Bozza da approvare contratto di segnalazione affari\"",
@@ -118,17 +116,19 @@
      "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "🖥️ Ho bisogno che tu prenda il controllo del mio browser ed effettui l'accesso, poi me lo restituisca. Apri la scheda per prendere il controllo; se non la vedi, apri questa chat sul web e procedi da lì.",
      "time": "11:50"
+    },
+    {
+     "from": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Revisione del software chiusa per la mia parte. Nel thread la lista autoritativa è quella con i dati misurati; ho ritirato il secondo file che avevo allegato, e ho aggiunto l'unico punto che mancava — il rendiconto di licenza: royalty per modulo, minimo annuo e date dei milestone a 500 e 2.000 letti prodotti dall'app invece che contati a mano. Dopo la tenancy, prima della fatturazione: [aggiunta nel thread](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_abd4e3595bcca8a8c40abf235b4bd5f0&msg=8957897).",
+     "time": "11:54"
+    },
+    {
+     "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Revisione clinica di medcloud.digital finita e consegnata nel thread con l'elenco completo e dodici prompt per GenCode: [revisione clinica e prompt in thread](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_abd4e3595bcca8a8c40abf235b4bd5f0&msg=8961395).  Le tre cose che chiederei di decidere prima di qualsiasi altra correzione: le metriche di prevenzione oggi sono parametri della simulazione e non vanno mostrate come prestazioni del modello; Braden non è calcolabile dai sensori e va riportato a valutazione clinica con sottoscale; senza un modulo …",
+     "time": "12:31"
     }
    ],
    "activity": [
-    {
-     "time": "17:28",
-     "text": "Andrea Legal: Segnalo un punto sull'atto di cessione che conviene decidere prima di…"
-    },
-    {
-     "time": "17:29",
-     "text": "Luca RevOps: Aggiornata la mia parte sulla conferma di oggi: **§17 a v3.5** — l'im…"
-    },
     {
      "time": "17:48",
      "text": "Marco Masciadri: @[Marco Exec Assistant](agent_v6xr629mqty7) contratti approvati, crea…"
@@ -168,9 +168,17 @@
     {
      "time": "11:50",
      "text": "Paolo Clinical & Research Advisor: 🖥️ Ho bisogno che tu prenda il controllo del mio browser ed effettui …"
+    },
+    {
+     "time": "11:54",
+     "text": "Luca RevOps: Revisione del software chiusa per la mia parte. Nel thread la lista a…"
+    },
+    {
+     "time": "12:31",
+     "text": "Paolo Clinical & Research Advisor: Revisione clinica di medcloud.digital finita e consegnata nel thread …"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": true
   },
   {
