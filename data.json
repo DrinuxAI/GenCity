@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:31:28.793722+00:00",
+ "generated_at": "2026-11-12T18:44:58.541727+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-12T18:35:04+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 19:35",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "perfetto con brief",
+     "time": "16:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Te lo scrivo subito, così venerdì lo portiamo già in mano.",
+     "time": "16:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco il brief, una pagina: sei domande con i riferimenti, la situazione com'è oggi, e cosa chiedere di avere per iscritto. Venerdì lo guardiamo insieme, ma è già in forma da mandare a un consulente italiano senza riscriverlo.  Le domande, in sintesi: **se la licenza basta** per la qualifica di startup innovativa e con quale contenuto (art. 25 c.2 n.3 DL 179/2012, «titolare o depositaria **o licenziataria**», con l'afferenza all'oggetto sociale da dimostrare); **a che data** deve essere in vigore e se la cessione a SBC deve essere già trascritta perché sia opponibile; **se Smart&Start, Nuova S…",
+     "time": "16:54"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "memorizza che attualmente il brevetto é stato depositato in italia: depositante Marco Masciadri persona fisica, titolari brevetto 50% Marco Torno 50% Marco Masciadri.  Anche la sede di Altamura é sede operativa oltre che sede legale",
+     "time": "16:57"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Memorizzato così: **domanda depositata in Italia il 12.10.2026, depositante Marco Masciadri persona fisica, titolarità 50% Torno e 50% Masciadri**; e **Altamura è sede legale e anche operativa**, con Albese con Cassano come sede secondaria operativa. Ho aggiornato il brief di conseguenza, in allegato la versione corretta.  Il secondo dato migliora la posizione per i bandi: se la sede operativa è al Sud e non solo quella legale, il requisito territoriale non è una formalità da difendere ma un fatto da documentare. La domanda per il consulente resta una sola, più facile: cosa serve per dimostra…",
+     "time": "16:58"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ti allego la ricevuta di deposito del brevetto italiano e la documentazione che abbiamo registrato. Cosi hai tutto da archiviare in Drive. Domanda quando archivi in drive, memorizzi anche in second brain?",
+     "time": "17:10"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Archivio tutti e sei. Sulla Second Brain: sì, ma sono due cose diverse e ti spiego sotto come funziona davvero — intanto leggo la ricevuta, che è il documento che mi mancava.",
+     "time": "17:11"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ho dovuto fermarmi perché non ci sono abbastanza crediti Genspark per continuare. I sei documenti, cioè la ricevuta di deposito e tutta la documentazione del brevetto, sono già caricati in Drive in una nuova cartella dedicata, con nomi ordinati per data. Hai già ricevuto il mio primo messaggio in cui ti anticipavo che li archiviavo e che Drive e Second Brain sono due cose diverse. Mi resta da: - salvare una scheda del brevetto anche nella tua Second Brain; - mandarti la risposta completa su come funzionano Drive e Second Brain e la conferma finale dell'archiviazione.  Puoi aggiungere crediti …",
+     "time": "17:12"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Archiviati tutti e sei, in una cartella nuova di Drive: **`/MedCloud/Brevetti`**, con nomi che dicono cosa sono (`2026-10-12_Ricevuta_Deposito_UIBM.pdf`, `01_Riassunto_IT`, `02_Descrizione`, `03_Rivendicazioni_IT`, `04_Claims_EN`, `05_Disegni`). Copia di lavoro anche nel mio workspace, così posso citarli senza riaprirli ogni volta.  **E la ricevuta colma il buco che avevamo da giorni.** Ora i dati sono verificati, non riportati: titolo **«Sistema modulare per il monitoraggio multiparametrico di un'interfaccia cutanea»**, data **12/10/2026**, **depositante Marco Masciadri persona fisica**, tit…",
+     "time": "17:27"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "si perfetto",
+     "time": "17:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Metto la riga in testa al documento. Un minuto.",
+     "time": "17:55"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto, commit `7467d676`. In testa al documento c'è ora una riga datata che dice cos'è: **una bozza di lavoro, non il testo depositato**, con i dati veri della ricevuta accanto — domanda italiana del 12.10.2026, titolo, depositante persona fisica, 50/50, dieci rivendicazioni, nessun PCT, priorità al 12.10.2027 — e il rimando alla scheda verificata.  Il testo originale non l'ho toccato di una parola: resta consultabile, e chi lo apre sa subito cosa sta leggendo.  Vale la pena che tu sappia cosa diceva quella testa, perché era sbagliata in tre punti: **«Depositante: Medcloud Group Srl»** invece…",
+     "time": "17:55"
+    }
+   ],
+   "activity": [
+    {
+     "time": "16:54",
+     "text": "Marco Masciadri: perfetto con brief"
+    },
+    {
+     "time": "16:54",
+     "text": "Giulia CEO: Te lo scrivo subito, così venerdì lo portiamo già in mano."
+    },
+    {
+     "time": "16:54",
+     "text": "Giulia CEO: Ecco il brief, una pagina: sei domande con i riferimenti, la situazio…"
+    },
+    {
+     "time": "16:57",
+     "text": "Marco Masciadri: memorizza che attualmente il brevetto é stato depositato in italia: d…"
+    },
+    {
+     "time": "16:58",
+     "text": "Giulia CEO: Memorizzato così: **domanda depositata in Italia il 12.10.2026, depos…"
+    },
+    {
+     "time": "17:10",
+     "text": "Marco Masciadri: ti allego la ricevuta di deposito del brevetto italiano e la document…"
+    },
+    {
+     "time": "17:11",
+     "text": "Giulia CEO: Archivio tutti e sei. Sulla Second Brain: sì, ma sono due cose divers…"
+    },
+    {
+     "time": "17:12",
+     "text": "Giulia CEO: Ho dovuto fermarmi perché non ci sono abbastanza crediti Genspark per…"
+    },
+    {
+     "time": "17:27",
+     "text": "Giulia CEO: Archiviati tutti e sei, in una cartella nuova di Drive: **`/MedCloud/…"
+    },
+    {
+     "time": "17:54",
+     "text": "Marco Masciadri: si perfetto"
+    },
+    {
+     "time": "17:55",
+     "text": "Giulia CEO: Metto la riga in testa al documento. Un minuto."
+    },
+    {
+     "time": "17:55",
+     "text": "Giulia CEO: Fatto, commit `7467d676`. In testa al documento c'è ora una riga data…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_61f1358c6c8cd27ed544",
    "name": "Aura Exec Assistant",
    "project": "aurasphera",
@@ -1287,138 +1419,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-12T17:13:07+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 18:13",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Allora su due dei tre punti non c'era niente da correggere: tutti i documenti dicono già **SBC Swiss Beauty Cosmetic SA**, e **Albese con Cassano (Como), Via Luigi Cadorna 2** con la sede legale ad Altamura combacia con quello che ho archiviato.  Resta la catena della licenza, e il promemoria è impostato: **lunedì 16 novembre alle 9:00 (Europe/Rome)**, in Tasks › Scheduled. Se preferisci legarlo a un momento preciso — prima di firmare il primo accordo italiano, o prima di una domanda di finanziamento — dimmelo e lo sposto, perché la data giusta non è una data di calendario ma quella della pri…",
-     "time": "16:47"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "fammi solo una verifica se per i bandi italiani é indispensabile che il brevetto sia inserito nella società o puo' essere una licenza da parte di SBC, considerando che nella società italiana, startup innovativa c'e' la presenza come soci dei due proprietari del brevetto Marco Torno e MArco Masciadri",
-     "time": "16:49"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Verifico sulle regole, non a memoria: startup innovativa e requisito di titolarità/licenza, poi ti dico cosa regge bando per bando.",
-     "time": "16:49"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "**No, la titolarità non è indispensabile: la licenza basta — per la qualifica di startup innovativa, che è il requisito di ingresso di quasi tutti i bandi italiani.**  L'art. 25 comma 2 n. 3 del DL 179/2012 dice «titolare **o depositaria o licenziataria** di almeno una privativa industriale», con una condizione sola: che la privativa sia **direttamente afferente all'oggetto sociale e all'attività d'impresa**. E le guide operative di Smart&Start, quando elencano i requisiti, scrivono «brevetto, licenze, software» — la licenza è messa sullo stesso piano. Quindi non devi spostare il brevetto in …",
-     "time": "16:50"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ok ricordami questi punti a calendario la prossima settimana venerdi così guardiamo bene insieme e sistemiamo",
-     "time": "16:52"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fatto: **venerdì 20 novembre alle 9:30 (Europe/Rome)** — ho spostato lì il promemoria invece di crearne un secondo, così non ti trovi due avvisi per la stessa cosa. Lo vedi in Tasks › Scheduled, e l'orario lo cambio in un minuto se preferisci il pomeriggio.  In quella sessione porto, in quest'ordine: la **catena delle firme** (inventori → SBC → licenza esclusiva Italia, con l'atto in cui SBC conferma il consenso degli inventori e il diritto di sub-licenziare alle strutture cliniche), le **quattro condizioni perché la licenza regga davanti a un bando**, e — se lo vuoi — il **brief di una pagin…",
-     "time": "16:53"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "perfetto con brief",
-     "time": "16:54"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Te lo scrivo subito, così venerdì lo portiamo già in mano.",
-     "time": "16:54"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco il brief, una pagina: sei domande con i riferimenti, la situazione com'è oggi, e cosa chiedere di avere per iscritto. Venerdì lo guardiamo insieme, ma è già in forma da mandare a un consulente italiano senza riscriverlo.  Le domande, in sintesi: **se la licenza basta** per la qualifica di startup innovativa e con quale contenuto (art. 25 c.2 n.3 DL 179/2012, «titolare o depositaria **o licenziataria**», con l'afferenza all'oggetto sociale da dimostrare); **a che data** deve essere in vigore e se la cessione a SBC deve essere già trascritta perché sia opponibile; **se Smart&Start, Nuova S…",
-     "time": "16:54"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "memorizza che attualmente il brevetto é stato depositato in italia: depositante Marco Masciadri persona fisica, titolari brevetto 50% Marco Torno 50% Marco Masciadri.  Anche la sede di Altamura é sede operativa oltre che sede legale",
-     "time": "16:57"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Memorizzato così: **domanda depositata in Italia il 12.10.2026, depositante Marco Masciadri persona fisica, titolarità 50% Torno e 50% Masciadri**; e **Altamura è sede legale e anche operativa**, con Albese con Cassano come sede secondaria operativa. Ho aggiornato il brief di conseguenza, in allegato la versione corretta.  Il secondo dato migliora la posizione per i bandi: se la sede operativa è al Sud e non solo quella legale, il requisito territoriale non è una formalità da difendere ma un fatto da documentare. La domanda per il consulente resta una sola, più facile: cosa serve per dimostra…",
-     "time": "16:58"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ti allego la ricevuta di deposito del brevetto italiano e la documentazione che abbiamo registrato. Cosi hai tutto da archiviare in Drive. Domanda quando archivi in drive, memorizzi anche in second brain?",
-     "time": "17:10"
-    }
-   ],
-   "activity": [
-    {
-     "time": "16:47",
-     "text": "Giulia CEO: Allora su due dei tre punti non c'era niente da correggere: tutti i d…"
-    },
-    {
-     "time": "16:49",
-     "text": "Marco Masciadri: fammi solo una verifica se per i bandi italiani é indispensabile che …"
-    },
-    {
-     "time": "16:49",
-     "text": "Giulia CEO: Verifico sulle regole, non a memoria: startup innovativa e requisito …"
-    },
-    {
-     "time": "16:50",
-     "text": "Giulia CEO: **No, la titolarità non è indispensabile: la licenza basta — per la q…"
-    },
-    {
-     "time": "16:52",
-     "text": "Marco Masciadri: ok ricordami questi punti a calendario la prossima settimana venerdi …"
-    },
-    {
-     "time": "16:53",
-     "text": "Giulia CEO: Fatto: **venerdì 20 novembre alle 9:30 (Europe/Rome)** — ho spostato …"
-    },
-    {
-     "time": "16:54",
-     "text": "Marco Masciadri: perfetto con brief"
-    },
-    {
-     "time": "16:54",
-     "text": "Giulia CEO: Te lo scrivo subito, così venerdì lo portiamo già in mano."
-    },
-    {
-     "time": "16:54",
-     "text": "Giulia CEO: Ecco il brief, una pagina: sei domande con i riferimenti, la situazio…"
-    },
-    {
-     "time": "16:57",
-     "text": "Marco Masciadri: memorizza che attualmente il brevetto é stato depositato in italia: d…"
-    },
-    {
-     "time": "16:58",
-     "text": "Giulia CEO: Memorizzato così: **domanda depositata in Italia il 12.10.2026, depos…"
-    },
-    {
-     "time": "17:10",
-     "text": "Marco Masciadri: ti allego la ricevuta di deposito del brevetto italiano e la document…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
   },
   {
    "id": "ch_dm_2695cd8b2b4e5ab2d57b",
