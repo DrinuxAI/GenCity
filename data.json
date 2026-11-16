@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:15:38.209210+00:00",
+ "generated_at": "2026-11-16T17:29:09.559582+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -37,7 +37,7 @@
      "id": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
      "name": "Genspark for WhatsApp",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 17:41",
      "progress": 50
     },
@@ -45,7 +45,7 @@
      "id": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
      "name": "Gino Project Manager",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 17:41",
      "progress": 50
     }
@@ -964,16 +964,16 @@
    "name": "NeuroFlow Curator",
    "project": "ufficio",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-16T17:02:31+00:00",
+   "unread": 1,
+   "last_activity": "2026-11-16T17:21:59+00:00",
    "agents": [
     {
      "id": "agent_9hs6kery5tdk@ch_dm_3d0ea639e0515e6ad287",
      "name": "NeuroFlow Curator",
      "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 18:02",
-     "progress": 50
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
     }
    ],
    "messages": [
@@ -1011,6 +1011,11 @@
      "from": "agent_9hs6kery5tdk@ch_dm_3d0ea639e0515e6ad287",
      "text": "Partito: ricensimento completo e indice, poi ti mando i 5 punti in questa DM.",
      "time": "18:02"
+    },
+    {
+     "from": "agent_9hs6kery5tdk@ch_dm_3d0ea639e0515e6ad287",
+     "text": "Letta tutta la cartella, 50 GB, senza toccare niente. In fondo trovi indice completo, censimento+conflitti+buchi, struttura proposta.  1) CENSIMENTO — 33.534 file, 6.000 cartelle, 50,6 GB. Immagini 10.383 · PDF 8.214 · md 4.836 · html 3.205 · Google Doc 1.002 · Word 783 · PPT 249 · Excel 198 · Slide 27 · Fogli 23. Creazione: 2019-04-27 → 2026-11-15. Ultima modifica più recente: 2026-11-15. File toccati nel 2026: 15.630. Attenzione: 5.114 file hanno creazione 2020-12-15 (data di upload) e 1.750 note hanno 2001-01-01 (artefatto dell'export). Le date estreme non vanno lette alla lettera.  2) IND…",
+     "time": "18:21"
     }
    ],
    "activity": [
@@ -1041,9 +1046,13 @@
     {
      "time": "18:02",
      "text": "NeuroFlow Curator: Partito: ricensimento completo e indice, poi ti mando i 5 punti in qu…"
+    },
+    {
+     "time": "18:21",
+     "text": "NeuroFlow Curator: Letta tutta la cartella, 50 GB, senza toccare niente. In fondo trovi …"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": true
   },
   {
