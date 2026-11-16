@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:40:19.529430+00:00",
+ "generated_at": "2026-11-16T15:54:08.833689+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-16T15:50:55+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 16:50",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Teniamo medcloud come titolare dei dati, quindi li memorizzano. Analizziamo che passi legali dobbiamo fare in svizzera per essere Compliance. Entrambe le app quella homecare e quella rsa devono essere a pagamento",
+     "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Scheda pronta, con le tre verifiche dentro. La risposta alla domanda che conta: **come prodotto non si ripaga, come test di otto settimane sì** — e le due cose si distinguono solo se prima si rinuncia allo store.  **Il perimetro regge, ma su una gamba sola e con un test in tre punti.** Non possiamo dirci «app per scopi non medici»: chi la scarica lo fa per una ragione sanitaria. Possiamo solo dimostrare che l'app **non compie un'azione sui dati** oltre conservarli e mostrarli. Il test, da applicare a ogni funzione nuova: il testo non cambia al variare dei dati; i parametri li imposta l'utente…",
+     "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memorizzazione l'architettura locale salta, e col pagamento il modello economico va rifatto — non è una variante. Giro la parte svizzera ad Andrea e Marta e rifaccio le sezioni; ti dico subito dove sta il costo di questa scelta.",
+     "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come traccia della decisione, non la correggo.  **La conseguenza più concreta della prima decisione la vedrai sullo store.** Con MedCloud titolare e i dati memorizzati da noi, l'app non può più dichiarare «nessun dato raccolto»: la scheda di Apple e il Data safety di Google diventano dichiarazioni **che riguardano dati sanitari**, e hanno valore legale. Non è un dispositivo medico, ma smette di essere un prodotto leggero: informativa, registro dei trattamenti, DPIA (i dati sanitari su larga scala sono un criterio tipico per render…",
+     "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Due cose dalle bozze di oggi, prima che entrino in scheda.  **Il conto non torna nel primo anno, per costruzione.** Marta: l'app consumer a 5,99 €/mese non si ripaga — 2.785 abbonati in 12 mesi per rientrare dei 104.600 €, e senza costo di acquisizione; il ricavo vero è il modulo RSA (9 strutture da 80 posti). Andrea: quel modulo, appena dà indicazioni sul rischio, è dispositivo IIa, 18-27 mesi al primo CE, più la gamba svizzera. Quindi il motore che dovrebbe pagare il conto non è vendibile prima del 2028. Non è un problema di prezzo, è di calendario.  **E forse oggi non abbiamo un soggetto i…",
+     "time": "17:30"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Scheda v2 pronta, e dentro c'è un guaio che devi vedere prima di tutto il resto.  **Il prodotto che paga il conto non è vendibile nel 2027.** Il modulo RSA è quello che i numeri di Marta fanno tornare — ma se porta la valutazione è un dispositivo di classe IIa, e al primo CE ci vogliono 18-27 mesi e 30-80 k€. Quindi nei prossimi dodici mesi l'unica cosa che possiamo vendere è l'app di consumo, e l'app di consumo da sola non si ripaga. Non è una contraddizione tra due analisi: sono due cose vere che non stanno nello stesso anno. Da qui tre uscite e sono le sole: licenza del modulo a un fabbric…",
+     "time": "17:33"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Correzione a una cosa che ti ho scritto poco fa: **la S.r.l. è iscritta.** Visura CCIAA Bari del 9.11: P.IVA e n. iscrizione 09232760729, REA BA-681148, iscritta il 09.11.2026, inizio attività 04.11.2026, attività attiva. Il blocco che ti avevo riportato non esiste: fattura, apre l'account store, stipula. La copia va nel fascicolo societario — chiude D40 (presidenza Masciadri), **non** chiude D41, il versamento del capitale, che resta sull'attestazione del notaio.  **Una decisione esce dal tuo tavolo: chi pubblica.** Titolare, publisher e chi fattura devono essere lo stesso soggetto; pubblica…",
+     "time": "17:35"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "L'app la sviluppiamo interamente con gencode come abbiamo fatto per dermatrex platform. Mi Hai dato vari spunti su cui riflettere ,ottimo kavoro. Li riassumiamo punto per punto e vediamo come procedere. Ho avviato analisi con Perplexity se esistono applicazioni simiki, abbiamo fatto reverse engineering dell'unica esistente..ti interessa?",
+     "time": "17:50"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì, il reverse engineering mi interessa molto — è la cosa più utile che è emersa oggi, perché sposta una delle nostre assunzioni dal piano dell'opinione a quello del fatto. Ti dico sotto cosa tirarne fuori.  **Prima i punti aperti, in ordine di peso.**  **1. L'uscita sul modulo RSA.** È la decisione che vale più di tutte: licenza a un fabbricante (ricavo B2B nei dodici mesi, senza QMS nostro), attesa del primo CE (18-27 mesi, 30-80 k€), oppure app di consumo come prodotto a sé. Raccomando: test a pagamento dell'app adesso, licenza come ricerca in parallelo, CE solo se il test dice sì. Finché …",
+     "time": "17:50"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Tre correzioni al riassunto di poco fa, perché tra le 16:30 e le 16:35 sono cambiate due cose e ne è entrata una terza — e le ho scritte nella lista senza accorgermene.  **Il prezzo non è 5,99 €/mese.** Quella era l'ipotesi aritmetica della v2, sbagliata sul ciclo d'uso: il badante non paga al mese, quindi la forma è un **abbonamento annuale auto-rinnovante, 39-49 €**. Al netto di commissioni e IVA restano 27-34 € per licenza. Il numero guida cambia con esso: **5.000 licenze a 44 €** per rientrare dei 152.100 € del primo anno, oppure ~3.170 operatori-anno nel canale agenzie, che a 120-150 €/o…",
+     "time": "17:51"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Intanto ti do reverse engineering fatto da Perplexity:  PROGETTO Utility mobile condivisa per organizzare e documentare attività assistenziali per persone a rischio di lesioni da pressione.  RUOLO Agisci come coordinatore di un team di agenti: ricerca, prodotto, UX/UI, architettura, sviluppo, sicurezza/privacy, QA e supporto alla revisione clinica.  OBIETTIVO Partire dall'analisi funzionale di VA PUR e progettare un prodotto originale con: - scheda paziente; - piano assistenziale configurabile; - riposizionamenti; - cura della cute e medicazioni secondo piano; - diario condiviso; - promemoria…",
+     "time": "17:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ricevuto. Una cosa da dirti subito: VA PUR l'ho verificata, e il testo che mi hai passato è il brief che lo governa, non l'analisi.",
+     "time": "17:55"
+    }
+   ],
+   "activity": [
+    {
+     "time": "17:25",
+     "text": "Marco Masciadri: Teniamo medcloud come titolare dei dati, quindi li memorizzano. Anali…"
+    },
+    {
+     "time": "17:25",
+     "text": "Giulia CEO: Scheda pronta, con le tre verifiche dentro. La risposta alla domanda …"
+    },
+    {
+     "time": "17:25",
+     "text": "Giulia CEO: Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memo…"
+    },
+    {
+     "time": "17:25",
+     "text": "Giulia CEO: Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come t…"
+    },
+    {
+     "time": "17:30",
+     "text": "Giulia CEO: Due cose dalle bozze di oggi, prima che entrino in scheda.  **Il cont…"
+    },
+    {
+     "time": "17:33",
+     "text": "Giulia CEO: Scheda v2 pronta, e dentro c'è un guaio che devi vedere prima di tutt…"
+    },
+    {
+     "time": "17:35",
+     "text": "Giulia CEO: Correzione a una cosa che ti ho scritto poco fa: **la S.r.l. è iscrit…"
+    },
+    {
+     "time": "17:50",
+     "text": "Marco Masciadri: L'app la sviluppiamo interamente con gencode come abbiamo fatto per d…"
+    },
+    {
+     "time": "17:50",
+     "text": "Giulia CEO: Sì, il reverse engineering mi interessa molto — è la cosa più utile c…"
+    },
+    {
+     "time": "17:51",
+     "text": "Giulia CEO: Tre correzioni al riassunto di poco fa, perché tra le 16:30 e le 16:3…"
+    },
+    {
+     "time": "17:54",
+     "text": "Marco Masciadri: Intanto ti do reverse engineering fatto da Perplexity:  PROGETTO Util…"
+    },
+    {
+     "time": "17:55",
+     "text": "Giulia CEO: Ricevuto. Una cosa da dirti subito: VA PUR l'ho verificata, e il test…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_84f86f488c883fac6295",
    "name": "Coach ADHD",
    "project": "ufficio",
@@ -1154,138 +1286,6 @@
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 3,
-   "last_activity": "2026-11-16T14:57:45+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ti preparo il PDF, impaginato A4 su una pagina.",
-     "time": "17:11"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco il PDF: A4, una pagina, stessa tipografia dei documenti di progetto. Testo identico al markdown, nessun contenuto nuovo.  Accanto trovi l'.md: quello resta la sorgente, il PDF è l'esportazione — se correggiamo qualcosa, si rigenera dal markdown invece di aggiustare il PDF.",
-     "time": "17:11"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Ho avuto un'idea e voglio che tu me la sviluppi e analizzi con gli agenti del gruppo se fattibile. Sai che abbiamo sviluppato in gencode la dermatrex platform. Analizza se possibile creare una app sia web che mobile che mermatta ai caregiver di caricare a Mano i dati del paziente e avere indicazioni e allarmi solo con elaborazione statistica dei dati, senza che ci siano dati inviati dai cerotti. Se devo spiegarmi meglio dimmelo. Un'app di supporto per evitare ferite da pressione o piaghe da decubito per pazienti anziani o allettati.",
-     "time": "17:13"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Idea chiara, non serve spiegarti meglio: ti dico se è fattibile, dov'è il punto che la può affondare, e cosa sto facendo verificare agli agenti del gruppo.",
-     "time": "17:14"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fattibile tecnicamente, sì: è software, e la piattaforma che gira già in Gencode è metà del lavoro. Ma la fattibilità non è la domanda giusta, e ti dico dove sta il punto, perché è una frase e non una riga di codice.  **«Indicazioni e allarmi» è la frase che trasforma un'agenda in un dispositivo medico.** Se l'app dice «il paziente X è a rischio, allertalo», sta facendo una valutazione clinica su una persona: dispositivo medico ex Regola 11, classe IIa, e servono fascicolo tecnico, ISO 13485, IEC 62304, valutazione clinica e organismo notificato — cose che MedCloud non ha e che il modello azi…",
-     "time": "17:15"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Penso più AD assistente domiciliare e familiare o paziente stesso se in grado di intendere. Per rsa e cliniche possiamo aggiungere un modulo specifico alla piattaforma dermatrex. Non deve essere un dispositivo medico, solo un'app scaricabile da Apple Store e google store per aiutare paziente, badante, familiare",
-     "time": "17:19"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Cambia lo scope in modo sostanziale — aggiorno l'analisi in corso e i tre agenti, poi ti dico cosa comporta davvero «non dispositivo».",
-     "time": "17:19"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Il vincolo che hai messo è chiaro e lo rispetto — ma devo dirti subito che cancella una parte dell'idea, e preferisco farlo adesso che dopo tre settimane di sviluppo.  **La premessa da rovesciare: che i dati siano inseriti a mano non conta.** La guida europea sulla qualificazione del software (MDCG 2019-11) porta come esempio da manuale di dispositivo medico un'app che, da dati inseriti da un utente profano, calcola un rischio a dieci anni. La Regola 11 guarda cosa il software fa ai dati, non chi li digita né se arrivano dai cerotti: «senza i cerotti» non sposta niente.  **Quindi «indicazioni…",
-     "time": "17:20"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Teniamo medcloud come titolare dei dati, quindi li memorizzano. Analizziamo che passi legali dobbiamo fare in svizzera per essere Compliance. Entrambe le app quella homecare e quella rsa devono essere a pagamento",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Scheda pronta, con le tre verifiche dentro. La risposta alla domanda che conta: **come prodotto non si ripaga, come test di otto settimane sì** — e le due cose si distinguono solo se prima si rinuncia allo store.  **Il perimetro regge, ma su una gamba sola e con un test in tre punti.** Non possiamo dirci «app per scopi non medici»: chi la scarica lo fa per una ragione sanitaria. Possiamo solo dimostrare che l'app **non compie un'azione sui dati** oltre conservarli e mostrarli. Il test, da applicare a ogni funzione nuova: il testo non cambia al variare dei dati; i parametri li imposta l'utente…",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memorizzazione l'architettura locale salta, e col pagamento il modello economico va rifatto — non è una variante. Giro la parte svizzera ad Andrea e Marta e rifaccio le sezioni; ti dico subito dove sta il costo di questa scelta.",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come traccia della decisione, non la correggo.  **La conseguenza più concreta della prima decisione la vedrai sullo store.** Con MedCloud titolare e i dati memorizzati da noi, l'app non può più dichiarare «nessun dato raccolto»: la scheda di Apple e il Data safety di Google diventano dichiarazioni **che riguardano dati sanitari**, e hanno valore legale. Non è un dispositivo medico, ma smette di essere un prodotto leggero: informativa, registro dei trattamenti, DPIA (i dati sanitari su larga scala sono un criterio tipico per render…",
-     "time": "17:25"
-    }
-   ],
-   "activity": [
-    {
-     "time": "17:11",
-     "text": "Giulia CEO: Ti preparo il PDF, impaginato A4 su una pagina."
-    },
-    {
-     "time": "17:11",
-     "text": "Giulia CEO: Ecco il PDF: A4, una pagina, stessa tipografia dei documenti di proge…"
-    },
-    {
-     "time": "17:13",
-     "text": "Marco Masciadri: Ho avuto un'idea e voglio che tu me la sviluppi e analizzi con gli ag…"
-    },
-    {
-     "time": "17:14",
-     "text": "Giulia CEO: Idea chiara, non serve spiegarti meglio: ti dico se è fattibile, dov'…"
-    },
-    {
-     "time": "17:15",
-     "text": "Giulia CEO: Fattibile tecnicamente, sì: è software, e la piattaforma che gira già…"
-    },
-    {
-     "time": "17:19",
-     "text": "Marco Masciadri: Penso più AD assistente domiciliare e familiare o paziente stesso se …"
-    },
-    {
-     "time": "17:19",
-     "text": "Giulia CEO: Cambia lo scope in modo sostanziale — aggiorno l'analisi in corso e i…"
-    },
-    {
-     "time": "17:20",
-     "text": "Giulia CEO: Il vincolo che hai messo è chiaro e lo rispetto — ma devo dirti subit…"
-    },
-    {
-     "time": "17:25",
-     "text": "Marco Masciadri: Teniamo medcloud come titolare dei dati, quindi li memorizzano. Anali…"
-    },
-    {
-     "time": "17:25",
-     "text": "Giulia CEO: Scheda pronta, con le tre verifiche dentro. La risposta alla domanda …"
-    },
-    {
-     "time": "17:25",
-     "text": "Giulia CEO: Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memo…"
-    },
-    {
-     "time": "17:25",
-     "text": "Giulia CEO: Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come t…"
-    }
-   ],
-   "needs_marco": true,
    "marco_mentioned": true
   },
   {
