@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:03:28.976059+00:00",
+ "generated_at": "2026-11-16T21:14:48.094875+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,6 +960,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 2,
+   "last_activity": "2026-11-16T21:11:33+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "1. si scrivi esteso 2. tieni csem 3. tieni veicoli societari",
+     "time": "15:53"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**Testo definitivo.** Data scritta per esteso, CSEM dentro, veicoli societari dentro.  Oggetto: **MedCloud / DermaTrex — NDA e aggiornamento**  Caro [Nome],  ti ringrazio per l'attenzione che hai dato al progetto MedCloud/DermaTrex. Ti allego a questa mail un NDA che ti chiedo cortesemente di ritornarmi firmato, così che ti possa inviare documentazione completa e riservata del progetto.  Mi scuso se è passato un po' di tempo dalla nostra ultima chiacchierata, ma sono stati tanti gli impegni ad oggi, ma sono felice di darti aggiornamenti.  **Cosa è successo negli ultimi mesi** - Il **brevetto …",
+     "time": "15:54"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "inserisci nel mio campo firma, é la mia firma autografa. la puoi memorizzare per documenti futuri come \"firma Marco\"",
+     "time": "15:57"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Firma inserita. Cinque PDF pronti da inviare, più i Word se vuoi toccare qualcosa.  **Come l'ho messa**: nel riquadro firme, su **entrambe** le righe societarie — MedCloud Group S.r.l. e SBC Swiss Beauty Cosmetic SA — perché sei tu il legale rappresentante di tutte e due. La riga della controparte resta vuota, la firma chi la riceve.  Ho anche rifatto il blocco firme come tabella: prima le righe si incollavano e la firma finiva a destra, fuori posto. Ora è pulito e si stampa bene — controlla la terza pagina, se ti sembra troppo piccola o troppo grande si cambia in un minuto.  **Memorizzata co…",
+     "time": "15:58"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "insierisci la data di oggi per esteso e come luogo metti Albese con Cassano/ Chiasso",
+     "time": "16:00"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Fatto, nei cinque file.  La riga ora dice: **Albese con Cassano / Chiasso, 16 novembre 2026** — luogo doppio perché le due società hanno sedi diverse, data scritta per esteso.  I PDF sono aggiornati e pronti; i Word li ho rigenerati identici, quindi anche quelli che hai già vanno bene così (se ti serve il DOCX aggiornato dimmelo e te lo rimando, sono identici in tutto).  Resta una cosa sola da verificare, e la dico perché è l'unica che può far tornare indietro un NDA: **la data**. Se uno dei cinque lo firmi domani o la settimana prossima, quella data non sarà più vera — in alternativa si mett…",
+     "time": "16:00"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "lascia cosi. ok per le 5 bozze in gmail",
+     "time": "16:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**Una precisazione prima delle cinque email**: le bozze vere e proprie in Gmail non riesco a farle col testo che vogliamo. Lo strumento che ho compila il corpo da sé — ho fatto una prova e ha scritto un testo suo (\"Hi Emanuele, this is a test...\"). L'ho **cancellata subito**: controlla in Bozze, non deve esserci niente di mio.  Al posto delle bozze ho fatto una cosa migliore: **cinque file email pronti**, con destinatario, oggetto, testo e **NDA già allegato**. - `MedCloud_NDA_Emanuele_Meazzo.eml` - `MedCloud_NDA_Olivier_Staub.eml` - `MedCloud_NDA_Marco_Bosetti.eml` - `MedCloud_NDA_Evelino_Be…",
+     "time": "16:02"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "vorrei spedirli dall'indirizzo email marco.masciadri@medcloud.group",
+     "time": "16:06"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Aggiornati: i cinque file ora partono con mittente **Marco Masciadri <marco.masciadri@medcloud.group>** (anche Reply-To lì, così le risposte tornano su quell'indirizzo).  **Però una cosa va detta chiara**: qui non ho collegata la casella `medcloud.group`. Le caselle a cui accedo sono marco@masciadri.net, drinux@gmail.com e marcomasciadri.suisse@gmail.com. Quindi non posso spedire io da quell'indirizzo — posso preparare, non firmare il mittente.  Tre strade, in ordine di pulizia:  **1. Colleghi la casella `marco.masciadri@medcloud.group` qui.** È la soluzione giusta se medcloud.group è su Goog…",
+     "time": "16:07"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "come collego la casella qui? soluzione migliore",
+     "time": "16:08"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "La soluzione migliore è **collegare la casella come account**, non come trucco: così spedisco da quell'indirizzo, leggo le risposte e non devi fare nulla tu ogni volta.  Per farlo ti serve autorizzare quell'indirizzo nei permessi di questo spazio — è un passaggio tuo, una volta sola:  [settings:permissions]  Da lì aggiungi `marco.masciadri@medcloud.group` tra le caselle autorizzate. Appena è attiva me ne accorgo io: ti scrivo una riga, e le cinque email le mando con quel mittente — sempre dopo il tuo \"sì, invia\".  **Se medcloud.group non è su Google Workspace**, l'alternativa più rapida non r…",
+     "time": "16:09"
+    }
+   ],
+   "activity": [
+    {
+     "time": "15:53",
+     "text": "Marco Masciadri: 1. si scrivi esteso 2. tieni csem 3. tieni veicoli societari"
+    },
+    {
+     "time": "15:54",
+     "text": "HORME: **Testo definitivo.** Data scritta per esteso, CSEM dentro, veicoli s…"
+    },
+    {
+     "time": "15:57",
+     "text": "Marco Masciadri: inserisci nel mio campo firma, é la mia firma autografa. la puoi memo…"
+    },
+    {
+     "time": "15:58",
+     "text": "HORME: Firma inserita. Cinque PDF pronti da inviare, più i Word se vuoi tocc…"
+    },
+    {
+     "time": "16:00",
+     "text": "Marco Masciadri: insierisci la data di oggi per esteso e come luogo metti Albese con C…"
+    },
+    {
+     "time": "16:00",
+     "text": "HORME: Fatto, nei cinque file.  La riga ora dice: **Albese con Cassano / Chi…"
+    },
+    {
+     "time": "16:01",
+     "text": "Marco Masciadri: lascia cosi. ok per le 5 bozze in gmail"
+    },
+    {
+     "time": "16:02",
+     "text": "HORME: **Una precisazione prima delle cinque email**: le bozze vere e propri…"
+    },
+    {
+     "time": "16:06",
+     "text": "Marco Masciadri: vorrei spedirli dall'indirizzo email marco.masciadri@medcloud.group"
+    },
+    {
+     "time": "16:07",
+     "text": "HORME: Aggiornati: i cinque file ora partono con mittente **Marco Masciadri …"
+    },
+    {
+     "time": "16:08",
+     "text": "Marco Masciadri: come collego la casella qui? soluzione migliore"
+    },
+    {
+     "time": "16:09",
+     "text": "HORME: La soluzione migliore è **collegare la casella come account**, non co…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_3d0ea639e0515e6ad287",
    "name": "NeuroFlow Curator",
    "project": "ufficio",
@@ -971,9 +1103,9 @@
      "id": "agent_9hs6kery5tdk@ch_dm_3d0ea639e0515e6ad287",
      "name": "NeuroFlow Curator",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 19:19",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
@@ -1341,138 +1473,6 @@
     {
      "time": "14:25",
      "text": "Marco Masciadri: buongiorno Giulia, mettiamo un attimo da parte questo progetto dell'a…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-16T15:33:52+00:00",
-   "agents": [
-    {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 16:33",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "1. Su technopark puoi dire che siamo stati accettati come startup innovativa, e che la SBC sarà trasferita presso il Technopark a Landquart per iniziare le operazioni da li e il 26 farà una presentazione ad alcuni potenziali investitori. 2. togli riferimenti a Meazzo  rivediamo testo",
-     "time": "15:51"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**Testo rivisto.** Meazzo fuori, Technopark dentro come notizia vera.  Oggetto: **MedCloud / DermaTrex — NDA e aggiornamento**  Caro [Nome],  ti ringrazio per l'attenzione che hai dato al progetto MedCloud/DermaTrex. Ti allego a questa mail un NDA che ti chiedo cortesemente di ritornarmi firmato, così che ti possa inviare documentazione completa e riservata del progetto.  Mi scuso se è passato un po' di tempo dalla nostra ultima chiacchierata, ma sono stati tanti gli impegni ad oggi, ma sono felice di darti aggiornamenti.  **Cosa è successo negli ultimi mesi** - Il **brevetto è stato deposita…",
-     "time": "15:52"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "1. si scrivi esteso 2. tieni csem 3. tieni veicoli societari",
-     "time": "15:53"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**Testo definitivo.** Data scritta per esteso, CSEM dentro, veicoli societari dentro.  Oggetto: **MedCloud / DermaTrex — NDA e aggiornamento**  Caro [Nome],  ti ringrazio per l'attenzione che hai dato al progetto MedCloud/DermaTrex. Ti allego a questa mail un NDA che ti chiedo cortesemente di ritornarmi firmato, così che ti possa inviare documentazione completa e riservata del progetto.  Mi scuso se è passato un po' di tempo dalla nostra ultima chiacchierata, ma sono stati tanti gli impegni ad oggi, ma sono felice di darti aggiornamenti.  **Cosa è successo negli ultimi mesi** - Il **brevetto …",
-     "time": "15:54"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "inserisci nel mio campo firma, é la mia firma autografa. la puoi memorizzare per documenti futuri come \"firma Marco\"",
-     "time": "15:57"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Firma inserita. Cinque PDF pronti da inviare, più i Word se vuoi toccare qualcosa.  **Come l'ho messa**: nel riquadro firme, su **entrambe** le righe societarie — MedCloud Group S.r.l. e SBC Swiss Beauty Cosmetic SA — perché sei tu il legale rappresentante di tutte e due. La riga della controparte resta vuota, la firma chi la riceve.  Ho anche rifatto il blocco firme come tabella: prima le righe si incollavano e la firma finiva a destra, fuori posto. Ora è pulito e si stampa bene — controlla la terza pagina, se ti sembra troppo piccola o troppo grande si cambia in un minuto.  **Memorizzata co…",
-     "time": "15:58"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "insierisci la data di oggi per esteso e come luogo metti Albese con Cassano/ Chiasso",
-     "time": "16:00"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Fatto, nei cinque file.  La riga ora dice: **Albese con Cassano / Chiasso, 16 novembre 2026** — luogo doppio perché le due società hanno sedi diverse, data scritta per esteso.  I PDF sono aggiornati e pronti; i Word li ho rigenerati identici, quindi anche quelli che hai già vanno bene così (se ti serve il DOCX aggiornato dimmelo e te lo rimando, sono identici in tutto).  Resta una cosa sola da verificare, e la dico perché è l'unica che può far tornare indietro un NDA: **la data**. Se uno dei cinque lo firmi domani o la settimana prossima, quella data non sarà più vera — in alternativa si mett…",
-     "time": "16:00"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "lascia cosi. ok per le 5 bozze in gmail",
-     "time": "16:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**Una precisazione prima delle cinque email**: le bozze vere e proprie in Gmail non riesco a farle col testo che vogliamo. Lo strumento che ho compila il corpo da sé — ho fatto una prova e ha scritto un testo suo (\"Hi Emanuele, this is a test...\"). L'ho **cancellata subito**: controlla in Bozze, non deve esserci niente di mio.  Al posto delle bozze ho fatto una cosa migliore: **cinque file email pronti**, con destinatario, oggetto, testo e **NDA già allegato**. - `MedCloud_NDA_Emanuele_Meazzo.eml` - `MedCloud_NDA_Olivier_Staub.eml` - `MedCloud_NDA_Marco_Bosetti.eml` - `MedCloud_NDA_Evelino_Be…",
-     "time": "16:02"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "vorrei spedirli dall'indirizzo email marco.masciadri@medcloud.group",
-     "time": "16:06"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Aggiornati: i cinque file ora partono con mittente **Marco Masciadri <marco.masciadri@medcloud.group>** (anche Reply-To lì, così le risposte tornano su quell'indirizzo).  **Però una cosa va detta chiara**: qui non ho collegata la casella `medcloud.group`. Le caselle a cui accedo sono marco@masciadri.net, drinux@gmail.com e marcomasciadri.suisse@gmail.com. Quindi non posso spedire io da quell'indirizzo — posso preparare, non firmare il mittente.  Tre strade, in ordine di pulizia:  **1. Colleghi la casella `marco.masciadri@medcloud.group` qui.** È la soluzione giusta se medcloud.group è su Goog…",
-     "time": "16:07"
-    }
-   ],
-   "activity": [
-    {
-     "time": "15:51",
-     "text": "Marco Masciadri: 1. Su technopark puoi dire che siamo stati accettati come startup inn…"
-    },
-    {
-     "time": "15:52",
-     "text": "HORME: **Testo rivisto.** Meazzo fuori, Technopark dentro come notizia vera.…"
-    },
-    {
-     "time": "15:53",
-     "text": "Marco Masciadri: 1. si scrivi esteso 2. tieni csem 3. tieni veicoli societari"
-    },
-    {
-     "time": "15:54",
-     "text": "HORME: **Testo definitivo.** Data scritta per esteso, CSEM dentro, veicoli s…"
-    },
-    {
-     "time": "15:57",
-     "text": "Marco Masciadri: inserisci nel mio campo firma, é la mia firma autografa. la puoi memo…"
-    },
-    {
-     "time": "15:58",
-     "text": "HORME: Firma inserita. Cinque PDF pronti da inviare, più i Word se vuoi tocc…"
-    },
-    {
-     "time": "16:00",
-     "text": "Marco Masciadri: insierisci la data di oggi per esteso e come luogo metti Albese con C…"
-    },
-    {
-     "time": "16:00",
-     "text": "HORME: Fatto, nei cinque file.  La riga ora dice: **Albese con Cassano / Chi…"
-    },
-    {
-     "time": "16:01",
-     "text": "Marco Masciadri: lascia cosi. ok per le 5 bozze in gmail"
-    },
-    {
-     "time": "16:02",
-     "text": "HORME: **Una precisazione prima delle cinque email**: le bozze vere e propri…"
-    },
-    {
-     "time": "16:06",
-     "text": "Marco Masciadri: vorrei spedirli dall'indirizzo email marco.masciadri@medcloud.group"
-    },
-    {
-     "time": "16:07",
-     "text": "HORME: Aggiornati: i cinque file ora partono con mittente **Marco Masciadri …"
     }
    ],
    "needs_marco": false,
