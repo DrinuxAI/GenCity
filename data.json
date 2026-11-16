@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:45:11.016507+00:00",
+ "generated_at": "2026-11-16T14:58:53.190288+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,144 +1025,12 @@
    "marco_mentioned": true
   },
   {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-16T14:42:00+00:00",
-   "agents": [
-    {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
-     "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 15:42",
-     "progress": 50
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Giovedì. Oggi hai già quattro cose tue (studio 7:00, Energia Marghe 13:00, portale Agenzia Entrate 15:30, Alessia Di Pietro 17:00): non te ne aggiungo altre.  **Una sola, quando hai venti minuti: l'accordo di Leonardo.** È l'unico dossier dove qualcuno aspetta un foglio da te da otto giorni. Se mi mandi **la percentuale**, in venti minuti ti restituisco il documento completo delle altre quattro caselle e lo mandi oggi.  **Due righe di servizio** - Il check-in di mercoledì mattina non è partito: si è fermato per crediti esauriti. Se il saldo resta basso, i messaggi si fermano — s…",
-     "time": "08:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "ciao questa settimana ho praticamente lavorato solo per Medcloud, lo puoi chiedere a Giulia CEO di MedCloud (Chat). domani sono via a lugano quasi tutto il giorno. MI fai un pormemoria per sabato? abbiamo Meazzo, Olivier Staub e Marco Bosetti. a tutti e tre NDA Medcloud/SBC e poi invio documentazione progetto senza la parte elettronica. poi abbiamo sicuramente richieste dalle mail... insomma dobbiamo fare un recap generale... mi sono un po' perso :-)",
-     "time": "18:18"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Ci penso io: recap, i tre NDA e il promemoria per sabato.",
-     "time": "18:19"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Respira. Non sei perso: hai fatto una settimana su MedCloud, e le altre cose sono ferme perché nessuno le ha spinte — non perché tu abbia sbagliato qualcosa.  **Dove siamo, in tre mucchi**  ✅ **Chiuso**: carta servizi (prezzi confermati, PDF pronti) · brevetto depositato 22/10 · documentazione Technopark consegnata e call fatta. 📄 **Pronto, aspetta solo una firma o un invio**: NDA per i tuoi tre contatti (allegato, uno per tutti) · documentazione progetto senza parte elettronica (allegata) · accordo Leonardo (manca **una cifra**). ⏳ **Fermo in attesa di te**: i due siti · un nome per il primo…",
-     "time": "18:20"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Chiudo io la giornata, così non devi fare niente: i due documenti sono in chat, il promemoria di sabato è impostato alle 9:00.  **Domani non ti scrivo** — sei a Lugano, e non c'è niente che non possa aspettare sabato.  Una cosa sola, se ti va: quando hai un minuto, dimmi solo **la percentuale di Leonardo**. Così sabato trovi anche quel documento pronto e non devi aprire due pratiche insieme.  Buona serata Marco.",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Sabato. Checklist, in ordine — niente da decidere, solo da eseguire.  **1. Tre NDA** — Meazzo, Olivier Staub, Marco Bosetti Testo unico (in chat giovedì): cambia solo la pagina finale con nome e firma. Firmi, esporti in PDF, uno per persona.  **2. Invia: prima il NDA, poi la documentazione** La documentazione di progetto senza parte elettronica è già in chat, 2 pagine. A ognuno: NDA firmato + PDF del progetto. Prima i tre invii, poi tutto il resto.  **3. Venti minuti di mail** Due richieste vere: **Mattia Oliva** (TeenVentures — nomi dei tre silos e nome dell'associazione) e **M…",
-     "time": "09:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Una riga sola: **i tre NDA sono usciti?**  Se sì, chiudo il capitolo e lunedì passiamo al resto. Se no, non c'è nulla da recuperare: sono tre file già pronti, si fanno lunedì in mezz'ora.  Buona domenica Marco — con i ragazzi, spero.",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Lunedì, e la giornata è libera (solo studio e RSU alle 7). Quindi oggi si chiude, non si apre.  **09:30-10:30 — i tre NDA.** Blocco in calendario, con i passaggi dentro: tre copie firmate, un'email per ciascuno, e **solo dopo** la documentazione di progetto. **Appena finito, dieci minuti**: dimmi \"NDA fuori\" e chiudo il capitolo. Se qualcuno ha già firmato o ha il suo NDA, saltalo e annotiamolo.  **Poi, una cifra sola: la percentuale di Leonardo.** Con quella ti restituisco l'accordo completo in venti minuti, oggi stesso.  **Il resto aspetta il suo turno**: siti, nome per il pri…",
-     "time": "08:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "aggiungiamo alle attività di oggi la mail che mi ha mandato Luigi Ferrise per la società Swiss Business Strategy Sagl con allegato il contratto da rivedere e lo analizziamo insieme, per poi confermarlo e inviarlo firmato",
-     "time": "14:27"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Cerco la mail di Luigi, leggo il contratto e te lo porto già analizzato.",
-     "time": "14:27"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "imtanto vediamo i tre NDA, ricordami per chi sono",
-     "time": "14:28"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "I tre NDA sono per **Emanuele Meazzo** (Acer EMEA), **Olivier Staub** e **Marco Bosetti** — testo unico in chat, cambia solo la pagina finale. Ecco chi sono e cosa serve, poi ti arrivo con il contratto SBS.",
-     "time": "14:28"
-    }
-   ],
-   "activity": [
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi hai già quattro cose tue (studio 7:00, En…"
-    },
-    {
-     "time": "18:18",
-     "text": "Marco Masciadri: ciao questa settimana ho praticamente lavorato solo per Medcloud, lo …"
-    },
-    {
-     "time": "18:19",
-     "text": "HORME: Ci penso io: recap, i tre NDA e il promemoria per sabato."
-    },
-    {
-     "time": "18:20",
-     "text": "HORME: Respira. Non sei perso: hai fatto una settimana su MedCloud, e le alt…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Chiudo io la giornata, così non devi fare niente: i due docume…"
-    },
-    {
-     "time": "09:01",
-     "text": "HORME: Buongiorno ☀️ Sabato. Checklist, in ordine — niente da decidere, solo…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Una riga sola: **i tre NDA sono usciti?**  Se sì, chiudo il ca…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Lunedì, e la giornata è libera (solo studio e RSU alle …"
-    },
-    {
-     "time": "14:27",
-     "text": "Marco Masciadri: aggiungiamo alle attività di oggi la mail che mi ha mandato Luigi Fer…"
-    },
-    {
-     "time": "14:27",
-     "text": "HORME: Cerco la mail di Luigi, leggo il contratto e te lo porto già analizza…"
-    },
-    {
-     "time": "14:28",
-     "text": "Marco Masciadri: imtanto vediamo i tre NDA, ricordami per chi sono"
-    },
-    {
-     "time": "14:28",
-     "text": "HORME: I tre NDA sono per **Emanuele Meazzo** (Acer EMEA), **Olivier Staub**…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 2,
-   "last_activity": "2026-11-16T13:30:49+00:00",
+   "unread": 3,
+   "last_activity": "2026-11-16T14:57:45+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
@@ -1174,11 +1042,6 @@
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Dammi anche pdf",
-     "time": "17:10"
-    },
     {
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Ti preparo il PDF, impaginato A4 su una pagina.",
@@ -1233,13 +1096,14 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memorizzazione l'architettura locale salta, e col pagamento il modello economico va rifatto — non è una variante. Giro la parte svizzera ad Andrea e Marta e rifaccio le sezioni; ti dico subito dove sta il costo di questa scelta.",
      "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come traccia della decisione, non la correggo.  **La conseguenza più concreta della prima decisione la vedrai sullo store.** Con MedCloud titolare e i dati memorizzati da noi, l'app non può più dichiarare «nessun dato raccolto»: la scheda di Apple e il Data safety di Google diventano dichiarazioni **che riguardano dati sanitari**, e hanno valore legale. Non è un dispositivo medico, ma smette di essere un prodotto leggero: informativa, registro dei trattamenti, DPIA (i dati sanitari su larga scala sono un criterio tipico per render…",
+     "time": "17:25"
     }
    ],
    "activity": [
-    {
-     "time": "17:10",
-     "text": "Marco Masciadri: Dammi anche pdf"
-    },
     {
      "time": "17:11",
      "text": "Giulia CEO: Ti preparo il PDF, impaginato A4 su una pagina."
@@ -1283,9 +1147,145 @@
     {
      "time": "17:25",
      "text": "Giulia CEO: Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memo…"
+    },
+    {
+     "time": "17:25",
+     "text": "Giulia CEO: Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come t…"
     }
    ],
    "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-16T14:57:26+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 15:57",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Lunedì, e la giornata è libera (solo studio e RSU alle 7). Quindi oggi si chiude, non si apre.  **09:30-10:30 — i tre NDA.** Blocco in calendario, con i passaggi dentro: tre copie firmate, un'email per ciascuno, e **solo dopo** la documentazione di progetto. **Appena finito, dieci minuti**: dimmi \"NDA fuori\" e chiudo il capitolo. Se qualcuno ha già firmato o ha il suo NDA, saltalo e annotiamolo.  **Poi, una cifra sola: la percentuale di Leonardo.** Con quella ti restituisco l'accordo completo in venti minuti, oggi stesso.  **Il resto aspetta il suo turno**: siti, nome per il pri…",
+     "time": "08:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "aggiungiamo alle attività di oggi la mail che mi ha mandato Luigi Ferrise per la società Swiss Business Strategy Sagl con allegato il contratto da rivedere e lo analizziamo insieme, per poi confermarlo e inviarlo firmato",
+     "time": "14:27"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Cerco la mail di Luigi, leggo il contratto e te lo porto già analizzato.",
+     "time": "14:27"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "imtanto vediamo i tre NDA, ricordami per chi sono",
+     "time": "14:28"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "I tre NDA sono per **Emanuele Meazzo** (Acer EMEA), **Olivier Staub** e **Marco Bosetti** — testo unico in chat, cambia solo la pagina finale. Ecco chi sono e cosa serve, poi ti arrivo con il contratto SBS.",
+     "time": "14:28"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**I tre NDA** (testo unico in chat giovedì, `NDA_MedCloud_SBC.pdf`): cambia solo la pagina finale. 1. **Emanuele Meazzo** — Senior Manager AI & Data Engineering, Acer EMEA. Ha accettato di collaborare al progetto MedCloud. 2. **Olivier Staub** — il terzo nome della tua lista di sabato. 3. **Marco Bosetti** — idem. Per ognuno: NDA firmato + poi la documentazione progetto senza parte elettronica. È già tutto in chat, il blocco in calendario è 09:30-10:30.  ---  **Contratto SBS: letto, e ci sono due cose che ti conviene sapere prima di \"analizzarlo insieme\".**  Il documento che Luigi ti ha manda…",
+     "time": "14:29"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "abbiamo le email di meazzo staub e bosetti?",
+     "time": "15:22"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Controllo in casella e ti dico esattamente quali indirizzi ho.",
+     "time": "15:22"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Ho controllato in casella: **una su tre.**  - **Olivier Staub** → `staub.olivier92@gmail.com` (l'ho trovato nell'invito della videocall \"Olivier x Alessia & Marco — Cerotto DermaTrex\" del 21 ottobre). Questa c'è. - **Emanuele Meazzo** → nessuna email in casella. Me l'aveva mandata **su WhatsApp**, quindi ce l'hai tu: passamela e la uso. - **Marco Bosetti** → nessun indirizzo. Né in casella né nei thread.  Se mi incolli i due indirizzi mancanti, faccio una cosa in più: **tre file separati, uno per persona**, con la pagina finale già intestata (nome e indirizzo) — così devi solo firmare e inolt…",
+     "time": "15:22"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Emanuele Meazzo: [Emanuele.meazzo@gmail.com](mailto:Emanuele.meazzo@gmail.com) Marco Bosetti: [marcobosetti61@gmail.com](mailto:marcobosetti61@gmail.com)",
+     "time": "15:23"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Tre file, uno per persona, con nome ed email già dentro. Restano **tre righe da completare**, tutte dati tuoi o societari: 1. **sede e P.IVA di MedCloud Group S.r.l.** 2. **denominazione esatta di SBC** (e chi firma per SBC) 3. **foro competente** (la sede di MedCloud)  Mandami quei dati e te li restituisco chiusi in cinque minuti. Se non li hai sotto mano, si compilano a penna sulla copia firmata — ma la denominazione di SBC va verificata prima, perché un NDA con un nome sbagliato non copre quella società.  **Il testo dell'email, copia e incolla** (uno per destinatario):  Oggetto: **MedCloud…",
+     "time": "15:24"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "negli NDA inserisci sia l MedCloud Group S.r.l. che la SBC Swiss Beauty Cosmetic SA come società che si coprono con gli NDA oltre alla controparte",
+     "time": "15:27"
+    }
+   ],
+   "activity": [
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Lunedì, e la giornata è libera (solo studio e RSU alle …"
+    },
+    {
+     "time": "14:27",
+     "text": "Marco Masciadri: aggiungiamo alle attività di oggi la mail che mi ha mandato Luigi Fer…"
+    },
+    {
+     "time": "14:27",
+     "text": "HORME: Cerco la mail di Luigi, leggo il contratto e te lo porto già analizza…"
+    },
+    {
+     "time": "14:28",
+     "text": "Marco Masciadri: imtanto vediamo i tre NDA, ricordami per chi sono"
+    },
+    {
+     "time": "14:28",
+     "text": "HORME: I tre NDA sono per **Emanuele Meazzo** (Acer EMEA), **Olivier Staub**…"
+    },
+    {
+     "time": "14:29",
+     "text": "HORME: **I tre NDA** (testo unico in chat giovedì, `NDA_MedCloud_SBC.pdf`): …"
+    },
+    {
+     "time": "15:22",
+     "text": "Marco Masciadri: abbiamo le email di meazzo staub e bosetti?"
+    },
+    {
+     "time": "15:22",
+     "text": "HORME: Controllo in casella e ti dico esattamente quali indirizzi ho."
+    },
+    {
+     "time": "15:22",
+     "text": "HORME: Ho controllato in casella: **una su tre.**  - **Olivier Staub** → `st…"
+    },
+    {
+     "time": "15:23",
+     "text": "Marco Masciadri: Emanuele Meazzo: [Emanuele.meazzo@gmail.com](mailto:Emanuele.meazzo@g…"
+    },
+    {
+     "time": "15:24",
+     "text": "HORME: Tre file, uno per persona, con nome ed email già dentro. Restano **tr…"
+    },
+    {
+     "time": "15:27",
+     "text": "Marco Masciadri: negli NDA inserisci sia l MedCloud Group S.r.l. che la SBC Swiss Beau…"
+    }
+   ],
+   "needs_marco": false,
    "marco_mentioned": true
   },
   {
