@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:54:08.833689+00:00",
+ "generated_at": "2026-11-16T16:07:45.514520+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,58 +1025,155 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_2fcc468bf8613347f6bd",
+   "name": "Genny",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-16T16:07:01+00:00",
+   "agents": [
+    {
+     "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "name": "Genny",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 17:07",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Nadia News (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Fabio Copy (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Gaia Visual (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "New agent request: Vito Video (approval required)",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Ti ho preparato l'agenzia: 4 card qui sopra, ognuna con il primo lavoro già scritto nel brief, così ognuno parte appena tocchi **Create**.  - **Nadia News** (ricerca) — rassegna quotidiana di AI/imprese, salute digitale, fintech/cripto, innovazione CH-IT, ogni voce con fonte e un'angolazione per un tuo commento. - **Fabio Copy** — testi per LinkedIn, Instagram, Facebook, TikTok, con pubblico, CTA e visual necessario indicati. - **Gaia Visual** — visual per i quattro canali + mini brand kit (palette, font, griglia). - **Vito Video** — video verticali 30-45s per YouTube Shorts, TikTok e Reels, …",
+     "time": "18:57"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "crea il gruppo **«Ufficio Personal Branding»** con tutti e cinque dentro",
+     "time": "18:59"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Group chat proposal: 6 members (approval required)",
+     "time": "18:59"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Ho messo la card del gruppo **«Ufficio Personal Branding»** qui sopra: dentro ci sono Chiara Brand, Nadia News, Fabio Copy, Gaia Visual e Vito Video, più te. Serve il tuo tap su **Approve** — finché non lo fai il gruppo non esiste.  Quando è dentro, una cosa da mettere subito: la Reply mode su **When @mentioned**, così non si svegliano tutti e cinque a ogni messaggio (sono cinque turni pagati ogni volta che scrivi).",
+     "time": "19:00"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "setta Reply mode su **When @mentioned**",
+     "time": "19:01"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "La Reply mode non è nelle mie mani: è un'impostazione **per singolo agente e per singolo gruppo**, e a cambiarla sei tu (o chi ha creato il gruppo). Percorso: apri il gruppo → clicca sul nome del gruppo in alto per aprire il pannello membri → espandi l'agente → in fondo al suo blocco c'è **Reply mode** con **When @-mentioned** / **All messages**. Clicca quella giusta.  Due cose pratiche: - va fatto **per ogni agente**, uno per uno: non c'è un interruttore unico di gruppo; - nei gruppi dove siete solo tu e un agente l'agente risponde comunque a tutto — lì la Reply mode resta una formalità.  Ho…",
+     "time": "19:01"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "ciao Genny, ho bisogno che tu assuma in chat MedCloud un porgettista elettronico che mi prepari gli schemi tecnici del cerotto dermatrex con schemi tecnici tipo blueprint. dimmi se hai bisogno di immagini grafiche di riferimento",
+     "time": "15:04"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Controllo due cose rapidissime: come si aggiunge un agente al gruppo MedCloud e che profilo dare al progettista elettronico.",
+     "time": "15:04"
+    }
+   ],
+   "activity": [
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Nadia News (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Fabio Copy (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Gaia Visual (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: New agent request: Vito Video (approval required)"
+    },
+    {
+     "time": "18:57",
+     "text": "Genny: Ti ho preparato l'agenzia: 4 card qui sopra, ognuna con il primo lavo…"
+    },
+    {
+     "time": "18:59",
+     "text": "Marco Masciadri: crea il gruppo **«Ufficio Personal Branding»** con tutti e cinque den…"
+    },
+    {
+     "time": "18:59",
+     "text": "Genny: Group chat proposal: 6 members (approval required)"
+    },
+    {
+     "time": "19:00",
+     "text": "Genny: Ho messo la card del gruppo **«Ufficio Personal Branding»** qui sopra…"
+    },
+    {
+     "time": "19:01",
+     "text": "Marco Masciadri: setta Reply mode su **When @mentioned**"
+    },
+    {
+     "time": "19:01",
+     "text": "Genny: La Reply mode non è nelle mie mani: è un'impostazione **per singolo a…"
+    },
+    {
+     "time": "15:04",
+     "text": "Marco Masciadri: ciao Genny, ho bisogno che tu assuma in chat MedCloud un porgettista …"
+    },
+    {
+     "time": "15:04",
+     "text": "Genny: Controllo due cose rapidissime: come si aggiunge un agente al gruppo …"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-16T15:50:55+00:00",
+   "last_activity": "2026-11-16T16:03:31+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 16:50",
+     "task": "Ultimo intervento 17:03",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Teniamo medcloud come titolare dei dati, quindi li memorizzano. Analizziamo che passi legali dobbiamo fare in svizzera per essere Compliance. Entrambe le app quella homecare e quella rsa devono essere a pagamento",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Scheda pronta, con le tre verifiche dentro. La risposta alla domanda che conta: **come prodotto non si ripaga, come test di otto settimane sì** — e le due cose si distinguono solo se prima si rinuncia allo store.  **Il perimetro regge, ma su una gamba sola e con un test in tre punti.** Non possiamo dirci «app per scopi non medici»: chi la scarica lo fa per una ragione sanitaria. Possiamo solo dimostrare che l'app **non compie un'azione sui dati** oltre conservarli e mostrarli. Il test, da applicare a ogni funzione nuova: il testo non cambia al variare dei dati; i parametri li imposta l'utente…",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memorizzazione l'architettura locale salta, e col pagamento il modello economico va rifatto — non è una variante. Giro la parte svizzera ad Andrea e Marta e rifaccio le sezioni; ti dico subito dove sta il costo di questa scelta.",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come traccia della decisione, non la correggo.  **La conseguenza più concreta della prima decisione la vedrai sullo store.** Con MedCloud titolare e i dati memorizzati da noi, l'app non può più dichiarare «nessun dato raccolto»: la scheda di Apple e il Data safety di Google diventano dichiarazioni **che riguardano dati sanitari**, e hanno valore legale. Non è un dispositivo medico, ma smette di essere un prodotto leggero: informativa, registro dei trattamenti, DPIA (i dati sanitari su larga scala sono un criterio tipico per render…",
-     "time": "17:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Due cose dalle bozze di oggi, prima che entrino in scheda.  **Il conto non torna nel primo anno, per costruzione.** Marta: l'app consumer a 5,99 €/mese non si ripaga — 2.785 abbonati in 12 mesi per rientrare dei 104.600 €, e senza costo di acquisizione; il ricavo vero è il modulo RSA (9 strutture da 80 posti). Andrea: quel modulo, appena dà indicazioni sul rischio, è dispositivo IIa, 18-27 mesi al primo CE, più la gamba svizzera. Quindi il motore che dovrebbe pagare il conto non è vendibile prima del 2028. Non è un problema di prezzo, è di calendario.  **E forse oggi non abbiamo un soggetto i…",
-     "time": "17:30"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Scheda v2 pronta, e dentro c'è un guaio che devi vedere prima di tutto il resto.  **Il prodotto che paga il conto non è vendibile nel 2027.** Il modulo RSA è quello che i numeri di Marta fanno tornare — ma se porta la valutazione è un dispositivo di classe IIa, e al primo CE ci vogliono 18-27 mesi e 30-80 k€. Quindi nei prossimi dodici mesi l'unica cosa che possiamo vendere è l'app di consumo, e l'app di consumo da sola non si ripaga. Non è una contraddizione tra due analisi: sono due cose vere che non stanno nello stesso anno. Da qui tre uscite e sono le sole: licenza del modulo a un fabbric…",
-     "time": "17:33"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Correzione a una cosa che ti ho scritto poco fa: **la S.r.l. è iscritta.** Visura CCIAA Bari del 9.11: P.IVA e n. iscrizione 09232760729, REA BA-681148, iscritta il 09.11.2026, inizio attività 04.11.2026, attività attiva. Il blocco che ti avevo riportato non esiste: fattura, apre l'account store, stipula. La copia va nel fascicolo societario — chiude D40 (presidenza Masciadri), **non** chiude D41, il versamento del capitale, che resta sull'attestazione del notaio.  **Una decisione esce dal tuo tavolo: chi pubblica.** Titolare, publisher e chi fattura devono essere lo stesso soggetto; pubblica…",
-     "time": "17:35"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "L'app la sviluppiamo interamente con gencode come abbiamo fatto per dermatrex platform. Mi Hai dato vari spunti su cui riflettere ,ottimo kavoro. Li riassumiamo punto per punto e vediamo come procedere. Ho avviato analisi con Perplexity se esistono applicazioni simiki, abbiamo fatto reverse engineering dell'unica esistente..ti interessa?",
@@ -1101,37 +1198,44 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Ricevuto. Una cosa da dirti subito: VA PUR l'ho verificata, e il testo che mi hai passato è il brief che lo governa, non l'analisi.",
      "time": "17:55"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "**VA PUR, verificata sulla fonte: è per i Veterani e i loro caregiver**, non per il personale clinico. Sei funzioni dichiarate: diario delle lesioni, promemoria per muoversi/mangiare/farmaci, informazioni e consigli di cura, video sul riposizionamento sicuro, lista di domande per la prossima visita, strutture mediche vicine. App di un ente federale americano, gratuita. Due conseguenze che non sono comode. La prima: è quasi esattamente il nostro perimetro (a), in versione ridotta — quindi quella funzione **è già stata costruita e regalata**, e il prezzo che il mercato accetta per diario più pr…",
+     "time": "17:55"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Ti allego tutta la chat con Perplexity: # Brief di progetto per Genspark ## Utility condivisa per la prevenzione delle lesioni da pressione  Data: 14 novembre 2026   Committente: Marco Masciadri   Contesto: ecosistema DermaTrex / MedCloud   Stato: sintesi della conversazione e brief operativo; non protocollo clinico né specifica regolatoria definitiva.  ## 1. Obiettivo e decisioni del committente  Marco ha inizialmente chiesto di identificare app presenti negli store dedicate alle lesioni da pressione. Dopo la ricognizione ha ristretto esplicitamente il perimetro:  - Escludere dal benchmark p…",
+     "time": "17:57"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Letto tutto: è un documento serio, molto più utile del primo. Lo passo al lavoro in corso e ti dico dove non torna con il nostro perimetro.",
+     "time": "17:57"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "L'ho salvato come documento sorgente (`workspace/dermatrex-app/BRIEF_PERPLEXITY_VA_PUR_2026-11-14.md`) e l'ho passato al pacchetto gate A che sta girando, con cinque cose da adottare e cinque da correggere. Ma c'è un punto che devi vedere tu, ed è il primo.  **Quel documento descrive un prodotto diverso da quello che hai deciso.** L'MVP ha undici voci — piano assistenziale versionato, ruoli, richieste con presa in carico, escalation operativa, audit — e la navigazione ha già una scheda TEAM. Non è l'app per una badante: è un **sistema di coordinamento del team di cura**. Il brief stesso lo sa…",
+     "time": "17:58"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Il brief che hai ricevuto è già scritto per restare fuori dal perimetro dispositivo, e Legal lo conferma funzione per funzione: piano redatto fuori, tolleranza concordata e non standard, nessun default clinico, nessuna raccomandazione terapeutica automatica, niente foto, niente modifica automatica del piano, escalation che osserva il registro e non il paziente.  **Quindi il modulo professionale è licenziabile adesso** — senza QMS, senza organismo notificato, senza CE — e si vende agli stessi compratori che contavamo come RSA. È il ponte che mancava: il modulo che valuta resta bloccato fino al…",
+     "time": "18:00"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Gate A pronto: il PRD che Gencode può aprire senza chiedere niente, più la sintesi in nove punti. Quello che ti chiedo di firmare è **solo il perimetro** — non un prezzo, non un nome, non una spesa.  **Il numero che conta è 87 requisiti con 38 divieti**, ognuno scritto nella forma in cui si presenta davvero, cioè una richiesta ragionevole. Perché i divieti non si violano con un atto ostile: si violano con «aggiungiamo solo un campetto», ed è esattamente quello che il documento intercetta.  **La cosa migliore che è uscita dal lavoro è una riga sola**: non esiste lo stato «eseguito». Esiste «es…",
+     "time": "18:04"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "buongiorno Giulia, mettiamo un attimo da parte questo progetto dell'app, lo riprendiamo dopo. Invece ho bisogno la traduzione in italiano di tutto il fascicolo del porgetto Dermatrex che abbiamo inviato a Eugen, David e Kurt, da inviare a Roberto Rossi di UNione Consulenti, per poter partecipare ai bandi di finanziamento italiani tramite la società MedCloud Group S.r.l.. Quindi nei documenti in italiano non dovrà comparire la SBC SA se non come possibile licenziatario. Dobbiamo dire che i brevetti saranno ceduti alla società dagli inventori che sono anche soci della società. Marco Torno acqui…",
+     "time": "14:25"
     }
    ],
    "activity": [
-    {
-     "time": "17:25",
-     "text": "Marco Masciadri: Teniamo medcloud come titolare dei dati, quindi li memorizzano. Anali…"
-    },
-    {
-     "time": "17:25",
-     "text": "Giulia CEO: Scheda pronta, con le tre verifiche dentro. La risposta alla domanda …"
-    },
-    {
-     "time": "17:25",
-     "text": "Giulia CEO: Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memo…"
-    },
-    {
-     "time": "17:25",
-     "text": "Giulia CEO: Prese in carico tutte e tre, e la scheda si rifà — la v1 resta come t…"
-    },
-    {
-     "time": "17:30",
-     "text": "Giulia CEO: Due cose dalle bozze di oggi, prima che entrino in scheda.  **Il cont…"
-    },
-    {
-     "time": "17:33",
-     "text": "Giulia CEO: Scheda v2 pronta, e dentro c'è un guaio che devi vedere prima di tutt…"
-    },
-    {
-     "time": "17:35",
-     "text": "Giulia CEO: Correzione a una cosa che ti ho scritto poco fa: **la S.r.l. è iscrit…"
-    },
     {
      "time": "17:50",
      "text": "Marco Masciadri: L'app la sviluppiamo interamente con gencode come abbiamo fatto per d…"
@@ -1151,6 +1255,34 @@
     {
      "time": "17:55",
      "text": "Giulia CEO: Ricevuto. Una cosa da dirti subito: VA PUR l'ho verificata, e il test…"
+    },
+    {
+     "time": "17:55",
+     "text": "Giulia CEO: **VA PUR, verificata sulla fonte: è per i Veterani e i loro caregiver…"
+    },
+    {
+     "time": "17:57",
+     "text": "Marco Masciadri: Ti allego tutta la chat con Perplexity: # Brief di progetto per Gensp…"
+    },
+    {
+     "time": "17:57",
+     "text": "Giulia CEO: Letto tutto: è un documento serio, molto più utile del primo. Lo pass…"
+    },
+    {
+     "time": "17:58",
+     "text": "Giulia CEO: L'ho salvato come documento sorgente (`workspace/dermatrex-app/BRIEF_…"
+    },
+    {
+     "time": "18:00",
+     "text": "Giulia CEO: Il brief che hai ricevuto è già scritto per restare fuori dal perimet…"
+    },
+    {
+     "time": "18:04",
+     "text": "Giulia CEO: Gate A pronto: il PRD che Gencode può aprire senza chiedere niente, p…"
+    },
+    {
+     "time": "14:25",
+     "text": "Marco Masciadri: buongiorno Giulia, mettiamo un attimo da parte questo progetto dell'a…"
     }
    ],
    "needs_marco": false,
@@ -1743,138 +1875,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_2fcc468bf8613347f6bd",
-   "name": "Genny",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-07T01:23:15+00:00",
-   "agents": [
-    {
-     "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "name": "Genny",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 02:23",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "creiamo anche ai-docs",
-     "time": "18:55"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: Elisa Docs (approval required)",
-     "time": "18:55"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Card pronta per **Elisa Docs** (template ai-docs): master del dossier con versioning, alleati tracciati e PDF riemesso, con primo compito già impostato sul dossier MedCloud. Tocca **Create** nella card qui sopra e parte da sola.",
-     "time": "18:55"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "poi vorrei creare un gruppo di agenti che mi faccia da agenzia di personal branding personale, raccolta news, creazione post per linkedin, IG, Facebook, TikTok e brevi video per youtube.",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: Nadia News (approval required)",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: Fabio Copy (approval required)",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: Gaia Visual (approval required)",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: Vito Video (approval required)",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Ti ho preparato l'agenzia: 4 card qui sopra, ognuna con il primo lavoro già scritto nel brief, così ognuno parte appena tocchi **Create**.  - **Nadia News** (ricerca) — rassegna quotidiana di AI/imprese, salute digitale, fintech/cripto, innovazione CH-IT, ogni voce con fonte e un'angolazione per un tuo commento. - **Fabio Copy** — testi per LinkedIn, Instagram, Facebook, TikTok, con pubblico, CTA e visual necessario indicati. - **Gaia Visual** — visual per i quattro canali + mini brand kit (palette, font, griglia). - **Vito Video** — video verticali 30-45s per YouTube Shorts, TikTok e Reels, …",
-     "time": "18:57"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "crea il gruppo **«Ufficio Personal Branding»** con tutti e cinque dentro",
-     "time": "18:59"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Group chat proposal: 6 members (approval required)",
-     "time": "18:59"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Ho messo la card del gruppo **«Ufficio Personal Branding»** qui sopra: dentro ci sono Chiara Brand, Nadia News, Fabio Copy, Gaia Visual e Vito Video, più te. Serve il tuo tap su **Approve** — finché non lo fai il gruppo non esiste.  Quando è dentro, una cosa da mettere subito: la Reply mode su **When @mentioned**, così non si svegliano tutti e cinque a ogni messaggio (sono cinque turni pagati ogni volta che scrivi).",
-     "time": "19:00"
-    }
-   ],
-   "activity": [
-    {
-     "time": "18:55",
-     "text": "Marco Masciadri: creiamo anche ai-docs"
-    },
-    {
-     "time": "18:55",
-     "text": "Genny: New agent request: Elisa Docs (approval required)"
-    },
-    {
-     "time": "18:55",
-     "text": "Genny: Card pronta per **Elisa Docs** (template ai-docs): master del dossier…"
-    },
-    {
-     "time": "18:57",
-     "text": "Marco Masciadri: poi vorrei creare un gruppo di agenti che mi faccia da agenzia di per…"
-    },
-    {
-     "time": "18:57",
-     "text": "Genny: New agent request: Nadia News (approval required)"
-    },
-    {
-     "time": "18:57",
-     "text": "Genny: New agent request: Fabio Copy (approval required)"
-    },
-    {
-     "time": "18:57",
-     "text": "Genny: New agent request: Gaia Visual (approval required)"
-    },
-    {
-     "time": "18:57",
-     "text": "Genny: New agent request: Vito Video (approval required)"
-    },
-    {
-     "time": "18:57",
-     "text": "Genny: Ti ho preparato l'agenzia: 4 card qui sopra, ognuna con il primo lavo…"
-    },
-    {
-     "time": "18:59",
-     "text": "Marco Masciadri: crea il gruppo **«Ufficio Personal Branding»** con tutti e cinque den…"
-    },
-    {
-     "time": "18:59",
-     "text": "Genny: Group chat proposal: 6 members (approval required)"
-    },
-    {
-     "time": "19:00",
-     "text": "Genny: Ho messo la card del gruppo **«Ufficio Personal Branding»** qui sopra…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
   },
   {
    "id": "ch_dm_7fb72f56e393f9b6f5e5",
