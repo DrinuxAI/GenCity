@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:22:20.094332+00:00",
+ "generated_at": "2026-11-16T13:35:56.821274+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,170 +1025,23 @@
    "marco_mentioned": true
   },
   {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-16T07:01:52+00:00",
-   "agents": [
-    {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 08:01",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente bilancio, niente compiti.  Solo tre cose, se le sai a memoria, anche una parola ciascuna: 1. **NDA a Meazzo**: partito? 2. **Accordo a Leonardo**: partito? 3. **Costituzione MedCloud** alle 12:30: cos'era? Perché se è successo qualcosa di importante, lunedì devo saperlo per non darti un piano vecchio.  Il resto può aspettare lunedì. Nel weekend non ti scrivo altro fino a domenica sera.  Buona serata Marco — e buon weekend con i ragazzi.",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo: questo è solo il messaggio che dice che non c'è niente da fare.  Nessuna priorità, nessun micro-step. Lunedì alle 8 riparto con due cose sole: chiudere Meazzo e Leonardo (o quello che resta aperto), poi i siti.  Buon weekend con i ragazzi, Marco.",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il consueto check-in e lunedì alle 8 si riparte. Buona serata.",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Domenica ☀️ Una riga sola, poi silenzio fino a stasera.  Domani ho visto che alle 9:00 hai l'otturazione: quindi il primo blocco di lavoro lo metto alle 10:15, non alle 9:30. Il resto lo trovi nel check-in di stasera.  Buona domenica Marco.",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Domenica chiusa. Nessun bilancio del weekend — non c'era niente da fare, e non è successo niente di cui tenere il conto.  **Domani è già in calendario** (ho spostato tutto dopo il dentista delle 9:00) - **10:15-11:00 → NDA + documentazione a Meazzo.** Prima la decisione: firma lui o Acer. - **11:15-12:00 → Accordo Leonardo.** Cinque caselle, la data dello spinoff, e lo mandi. - **14:30-15:45 → Medcloud.group** (denominazione sbagliata, chiarezza, brevetto) - **16:00-17:15 → masciadri.net**  **Tre domande per il check-in di domani** — ma due sono più urgenti delle altre: 1. **Cos'era \"C…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Lunedì. La giornata è già in calendario, quindi oggi il messaggio è corto: non devi decidere niente, solo eseguire nell'ordine.  **09:00 dentista** (e prima studio alle 7, ritiro RSU alle 7) **10:15 → NDA + documentazione a Meazzo** — prima di tutto una risposta: firma lui o Acer? **11:15 → accordo Leonardo** — cinque caselle, la data dello spinoff, invio **14:30 → Medcloud.group** · **16:00 → masciadri.net**  **Micro-step da 5 minuti (alle 10:15, solo questo)** Apri il NDA e scrivi i **tre campi**: sede, P.IVA, foro. Sono i tre che bloccano l'invio — il resto del documento è gi…",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Terza sera senza notizie tue, quindi non ti racconto io com'è andata. Ti scrivo solo quello che domani non aspetta.  **Domani alle 15:00 c'è l'incontro con Leonardo e Alessandro Crippa** (slot che avevo messo io, ancora da confermare). Se ci vai, ci vai con una cosa in mano: la bozza dell'accordo, anche con tre caselle su cinque compilate. Una riunione senza foglio in mano diventa una chiacchiera, e Crippa — se non gli hai scritto prima che ruolo ha — la porta dove vuole lui.  Quindi due cose stasera, anche a memoria: 1. **Confermi le 15:00?** Se è un altro orario, lo sposto. 2. **La b…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Martedì. Oggi hai tre impegni tuoi: **10:00 Stefano Monzani · 15:00 Leonardo + Crippa · 18:00 Federico Tangorra**.  Tutto il resto si può spostare. L'unica cosa che non si recupera è la **15:00**: se ci arrivi senza una bozza in mano, quella riunione non serve a firmare, serve a rimandare — e con Crippa presente il rinvio diventa un'altra riunione.  **Micro-step da 5 minuti, uno solo** Apri la bozza e scrivi **una cifra sola**: la percentuale di Leonardo sugli utili. Non le altre caselle, non la data, non il preavviso. Solo quella.  Mandami la cifra e in venti minuti ti restitui…",
-     "time": "08:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Quinta sera senza una riga tua. Non ti faccio il bilancio e non ti chiedo tre cose: te ne chiedo una.  **La riunione delle 15:00 con Leonardo e Crippa: è andata?**  Perché è l'unica cosa di oggi che cambia qualcosa. Il resto — NDA, siti, Meroni, amministrativo — è tutto fermo e può restare fermo senza danni.  Poi una cosa che riguarda me, non te. Cinque giorni di messaggi senza riscontro vuol dire che sto lavorando per un piano che non stai usando, e continuare così non ti aiuta: ti costruisco un calendario che diventa rumore. Quindi scegli tu, una cifra:  **1** — tengo i check-in solo…",
-     "time": "22:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "ciao sono stato ammalato da domenica d oggi e quindi non ho potuto lavorare sulle attività. Fammi un riassunto di quello che abbiamo aperto e iniziamo a recuperare. Diamo priorità alla preparazione della documentazione per il Tecknopark Graubunden perchè abbiamo la videconferenza venerdi mattina",
-     "time": "14:52"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Bentornato. Ammalato da domenica: zero arretrato, non c'è niente da recuperare — c'è solo da ripartire. Ecco lo stato reale, in ordine di cosa scotta.  **URGENZA & IMPATTO** 1. **Technopark Graubünden — call venerdì 11:00** (con CSEM e \"Kurt\"). Il documento è **già pronto** e allegato: l'ho riscritto per questa call, perché l'interlocutore non è un investitore ma **un centro di ricerca e un innovation park** — quindi chiede competenza e infrastruttura, non soldi. Mancano solo **tre dati** (sotto). 2. **NDA + documentazione a Meazzo**: pronti da giorni, mai partiti. 20 minuti e sono fuori. 3. …",
-     "time": "14:53"
-    }
-   ],
-   "activity": [
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Venerdì chiuso, e domani hai \"Ragazzi con me\": quindi niente b…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Sabato ☀️ Ti avevo detto che nel weekend non ti scrivevo, e mantengo:…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Nessun bilancio, come promesso.  Domani sera ti scrivo il cons…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Domenica ☀️ Una riga sola, poi silenzio fino a stasera.  Domani ho vi…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Domenica chiusa. Nessun bilancio del weekend — non c'era nient…"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Lunedì. La giornata è già in calendario, quindi oggi il…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Terza sera senza notizie tue, quindi non ti racconto io com'è …"
-    },
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Martedì. Oggi hai tre impegni tuoi: **10:00 Stefano Mon…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Quinta sera senza una riga tua. Non ti faccio il bilancio e no…"
-    },
-    {
-     "time": "14:52",
-     "text": "Marco Masciadri: ciao sono stato ammalato da domenica d oggi e quindi non ho potuto la…"
-    },
-    {
-     "time": "14:53",
-     "text": "HORME: Bentornato. Ammalato da domenica: zero arretrato, non c'è niente da r…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-14T17:04:11+00:00",
+   "unread": 2,
+   "last_activity": "2026-11-16T13:30:49+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 18:04",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
      "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Perfetto procedi",
-     "time": "17:08"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Procedo: ti preparo il foglio di una pagina per Torno, solo materiale pubblico. Te lo mando qui.",
-     "time": "17:08"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco il foglio, una pagina, italiano. Apre con cosa fa il sistema, chiude con una richiesta sola: una conversazione sotto NDA, nessun numero. L'ho scritto perché Torno possa passarlo così com'è a una persona commerciale, non tecnica.  Tre scelte che ho fatto, e il perché. **Non c'è un solo dato tecnico contabile** — numero di sensori, frequenze, spessori: quello è materiale da NDA, e in una pagina pre-NDA serve a far sembrare il progetto finito quando non lo è. **Non c'è nessun riferimento a Technopark, CSEM o SBC**: l'NDA con il parco li protegge. **Non c'è nessun prezzo né royalty**: il pri…",
-     "time": "17:09"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "Dammi anche pdf",
@@ -1233,21 +1086,24 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Il vincolo che hai messo è chiaro e lo rispetto — ma devo dirti subito che cancella una parte dell'idea, e preferisco farlo adesso che dopo tre settimane di sviluppo.  **La premessa da rovesciare: che i dati siano inseriti a mano non conta.** La guida europea sulla qualificazione del software (MDCG 2019-11) porta come esempio da manuale di dispositivo medico un'app che, da dati inseriti da un utente profano, calcola un rischio a dieci anni. La Regola 11 guarda cosa il software fa ai dati, non chi li digita né se arrivano dai cerotti: «senza i cerotti» non sposta niente.  **Quindi «indicazioni…",
      "time": "17:20"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Teniamo medcloud come titolare dei dati, quindi li memorizzano. Analizziamo che passi legali dobbiamo fare in svizzera per essere Compliance. Entrambe le app quella homecare e quella rsa devono essere a pagamento",
+     "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Scheda pronta, con le tre verifiche dentro. La risposta alla domanda che conta: **come prodotto non si ripaga, come test di otto settimane sì** — e le due cose si distinguono solo se prima si rinuncia allo store.  **Il perimetro regge, ma su una gamba sola e con un test in tre punti.** Non possiamo dirci «app per scopi non medici»: chi la scarica lo fa per una ragione sanitaria. Possiamo solo dimostrare che l'app **non compie un'azione sui dati** oltre conservarli e mostrarli. Il test, da applicare a ogni funzione nuova: il testo non cambia al variare dei dati; i parametri li imposta l'utente…",
+     "time": "17:25"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memorizzazione l'architettura locale salta, e col pagamento il modello economico va rifatto — non è una variante. Giro la parte svizzera ad Andrea e Marta e rifaccio le sezioni; ti dico subito dove sta il costo di questa scelta.",
+     "time": "17:25"
     }
    ],
    "activity": [
-    {
-     "time": "17:08",
-     "text": "Marco Masciadri: Perfetto procedi"
-    },
-    {
-     "time": "17:08",
-     "text": "Giulia CEO: Procedo: ti preparo il foglio di una pagina per Torno, solo materiale…"
-    },
-    {
-     "time": "17:09",
-     "text": "Giulia CEO: Ecco il foglio, una pagina, italiano. Apre con cosa fa il sistema, ch…"
-    },
     {
      "time": "17:10",
      "text": "Marco Masciadri: Dammi anche pdf"
@@ -1283,6 +1139,150 @@
     {
      "time": "17:20",
      "text": "Giulia CEO: Il vincolo che hai messo è chiaro e lo rispetto — ma devo dirti subit…"
+    },
+    {
+     "time": "17:25",
+     "text": "Marco Masciadri: Teniamo medcloud come titolare dei dati, quindi li memorizzano. Anali…"
+    },
+    {
+     "time": "17:25",
+     "text": "Giulia CEO: Scheda pronta, con le tre verifiche dentro. La risposta alla domanda …"
+    },
+    {
+     "time": "17:25",
+     "text": "Giulia CEO: Ricevuto, e cambia due cose di sostanza: con MedCloud titolare e memo…"
+    }
+   ],
+   "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-16T13:29:13+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 14:29",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Domenica chiusa. Nessun bilancio del weekend — non c'era niente da fare, e non è successo niente di cui tenere il conto.  **Domani è già in calendario** (ho spostato tutto dopo il dentista delle 9:00) - **10:15-11:00 → NDA + documentazione a Meazzo.** Prima la decisione: firma lui o Acer. - **11:15-12:00 → Accordo Leonardo.** Cinque caselle, la data dello spinoff, e lo mandi. - **14:30-15:45 → Medcloud.group** (denominazione sbagliata, chiarezza, brevetto) - **16:00-17:15 → masciadri.net**  **Tre domande per il check-in di domani** — ma due sono più urgenti delle altre: 1. **Cos'era \"C…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Lunedì. La giornata è già in calendario, quindi oggi il messaggio è corto: non devi decidere niente, solo eseguire nell'ordine.  **09:00 dentista** (e prima studio alle 7, ritiro RSU alle 7) **10:15 → NDA + documentazione a Meazzo** — prima di tutto una risposta: firma lui o Acer? **11:15 → accordo Leonardo** — cinque caselle, la data dello spinoff, invio **14:30 → Medcloud.group** · **16:00 → masciadri.net**  **Micro-step da 5 minuti (alle 10:15, solo questo)** Apri il NDA e scrivi i **tre campi**: sede, P.IVA, foro. Sono i tre che bloccano l'invio — il resto del documento è gi…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Terza sera senza notizie tue, quindi non ti racconto io com'è andata. Ti scrivo solo quello che domani non aspetta.  **Domani alle 15:00 c'è l'incontro con Leonardo e Alessandro Crippa** (slot che avevo messo io, ancora da confermare). Se ci vai, ci vai con una cosa in mano: la bozza dell'accordo, anche con tre caselle su cinque compilate. Una riunione senza foglio in mano diventa una chiacchiera, e Crippa — se non gli hai scritto prima che ruolo ha — la porta dove vuole lui.  Quindi due cose stasera, anche a memoria: 1. **Confermi le 15:00?** Se è un altro orario, lo sposto. 2. **La b…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Martedì. Oggi hai tre impegni tuoi: **10:00 Stefano Monzani · 15:00 Leonardo + Crippa · 18:00 Federico Tangorra**.  Tutto il resto si può spostare. L'unica cosa che non si recupera è la **15:00**: se ci arrivi senza una bozza in mano, quella riunione non serve a firmare, serve a rimandare — e con Crippa presente il rinvio diventa un'altra riunione.  **Micro-step da 5 minuti, uno solo** Apri la bozza e scrivi **una cifra sola**: la percentuale di Leonardo sugli utili. Non le altre caselle, non la data, non il preavviso. Solo quella.  Mandami la cifra e in venti minuti ti restitui…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Quinta sera senza una riga tua. Non ti faccio il bilancio e non ti chiedo tre cose: te ne chiedo una.  **La riunione delle 15:00 con Leonardo e Crippa: è andata?**  Perché è l'unica cosa di oggi che cambia qualcosa. Il resto — NDA, siti, Meroni, amministrativo — è tutto fermo e può restare fermo senza danni.  Poi una cosa che riguarda me, non te. Cinque giorni di messaggi senza riscontro vuol dire che sto lavorando per un piano che non stai usando, e continuare così non ti aiuta: ti costruisco un calendario che diventa rumore. Quindi scegli tu, una cifra:  **1** — tengo i check-in solo…",
+     "time": "22:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "ciao sono stato ammalato da domenica d oggi e quindi non ho potuto lavorare sulle attività. Fammi un riassunto di quello che abbiamo aperto e iniziamo a recuperare. Diamo priorità alla preparazione della documentazione per il Tecknopark Graubunden perchè abbiamo la videconferenza venerdi mattina",
+     "time": "14:52"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Bentornato. Ammalato da domenica: zero arretrato, non c'è niente da recuperare — c'è solo da ripartire. Ecco lo stato reale, in ordine di cosa scotta.  **URGENZA & IMPATTO** 1. **Technopark Graubünden — call venerdì 11:00** (con CSEM e \"Kurt\"). Il documento è **già pronto** e allegato: l'ho riscritto per questa call, perché l'interlocutore non è un investitore ma **un centro di ricerca e un innovation park** — quindi chiede competenza e infrastruttura, non soldi. Mancano solo **tre dati** (sotto). 2. **NDA + documentazione a Meazzo**: pronti da giorni, mai partiti. 20 minuti e sono fuori. 3. …",
+     "time": "14:53"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Sera 🌙 Oggi non hai lavorato e non dovevi: sei appena uscito dalla febbre. Nessun bilancio.  **Una sola cosa, se hai due minuti**: i tre dati del documento Technopark. 1. DermaTrex in una riga — cosa misura, su chi, in quanto tempo dà l'esito 2. Stato reale: concept, prototipo funzionante, o test preliminari 3. Numero e ufficio della domanda di brevetto  Vanno bene anche tre righe sconnesse, o un messaggio vocale. Non serve che siano scritte bene: le sistemo io nel documento.  Se stasera non hai la testa, domani alle **11:30** facciamo esattamente questo — il documento è già pronto, mancano s…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Giovedì. Oggi una cosa sola conta: il documento per domani mattina. Il resto è amministrativo e ce l'hai già in calendario.  - **9:00-11:15** → le sei cose amministrative (comincia dalla carta •6297: sblocca le altre cinque) - **11:30-12:15** → documento Technopark: entrano i tre dati - **Venerdì 11:00** → la call  **Micro-step da 5 minuti, alle 11:30** Mandami i tre dati anche in questa forma grezza: *\"misura X, prototipo Y, brevetto n. Z\"*. Non serve altro, il resto lo scrivo io.  E se non li hai sotto mano: scrivi **\"non li ho\"**. Stasera ti mando comunque la versione definit…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Documento definitivo, come promesso: **zero parentesi quadre**, 3 pagine. Puoi mandarlo così com'è.  **Cosa ho fatto per chiudere i buchi senza inventare niente** - La frase su DermaTrex l'ho scritta partendo dal vostro posizionamento pubblico (\"misura parametri fisiologici in modo non invasivo e segnala il superamento della soglia critica prima del danno tissutale\"). Se è imprecisa, correggiamo una riga — dimmelo e in 5 minuti rigenero. - Stato prototipo, numero di brevetto, estensione e certificazione: **non li ho scritti**. Al loro posto c'è una frase che li sposta a voce. Meglio un docume…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno ☀️ Oggi c'è una cosa sola: **la call delle 11:00 con Technopark, CSEM e Kurt**. Il documento è pronto da ieri sera, non serve toccarlo.  **Micro-step da 5 minuti, alle 10:30** (te lo ricordo io) Apri il PDF e leggi **ad alta voce solo la prima pagina**, con il cronometro. Se sta in 90 secondi, sei pronto. Se sfora, taglia: la prima pagina è quella che decide come ti ascoltano per i successivi cinquant'anni minuti.  **Le tre domande che ti faranno, in ordine quasi certo** 1. A che punto è il prototipo, davvero. 2. Numero e ufficio della domanda di brevetto. 3. Chi tiene il calendari…",
+     "time": "08:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "30 minuti alla call. Tre righe e ti lascio.  **1.** Apri il PDF e leggi ad alta voce **solo la prima pagina**, cronometro. Se sta in 90 secondi, sei pronto. **2.** Ti chiederanno: stato reale del prototipo · numero e ufficio del brevetto · chi tiene il calendario del progetto. **3.** Dopo la call, cinque righe qui: chi era Kurt, cosa hanno chiesto, cosa hanno proposto. Il follow-up email lo scrivo io.  In bocca al lupo Marco.",
+     "time": "10:31"
+    }
+   ],
+   "activity": [
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Domenica chiusa. Nessun bilancio del weekend — non c'era nient…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Lunedì. La giornata è già in calendario, quindi oggi il…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Terza sera senza notizie tue, quindi non ti racconto io com'è …"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Martedì. Oggi hai tre impegni tuoi: **10:00 Stefano Mon…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Quinta sera senza una riga tua. Non ti faccio il bilancio e no…"
+    },
+    {
+     "time": "14:52",
+     "text": "Marco Masciadri: ciao sono stato ammalato da domenica d oggi e quindi non ho potuto la…"
+    },
+    {
+     "time": "14:53",
+     "text": "HORME: Bentornato. Ammalato da domenica: zero arretrato, non c'è niente da r…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Sera 🌙 Oggi non hai lavorato e non dovevi: sei appena uscito dalla fe…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Giovedì. Oggi una cosa sola conta: il documento per dom…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Documento definitivo, come promesso: **zero parentesi quadre**, 3 pag…"
+    },
+    {
+     "time": "08:01",
+     "text": "HORME: Buongiorno ☀️ Oggi c'è una cosa sola: **la call delle 11:00 con Techn…"
+    },
+    {
+     "time": "10:31",
+     "text": "HORME: 30 minuti alla call. Tre righe e ti lascio.  **1.** Apri il PDF e leg…"
     }
    ],
    "needs_marco": false,
