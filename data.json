@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T06:59:46.902228+00:00",
+ "generated_at": "2026-11-16T07:13:32.249401+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1037,8 +1037,8 @@
    "name": "Coach ADHD",
    "project": "ufficio",
    "type": "studio",
-   "unread": 3,
-   "last_activity": "2026-11-14T21:01:15+00:00",
+   "unread": 4,
+   "last_activity": "2026-11-16T07:01:52+00:00",
    "agents": [
     {
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
@@ -1050,11 +1050,6 @@
     }
    ],
    "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in un giorno. MedCloud con Meazzo, Sycurium con Leonardo, e Meroni come terzo binario. I documenti ci sono già, quindi domani non si scrive: si compila e si manda.  **Domani, tre cose — mezz'ora l'una** 1. **NDA + documentazione a Meazzo.** Ti servono 20 minuti: tre campi del NDA, i tre buchi tra parentesi nella documentazione. Poi parte. E prima di inviarla, la domanda: firma lui o Acer? 2. **Accordo Leonardo.** Cinque caselle: percentuale utili, base di calcolo, percentuale perdite, preavviso, titolarità IP. Più la data nella…",
-     "time": "22:01"
-    },
     {
      "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "text": "Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minuti, prima dei tuoi impegni.  **1. 09:30-10:15 — NDA + documentazione a Meazzo** Prima dei campi c'è una decisione: **firma lui come persona o è Acer?** Se è Acer, il NDA personale non serve a niente. Poi tre campi e tre buchi. E verifica l'indirizzo che ti ha mandato su WhatsApp prima di premere invio: un NDA al destinatario sbagliato non si recupera.  **2. 10:30-11:15 — Accordo Leonardo** Cinque caselle, poi la data nella sezione spinoff, poi lo mandi oggi. Entro 24 ore, non lunedì: è la differenza tra una cosa viva e una co…",
@@ -1109,13 +1104,14 @@
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "ciao sono stato ammalato da domenica d oggi e quindi non ho potuto lavorare sulle attività. Fammi un riassunto di quello che abbiamo aperto e iniziamo a recuperare. Diamo priorità alla preparazione della documentazione per il Tecknopark Graubunden perchè abbiamo la videconferenza venerdi mattina",
      "time": "14:52"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Bentornato. Ammalato da domenica: zero arretrato, non c'è niente da recuperare — c'è solo da ripartire. Ecco lo stato reale, in ordine di cosa scotta.  **URGENZA & IMPATTO** 1. **Technopark Graubünden — call venerdì 11:00** (con CSEM e \"Kurt\"). Il documento è **già pronto** e allegato: l'ho riscritto per questa call, perché l'interlocutore non è un investitore ma **un centro di ricerca e un innovation park** — quindi chiede competenza e infrastruttura, non soldi. Mancano solo **tre dati** (sotto). 2. **NDA + documentazione a Meazzo**: pronti da giorni, mai partiti. 20 minuti e sono fuori. 3. …",
+     "time": "14:53"
     }
    ],
    "activity": [
-    {
-     "time": "22:01",
-     "text": "HORME: Sera 🌙 Oggi hai fatto la cosa più difficile: hai aperto tre porte in …"
-    },
     {
      "time": "08:01",
      "text": "HORME: Buongiorno ☀️ Venerdì. Ho messo in calendario due blocchi da 45 minut…"
@@ -1159,6 +1155,10 @@
     {
      "time": "14:52",
      "text": "Marco Masciadri: ciao sono stato ammalato da domenica d oggi e quindi non ho potuto la…"
+    },
+    {
+     "time": "14:53",
+     "text": "HORME: Bentornato. Ammalato da domenica: zero arretrato, non c'è niente da r…"
     }
    ],
    "needs_marco": true,
