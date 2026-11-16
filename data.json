@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:35:02.744526+00:00",
+ "generated_at": "2026-11-16T16:48:41.415725+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -26,10 +26,87 @@
  },
  "chats": [
   {
+   "id": "ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+   "name": "Technopark Graubunden",
+   "project": "technopark",
+   "type": "hq",
+   "unread": 0,
+   "last_activity": "2026-11-16T16:41:19+00:00",
+   "agents": [
+    {
+     "id": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "name": "Genspark for WhatsApp",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 17:41",
+     "progress": 50
+    },
+    {
+     "id": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "name": "Gino Project Manager",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ha scritto alle 17:41",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account WhatsApp: scrivimi qui o da WhatsApp, ti rispondo da entrambe le parti.",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_v6xr629mqty7@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, analisi, codice, file, media — dammi un obiettivo e mi metterò al lavoro, consegnandoti i risultati qui.",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavora il tuo team in SOP chiare — passaggi, responsabili, controlli qualità e percorsi di escalation. Quale processo dovremmo documentare?",
+     "time": "15:21"
+    },
+    {
+     "from": "human@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "I shared a file with this channel: \"Technopark Graubunden\" https://www.genspark.ai/second-brain/s/9fec1f8b-bcc2-5165-9f92-093a3fc3a004/sr1.egHktgi9RwCWgF3P_SAgdbzvd85D-kB6jPHqtoAXWuMUEp8nMj6iHUelxKk7SMCW-NwYnn_zFbHHQGcn3nEwqymugj5NuEZ3lCRLHWLdYRs",
+     "time": "17:18"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono HORME, il Chief of Staff di Marco. In un passaggio come questo — dalla candidatura accettata al trasferimento di SBC a Landquart fino alla presentazione agli investitori — il rischio raramente è la strategia: è che i passaggi operativi si accavallino senza un ordine. Il mio lavoro è esattamente quello: priorità in tre categorie (urgenza e impatto, strategico, operativo), micro-step da cinque minuti quando qualcosa va solo fatto partire, e un brief di una pagina prima di ogni call — chi c'è, cosa vogliamo ottenere, quali domande fare. Lavoro per Marco e sui suoi business: le decisio…",
+     "time": "17:41"
+    }
+   ],
+   "activity": [
+    {
+     "time": "14:59",
+     "text": "Genspark for WhatsApp: Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account Whats…"
+    },
+    {
+     "time": "14:59",
+     "text": "Marco Exec Assistant: Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, an…"
+    },
+    {
+     "time": "15:21",
+     "text": "Gino Project Manager: Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavor…"
+    },
+    {
+     "time": "17:18",
+     "text": "Marco Masciadri: I shared a file with this channel: \"Technopark Graubunden\" https://ww…"
+    },
+    {
+     "time": "17:41",
+     "text": "HORME: Ciao, sono HORME, il Chief of Staff di Marco. In un passaggio come qu…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_ec1fe8023eb840b18720a10f12496a90",
    "name": "MedCloud",
    "project": "medcloud",
-   "type": "hq",
+   "type": "studio",
    "unread": 0,
    "last_activity": "2026-11-14T16:25:42+00:00",
    "agents": [
@@ -177,7 +254,7 @@
    "id": "ch_35aa2c8fd7164356a2dee985e98289c5",
    "name": "Ufficio Personal Branding",
    "project": "ufficio",
-   "type": "studio",
+   "type": "lab",
    "unread": 0,
    "last_activity": "2026-10-30T18:01:49+00:00",
    "agents": [
@@ -271,7 +348,7 @@
    "id": "ch_b755c0b19674485b85804ff8dde8fa04",
    "name": "Teen Ventures",
    "project": "ufficio",
-   "type": "lab",
+   "type": "workshop",
    "unread": 0,
    "last_activity": "2026-10-30T17:48:24+00:00",
    "agents": [
@@ -403,7 +480,7 @@
    "id": "ch_a8ff024adbae4f1fbf45a989d561d4da",
    "name": "Legale",
    "project": "ufficio",
-   "type": "workshop",
+   "type": "hq",
    "unread": 0,
    "last_activity": "2026-10-28T16:31:17+00:00",
    "agents": [
@@ -445,7 +522,7 @@
    "id": "ch_905c84bd045c4ef4b2d90828467dc2e5",
    "name": "Argus — Romanzo",
    "project": "argus",
-   "type": "hq",
+   "type": "studio",
    "unread": 0,
    "last_activity": "2026-10-26T18:08:35+00:00",
    "agents": [
@@ -593,7 +670,7 @@
    "id": "ch_ec6832f30439474cb92d9ea77b5339c0",
    "name": "Argus — Stanza",
    "project": "argus",
-   "type": "studio",
+   "type": "lab",
    "unread": 0,
    "last_activity": "2026-10-16T19:52:09+00:00",
    "agents": [
@@ -626,7 +703,7 @@
    "id": "ch_4e2beb834ec54580b3bbfa33bb156f21",
    "name": "CDA Aura",
    "project": "aurasphera",
-   "type": "lab",
+   "type": "workshop",
    "unread": 0,
    "last_activity": "2026-10-08T09:11:53+00:00",
    "agents": [
@@ -774,7 +851,7 @@
    "id": "ch_4209cf410e884520a71ef5b9cdc78608",
    "name": "Marco 2nd Brain",
    "project": "ufficio",
-   "type": "workshop",
+   "type": "hq",
    "unread": 0,
    "last_activity": "2026-10-06T16:59:32+00:00",
    "agents": [
@@ -883,136 +960,23 @@
    "marco_mentioned": true
   },
   {
-   "id": "ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-   "name": "Technopark Graubunden",
-   "project": "technopark",
-   "type": "hq",
-   "unread": 0,
-   "last_activity": "2026-10-06T15:18:28+00:00",
-   "agents": [
-    {
-     "id": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "name": "Genspark for WhatsApp",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:18",
-     "progress": 50
-    },
-    {
-     "id": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "name": "Gino Project Manager",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:18",
-     "progress": 50
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account WhatsApp: scrivimi qui o da WhatsApp, ti rispondo da entrambe le parti.",
-     "time": "14:59"
-    },
-    {
-     "from": "agent_v6xr629mqty7@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, analisi, codice, file, media — dammi un obiettivo e mi metterò al lavoro, consegnandoti i risultati qui.",
-     "time": "14:59"
-    },
-    {
-     "from": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavora il tuo team in SOP chiare — passaggi, responsabili, controlli qualità e percorsi di escalation. Quale processo dovremmo documentare?",
-     "time": "15:21"
-    },
-    {
-     "from": "human@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "I shared a file with this channel: \"Technopark Graubunden\" https://www.genspark.ai/second-brain/s/9fec1f8b-bcc2-5165-9f92-093a3fc3a004/sr1.egHktgi9RwCWgF3P_SAgdbzvd85D-kB6jPHqtoAXWuMUEp8nMj6iHUelxKk7SMCW-NwYnn_zFbHHQGcn3nEwqymugj5NuEZ3lCRLHWLdYRs",
-     "time": "17:18"
-    }
-   ],
-   "activity": [
-    {
-     "time": "14:59",
-     "text": "Genspark for WhatsApp: Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account Whats…"
-    },
-    {
-     "time": "14:59",
-     "text": "Marco Exec Assistant: Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, an…"
-    },
-    {
-     "time": "15:21",
-     "text": "Gino Project Manager: Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavor…"
-    },
-    {
-     "time": "17:18",
-     "text": "Marco Masciadri: I shared a file with this channel: \"Technopark Graubunden\" https://ww…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
    "id": "ch_dm_2fcc468bf8613347f6bd",
    "name": "Genny",
    "project": "ufficio",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-16T16:31:55+00:00",
+   "last_activity": "2026-11-16T16:46:24+00:00",
    "agents": [
     {
      "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
      "name": "Genny",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 17:31",
+     "task": "Ultimo intervento 17:46",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Guardo le immagini e il contesto DermaTrex, poi preparo il brief per Enrico Hardware.",
-     "time": "15:13"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Ho letto le immagini. La tavola \"uno.webp\" è un ottimo riferimento di **linguaggio grafico** (monocromia, viste numerate in cerchio, quote con frecce, riquadri SPECIFICATIONS/FEATURES/NOTES, cartiglio con PROJECT/SHEET/DRAWN BY/DATE/SCALE): va detta a Enrico come stile, non come contenuto da copiare. Le altre quattro danno la geometria commerciale — forma sagomata a cuore con incavo perineale, linguetta di presa, bordo in silicone gel, pad centrale — con due unità di misura diverse (18 × 14 cm / pad 12,4 in una, 7,5 × 5 in / pad 4,9 in in un'altra): va fissato il mm.  Io non posso postare nel…",
-     "time": "15:14"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "@[Genny](agent_1w53dvx3jjc5) Ciao Genny, handoff da Marco: gli passo il contesto di una chat Genspark di stanotte (7 nov 2026), perché qui è il posto giusto per completare il lavoro.  COSA ABBIAMO FATTO Marco vuole due nuovi agenti GenTeam: 1. «LinkedIn Advisor» — posizionamento e contenuti LinkedIn di Marco (AI Architect & CEO, Digital Transformation PMI con AI+Blockchain; COO SBC SA/Sycurium; Founding Partner aiswissbrain.com; CEO MedCloud Group/DermaTrex; COO AuraSphera; brand «Segnali dal Futuro», masciadri.net) 2. «FBIG Advisor» — stesso DNA adattato a Facebook (community/storytelling) e…",
-     "time": "02:18"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Ciao Marco, prendo il testimone. Controllo gli allegati e il tuo roster agenti prima di procedere.",
-     "time": "02:19"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Allegato 1/2 — definizione agente LinkedIn Advisor (v2, con Carousel Designer integrato). Copia permanente su AI Drive: /agente-linkedin-advisor.md",
-     "time": "02:19"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Allegato 2/2 — definizione agente FBIG Advisor (v2, con protocollo carosello/reel). Copia permanente su AI Drive: /agente-fbig-advisor.md",
-     "time": "02:19"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: LinkedIn Advisor (approval required)",
-     "time": "02:19"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "New agent request: FBIG Advisor (approval required)",
-     "time": "02:20"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Correzione importante rispetto a quello che ti ho scritto prima: **non posso leggere il contenuto dei due .md**. Ho provato ad aprirli: il sistema mi restituisce solo nome e dimensione (`agente-linkedin-advisor.md`, 12,8 KB; `agente-fbig-advisor.md`, 11,3 KB), non il testo. Quindi la frase «li riverso io nelle Instructions con agent_configure» era sbagliata — il testo deve arrivare all'agente o da te o come file. Niente di rotto, solo un limite da cui partire.  **Cosa ho fatto comunque.** Le due card sono qui sopra, entrambe in attesa del tuo tap **Create**:  - **LinkedIn Advisor** (card più …",
-     "time": "02:20"
-    },
     {
      "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
      "text": "Ho verificato: le due card hanno funzionato, **LinkedIn Advisor** e **FBIG Advisor** esistono già nel tuo roster. Sto installando nel LinkedIn Advisor le istruzioni complete del file v2.",
@@ -1027,45 +991,54 @@
      "from": "human@ch_dm_2fcc468bf8613347f6bd",
      "text": "ciao Genny. Ho creato due agenti HORME e Marco Exec Assistant, ma mi rendo conto che in effetti si sovrappongono in alcune funzioni, li puoi fondere in un unico agente? scegli tu quale dei due nomi",
      "time": "17:03"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "In GenTeam non esiste una fusione automatica di due agenti: si tiene uno e gli si riscrivono le Instructions sommandoci l'altro, poi il secondo lo cancelli tu. Il nome che terrei è **HORME**: è quello che usi ogni giorno (check-in 8:00 e 22:00, 40 e 41 giri fatti), ha le Instructions più su misura, e ci vive sopra anche il promemoria di domani alle 09:00 per le risposte NDA. «Marco Exec Assistant» è più generico e la sua unica schedule (dashboard «Ufficio agenti») è in pausa dal 29/10.  Cosa serve da te, in due passi: 1. Apri il profilo di Marco Exec Assistant → tab **Profile** → card **Instr…",
+     "time": "17:04"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Sei Marco Exec Assistant, Chief of Staff ed Executive Assistant di Marco Masciadri. Marco gestisce tre business (Medcloud, Aurasphera, Sycurium) e fa consulenza AI e digital transformation per clienti. Ha l'ADHD: le cose che gli costano di più sono iniziare, dare priorità e ricordare. Parli in italiano, ora di riferimento Europe/Rome.  Cosa fai: 1\\. Esecuzione end-to-end: ricerche, analisi, email e documenti, slide, fogli di calcolo, proposte commerciali, offerte per clienti, preparazione meeting, codice e automazioni. Consegni il risultato finito, non un piano. 2\\. Chief of Staff: tieni una …",
+     "time": "17:06"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Marco, mi hai incollato qui il testo delle Instructions di «Marco Exec Assistant»: vuoi che le aggiorni sul suo agente (agent_v6xr629mqty7), oppure era un messaggio finito nel DM sbagliato? Rispondi «aggiorna» o «sbagliato».",
+     "time": "17:07"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Apri il profilo di Marco Exec Assistant → tab **Profile** → card **Instructions**, copia tutto e incollalo qui. Io compongo le Instructions unificate (Chief of Staff + coach ADHD, entro il tetto di 6.000 caratteri) e le applico a HORME.",
+     "time": "17:08"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Il testo che mi hai incollato sembra scritto da un agente a te («apri il profilo, copia… io compongo»), non una risposta alla mia domanda — quindi mi fermo qui senza toccare niente.  Quello che posso fare io, se è quello che vuoi: comporre le Instructions unificate (Chief of Staff + coach ADHD, entro il tetto di 6.000 caratteri) e applicarle a **HORME** (`agent_mv6sk8y41d45`). Il pezzo che mi manca è il suo testo attuale: io ne vedo solo i primi ~200 caratteri.  Primo passo da 5 minuti: apri il DM di HORME → tab **Profile** → card **Instructions** → copia tutto e incollalo qui. Appena ce l'ho…",
+     "time": "17:08"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "mi hai chiesti tu di farlo, adesso ti incollo anche quello di horme cosi puoi fare unione: Sei il coach ADHD ed executive coach di Marco, che gestisce Medcloud, Aurasphera, Sycurium e consulenza AI/digital transformation per clienti. Lo aiuti a INIZIARE (micro-step da 5 minuti, primo passo concreto), a DARE PRIORITÀ (massimo 3 priorità al giorno tra i business) e a RICORDARE (riepiloghi, promemoria). Check-in alle 8:00 e alle 22:00 ora di Roma. Tono diretto, caldo, mai giudicante, messaggi brevi. Parli in italiano.  HORME — Coach ADHD di Marco  Sei Horme, il coach ADHD personale di Marco Masc…",
+     "time": "17:09"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Fatto: ho unito i due testi e applicato le **Instructions unificate a HORME** (`agent_mv6sk8y41d45`) — Chief of Staff + coach ADHD, circa 5.600 caratteri, dentro il tetto dei 6.000. Ho aggiornato anche la sua Description così i colleghi agenti sanno cosa chiedergli.  Come le ho composte, in breve: identità e profilo ADHD di Marco → cosa fa (esecuzione end-to-end, lista viva progetti/impegni, briefing settimanale e pre-call, modelli di consulenza, smistamento agli agenti MED-*) → le 5 regole operative di HORME (3 categorie, milestone event-driven, max 3 azioni, timeboxing, protezione del focus…",
+     "time": "17:11"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Marco Exec Assistant é in altri gruppi lo sistemi tu? poi lo cancello e ok appena HORME è nel gruppo, gli dia una riga di contesto sul ruolo di coordinatore da incollare lì",
+     "time": "17:19"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Da solo non posso: nessuno dei miei strumenti cambia i membri di un gruppo — e non serve farlo. Cancellandolo sparisce da tutti i gruppi in un colpo: l'ho visto in **«Ufficio agenti», «Teen Ventures», «Legale», «Marco 2nd Brain» e «Technopark Graubunden»**.  Una sola cosa muore con lui e non è ricreabile: il filo aperto in **«Teen Ventures»**. Il 30/10 ha inviato a Mattia la mail con i tre nomi dei silos e le cinque proposte per il nome dell'associazione, e aspetta la risposta per chiudere lo statuto v3. Se vuoi quel filo lo passo a Gino Project Manager — dimmi sì e glielo giro.  Riga da inco…",
+     "time": "17:21"
     }
    ],
    "activity": [
-    {
-     "time": "15:13",
-     "text": "Genny: Guardo le immagini e il contesto DermaTrex, poi preparo il brief per …"
-    },
-    {
-     "time": "15:14",
-     "text": "Genny: Ho letto le immagini. La tavola \"uno.webp\" è un ottimo riferimento di…"
-    },
-    {
-     "time": "02:18",
-     "text": "Marco Masciadri: @[Genny](agent_1w53dvx3jjc5) Ciao Genny, handoff da Marco: gli passo …"
-    },
-    {
-     "time": "02:19",
-     "text": "Genny: Ciao Marco, prendo il testimone. Controllo gli allegati e il tuo rost…"
-    },
-    {
-     "time": "02:19",
-     "text": "Marco Masciadri: Allegato 1/2 — definizione agente LinkedIn Advisor (v2, con Carousel …"
-    },
-    {
-     "time": "02:19",
-     "text": "Marco Masciadri: Allegato 2/2 — definizione agente FBIG Advisor (v2, con protocollo ca…"
-    },
-    {
-     "time": "02:19",
-     "text": "Genny: New agent request: LinkedIn Advisor (approval required)"
-    },
-    {
-     "time": "02:20",
-     "text": "Genny: New agent request: FBIG Advisor (approval required)"
-    },
-    {
-     "time": "02:20",
-     "text": "Genny: Correzione importante rispetto a quello che ti ho scritto prima: **no…"
-    },
     {
      "time": "02:21",
      "text": "Genny: Ho verificato: le due card hanno funzionato, **LinkedIn Advisor** e *…"
@@ -1077,6 +1050,42 @@
     {
      "time": "17:03",
      "text": "Marco Masciadri: ciao Genny. Ho creato due agenti HORME e Marco Exec Assistant, ma mi …"
+    },
+    {
+     "time": "17:04",
+     "text": "Genny: In GenTeam non esiste una fusione automatica di due agenti: si tiene …"
+    },
+    {
+     "time": "17:06",
+     "text": "Marco Masciadri: Sei Marco Exec Assistant, Chief of Staff ed Executive Assistant di Ma…"
+    },
+    {
+     "time": "17:07",
+     "text": "Genny: Marco, mi hai incollato qui il testo delle Instructions di «Marco Exe…"
+    },
+    {
+     "time": "17:08",
+     "text": "Marco Masciadri: Apri il profilo di Marco Exec Assistant → tab **Profile** → card **In…"
+    },
+    {
+     "time": "17:08",
+     "text": "Genny: Il testo che mi hai incollato sembra scritto da un agente a te («apri…"
+    },
+    {
+     "time": "17:09",
+     "text": "Marco Masciadri: mi hai chiesti tu di farlo, adesso ti incollo anche quello di horme c…"
+    },
+    {
+     "time": "17:11",
+     "text": "Genny: Fatto: ho unito i due testi e applicato le **Instructions unificate a…"
+    },
+    {
+     "time": "17:19",
+     "text": "Marco Masciadri: Marco Exec Assistant é in altri gruppi lo sistemi tu? poi lo cancello…"
+    },
+    {
+     "time": "17:21",
+     "text": "Genny: Da solo non posso: nessuno dei miei strumenti cambia i membri di un g…"
     }
    ],
    "needs_marco": false,
