@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:58:53.190288+00:00",
+ "generated_at": "2026-11-16T15:12:52.217025+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1025,6 +1025,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-16T15:09:04+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 16:09",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Emanuele Meazzo: [Emanuele.meazzo@gmail.com](mailto:Emanuele.meazzo@gmail.com) Marco Bosetti: [marcobosetti61@gmail.com](mailto:marcobosetti61@gmail.com)",
+     "time": "15:23"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Tre file, uno per persona, con nome ed email già dentro. Restano **tre righe da completare**, tutte dati tuoi o societari: 1. **sede e P.IVA di MedCloud Group S.r.l.** 2. **denominazione esatta di SBC** (e chi firma per SBC) 3. **foro competente** (la sede di MedCloud)  Mandami quei dati e te li restituisco chiusi in cinque minuti. Se non li hai sotto mano, si compilano a penna sulla copia firmata — ma la denominazione di SBC va verificata prima, perché un NDA con un nome sbagliato non copre quella società.  **Il testo dell'email, copia e incolla** (uno per destinatario):  Oggetto: **MedCloud…",
+     "time": "15:24"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "negli NDA inserisci sia l MedCloud Group S.r.l. che la SBC Swiss Beauty Cosmetic SA come società che si coprono con gli NDA oltre alla controparte",
+     "time": "15:27"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Aggiornati: ora le società che coprono l'accordo sono **due**, non una.  **Le parti del NDA sono tre**: 1. **MedCloud Group S.r.l.** (Marco Masciadri, legale rappresentante) 2. **SBC Swiss Beauty Cosmetic SA** 3. la controparte (Meazzo, Staub, Bosetti)  E ho aggiunto due cose che rendono la doppia copertura effettiva, invece che solo nominale: - **Art. 2**: le informazioni comunicate da *una delle due* società del Gruppo sono coperte allo stesso titolo — così non si discute se un documento arriva da MedCloud o da SBC. - **Art. 3**: la controparte assume gli obblighi verso **ciascuna** delle d…",
+     "time": "15:27"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "MedCloud Group S.r.l. con sede legale in Via Monteverdi 20, 70022 Altamura BA Italia e sede operativa in Via L.Cadorna 2 22032 Albese con Cassano CO Italia P.IVA 09232760729 SBC Swiss Beauty Cosmetic SA con sede in Chiasso 6830 TI, Svizzera  in Via Emilio Bossi 12D, IDI [CHE-230.631.672](https://www.uid.admin.ch/Detail.aspx?uid_id=CHE230631672), Legale Rappresentante Marco Masciadri",
+     "time": "15:35"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Chiusi. **Zero campi vuoti** tranne i dati personali della controparte (CF/passaporto e residenza, che compila chi firma): i tre file sono pronti da firmare e inviare.  Dentro ora c'è tutto: - **MedCloud Group S.r.l.** — sede legale Via Monteverdi 20, 70022 Altamura (BA) · sede operativa Via L. Cadorna 2, 22032 Albese con Cassano (CO) · P.IVA 09232760729 - **SBC Swiss Beauty Cosmetic SA** — Via Emilio Bossi 12D, 6830 Chiasso (TI) · UID CHE-230.631.672 · legale rappresentante **Marco Masciadri** - **Controparte** — nome ed email già inseriti  Buona notizia: sei tu il legale rappresentante di S…",
+     "time": "15:35"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "riduciamo la Durata a 3 anni Legge applicabile: Per Medcloud Geoup: foro di Bari, per Sbc Foro di Lugano, previo tentativo di conciliazione stragiudiziale con Collegio Arbitrale",
+     "time": "15:37"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Fatto, tre modifiche dentro i tre file (3 pagine, zero parentesi).  **1. Durata: 3 anni**, non più 5. Restano senza limite solo le informazioni coperte da brevetto o segreto commerciale — è la formula che tiene sia con legge italiana sia con legge svizzera.  **2. Foro doppio**: Bari per MedCloud Group S.r.l., **Lugano** per SBC Swiss Beauty Cosmetic SA. Legge applicabile di conseguenza: italiana per MedCloud, svizzera per SBC.  **3. Conciliazione obbligatoria prima del giudizio**: Collegio Arbitrale di tre membri (uno per parte, il terzo presidente), tentativo entro 60 giorni, spese a metà, e…",
+     "time": "15:38"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "ok perfetto aggiungi un NDA per Evelino Belloli [evelino.belloli@gmail.com](mailto:evelino.belloli@gmail.com)",
+     "time": "15:39"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Aggiunto: **quarto NDA per Evelino Belloli** (`evelino.belloli@gmail.com`), stesso testo degli altri — 3 pagine, durata 3 anni, foro doppio, conciliazione obbligatoria, MedCloud Group S.r.l. e SBC Swiss Beauty Cosmetic SA entrambe coperte.  Ora hai quattro file pronti, tutti con nome ed email già dentro: Meazzo, Staub, Bosetti, Belloli. Un'email per destinatario, il NDA firmato in allegato, e la documentazione solo quando torna firmato.  Nota su Evelino: è anche quello del contratto agente/networker. Sono due cose diverse e vanno tenute separate — l'NDA protegge le informazioni, il contratto …",
+     "time": "15:40"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "memorizza tutte le informazioni sulle società e sulle persone per uso futuro.",
+     "time": "15:41"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Memorizzato tutto in un'anagrafica unica, `notes/societa-persone.md`, e indicizzata in memoria: da adesso non ti richiedo più niente che sia già lì.  **Società** - **MedCloud Group S.r.l.** — sede legale Altamura (BA), operativa Albese con Cassano (CO), P.IVA 09232760729, legale rappr. Marco Masciadri, brevetto depositato 22/10/2026 - **SBC Swiss Beauty Cosmetic SA** — Chiasso (TI), UID CHE-230.631.672, legale rappr. Marco Masciadri - **Swiss Business Strategy Sagl** — Lugano, Corso Elvezia 25, capitale CHF 20'000 detenuto da **Fidubox Sagl** (CHE-338.298.565), socio unico Luigi Ferrise - **S…",
+     "time": "15:41"
+    }
+   ],
+   "activity": [
+    {
+     "time": "15:23",
+     "text": "Marco Masciadri: Emanuele Meazzo: [Emanuele.meazzo@gmail.com](mailto:Emanuele.meazzo@g…"
+    },
+    {
+     "time": "15:24",
+     "text": "HORME: Tre file, uno per persona, con nome ed email già dentro. Restano **tr…"
+    },
+    {
+     "time": "15:27",
+     "text": "Marco Masciadri: negli NDA inserisci sia l MedCloud Group S.r.l. che la SBC Swiss Beau…"
+    },
+    {
+     "time": "15:27",
+     "text": "HORME: Aggiornati: ora le società che coprono l'accordo sono **due**, non un…"
+    },
+    {
+     "time": "15:35",
+     "text": "Marco Masciadri: MedCloud Group S.r.l. con sede legale in Via Monteverdi 20, 70022 Alt…"
+    },
+    {
+     "time": "15:35",
+     "text": "HORME: Chiusi. **Zero campi vuoti** tranne i dati personali della contropart…"
+    },
+    {
+     "time": "15:37",
+     "text": "Marco Masciadri: riduciamo la Durata a 3 anni Legge applicabile: Per Medcloud Geoup: f…"
+    },
+    {
+     "time": "15:38",
+     "text": "HORME: Fatto, tre modifiche dentro i tre file (3 pagine, zero parentesi).  *…"
+    },
+    {
+     "time": "15:39",
+     "text": "Marco Masciadri: ok perfetto aggiungi un NDA per Evelino Belloli [evelino.belloli@gmai…"
+    },
+    {
+     "time": "15:40",
+     "text": "HORME: Aggiunto: **quarto NDA per Evelino Belloli** (`evelino.belloli@gmail.…"
+    },
+    {
+     "time": "15:41",
+     "text": "Marco Masciadri: memorizza tutte le informazioni sulle società e sulle persone per uso…"
+    },
+    {
+     "time": "15:41",
+     "text": "HORME: Memorizzato tutto in un'anagrafica unica, `notes/societa-persone.md`,…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
@@ -1154,138 +1286,6 @@
     }
    ],
    "needs_marco": true,
-   "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-16T14:57:26+00:00",
-   "agents": [
-    {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
-     "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 15:57",
-     "progress": 50
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno ☀️ Lunedì, e la giornata è libera (solo studio e RSU alle 7). Quindi oggi si chiude, non si apre.  **09:30-10:30 — i tre NDA.** Blocco in calendario, con i passaggi dentro: tre copie firmate, un'email per ciascuno, e **solo dopo** la documentazione di progetto. **Appena finito, dieci minuti**: dimmi \"NDA fuori\" e chiudo il capitolo. Se qualcuno ha già firmato o ha il suo NDA, saltalo e annotiamolo.  **Poi, una cifra sola: la percentuale di Leonardo.** Con quella ti restituisco l'accordo completo in venti minuti, oggi stesso.  **Il resto aspetta il suo turno**: siti, nome per il pri…",
-     "time": "08:01"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "aggiungiamo alle attività di oggi la mail che mi ha mandato Luigi Ferrise per la società Swiss Business Strategy Sagl con allegato il contratto da rivedere e lo analizziamo insieme, per poi confermarlo e inviarlo firmato",
-     "time": "14:27"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Cerco la mail di Luigi, leggo il contratto e te lo porto già analizzato.",
-     "time": "14:27"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "imtanto vediamo i tre NDA, ricordami per chi sono",
-     "time": "14:28"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "I tre NDA sono per **Emanuele Meazzo** (Acer EMEA), **Olivier Staub** e **Marco Bosetti** — testo unico in chat, cambia solo la pagina finale. Ecco chi sono e cosa serve, poi ti arrivo con il contratto SBS.",
-     "time": "14:28"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**I tre NDA** (testo unico in chat giovedì, `NDA_MedCloud_SBC.pdf`): cambia solo la pagina finale. 1. **Emanuele Meazzo** — Senior Manager AI & Data Engineering, Acer EMEA. Ha accettato di collaborare al progetto MedCloud. 2. **Olivier Staub** — il terzo nome della tua lista di sabato. 3. **Marco Bosetti** — idem. Per ognuno: NDA firmato + poi la documentazione progetto senza parte elettronica. È già tutto in chat, il blocco in calendario è 09:30-10:30.  ---  **Contratto SBS: letto, e ci sono due cose che ti conviene sapere prima di \"analizzarlo insieme\".**  Il documento che Luigi ti ha manda…",
-     "time": "14:29"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "abbiamo le email di meazzo staub e bosetti?",
-     "time": "15:22"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Controllo in casella e ti dico esattamente quali indirizzi ho.",
-     "time": "15:22"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Ho controllato in casella: **una su tre.**  - **Olivier Staub** → `staub.olivier92@gmail.com` (l'ho trovato nell'invito della videocall \"Olivier x Alessia & Marco — Cerotto DermaTrex\" del 21 ottobre). Questa c'è. - **Emanuele Meazzo** → nessuna email in casella. Me l'aveva mandata **su WhatsApp**, quindi ce l'hai tu: passamela e la uso. - **Marco Bosetti** → nessun indirizzo. Né in casella né nei thread.  Se mi incolli i due indirizzi mancanti, faccio una cosa in più: **tre file separati, uno per persona**, con la pagina finale già intestata (nome e indirizzo) — così devi solo firmare e inolt…",
-     "time": "15:22"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "Emanuele Meazzo: [Emanuele.meazzo@gmail.com](mailto:Emanuele.meazzo@gmail.com) Marco Bosetti: [marcobosetti61@gmail.com](mailto:marcobosetti61@gmail.com)",
-     "time": "15:23"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Tre file, uno per persona, con nome ed email già dentro. Restano **tre righe da completare**, tutte dati tuoi o societari: 1. **sede e P.IVA di MedCloud Group S.r.l.** 2. **denominazione esatta di SBC** (e chi firma per SBC) 3. **foro competente** (la sede di MedCloud)  Mandami quei dati e te li restituisco chiusi in cinque minuti. Se non li hai sotto mano, si compilano a penna sulla copia firmata — ma la denominazione di SBC va verificata prima, perché un NDA con un nome sbagliato non copre quella società.  **Il testo dell'email, copia e incolla** (uno per destinatario):  Oggetto: **MedCloud…",
-     "time": "15:24"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "negli NDA inserisci sia l MedCloud Group S.r.l. che la SBC Swiss Beauty Cosmetic SA come società che si coprono con gli NDA oltre alla controparte",
-     "time": "15:27"
-    }
-   ],
-   "activity": [
-    {
-     "time": "08:01",
-     "text": "HORME: Buongiorno ☀️ Lunedì, e la giornata è libera (solo studio e RSU alle …"
-    },
-    {
-     "time": "14:27",
-     "text": "Marco Masciadri: aggiungiamo alle attività di oggi la mail che mi ha mandato Luigi Fer…"
-    },
-    {
-     "time": "14:27",
-     "text": "HORME: Cerco la mail di Luigi, leggo il contratto e te lo porto già analizza…"
-    },
-    {
-     "time": "14:28",
-     "text": "Marco Masciadri: imtanto vediamo i tre NDA, ricordami per chi sono"
-    },
-    {
-     "time": "14:28",
-     "text": "HORME: I tre NDA sono per **Emanuele Meazzo** (Acer EMEA), **Olivier Staub**…"
-    },
-    {
-     "time": "14:29",
-     "text": "HORME: **I tre NDA** (testo unico in chat giovedì, `NDA_MedCloud_SBC.pdf`): …"
-    },
-    {
-     "time": "15:22",
-     "text": "Marco Masciadri: abbiamo le email di meazzo staub e bosetti?"
-    },
-    {
-     "time": "15:22",
-     "text": "HORME: Controllo in casella e ti dico esattamente quali indirizzi ho."
-    },
-    {
-     "time": "15:22",
-     "text": "HORME: Ho controllato in casella: **una su tre.**  - **Olivier Staub** → `st…"
-    },
-    {
-     "time": "15:23",
-     "text": "Marco Masciadri: Emanuele Meazzo: [Emanuele.meazzo@gmail.com](mailto:Emanuele.meazzo@g…"
-    },
-    {
-     "time": "15:24",
-     "text": "HORME: Tre file, uno per persona, con nome ed email già dentro. Restano **tr…"
-    },
-    {
-     "time": "15:27",
-     "text": "Marco Masciadri: negli NDA inserisci sia l MedCloud Group S.r.l. che la SBC Swiss Beau…"
-    }
-   ],
-   "needs_marco": false,
    "marco_mentioned": true
   },
   {
