@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:03:39.277454+00:00",
+ "generated_at": "2026-11-16T14:17:37.409496+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -1168,9 +1168,9 @@
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 14:29",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
