@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T18:10:06.536469+00:00",
+ "generated_at": "2026-11-17T18:23:49.792223+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -971,9 +971,9 @@
      "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
      "name": "Genny",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 18:37",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
