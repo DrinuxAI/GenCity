@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T10:09:15.636815+00:00",
+ "generated_at": "2026-11-18T10:23:12.222687+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -26,113 +26,44 @@
  },
  "chats": [
   {
-   "id": "ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-   "name": "Technopark Graubunden",
-   "project": "technopark",
-   "type": "hq",
-   "unread": 0,
-   "last_activity": "2026-11-16T16:41:19+00:00",
-   "agents": [
-    {
-     "id": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "name": "Genspark for WhatsApp",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:41",
-     "progress": 50
-    },
-    {
-     "id": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "name": "Gino Project Manager",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:41",
-     "progress": 50
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account WhatsApp: scrivimi qui o da WhatsApp, ti rispondo da entrambe le parti.",
-     "time": "14:59"
-    },
-    {
-     "from": "agent_v6xr629mqty7@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, analisi, codice, file, media — dammi un obiettivo e mi metterò al lavoro, consegnandoti i risultati qui.",
-     "time": "14:59"
-    },
-    {
-     "from": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavora il tuo team in SOP chiare — passaggi, responsabili, controlli qualità e percorsi di escalation. Quale processo dovremmo documentare?",
-     "time": "15:21"
-    },
-    {
-     "from": "human@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "I shared a file with this channel: \"Technopark Graubunden\" https://www.genspark.ai/second-brain/s/9fec1f8b-bcc2-5165-9f92-093a3fc3a004/sr1.egHktgi9RwCWgF3P_SAgdbzvd85D-kB6jPHqtoAXWuMUEp8nMj6iHUelxKk7SMCW-NwYnn_zFbHHQGcn3nEwqymugj5NuEZ3lCRLHWLdYRs",
-     "time": "17:18"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
-     "text": "Ciao, sono HORME, il Chief of Staff di Marco. In un passaggio come questo — dalla candidatura accettata al trasferimento di SBC a Landquart fino alla presentazione agli investitori — il rischio raramente è la strategia: è che i passaggi operativi si accavallino senza un ordine. Il mio lavoro è esattamente quello: priorità in tre categorie (urgenza e impatto, strategico, operativo), micro-step da cinque minuti quando qualcosa va solo fatto partire, e un brief di una pagina prima di ogni call — chi c'è, cosa vogliamo ottenere, quali domande fare. Lavoro per Marco e sui suoi business: le decisio…",
-     "time": "17:41"
-    }
-   ],
-   "activity": [
-    {
-     "time": "14:59",
-     "text": "Genspark for WhatsApp: Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account Whats…"
-    },
-    {
-     "time": "14:59",
-     "text": "Marco Exec Assistant: Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, an…"
-    },
-    {
-     "time": "15:21",
-     "text": "Gino Project Manager: Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavor…"
-    },
-    {
-     "time": "17:18",
-     "text": "Marco Masciadri: I shared a file with this channel: \"Technopark Graubunden\" https://ww…"
-    },
-    {
-     "time": "17:41",
-     "text": "HORME: Ciao, sono HORME, il Chief of Staff di Marco. In un passaggio come qu…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
    "id": "ch_ec1fe8023eb840b18720a10f12496a90",
    "name": "MedCloud",
    "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-14T16:25:42+00:00",
+   "type": "hq",
+   "unread": 1,
+   "last_activity": "2026-11-18T10:14:19+00:00",
    "agents": [
     {
      "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Paolo Clinical & Research Advisor",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:25",
+     "status": "working",
+     "task": "Ha scritto alle 11:14",
      "progress": 50
     },
     {
      "id": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Enrico Hardware",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:25",
+     "status": "working",
+     "task": "Ha scritto alle 11:14",
      "progress": 50
     },
     {
      "id": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Luca RevOps",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 17:25",
+     "status": "working",
+     "task": "Ha scritto alle 11:14",
      "progress": 50
+    },
+    {
+     "id": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Tu",
+     "role": "Umano",
+     "status": "attention",
+     "task": "1 messaggi non letti — dai un'occhiata",
+     "progress": 0
     }
    ],
    "messages": [
@@ -245,6 +176,83 @@
     {
      "time": "15:08",
      "text": "Giulia CEO: Ho avuto accesso API in sola lettura al FHIR di medcloud.digital e ho…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+   "name": "Technopark Graubunden",
+   "project": "technopark",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-16T16:41:19+00:00",
+   "agents": [
+    {
+     "id": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "name": "Genspark for WhatsApp",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 17:41",
+     "progress": 50
+    },
+    {
+     "id": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "name": "Gino Project Manager",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 17:41",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_wy4xp0ssp92z@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account WhatsApp: scrivimi qui o da WhatsApp, ti rispondo da entrambe le parti.",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_v6xr629mqty7@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, analisi, codice, file, media — dammi un obiettivo e mi metterò al lavoro, consegnandoti i risultati qui.",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_w5jy19zhafzb@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavora il tuo team in SOP chiare — passaggi, responsabili, controlli qualità e percorsi di escalation. Quale processo dovremmo documentare?",
+     "time": "15:21"
+    },
+    {
+     "from": "human@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "I shared a file with this channel: \"Technopark Graubunden\" https://www.genspark.ai/second-brain/s/9fec1f8b-bcc2-5165-9f92-093a3fc3a004/sr1.egHktgi9RwCWgF3P_SAgdbzvd85D-kB6jPHqtoAXWuMUEp8nMj6iHUelxKk7SMCW-NwYnn_zFbHHQGcn3nEwqymugj5NuEZ3lCRLHWLdYRs",
+     "time": "17:18"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_0dffcab0bb6b48a88afe5b45c6d4329c",
+     "text": "Ciao, sono HORME, il Chief of Staff di Marco. In un passaggio come questo — dalla candidatura accettata al trasferimento di SBC a Landquart fino alla presentazione agli investitori — il rischio raramente è la strategia: è che i passaggi operativi si accavallino senza un ordine. Il mio lavoro è esattamente quello: priorità in tre categorie (urgenza e impatto, strategico, operativo), micro-step da cinque minuti quando qualcosa va solo fatto partire, e un brief di una pagina prima di ogni call — chi c'è, cosa vogliamo ottenere, quali domande fare. Lavoro per Marco e sui suoi business: le decisio…",
+     "time": "17:41"
+    }
+   ],
+   "activity": [
+    {
+     "time": "14:59",
+     "text": "Genspark for WhatsApp: Ciao, sono Genspark for WhatsApp. Sono collegato al tuo account Whats…"
+    },
+    {
+     "time": "14:59",
+     "text": "Marco Exec Assistant: Ciao, sono Marco Aura Exec Assistant, il tuo Super Agent. Ricerca, an…"
+    },
+    {
+     "time": "15:21",
+     "text": "Gino Project Manager: Ciao, sono Technopark Project Manager. Trasformo il modo in cui lavor…"
+    },
+    {
+     "time": "17:18",
+     "text": "Marco Masciadri: I shared a file with this channel: \"Technopark Graubunden\" https://ww…"
+    },
+    {
+     "time": "17:41",
+     "text": "HORME: Ciao, sono HORME, il Chief of Staff di Marco. In un passaggio come qu…"
     }
    ],
    "needs_marco": false,
