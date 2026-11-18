@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:46:38.584808+00:00",
+ "generated_at": "2026-11-18T16:00:36.352581+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -964,49 +964,19 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-18T15:43:06+00:00",
+   "unread": 2,
+   "last_activity": "2026-11-18T15:55:15+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 16:43",
-     "progress": 50
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ripresa la composizione larga della prima, con il lenzuolo che copre fianchi e parte inferiore: resta visibile solo il tratto di lombare con la medicazione, e in basso a destra il Pod sul comodino. Nessuna nudità.  In Drive c'è questa, sotto lo stesso nome, e nell'indice ho annotato la sequenza delle tre rese. La seconda — quella con lenzuolo e camice su quasi tutto — l'ho scartata come mi hai detto: copriva troppo e perdeva il contesto del letto, che è quello che rende l'immagine credibile.",
-     "time": "15:23"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Fammi una versione in alta risoluzione",
-     "time": "15:23"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Alzo la risoluzione senza cambiare niente.",
-     "time": "15:23"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco la versione in alta risoluzione, 4096×2286: nell'immagine non è cambiato niente. In Drive è questa, sotto lo stesso nome e con lo stesso link di prima.",
-     "time": "15:24"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "salva in `/MedCloud/imgnuova/ e puoi eliminare le due precedenti`",
-     "time": "15:25"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "È già lì: in `/MedCloud/imgnuova/` c'è una sola immagine, `imgnuova7_patch_su_paziente.png`, ed è la 4096×2286 — le versioni precedenti le avevo sovrascritte in place, quindi non ne restavano copie da cancellare. In locale ho tenuto solo l'alta risoluzione e ho eliminato il doppione a 1376.  Le due rese precedenti esistono ancora come allegati nei messaggi di questa conversazione: quelle non le posso togliere io.",
-     "time": "15:25"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "manda il fascicolo che hai mandato a Fabrizio D'Aura anche a Emanuele Meazzo  con due righe si saluti, ringraziandolo per l'attenzione e invitandolo a bere un caffé a breve. fammi vedere mail prima di inviarla",
@@ -1036,33 +1006,39 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Invio adesso e ti confermo qui l'esito.",
      "time": "16:16"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "mi recuperi la bozza di contratto di agente di Evelino Belloli, cosi la rivediamo e se ok la spediamo ad evelino",
+     "time": "16:17"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Trovato: è il **contratto di segnalazione d'affari** per Evelino, versione **3.2 del 28.10** — l'ultima esistente, 12 pagine, già intestata a lui (\"esemplare personale\"). Non è un contratto di agenzia per scelta: è atipico ex art. 1322 c.c., proprio per evitare Enasarco, indennità di fine rapporto e iscrizione al ruolo.  Numeri dentro: commerciale 25.000 € + 20% sul resto fino a 70.000 €, cap 100.000 € per operazione; accordi con partner e accordi finanziari allo stesso modo; nesso causale presunto per 12 mesi; verifica di anteriorità in 10 giorni lavorativi.  Tre cose da sistemare prima che …",
+     "time": "16:18"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Correggo subito una riga che ho scritto male io, prima che ti resti in testa sbagliata. I numeri del contratto sono questi, dall'art. 4:  - contratti commerciali: **10% sulla parte fino a 250.000 €, poi 3% sull'eccedenza**, con tetto di **50.000 € per operazione** (il tetto si tocca a 1.083.333 € di corrispettivo) - accordi con partner (distribuzione, OEM, integrazione): **5%** a aliquota unica - accordi finanziari: **3%** a aliquota unica  Quelli che avevo scritto nel messaggio precedente — 25.000, 20%, tetto 100.000 — non esistono in quel documento: è stato un mio errore di battitura, non u…",
+     "time": "16:18"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "1. prepara gli allegati citati nel testo 2. dati della società metti quelli di medcloud group srl  3. negli allegati metti che sono già state svolte attività di segnalazione che saranno indicate nell'apposito allegato",
+     "time": "16:21"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Preparo la versione completa: dati societari dai nostri documenti, allegati A–F scritti per esteso. Ti mando il PDF quando è pronto.",
+     "time": "16:21"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco la **v3.3 completa, 27 pagine**: il testo della 3.2 ripreso integralmente (nessuna clausola persa, nessun articolo rinumerato), i dati della società inseriti e gli allegati A–F scritti per esteso al posto delle descrizioni di pagina 12.  **Dati società**: Via Monteverdi 20, 70022 Altamura (BA); C.F. e P.IVA 09232760729; Registro Imprese di Bari n. 09232760729; REA BA-681148; iscritta il 09.11.2026; legale rappresentante Masciadri; PEC medcloud.group@pec.it. Restano i [●] solo dove il dato non esiste: indirizzo di Como, dati anagrafici di Evelino, le due spunte.  **Segnalazioni già svolte…",
+     "time": "16:28"
     }
    ],
    "activity": [
-    {
-     "time": "15:23",
-     "text": "Giulia CEO: Ripresa la composizione larga della prima, con il lenzuolo che copre …"
-    },
-    {
-     "time": "15:23",
-     "text": "Marco Masciadri: Fammi una versione in alta risoluzione"
-    },
-    {
-     "time": "15:23",
-     "text": "Giulia CEO: Alzo la risoluzione senza cambiare niente."
-    },
-    {
-     "time": "15:24",
-     "text": "Giulia CEO: Ecco la versione in alta risoluzione, 4096×2286: nell'immagine non è …"
-    },
-    {
-     "time": "15:25",
-     "text": "Marco Masciadri: salva in `/MedCloud/imgnuova/ e puoi eliminare le due precedenti`"
-    },
-    {
-     "time": "15:25",
-     "text": "Giulia CEO: È già lì: in `/MedCloud/imgnuova/` c'è una sola immagine, `imgnuova7_…"
-    },
     {
      "time": "15:27",
      "text": "Marco Masciadri: manda il fascicolo che hai mandato a Fabrizio D'Aura anche a Emanuele…"
@@ -1086,9 +1062,33 @@
     {
      "time": "16:16",
      "text": "Giulia CEO: Invio adesso e ti confermo qui l'esito."
+    },
+    {
+     "time": "16:17",
+     "text": "Marco Masciadri: mi recuperi la bozza di contratto di agente di Evelino Belloli, cosi …"
+    },
+    {
+     "time": "16:18",
+     "text": "Giulia CEO: Trovato: è il **contratto di segnalazione d'affari** per Evelino, ver…"
+    },
+    {
+     "time": "16:18",
+     "text": "Giulia CEO: Correggo subito una riga che ho scritto male io, prima che ti resti i…"
+    },
+    {
+     "time": "16:21",
+     "text": "Marco Masciadri: 1. prepara gli allegati citati nel testo 2. dati della società metti …"
+    },
+    {
+     "time": "16:21",
+     "text": "Giulia CEO: Preparo la versione completa: dati societari dai nostri documenti, al…"
+    },
+    {
+     "time": "16:28",
+     "text": "Giulia CEO: Ecco la **v3.3 completa, 27 pagine**: il testo della 3.2 ripreso inte…"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": true
   },
   {
