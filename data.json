@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T17:06:39.736873+00:00",
+ "generated_at": "2026-11-19T17:20:50.928353+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -968,6 +968,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-19T17:20:01+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 18:20",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "puoi anche condividere con Perplexity i nostri documneti di porgetto nella stessa cartella cosi siete allineati",
+     "time": "11:27"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì: guardo chi ha accesso alla cartella, carico il set giusto di documenti e ti dico cosa ci ho messo e cosa ho lasciato fuori.",
+     "time": "11:27"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto al report, il fascicolo di progetto neutro IT (93 pagine), il deck neutro in italiano e in inglese (28 slide) e il piano contatti Ticino. I nomi dei file iniziano con la data, così la versione più recente si riconosce a colpo d'occhio.  Ho lasciato fuori di proposito quattro cose, e ti dico perché: il deck intestato al Technopark (ha i nomi dei destinatari dentro), la presentazione partner e investitori in inglese (contiene il TAM, e Perplexity potrebbe usarlo come se fosse un dato nostro), il blueprint dell'elettronica rev …",
+     "time": "11:28"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "recuperami il pitch che ti ha mandato ALessia",
+     "time": "11:45"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Cerco il file che ti ha mandato Alessia e te lo rimando qui.",
+     "time": "11:45"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Eccolo: «DermaTrex by MedCloud & SBC SA — Pitch Deck», 12 slide, export Canva di Alessia del 18.11 alle 12:24. È quello che ha mandato quel giorno alle 14:47 a Roberto Rossi, con te in copia, scrivendogli «vedrai diversi valori TAM SAM SOM e di Funding Ask: ignorali pure».  Se ti serve la versione per il 26 (quella rifatta per i 3 minuti del Pitch Night), è un altro file: dimmelo e te lo mando.",
+     "time": "11:46"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "mi serve quello per il pitch night graubunden",
+     "time": "11:47"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco quello giusto: il deck per il Pitch Night Graubünden, 9 slide in inglese, export Canva di Alessia del 18.11 alle 17:08 — è il file archiviato in `/MedCloud/Pitch Night/` e lo stesso che va caricato all'organizzatore.  Promemoria: la scadenza per la consegna del PDF è domani, 20 novembre, alle 11:59. Se vuoi ti preparo anche il copione dei 3 minuti che sta con queste slide.",
+     "time": "11:47"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "una domanda tecnica che puoi fare all'agente specializzato: ogni quanto tempo va fatta una lettura dei cerotti per avere ina gestione allarmi valida clinicamente?",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Giro la domanda all'agente specializzato e ti riporto la risposta qui.",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Domanda girata a Paolo: [l'ho posta in #medcloud](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?msg=10812928).  L'ho impostata su cinque punti perché «ogni quanto» da solo non ha una risposta utile: cadenza di misura distinta dalla cadenza di valutazione, scala temporale del danno rispetto ai giri di riposizionamento, allarme su soglia istantanea contro dose cumulata (pressione × tempo), latenza utile — un allarme che arriva dopo il riposizionamento successivo è documentazione, non prevenzione — e la soglia di falsi allarmi/letture mancanti sotto cui il …",
+     "time": "14:59"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Risposta alla domanda sui tempi di lettura del modulo sensore. In una riga: **la linea guida non fissa una cadenza di lettura, e non la fissa nemmeno la letteratura sul monitoraggio continuo — il numero si deriva dal giro di riposizionamento prescritto, non da un orologio.**  **Misura e valutazione sono due cadenze diverse.** Il campionamento è una scelta di misura, non clinica: 1 Hz interno è difendibile (0,5–2 Hz l'intervallo; sotto 0,2 Hz si perdono gli alleggerimenti parziali, sopra 2 Hz crescono solo rumore e consumo). Un campione da solo non è una misura: si pubblica la mediana su fines…",
+     "time": "15:03"
+    }
+   ],
+   "activity": [
+    {
+     "time": "11:27",
+     "text": "Marco Masciadri: puoi anche condividere con Perplexity i nostri documneti di porgetto …"
+    },
+    {
+     "time": "11:27",
+     "text": "Giulia CEO: Sì: guardo chi ha accesso alla cartella, carico il set giusto di docu…"
+    },
+    {
+     "time": "11:28",
+     "text": "Giulia CEO: Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto …"
+    },
+    {
+     "time": "11:45",
+     "text": "Marco Masciadri: recuperami il pitch che ti ha mandato ALessia"
+    },
+    {
+     "time": "11:45",
+     "text": "Giulia CEO: Cerco il file che ti ha mandato Alessia e te lo rimando qui."
+    },
+    {
+     "time": "11:46",
+     "text": "Giulia CEO: Eccolo: «DermaTrex by MedCloud & SBC SA — Pitch Deck», 12 slide, expo…"
+    },
+    {
+     "time": "11:47",
+     "text": "Marco Masciadri: mi serve quello per il pitch night graubunden"
+    },
+    {
+     "time": "11:47",
+     "text": "Giulia CEO: Ecco quello giusto: il deck per il Pitch Night Graubünden, 9 slide in…"
+    },
+    {
+     "time": "14:59",
+     "text": "Marco Masciadri: una domanda tecnica che puoi fare all'agente specializzato: ogni quan…"
+    },
+    {
+     "time": "14:59",
+     "text": "Giulia CEO: Giro la domanda all'agente specializzato e ti riporto la risposta qui."
+    },
+    {
+     "time": "14:59",
+     "text": "Giulia CEO: Domanda girata a Paolo: [l'ho posta in #medcloud](https://www.genspar…"
+    },
+    {
+     "time": "15:03",
+     "text": "Giulia CEO: Risposta alla domanda sui tempi di lettura del modulo sensore. In una…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_84f86f488c883fac6295",
    "name": "Coach ADHD",
    "project": "ufficio",
@@ -1094,138 +1226,6 @@
     {
      "time": "18:49",
      "text": "HORME: Memorizzato: Oak Company SA → **Alessandro Ravaglia**. Ho aggiunto an…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-19T14:32:52+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 15:32",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "manda fascicolo a evelino",
-     "time": "17:14"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Invio ora.",
-     "time": "17:14"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Inviato: a evelino.belloli@gmail.com con cc formaone.ch, oggetto «DermaTrex — il fascicolo di progetto (93 pagine)», allegato il fascicolo da 93 pagine (4,36 MB) verificato in Sent, mittente marco.masciadri@medcloud.group.  Nel testo ho anche corretto la data del deposito brevetto — 12 ottobre 2026, non il 22 come nella mail di lunedì — e gli ho ricordato di rimandarmi l'NDA firmato.",
-     "time": "17:14"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ciao Giulia cerca per favore il file Report DermaTrex per Genspark du google docs. E' una ricerca che ho fatto fare a Perplexity perché mi hanno dato il contatto in Canton Ticino di Fabio Mantegazza che é interessato al progetto MedCloud Dermatrex. Acquisisci tutte le informazioni per fare un piano di contatti da sviluppare in Canton Ticino per il porgetto e integralo con tutte le informazioni che gestiamo noi qui. Fammi domande se necessario",
-     "time": "11:13"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Cerco il report, poi costruisco il piano per il Ticino incrociandolo con quello che abbiamo noi.",
-     "time": "11:13"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Trovato e letto: il report è un Google Doc («Report DermaTrex per Genspark», 249 righe), non un file su Drive — per questo non lo trovavi. Da lì ho costruito il piano, incrociandolo con il fascicolo, le note interne e i dati USTAT che usiamo già. È nel file allegato: 22 contatti nominati, 9 segmenti con criteri di esclusione, sequenza fino al 31.03.2027.  Le tre cose che il piano tiene ferme: **Mantegazza è una porta, non un investitore.** La famiglia non risulta in equity: Borgo di Besso è immobiliare con ricorso pendente, Metis può finanziare ricerca. Gli si chiede orientamento («chi dovrem…",
-     "time": "11:19"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "memorizza che I report di Perplexity sono nella cartella Google Drive “Genspark – Condivisione”: usa sempre la versione più recente",
-     "time": "11:26"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Memorizzo: report Perplexity nella cartella Drive «Genspark – Condivisione», sempre la versione più recente. Controllo anche se il report di ieri è lì.",
-     "time": "11:26"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Memorizzato: i report di Perplexity stanno nella cartella Google Drive «Genspark – Condivisione» e prendo sempre la versione con data di modifica più recente.  Correggo anche quello che ti ho scritto prima: il report **è** in quella cartella (creata ieri alle 10:15, dopo la mia ricerca) — quando l'ho cercato non esisteva ancora e il Doc risultava sciolto nel Drive. Contenuto identico a quello che ho letto, quindi il piano non cambia.",
-     "time": "11:27"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "puoi anche condividere con Perplexity i nostri documneti di porgetto nella stessa cartella cosi siete allineati",
-     "time": "11:27"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sì: guardo chi ha accesso alla cartella, carico il set giusto di documenti e ti dico cosa ci ho messo e cosa ho lasciato fuori.",
-     "time": "11:27"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto al report, il fascicolo di progetto neutro IT (93 pagine), il deck neutro in italiano e in inglese (28 slide) e il piano contatti Ticino. I nomi dei file iniziano con la data, così la versione più recente si riconosce a colpo d'occhio.  Ho lasciato fuori di proposito quattro cose, e ti dico perché: il deck intestato al Technopark (ha i nomi dei destinatari dentro), la presentazione partner e investitori in inglese (contiene il TAM, e Perplexity potrebbe usarlo come se fosse un dato nostro), il blueprint dell'elettronica rev …",
-     "time": "11:28"
-    }
-   ],
-   "activity": [
-    {
-     "time": "17:14",
-     "text": "Marco Masciadri: manda fascicolo a evelino"
-    },
-    {
-     "time": "17:14",
-     "text": "Giulia CEO: Invio ora."
-    },
-    {
-     "time": "17:14",
-     "text": "Giulia CEO: Inviato: a evelino.belloli@gmail.com con cc formaone.ch, oggetto «Der…"
-    },
-    {
-     "time": "11:13",
-     "text": "Marco Masciadri: ciao Giulia cerca per favore il file Report DermaTrex per Genspark du…"
-    },
-    {
-     "time": "11:13",
-     "text": "Giulia CEO: Cerco il report, poi costruisco il piano per il Ticino incrociandolo …"
-    },
-    {
-     "time": "11:19",
-     "text": "Giulia CEO: Trovato e letto: il report è un Google Doc («Report DermaTrex per Gen…"
-    },
-    {
-     "time": "11:26",
-     "text": "Marco Masciadri: memorizza che I report di Perplexity sono nella cartella Google Drive…"
-    },
-    {
-     "time": "11:26",
-     "text": "Giulia CEO: Memorizzo: report Perplexity nella cartella Drive «Genspark – Condivi…"
-    },
-    {
-     "time": "11:27",
-     "text": "Giulia CEO: Memorizzato: i report di Perplexity stanno nella cartella Google Driv…"
-    },
-    {
-     "time": "11:27",
-     "text": "Marco Masciadri: puoi anche condividere con Perplexity i nostri documneti di porgetto …"
-    },
-    {
-     "time": "11:27",
-     "text": "Giulia CEO: Sì: guardo chi ha accesso alla cartella, carico il set giusto di docu…"
-    },
-    {
-     "time": "11:28",
-     "text": "Giulia CEO: Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto …"
     }
    ],
    "needs_marco": false,
