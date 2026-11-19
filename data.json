@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:05:17.730134+00:00",
+ "generated_at": "2026-11-19T10:19:22.162864+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,6 +960,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-19T10:13:45+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 11:13",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Cambio la scala commerciale e ti mando la versione aggiornata.",
+     "time": "16:32"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto: **contratto commerciale 5% fino a 250.000 € e 2% sulla parte eccedente, con base di calcolo ferma a 500.000 €**. L'ho numerato **3.4** perché la 3.3 che ti ho mandato prima gira ancora con le percentuali vecchie, e due copie con lo stesso numero e cifre diverse sono un rischio in firma.  Cambiato in cinque punti, così non resta un numero vecchio da qualche parte: copertina, art. 4.1 (tabella), art. 4.2 (esempi di calcolo), art. 4.5 (tetto) e la scheda dell'Allegato B. Il resto del contratto è identico.  L'effetto da sapere: **il compenso massimo su un contratto commerciale scende da 50…",
+     "time": "16:32"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "lasci a bianco allegato A e chiedi ad evelino di inserire lui contatti e opportunità già trattate prima della firma del contratto che saranno poi approvate congiuntamente. prepara una versione non in pdf ma in word in modo che sia modificabile da Evelino. Mandagli un'email di accompagnamento dove lo ringraziamo del suo supporto fino ad aoggi e speriamo che la nostra collaborazione abbia  successo nel futuro. Dagli del tu. Fammi vedere mail prima di spedire",
+     "time": "16:38"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Preparo la versione Word con l'Allegato A da compilare e la mail di accompagnamento, poi ti mostro tutto prima di spedire.",
+     "time": "16:38"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Il Word è in preparazione (te lo mando appena è pronto). Intanto ecco la mail, così la rivedi: destinatario **evelino.belloli@gmail.com**, da marco.masciadri@medcloud.group, gli do del tu come nelle vostre ultime.  Oggetto: Contratto di segnalazione — la bozza in Word  Caro Evelino,  grazie per il sostegno che ci hai dato fino a oggi: le persone che ci hai fatto conoscere, il tempo che ci hai messo e i consigli che ci hai dato sono parte di dove siamo arrivati.  Ti mando il contratto di segnalazione in Word, così puoi leggerlo con calma e modificarlo direttamente. L'unica parte che tocca a te…",
+     "time": "16:39"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok va bene, quando pronto spedisci mail con allegato word. alla mail di evelino che già conosci aggiungi anche evelino.belloli@formaone.ch e aggiungila in cc. memorizza per il futuro",
+     "time": "16:41"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ok: appena il Word è pronto spedisco, con il secondo indirizzo di Evelino in cc. Me li segno.",
+     "time": "16:41"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "**Mail spedita** a evelino.belloli@gmail.com, con evelino.belloli@formaone.ch in cc, da marco.masciadri@medcloud.group — oggetto «Contratto di segnalazione — il documento in Word», allegato il Word.  Il documento è qui: https://www.genspark.ai/second-brain/s/552b7ec0-38d0-51c8-a342-fdd2abcbaaac/dccb1ad1-bc49-4e63-b72b-3a850fa0de1b — 17 articoli (+ 7-bis), allegati A–F, 20 tabelle, nessuna protezione: Evelino può scriverci dentro e rimandarlo.  **Allegato A** è un modulo vuoto, «Contatti e opportunità già trattati prima della firma — a cura del Segnalatore»: l'invito a compilarlo, l'istruzione…",
+     "time": "16:42"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Una cosa che vale la pena sapere del file che Evelino ha ricevuto: in fondo all'Allegato A c'è anche una sua dichiarazione che i contatti elencati li ha trattati personalmente, senza intermediari (art. 7.3) e con dati da fonti lecite (art. 9.4). Non contiene nomi, è una tutela per noi, e non ti cambia nulla nella lettura — ma se ti sembra di troppo la togliamo in un minuto.",
+     "time": "16:42"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok perfetto va bene",
+     "time": "16:43"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Bene, resta così. Se tra qualche giorno non ti risponde e vuoi che lo solleciti, dimmelo.",
+     "time": "16:43"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ho bisogno che mi trovi informazioni su CHiara la fiduciaria che gestisce la società Bioakt SA",
+     "time": "16:49"
+    }
+   ],
+   "activity": [
+    {
+     "time": "16:32",
+     "text": "Giulia CEO: Cambio la scala commerciale e ti mando la versione aggiornata."
+    },
+    {
+     "time": "16:32",
+     "text": "Giulia CEO: Fatto: **contratto commerciale 5% fino a 250.000 € e 2% sulla parte e…"
+    },
+    {
+     "time": "16:38",
+     "text": "Marco Masciadri: lasci a bianco allegato A e chiedi ad evelino di inserire lui contatt…"
+    },
+    {
+     "time": "16:38",
+     "text": "Giulia CEO: Preparo la versione Word con l'Allegato A da compilare e la mail di a…"
+    },
+    {
+     "time": "16:39",
+     "text": "Giulia CEO: Il Word è in preparazione (te lo mando appena è pronto). Intanto ecco…"
+    },
+    {
+     "time": "16:41",
+     "text": "Marco Masciadri: ok va bene, quando pronto spedisci mail con allegato word. alla mail …"
+    },
+    {
+     "time": "16:41",
+     "text": "Giulia CEO: Ok: appena il Word è pronto spedisco, con il secondo indirizzo di Eve…"
+    },
+    {
+     "time": "16:42",
+     "text": "Giulia CEO: **Mail spedita** a evelino.belloli@gmail.com, con evelino.belloli@for…"
+    },
+    {
+     "time": "16:42",
+     "text": "Giulia CEO: Una cosa che vale la pena sapere del file che Evelino ha ricevuto: in…"
+    },
+    {
+     "time": "16:43",
+     "text": "Marco Masciadri: ok perfetto va bene"
+    },
+    {
+     "time": "16:43",
+     "text": "Giulia CEO: Bene, resta così. Se tra qualche giorno non ti risponde e vuoi che lo…"
+    },
+    {
+     "time": "16:49",
+     "text": "Marco Masciadri: ho bisogno che mi trovi informazioni su CHiara la fiduciaria che gest…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_84f86f488c883fac6295",
    "name": "Coach ADHD",
    "project": "ufficio",
@@ -1090,138 +1222,6 @@
    ],
    "needs_marco": true,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-18T16:14:32+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 17:14",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco la **v3.3 completa, 27 pagine**: il testo della 3.2 ripreso integralmente (nessuna clausola persa, nessun articolo rinumerato), i dati della società inseriti e gli allegati A–F scritti per esteso al posto delle descrizioni di pagina 12.  **Dati società**: Via Monteverdi 20, 70022 Altamura (BA); C.F. e P.IVA 09232760729; Registro Imprese di Bari n. 09232760729; REA BA-681148; iscritta il 09.11.2026; legale rappresentante Masciadri; PEC medcloud.group@pec.it. Restano i [●] solo dove il dato non esiste: indirizzo di Como, dati anagrafici di Evelino, le due spunte.  **Segnalazioni già svolte…",
-     "time": "16:28"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "modifichiamo la parte compenso, Contratto Commerciale: 5% sulla parte base fino a Eur 250.000 e 2% sulla parte eccendente fino a un massimo di 500.000",
-     "time": "16:32"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Cambio la scala commerciale e ti mando la versione aggiornata.",
-     "time": "16:32"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fatto: **contratto commerciale 5% fino a 250.000 € e 2% sulla parte eccedente, con base di calcolo ferma a 500.000 €**. L'ho numerato **3.4** perché la 3.3 che ti ho mandato prima gira ancora con le percentuali vecchie, e due copie con lo stesso numero e cifre diverse sono un rischio in firma.  Cambiato in cinque punti, così non resta un numero vecchio da qualche parte: copertina, art. 4.1 (tabella), art. 4.2 (esempi di calcolo), art. 4.5 (tetto) e la scheda dell'Allegato B. Il resto del contratto è identico.  L'effetto da sapere: **il compenso massimo su un contratto commerciale scende da 50…",
-     "time": "16:32"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "lasci a bianco allegato A e chiedi ad evelino di inserire lui contatti e opportunità già trattate prima della firma del contratto che saranno poi approvate congiuntamente. prepara una versione non in pdf ma in word in modo che sia modificabile da Evelino. Mandagli un'email di accompagnamento dove lo ringraziamo del suo supporto fino ad aoggi e speriamo che la nostra collaborazione abbia  successo nel futuro. Dagli del tu. Fammi vedere mail prima di spedire",
-     "time": "16:38"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Preparo la versione Word con l'Allegato A da compilare e la mail di accompagnamento, poi ti mostro tutto prima di spedire.",
-     "time": "16:38"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Il Word è in preparazione (te lo mando appena è pronto). Intanto ecco la mail, così la rivedi: destinatario **evelino.belloli@gmail.com**, da marco.masciadri@medcloud.group, gli do del tu come nelle vostre ultime.  Oggetto: Contratto di segnalazione — la bozza in Word  Caro Evelino,  grazie per il sostegno che ci hai dato fino a oggi: le persone che ci hai fatto conoscere, il tempo che ci hai messo e i consigli che ci hai dato sono parte di dove siamo arrivati.  Ti mando il contratto di segnalazione in Word, così puoi leggerlo con calma e modificarlo direttamente. L'unica parte che tocca a te…",
-     "time": "16:39"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ok va bene, quando pronto spedisci mail con allegato word. alla mail di evelino che già conosci aggiungi anche evelino.belloli@formaone.ch e aggiungila in cc. memorizza per il futuro",
-     "time": "16:41"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ok: appena il Word è pronto spedisco, con il secondo indirizzo di Evelino in cc. Me li segno.",
-     "time": "16:41"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "**Mail spedita** a evelino.belloli@gmail.com, con evelino.belloli@formaone.ch in cc, da marco.masciadri@medcloud.group — oggetto «Contratto di segnalazione — il documento in Word», allegato il Word.  Il documento è qui: https://www.genspark.ai/second-brain/s/552b7ec0-38d0-51c8-a342-fdd2abcbaaac/dccb1ad1-bc49-4e63-b72b-3a850fa0de1b — 17 articoli (+ 7-bis), allegati A–F, 20 tabelle, nessuna protezione: Evelino può scriverci dentro e rimandarlo.  **Allegato A** è un modulo vuoto, «Contatti e opportunità già trattati prima della firma — a cura del Segnalatore»: l'invito a compilarlo, l'istruzione…",
-     "time": "16:42"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Una cosa che vale la pena sapere del file che Evelino ha ricevuto: in fondo all'Allegato A c'è anche una sua dichiarazione che i contatti elencati li ha trattati personalmente, senza intermediari (art. 7.3) e con dati da fonti lecite (art. 9.4). Non contiene nomi, è una tutela per noi, e non ti cambia nulla nella lettura — ma se ti sembra di troppo la togliamo in un minuto.",
-     "time": "16:42"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ok perfetto va bene",
-     "time": "16:43"
-    }
-   ],
-   "activity": [
-    {
-     "time": "16:28",
-     "text": "Giulia CEO: Ecco la **v3.3 completa, 27 pagine**: il testo della 3.2 ripreso inte…"
-    },
-    {
-     "time": "16:32",
-     "text": "Marco Masciadri: modifichiamo la parte compenso, Contratto Commerciale: 5% sulla parte…"
-    },
-    {
-     "time": "16:32",
-     "text": "Giulia CEO: Cambio la scala commerciale e ti mando la versione aggiornata."
-    },
-    {
-     "time": "16:32",
-     "text": "Giulia CEO: Fatto: **contratto commerciale 5% fino a 250.000 € e 2% sulla parte e…"
-    },
-    {
-     "time": "16:38",
-     "text": "Marco Masciadri: lasci a bianco allegato A e chiedi ad evelino di inserire lui contatt…"
-    },
-    {
-     "time": "16:38",
-     "text": "Giulia CEO: Preparo la versione Word con l'Allegato A da compilare e la mail di a…"
-    },
-    {
-     "time": "16:39",
-     "text": "Giulia CEO: Il Word è in preparazione (te lo mando appena è pronto). Intanto ecco…"
-    },
-    {
-     "time": "16:41",
-     "text": "Marco Masciadri: ok va bene, quando pronto spedisci mail con allegato word. alla mail …"
-    },
-    {
-     "time": "16:41",
-     "text": "Giulia CEO: Ok: appena il Word è pronto spedisco, con il secondo indirizzo di Eve…"
-    },
-    {
-     "time": "16:42",
-     "text": "Giulia CEO: **Mail spedita** a evelino.belloli@gmail.com, con evelino.belloli@for…"
-    },
-    {
-     "time": "16:42",
-     "text": "Giulia CEO: Una cosa che vale la pena sapere del file che Evelino ha ricevuto: in…"
-    },
-    {
-     "time": "16:43",
-     "text": "Marco Masciadri: ok perfetto va bene"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
   },
   {
    "id": "ch_dm_2fcc468bf8613347f6bd",
