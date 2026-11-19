@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:46:16.833620+00:00",
+ "generated_at": "2026-11-19T15:00:24.539622+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -972,16 +972,16 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 2,
+   "unread": 0,
    "last_activity": "2026-11-19T14:32:52+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
+     "status": "working",
+     "task": "Ultimo intervento 15:32",
+     "progress": 50
     }
    ],
    "messages": [
@@ -1096,7 +1096,7 @@
      "text": "Giulia CEO: Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto …"
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": false
   },
   {
