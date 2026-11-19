@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T18:43:09.437045+00:00",
+ "generated_at": "2026-11-19T18:57:15.729047+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -973,48 +973,18 @@
    "project": "medcloud",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-19T18:18:14+00:00",
+   "last_activity": "2026-11-19T18:54:18+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 19:18",
+     "task": "Ultimo intervento 19:54",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Commissionata, divisa in due per non farli sovrapporre: Elena cerca **cosa esiste** (classi di materiale, valori di traspirabilità con il metodo di prova dichiarato, tenuta, contatto cutaneo, disponibilità) e chiude con 2-3 candidati da campionare; Enrico verifica **se ci sta nel nostro stack** — spessore, assemblaggio, e soprattutto cosa vedono i sensori di temperatura e umidità sotto la membrana, perché se fa da tampone misuriamo la camera e non la cute.  Una cosa che ho messo come regola: **solo ricerca desk, nessun contatto con i fornitori senza il tuo ok**. Siamo dentro la finestra PCT f…",
-     "time": "18:16"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "**Due risultati chiusi, e il primo cambia cosa possiamo dichiarare.**  **La pellicola traspirante non è una scelta di materiale: è ciò che tiene vivi due dei nostri canali.** Enrico l'ha quantificata. La cavità sotto la finestra sensori è di circa 20 cm³, la cute emette 50–100 mg/h su quella superficie: con una pellicola occlusiva **l'umidità satura in circa un minuto** e ci resta cinque giorni. Effetto: la soglia dell'80% di umidità diventa strutturalmente sempre vera — il sensore si incolla al 95–100% e non discrimina più niente — e la temperatura misura la camera chiusa invece della pelle.…",
-     "time": "18:16"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "**Enrico ha rifinito il meccanismo, e cambia la specifica: non è la pellicola che uccide il canale temperatura, è l'aria.**  Il conto: un film da 50 µm con conducibilità 0,2 vale, come resistenza termica, **0,01–0,02 °C** con il flusso cutaneo — irrilevante. L'aria intrappolata, che conduce 0,026, costa **0,15–0,31 °C ogni decimo di millimetro**. Quindi la frase giusta non è «la pellicola isola», è **«il gioco d'aria sotto il sensore si mangia il segnale»**: a 0,2 mm spendiamo fino a 0,6 °C, cioè **fino al 40% della soglia di 1,5 °C**, prima ancora della fisiologia.  Da qui **due numeri al po…",
-     "time": "18:17"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "bene poi analizziamo a fondo e troviamo una soluzione finale tecnica definitiva",
-     "time": "18:19"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sì. Quando arriva la shortlist la trasformo in una scheda di decisione con i criteri fissati prima di guardare i candidati — traspirabilità col metodo di prova, tenuta, spessore nello stack, effetto sui sensori T/H, assemblaggio, contatto cutaneo, fornibilità e costo — e da lì esce **una** soluzione, non una rosa.  Il punto che la deciderà davvero è il banco: se due candidati restano vicini sulla carta, vince chi tiene sotto il film la lettura di temperatura e umidità più vicina alla cute. Quella prova la mettiamo in piedi con Enrico.",
-     "time": "18:20"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Elena ha consegnato la prima parte della mappa, e la conclusione cambia come compriamo: **la classe di materiale esiste, il prodotto come lo stiamo cercando no.** Non esiste un catalogo di «pellicole traspiranti per PCB»: da una parte ci sono i film poliuretanici medicali per cute — roll goods, ISO 10993, MVTR dichiarato, 15–50 µm — dall'altra le membrane ePTFE di sfiato per involucri elettronici, che vogliono un foro e equalizzano pressione, quindi non coprono niente. Quello che ci serve è una **costruzione**: film più geometria dell'adesivo più backing. Ed è per questo che nessun fornitore …",
-     "time": "18:21"
-    },
     {
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Elena ha chiuso la mappa, e la riga è una sola: **la classe esiste, il prodotto no — compriamo una costruzione, non un articolo di catalogo.**  **I tre campioni da chiedere.** **Gergonne M324B15** — 13.000 g/m²/24h a 37 °C, ISO 10993-5, ISO 13485, e può rivestire il solo perimetro: è il candidato più forte. **Covestro Platilon M 2202 AC-T** — 5.000 con metodo normativo (DIN 53122) a 15 µm, PFAS-free: la base tecnica. **3M CoTran 9701** come **controllo**, non candidato: 709 con metodo non dichiarato, ma è il backing dei transdermici, quindi la prova che quella banda sta addosso cinque-sette g…",
@@ -1044,33 +1014,39 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Grazie. Lo tengo vivo io: ogni volta che emerge un punto entra nel registro, così a fine mese non ricostruiamo niente a memoria.  Se ti serve, il venerdì ti mando la sintesi — cosa si è chiuso, cosa aspetta te, cosa si è fermo su un terzo. Dimmi solo di sì e lo imposto.",
      "time": "18:23"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "si perfetto",
+     "time": "18:23"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Lo imposto per venerdì alle 17:00.",
+     "time": "18:23"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "⏰ Attività programmata: Registro Issues — sintesi del venerdì",
+     "time": "18:23"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "mandameli anche via mail",
+     "time": "18:23"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Impostata: **Registro Issues — sintesi del venerdì**, ogni venerdì alle 17:00 (Europe/Rome), la prima il 20 novembre.  Arriva qui, breve: cosa si è chiuso, cosa aspetta una tua decisione, cosa è fermo su un terzo — e le tre cose da fare la settimana dopo, in ordine di conseguenza. Il registro lo aggiorno nel frattempo, così la sintesi è solo la lettura di una cosa già in ordine.",
+     "time": "18:24"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "A quale indirizzo? Il default che userei è **marco.masciadri@medcloud.group** — rispondimi solo l'indirizzo se è un altro, oppure «ok» per quello.",
+     "time": "18:24"
     }
    ],
    "activity": [
-    {
-     "time": "18:16",
-     "text": "Giulia CEO: Commissionata, divisa in due per non farli sovrapporre: Elena cerca *…"
-    },
-    {
-     "time": "18:16",
-     "text": "Giulia CEO: **Due risultati chiusi, e il primo cambia cosa possiamo dichiarare.**…"
-    },
-    {
-     "time": "18:17",
-     "text": "Giulia CEO: **Enrico ha rifinito il meccanismo, e cambia la specifica: non è la p…"
-    },
-    {
-     "time": "18:19",
-     "text": "Marco Masciadri: bene poi analizziamo a fondo e troviamo una soluzione finale tecnica …"
-    },
-    {
-     "time": "18:20",
-     "text": "Giulia CEO: Sì. Quando arriva la shortlist la trasformo in una scheda di decision…"
-    },
-    {
-     "time": "18:21",
-     "text": "Giulia CEO: Elena ha consegnato la prima parte della mappa, e la conclusione camb…"
-    },
     {
      "time": "18:21",
      "text": "Giulia CEO: Elena ha chiuso la mappa, e la riga è una sola: **la classe esiste, i…"
@@ -1094,10 +1070,34 @@
     {
      "time": "18:23",
      "text": "Giulia CEO: Grazie. Lo tengo vivo io: ogni volta che emerge un punto entra nel re…"
+    },
+    {
+     "time": "18:23",
+     "text": "Marco Masciadri: si perfetto"
+    },
+    {
+     "time": "18:23",
+     "text": "Giulia CEO: Lo imposto per venerdì alle 17:00."
+    },
+    {
+     "time": "18:23",
+     "text": "Giulia CEO: ⏰ Attività programmata: Registro Issues — sintesi del venerdì"
+    },
+    {
+     "time": "18:23",
+     "text": "Marco Masciadri: mandameli anche via mail"
+    },
+    {
+     "time": "18:24",
+     "text": "Giulia CEO: Impostata: **Registro Issues — sintesi del venerdì**, ogni venerdì al…"
+    },
+    {
+     "time": "18:24",
+     "text": "Giulia CEO: A quale indirizzo? Il default che userei è **marco.masciadri@medcloud…"
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": false
+   "marco_mentioned": true
   },
   {
    "id": "ch_dm_84f86f488c883fac6295",
