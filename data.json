@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T19:01:47.447054+00:00",
+ "generated_at": "2026-11-19T09:23:11.718482+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -964,34 +964,19 @@
    "name": "Coach ADHD",
    "project": "ufficio",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-18T17:57:06+00:00",
+   "unread": 3,
+   "last_activity": "2026-11-19T09:01:53+00:00",
    "agents": [
     {
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 18:57",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
      "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "ok chiama Alessia Primerano, salutala da parte mia e augurale in bocca al lupo per l'evento di stasera a Milano, il suo numero é +39 333 7640878",
-     "time": "17:38"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sto chiamando Alessia adesso: saluto tuo, in bocca al lupo per l'evento di stasera a Milano, niente altro. Ti dico com'è andata.",
-     "time": "17:39"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Fatta, ha risposto subito. Le ho detto che chiami per conto tuo, le ho augurato in bocca al lupo per l'evento di stasera a Milano, e lei ha risposto: **\"Ringrazia molto Marco da parte mia, dagli un bacione\"**.  Chiamata di 26 secondi, chiusa con un saluto. Nessuna domanda di lavoro, come volevi.",
-     "time": "17:41"
-    },
     {
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "ho visto che la chiamata arriva dal Michigan USA quindi tanti utenti potrebbero non rispondere pensando sia spam, c'e' modo di far apparire il mio nome?",
@@ -1036,21 +1021,24 @@
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "mi chiede di effettuare chiamata non vedo parte caller ID",
      "time": "17:53"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Quella è la finestra per fare la chiamata, non le impostazioni: la configurazione sta dietro l'**ingranaggio in alto a destra** della stessa finestra (accanto all'icona della provetta). Aprilo e cerca la voce del numero chiamante / caller ID.  Se lì dentro non c'è nessuna voce per aggiungere un numero, allora la funzione non è esposta in questo piano: in quel caso l'unica strada resta l'SMS di preavviso, che funziona già.",
+     "time": "17:53"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "perfetto call ID confermato funziona perfettamente",
+     "time": "18:03"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Confermato anche dal sistema: +41 789 502 900 viene accettato come numero chiamante (test a vuoto, nessuna chiamata). Da adesso uso quello come predefinito, così chi riceve vede il tuo numero e non il +1 del Michigan.  L'SMS di preavviso resta disponibile ma non è più indispensabile: serve solo per le chiamate a freddo, dove la persona non sa chi sta chiamando.",
+     "time": "18:03"
     }
    ],
    "activity": [
-    {
-     "time": "17:38",
-     "text": "Marco Masciadri: ok chiama Alessia Primerano, salutala da parte mia e augurale in bocc…"
-    },
-    {
-     "time": "17:39",
-     "text": "HORME: Sto chiamando Alessia adesso: saluto tuo, in bocca al lupo per l'even…"
-    },
-    {
-     "time": "17:41",
-     "text": "HORME: Fatta, ha risposto subito. Le ho detto che chiami per conto tuo, le h…"
-    },
     {
      "time": "17:42",
      "text": "Marco Masciadri: ho visto che la chiamata arriva dal Michigan USA quindi tanti utenti …"
@@ -1086,9 +1074,21 @@
     {
      "time": "17:53",
      "text": "Marco Masciadri: mi chiede di effettuare chiamata non vedo parte caller ID"
+    },
+    {
+     "time": "17:53",
+     "text": "HORME: Quella è la finestra per fare la chiamata, non le impostazioni: la co…"
+    },
+    {
+     "time": "18:03",
+     "text": "Marco Masciadri: perfetto call ID confermato funziona perfettamente"
+    },
+    {
+     "time": "18:03",
+     "text": "HORME: Confermato anche dal sistema: +41 789 502 900 viene accettato come nu…"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": false
   },
   {
