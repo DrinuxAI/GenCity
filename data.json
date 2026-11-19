@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T19:11:07.697233+00:00",
+ "generated_at": "2026-11-19T19:25:15.938943+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -973,63 +973,18 @@
    "project": "medcloud",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-19T19:09:58+00:00",
+   "last_activity": "2026-11-19T19:19:16+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 20:09",
+     "task": "Ultimo intervento 20:19",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fatto: [Registro Issues MedCloud](https://www.genspark.ai/second-brain/s/7a01e4b6-08bd-4700-9680-5dcffd202075/e8e2c865-2036-4e94-8eef-8b5820d2aa05) in `/MedCloud/` su AI Drive — 22 punti aperti divisi per area (software, dispositivo, regolatorio/IP, commerciale, amministrazione) più 4 chiusi di recente, ognuno con tipo, perché conta, proprietario e stato.  Due scelte che ho fatto per te. **La colonna visibilità**: ogni riga è marcata P (mostrabile ai partner) o I (solo interno) — la versione da condividere si genera togliendo le I, che sono contenziosi, IP, sicurezza e decisioni societarie. *…",
-     "time": "18:22"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ottimo lavoro bravissima",
-     "time": "18:23"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Grazie. Lo tengo vivo io: ogni volta che emerge un punto entra nel registro, così a fine mese non ricostruiamo niente a memoria.  Se ti serve, il venerdì ti mando la sintesi — cosa si è chiuso, cosa aspetta te, cosa si è fermo su un terzo. Dimmi solo di sì e lo imposto.",
-     "time": "18:23"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "si perfetto",
-     "time": "18:23"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Lo imposto per venerdì alle 17:00.",
-     "time": "18:23"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "⏰ Attività programmata: Registro Issues — sintesi del venerdì",
-     "time": "18:23"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "mandameli anche via mail",
-     "time": "18:23"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Impostata: **Registro Issues — sintesi del venerdì**, ogni venerdì alle 17:00 (Europe/Rome), la prima il 20 novembre.  Arriva qui, breve: cosa si è chiuso, cosa aspetta una tua decisione, cosa è fermo su un terzo — e le tre cose da fare la settimana dopo, in ordine di conseguenza. Il registro lo aggiorno nel frattempo, così la sintesi è solo la lettura di una cosa già in ordine.",
-     "time": "18:24"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "A quale indirizzo? Il default che userei è **marco.masciadri@medcloud.group** — rispondimi solo l'indirizzo se è un altro, oppure «ok» per quello.",
-     "time": "18:24"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "possiamo anche creare una dashboard del registro issues cosi più semplice consultare e spuntare quelle risolte",
@@ -1044,45 +999,54 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Procedo: dashboard del registro e invio mail, indirizzo marco.masciadri@medcloud.group.",
      "time": "19:13"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Dashboard pronta: in alto i tre numeri che contano (aperti · aspettano te · fermi su terzi), i punti che dipendono da te come chip che saltano alla riga, filtri per stato, area e visibilità P/I, e la ricerca. Spunti una riga quando è risolta: si attenua, scende in fondo e resta salvata sul browser — poi «Copia le spuntate» e me le passi, così le chiudo nel registro.  Mail partita: **marco.masciadri@medcloud.group**, oggetto «Registro Issues MedCloud — sintesi del 19 novembre», con registro e dashboard in allegato. È uscita dall'account primario; dalla prossima parte come medcloud.group.  Il v…",
+     "time": "19:14"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok possiamo fissare il link alla dashboard in modo che la possa visionare facilmente in genspark?",
+     "time": "19:15"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Lo fisso così lo trovi sempre in cima.",
+     "time": "19:15"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Il link stabile è questo: [Dashboard Registro Issues](https://www.genspark.ai/second-brain/s/7a01e4b6-08bd-4700-9680-5dcffd202075/6b48aeef-efd9-4d5a-a4a6-c296baac9237). Sta in AI Drive sotto **MedCloud → Dashboard_Registro_Issues_MedCloud.html**, e resta lo stesso ogni volta: il venerdì sovrascrivo il file, il link non cambia.  Nelle chat dirette non posso fissare messaggi, quindi il modo perché lo trovi sempre in due tocchi è la cartella MedCloud: da lì apri il file dal browser, anche dal telefono, e funziona senza server.  Se preferisci, quando aggiorno ti mando anche la versione allegata i…",
+     "time": "19:16"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok",
+     "time": "19:16"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Tutto allineato: registro e dashboard in MedCloud, mail e sintesi ogni venerdì alle 17:00. Quando spunti qualcosa nella dashboard, mandami l'elenco con «Copia le spuntate» e chiudo i punti nel registro.",
+     "time": "19:16"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "lo vedo da crome e l'ho messo nei preferiti, quindi perfetto. si aggiorna automaticamente?",
+     "time": "19:18"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì, ma non in tempo reale: il link è sempre lo stesso e il contenuto cambia quando riscrivo il file — quindi quando aggiungo o chiudo un punto, alla riapertura o con un refresh vedi la versione nuova. Se resta vecchia, Ctrl+Maiusc+R forza il ricaricamento: il browser tiene una copia in cache.  Ho appena aggiunto in testa alla pagina la scritta «aggiornato al …» con data e ora: così in un secondo capisci se stai guardando la versione di oggi. Le spunte che metti tu restano invece locali al browser, e non vengono toccate dagli aggiornamenti.",
+     "time": "19:18"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "memorizza [https://emanuelemeazzo.com/](https://emanuelemeazzo.com/) per future relazioni con Emanuele Meazzo",
+     "time": "19:50"
     }
    ],
    "activity": [
-    {
-     "time": "18:22",
-     "text": "Giulia CEO: Fatto: [Registro Issues MedCloud](https://www.genspark.ai/second-brai…"
-    },
-    {
-     "time": "18:23",
-     "text": "Marco Masciadri: ottimo lavoro bravissima"
-    },
-    {
-     "time": "18:23",
-     "text": "Giulia CEO: Grazie. Lo tengo vivo io: ogni volta che emerge un punto entra nel re…"
-    },
-    {
-     "time": "18:23",
-     "text": "Marco Masciadri: si perfetto"
-    },
-    {
-     "time": "18:23",
-     "text": "Giulia CEO: Lo imposto per venerdì alle 17:00."
-    },
-    {
-     "time": "18:23",
-     "text": "Giulia CEO: ⏰ Attività programmata: Registro Issues — sintesi del venerdì"
-    },
-    {
-     "time": "18:23",
-     "text": "Marco Masciadri: mandameli anche via mail"
-    },
-    {
-     "time": "18:24",
-     "text": "Giulia CEO: Impostata: **Registro Issues — sintesi del venerdì**, ogni venerdì al…"
-    },
-    {
-     "time": "18:24",
-     "text": "Giulia CEO: A quale indirizzo? Il default che userei è **marco.masciadri@medcloud…"
-    },
     {
      "time": "18:24",
      "text": "Marco Masciadri: possiamo anche creare una dashboard del registro issues cosi più semp…"
@@ -1094,6 +1058,42 @@
     {
      "time": "19:13",
      "text": "Giulia CEO: Procedo: dashboard del registro e invio mail, indirizzo marco.masciad…"
+    },
+    {
+     "time": "19:14",
+     "text": "Giulia CEO: Dashboard pronta: in alto i tre numeri che contano (aperti · aspettan…"
+    },
+    {
+     "time": "19:15",
+     "text": "Marco Masciadri: ok possiamo fissare il link alla dashboard in modo che la possa visio…"
+    },
+    {
+     "time": "19:15",
+     "text": "Giulia CEO: Lo fisso così lo trovi sempre in cima."
+    },
+    {
+     "time": "19:16",
+     "text": "Giulia CEO: Il link stabile è questo: [Dashboard Registro Issues](https://www.gen…"
+    },
+    {
+     "time": "19:16",
+     "text": "Marco Masciadri: ok"
+    },
+    {
+     "time": "19:16",
+     "text": "Giulia CEO: Tutto allineato: registro e dashboard in MedCloud, mail e sintesi ogn…"
+    },
+    {
+     "time": "19:18",
+     "text": "Marco Masciadri: lo vedo da crome e l'ho messo nei preferiti, quindi perfetto. si aggi…"
+    },
+    {
+     "time": "19:18",
+     "text": "Giulia CEO: Sì, ma non in tempo reale: il link è sempre lo stesso e il contenuto …"
+    },
+    {
+     "time": "19:50",
+     "text": "Marco Masciadri: memorizza [https://emanuelemeazzo.com/](https://emanuelemeazzo.com/) …"
     }
    ],
    "needs_marco": false,
@@ -1105,43 +1105,18 @@
    "project": "ufficio",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-19T15:35:27+00:00",
+   "last_activity": "2026-11-19T19:17:52+00:00",
    "agents": [
     {
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 16:35",
-     "progress": 0
+     "status": "working",
+     "task": "Ultimo intervento 20:17",
+     "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "perfetto posso cambiara da MIra a Sophia come assistente?",
-     "time": "18:04"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Sì. La voce è una delle cinque voci di configurazione, nello stesso pannello dell'ingranaggio: c'è una voce \"Voice Selected\" e lì scegli Sophia al posto dell'attuale (adesso risulta \"marin\").  Da qui non posso cambiarla io: è un'impostazione del tuo account. Ma è un clic, e vale per tutte le chiamate successive.",
-     "time": "18:04"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "mi dai il link",
-     "time": "18:04"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "https://www.genspark.ai/agents?type=phone_call  È la pagina dove hai già fatto verifica numero, nome e voce: lì trovi anche \"Voice Selected\" per passare a Sophia.",
-     "time": "18:04"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "fatto",
-     "time": "18:29"
-    },
     {
      "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "text": "Confermato dal sistema: la voce è cambiata (prima \"marin\", ora \"shimmer\" — quella che nell'interfaccia vedi come Sophia). Vale dalla prossima chiamata.",
@@ -1176,29 +1151,34 @@
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "mentre per Crypto Project SAGL il mio contatto é Giorgio D'Amico",
      "time": "18:50"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Memorizzato: Crypto Project Sagl → **Giorgio D'Amico**. Di lui in casella non c'è nessuna mail (i pochi \"D'Amico\" sono EQUIS), quindi mi manca solo l'indirizzo.  Quando vuoi, con i due contatti a posto posso preparare il sollecito per la OA050 a Ravaglia e la richiesta di conferma a D'Amico su eventuali fatture Crypto Project: dimmi tu se partire da uno dei due.",
+     "time": "18:50"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "email Giorgio D'Amico [giorgio@gd-pa.com](mailto:giorgio@gd-pa.com)",
+     "time": "18:56"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i contatti sono completi in rubrica.  Se vuoi, preparo le due bozze (sollecito OA050 a Ravaglia, richiesta a D'Amico sulle fatture Crypto Project) e te le faccio leggere prima di mandarle.",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle 17:39 (`NDA_MedCloud_SBC_Evelino_Belloli_FIRMATO.pdf`, archiviato). Chiede di scrivergli solo su evelino.belloli@formaone.ch d'ora in poi. Quindi ora gli puoi mandare la documentazione: è l'unico dei cinque che l'ha chiusa, oltre a Meazzo.  **Oggi chiuso:** Meazzo (mandato da te), telefono completo — caller ID + voce Sophia — fatture Oak/Crypto ricostruite, contatti Ravaglia e D'Amico in rubrica.  **Domani, tre cose:** 1. **SBS, 7 punti del contratto di gerenza** — 10:00, già in agenda, 30 min. Allegato C a 0.00 resta il pun…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno. Due cose arrivate stanotte, una buona e una da decidere tu: **Meazzo ha risposto** al fascicolo — ti invita in ufficio da lui a Lugano la settimana prossima (o a Como), e chiede solo una data. Nessuna firma da inseguire: Evelino è l'unico nuovo firmato.  **Oggi, tre cose:** 1. **SBS, i 7 punti — 10:00, 30 min.** Prima di tutto il resto: la regola secca è \"Allegato C a 0.00/0% → non si firma\". Il resto sono conseguenze. 2. **Intervista La Provincia di Como, 17:00.** Non hai niente di preparato in agenda: ti scrivo io un brief da una pagina (chi ti intervista, 3 messaggi chiave, 2 d…",
+     "time": "08:02"
     }
    ],
    "activity": [
-    {
-     "time": "18:04",
-     "text": "Marco Masciadri: perfetto posso cambiara da MIra a Sophia come assistente?"
-    },
-    {
-     "time": "18:04",
-     "text": "HORME: Sì. La voce è una delle cinque voci di configurazione, nello stesso p…"
-    },
-    {
-     "time": "18:04",
-     "text": "Marco Masciadri: mi dai il link"
-    },
-    {
-     "time": "18:04",
-     "text": "HORME: https://www.genspark.ai/agents?type=phone_call  È la pagina dove hai …"
-    },
-    {
-     "time": "18:29",
-     "text": "Marco Masciadri: fatto"
-    },
     {
      "time": "18:29",
      "text": "HORME: Confermato dal sistema: la voce è cambiata (prima \"marin\", ora \"shimm…"
@@ -1226,10 +1206,30 @@
     {
      "time": "18:50",
      "text": "Marco Masciadri: mentre per Crypto Project SAGL il mio contatto é Giorgio D'Amico"
+    },
+    {
+     "time": "18:50",
+     "text": "HORME: Memorizzato: Crypto Project Sagl → **Giorgio D'Amico**. Di lui in cas…"
+    },
+    {
+     "time": "18:56",
+     "text": "Marco Masciadri: email Giorgio D'Amico [giorgio@gd-pa.com](mailto:giorgio@gd-pa.com)"
+    },
+    {
+     "time": "18:57",
+     "text": "HORME: Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i conta…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: **Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle …"
+    },
+    {
+     "time": "08:02",
+     "text": "HORME: Buongiorno. Due cose arrivate stanotte, una buona e una da decidere t…"
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": false
+   "marco_mentioned": true
   },
   {
    "id": "ch_dm_2fcc468bf8613347f6bd",
