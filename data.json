@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:32:11.345194+00:00",
+ "generated_at": "2026-11-19T14:46:16.833620+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -37,7 +37,7 @@
      "id": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Enrico Hardware",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 14:59",
      "progress": 50
     },
@@ -45,7 +45,7 @@
      "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Paolo Clinical & Research Advisor",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 14:59",
      "progress": 50
     },
@@ -53,7 +53,7 @@
      "id": "agent_c6yte9yz7nez@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Luca RevOps",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ha scritto alle 14:59",
      "progress": 50
     },
@@ -972,29 +972,19 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-19T14:31:11+00:00",
+   "unread": 2,
+   "last_activity": "2026-11-19T14:32:52+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 15:31",
-     "progress": 50
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Controllo nella posta inviata e ti dico subito.",
-     "time": "17:12"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "No, a Evelino non è mai stato inviato. Nella posta inviata ci sono solo due cose: l'NDA il 16.11 (con la promessa «firmami il NDA e ti mando la documentazione») e il contratto di segnalazione oggi alle 16:45 — nessun fascicolo.  E il NDA firmato non è ancora tornato: le sue tre risposte del 16.11 sono solo messaggi, senza allegati. Appena me lo rimanda, il fascicolo da 93 pagine parte con la stessa mail che ho usato per Meazzo e Giacomo. Se preferisci mandarglielo comunque senza aspettare il NDA, dimmelo e lo faccio.",
-     "time": "17:12"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "manda fascicolo a evelino",
@@ -1044,17 +1034,19 @@
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "puoi anche condividere con Perplexity i nostri documneti di porgetto nella stessa cartella cosi siete allineati",
      "time": "11:27"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì: guardo chi ha accesso alla cartella, carico il set giusto di documenti e ti dico cosa ci ho messo e cosa ho lasciato fuori.",
+     "time": "11:27"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto al report, il fascicolo di progetto neutro IT (93 pagine), il deck neutro in italiano e in inglese (28 slide) e il piano contatti Ticino. I nomi dei file iniziano con la data, così la versione più recente si riconosce a colpo d'occhio.  Ho lasciato fuori di proposito quattro cose, e ti dico perché: il deck intestato al Technopark (ha i nomi dei destinatari dentro), la presentazione partner e investitori in inglese (contiene il TAM, e Perplexity potrebbe usarlo come se fosse un dato nostro), il blueprint dell'elettronica rev …",
+     "time": "11:28"
     }
    ],
    "activity": [
-    {
-     "time": "17:12",
-     "text": "Giulia CEO: Controllo nella posta inviata e ti dico subito."
-    },
-    {
-     "time": "17:12",
-     "text": "Giulia CEO: No, a Evelino non è mai stato inviato. Nella posta inviata ci sono so…"
-    },
     {
      "time": "17:14",
      "text": "Marco Masciadri: manda fascicolo a evelino"
@@ -1094,9 +1086,17 @@
     {
      "time": "11:27",
      "text": "Marco Masciadri: puoi anche condividere con Perplexity i nostri documneti di porgetto …"
+    },
+    {
+     "time": "11:27",
+     "text": "Giulia CEO: Sì: guardo chi ha accesso alla cartella, carico il set giusto di docu…"
+    },
+    {
+     "time": "11:28",
+     "text": "Giulia CEO: Fatto: nella cartella «Genspark – Condivisione» ora ci sono, accanto …"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": false
   },
   {
