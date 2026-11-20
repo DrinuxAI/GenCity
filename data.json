@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T21:18:27.332465+00:00",
+ "generated_at": "2026-11-20T10:40:59.050632+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,16 +960,16 @@
    "marco_mentioned": true
   },
   {
-   "id": "ch_dm_84f86f488c883fac6295",
-   "name": "Coach ADHD",
-   "project": "ufficio",
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
    "type": "studio",
    "unread": 1,
-   "last_activity": "2026-11-19T21:01:34+00:00",
+   "last_activity": "2026-11-20T08:31:10+00:00",
    "agents": [
     {
-     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "name": "HORME",
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "attention",
      "task": "Ha risposto — da leggere",
@@ -977,143 +977,6 @@
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "mi recuperi tra mail e documenti le ultime fatture fatte a oakcompany e crypto project sagl?",
-     "time": "18:30"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Cerco subito: parto dalla posta (mittente/destinatario e allegati PDF) e poi dai documenti, ti riporto numero, data e importo di ogni fattura trovata.",
-     "time": "18:30"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Risultato, e una sorpresa sul secondo cliente.  **Oak Company SA** — una sola fattura in tutto l'archivio: - **OA050 del 15/07/2025, CHF 3'000.00** — quattro voci quinquennali 2021-2025 (dominio oakcompany.ch, server mail, maintenance/supporto, storage e backup: 5×100 + 5×300). Intestata a Oak Company SA, Corso San Gottardo 74, Chiasso. Lo stato di pagamento non risulta da nessuna parte: **da verificare**. - File in Drive: \"Fattura_Oak Company SA_7-15-2025.pdf\" (due copie identiche). Prima e dopo quella non c'è nulla.  **Crypto Project Sagl** — **nessuna fattura**, e l'ho ricontrollato io ade…",
-     "time": "18:34"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "ti do alcuni dati: Oak Company SA il mio contatto é alessandro Ravaglia memorizza",
-     "time": "18:49"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Memorizzato: Oak Company SA → **Alessandro Ravaglia**. Ho aggiunto anche la sua mail, `aravaglia@oakcompany.ch`, che ho trovato nel thread \"situazione acount email\" di oggi.  Resta aperta la fattura OA050: vuoi che gli chieda lo stato del pagamento?",
-     "time": "18:49"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "mentre per Crypto Project SAGL il mio contatto é Giorgio D'Amico",
-     "time": "18:50"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Memorizzato: Crypto Project Sagl → **Giorgio D'Amico**. Di lui in casella non c'è nessuna mail (i pochi \"D'Amico\" sono EQUIS), quindi mi manca solo l'indirizzo.  Quando vuoi, con i due contatti a posto posso preparare il sollecito per la OA050 a Ravaglia e la richiesta di conferma a D'Amico su eventuali fatture Crypto Project: dimmi tu se partire da uno dei due.",
-     "time": "18:50"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "email Giorgio D'Amico [giorgio@gd-pa.com](mailto:giorgio@gd-pa.com)",
-     "time": "18:56"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i contatti sono completi in rubrica.  Se vuoi, preparo le due bozze (sollecito OA050 a Ravaglia, richiesta a D'Amico sulle fatture Crypto Project) e te le faccio leggere prima di mandarle.",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle 17:39 (`NDA_MedCloud_SBC_Evelino_Belloli_FIRMATO.pdf`, archiviato). Chiede di scrivergli solo su evelino.belloli@formaone.ch d'ora in poi. Quindi ora gli puoi mandare la documentazione: è l'unico dei cinque che l'ha chiusa, oltre a Meazzo.  **Oggi chiuso:** Meazzo (mandato da te), telefono completo — caller ID + voce Sophia — fatture Oak/Crypto ricostruite, contatti Ravaglia e D'Amico in rubrica.  **Domani, tre cose:** 1. **SBS, 7 punti del contratto di gerenza** — 10:00, già in agenda, 30 min. Allegato C a 0.00 resta il pun…",
-     "time": "22:01"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno. Due cose arrivate stanotte, una buona e una da decidere tu: **Meazzo ha risposto** al fascicolo — ti invita in ufficio da lui a Lugano la settimana prossima (o a Como), e chiede solo una data. Nessuna firma da inseguire: Evelino è l'unico nuovo firmato.  **Oggi, tre cose:** 1. **SBS, i 7 punti — 10:00, 30 min.** Prima di tutto il resto: la regola secca è \"Allegato C a 0.00/0% → non si firma\". Il resto sono conseguenze. 2. **Intervista La Provincia di Como, 17:00.** Non hai niente di preparato in agenda: ti scrivo io un brief da una pagina (chi ti intervista, 3 messaggi chiave, 2 d…",
-     "time": "08:02"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**SBS — i sette punti, 10:00.** Asciutti, nell'ordine in cui vanno detti a Luigi:  1. **Allegato C compilato** con numeri veri: contratti clienti CHF 50'000 · spese fuori budget CHF 5'000 · pagamenti con seconda autorizzazione oltre CHF 10'000 · RC CHF 2'000'000 · passaggio consegne CHF 150/ora. Più art. 4.2: silenzio = consenso dopo 5 giorni. 2. **Art. 3.5 cancellato**: nessuna opzione automatica; eventuale trasferimento a valore di mercato, perito del Tribunale in caso di disaccordo. 3. **Art. 3.2**: licenza solo per il perimetro dei Servizi e solo per la durata del contratto; fuori MedClou…",
-     "time": "10:01"
-    }
-   ],
-   "activity": [
-    {
-     "time": "18:30",
-     "text": "Marco Masciadri: mi recuperi tra mail e documenti le ultime fatture fatte a oakcompany…"
-    },
-    {
-     "time": "18:30",
-     "text": "HORME: Cerco subito: parto dalla posta (mittente/destinatario e allegati PDF…"
-    },
-    {
-     "time": "18:34",
-     "text": "HORME: Risultato, e una sorpresa sul secondo cliente.  **Oak Company SA** — …"
-    },
-    {
-     "time": "18:49",
-     "text": "Marco Masciadri: ti do alcuni dati: Oak Company SA il mio contatto é alessandro Ravagl…"
-    },
-    {
-     "time": "18:49",
-     "text": "HORME: Memorizzato: Oak Company SA → **Alessandro Ravaglia**. Ho aggiunto an…"
-    },
-    {
-     "time": "18:50",
-     "text": "Marco Masciadri: mentre per Crypto Project SAGL il mio contatto é Giorgio D'Amico"
-    },
-    {
-     "time": "18:50",
-     "text": "HORME: Memorizzato: Crypto Project Sagl → **Giorgio D'Amico**. Di lui in cas…"
-    },
-    {
-     "time": "18:56",
-     "text": "Marco Masciadri: email Giorgio D'Amico [giorgio@gd-pa.com](mailto:giorgio@gd-pa.com)"
-    },
-    {
-     "time": "18:57",
-     "text": "HORME: Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i conta…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: **Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle …"
-    },
-    {
-     "time": "08:02",
-     "text": "HORME: Buongiorno. Due cose arrivate stanotte, una buona e una da decidere t…"
-    },
-    {
-     "time": "10:01",
-     "text": "HORME: **SBS — i sette punti, 10:00.** Asciutti, nell'ordine in cui vanno de…"
-    }
-   ],
-   "needs_marco": true,
-   "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-19T19:19:16+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 20:19",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "possiamo anche creare una dashboard del registro issues cosi più semplice consultare e spuntare quelle risolte",
-     "time": "18:24"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "procedi",
@@ -1168,13 +1031,14 @@
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "memorizza [https://emanuelemeazzo.com/](https://emanuelemeazzo.com/) per future relazioni con Emanuele Meazzo",
      "time": "19:50"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto — l'ho salvato tra i contatti e le relazioni.",
+     "time": "19:50"
     }
    ],
    "activity": [
-    {
-     "time": "18:24",
-     "text": "Marco Masciadri: possiamo anche creare una dashboard del registro issues cosi più semp…"
-    },
     {
      "time": "19:12",
      "text": "Marco Masciadri: procedi"
@@ -1218,9 +1082,145 @@
     {
      "time": "19:50",
      "text": "Marco Masciadri: memorizza [https://emanuelemeazzo.com/](https://emanuelemeazzo.com/) …"
+    },
+    {
+     "time": "19:50",
+     "text": "Giulia CEO: Fatto — l'ho salvato tra i contatti e le relazioni."
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
+   "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_84f86f488c883fac6295",
+   "name": "Coach ADHD",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 2,
+   "last_activity": "2026-11-20T07:01:02+00:00",
+   "agents": [
+    {
+     "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "name": "HORME",
+     "role": "Agente GenTeam",
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "mentre per Crypto Project SAGL il mio contatto é Giorgio D'Amico",
+     "time": "18:50"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Memorizzato: Crypto Project Sagl → **Giorgio D'Amico**. Di lui in casella non c'è nessuna mail (i pochi \"D'Amico\" sono EQUIS), quindi mi manca solo l'indirizzo.  Quando vuoi, con i due contatti a posto posso preparare il sollecito per la OA050 a Ravaglia e la richiesta di conferma a D'Amico su eventuali fatture Crypto Project: dimmi tu se partire da uno dei due.",
+     "time": "18:50"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "email Giorgio D'Amico [giorgio@gd-pa.com](mailto:giorgio@gd-pa.com)",
+     "time": "18:56"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i contatti sono completi in rubrica.  Se vuoi, preparo le due bozze (sollecito OA050 a Ravaglia, richiesta a D'Amico sulle fatture Crypto Project) e te le faccio leggere prima di mandarle.",
+     "time": "18:57"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle 17:39 (`NDA_MedCloud_SBC_Evelino_Belloli_FIRMATO.pdf`, archiviato). Chiede di scrivergli solo su evelino.belloli@formaone.ch d'ora in poi. Quindi ora gli puoi mandare la documentazione: è l'unico dei cinque che l'ha chiusa, oltre a Meazzo.  **Oggi chiuso:** Meazzo (mandato da te), telefono completo — caller ID + voce Sophia — fatture Oak/Crypto ricostruite, contatti Ravaglia e D'Amico in rubrica.  **Domani, tre cose:** 1. **SBS, 7 punti del contratto di gerenza** — 10:00, già in agenda, 30 min. Allegato C a 0.00 resta il pun…",
+     "time": "22:01"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Buongiorno. Due cose arrivate stanotte, una buona e una da decidere tu: **Meazzo ha risposto** al fascicolo — ti invita in ufficio da lui a Lugano la settimana prossima (o a Como), e chiede solo una data. Nessuna firma da inseguire: Evelino è l'unico nuovo firmato.  **Oggi, tre cose:** 1. **SBS, i 7 punti — 10:00, 30 min.** Prima di tutto il resto: la regola secca è \"Allegato C a 0.00/0% → non si firma\". Il resto sono conseguenze. 2. **Intervista La Provincia di Como, 17:00.** Non hai niente di preparato in agenda: ti scrivo io un brief da una pagina (chi ti intervista, 3 messaggi chiave, 2 d…",
+     "time": "08:02"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**SBS — i sette punti, 10:00.** Asciutti, nell'ordine in cui vanno detti a Luigi:  1. **Allegato C compilato** con numeri veri: contratti clienti CHF 50'000 · spese fuori budget CHF 5'000 · pagamenti con seconda autorizzazione oltre CHF 10'000 · RC CHF 2'000'000 · passaggio consegne CHF 150/ora. Più art. 4.2: silenzio = consenso dopo 5 giorni. 2. **Art. 3.5 cancellato**: nessuna opzione automatica; eventuale trasferimento a valore di mercato, perito del Tribunale in caso di disaccordo. 3. **Art. 3.2**: licenza solo per il perimetro dei Servizi e solo per la durata del contratto; fuori MedClou…",
+     "time": "10:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "trovami contratto di lavoro Giancarlo Cuffari con Axentra Swisstech SA e busta paga",
+     "time": "16:24"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Cerco: contratto di lavoro e busta paga di Giancarlo Cuffari su Axentra Swisstech, tra documenti e posta.",
+     "time": "16:24"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "**Contratto trovato e firmato da entrambi** — 3 pagine, Paradiso 27 aprile 2026. In allegato il PDF originale.  I termini chiave: durata indeterminata dal **01.05.2026**, impiegato 100%, **CHF 91'000 lordi** in 13 mensilità da 7'000, 25 giorni di vacanza, AVS/AI/IPG/AD/LAINF e LPP 50%.  **Una cosa stona:** dice \"impiegato al 100%\" ma anche \"orario di 20 ore settimanali\". Se è un part-time al 50%, lo stipendio e le 20 ore non stanno insieme; se è un full-time, le 20 ore sono un errore da correggere. Meglio saperlo prima che lo contesti qualcun altro.  **Busta paga: quella vera non c'è.** In ar…",
+     "time": "16:25"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "creami due quietanze di pagamento una datata settembre 2026 e una ottobre 2026 uguali a quella di maggio 2026",
+     "time": "16:28"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Le preparo, ma con una differenza che conta: **senza firma**. Una quietanza attesta che Cuffari ha ricevuto quei soldi, e la firma in fondo è la sua dichiarazione: quella non la metto io, gliela fai mettere a lui quando le consegni. Se invece ti serve la mia firma solo come Axentra (timbro e firma autorizzata), quella la aggiungo.  E devono dire il vero: se settembre e ottobre sono stati pagati davvero, mi servono tre cose per ciascuna — **data di pagamento, metodo (contanti o bonifico) e importo netto**. Il netto di maggio era 5'587.13, ma non è detto che resti identico: con LPP e conguagli …",
+     "time": "16:28"
+    }
+   ],
+   "activity": [
+    {
+     "time": "18:50",
+     "text": "Marco Masciadri: mentre per Crypto Project SAGL il mio contatto é Giorgio D'Amico"
+    },
+    {
+     "time": "18:50",
+     "text": "HORME: Memorizzato: Crypto Project Sagl → **Giorgio D'Amico**. Di lui in cas…"
+    },
+    {
+     "time": "18:56",
+     "text": "Marco Masciadri: email Giorgio D'Amico [giorgio@gd-pa.com](mailto:giorgio@gd-pa.com)"
+    },
+    {
+     "time": "18:57",
+     "text": "HORME: Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i conta…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: **Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle …"
+    },
+    {
+     "time": "08:02",
+     "text": "HORME: Buongiorno. Due cose arrivate stanotte, una buona e una da decidere t…"
+    },
+    {
+     "time": "10:01",
+     "text": "HORME: **SBS — i sette punti, 10:00.** Asciutti, nell'ordine in cui vanno de…"
+    },
+    {
+     "time": "16:24",
+     "text": "Marco Masciadri: trovami contratto di lavoro Giancarlo Cuffari con Axentra Swisstech S…"
+    },
+    {
+     "time": "16:24",
+     "text": "HORME: Cerco: contratto di lavoro e busta paga di Giancarlo Cuffari su Axent…"
+    },
+    {
+     "time": "16:25",
+     "text": "HORME: **Contratto trovato e firmato da entrambi** — 3 pagine, Paradiso 27 a…"
+    },
+    {
+     "time": "16:28",
+     "text": "Marco Masciadri: creami due quietanze di pagamento una datata settembre 2026 e una ott…"
+    },
+    {
+     "time": "16:28",
+     "text": "HORME: Le preparo, ma con una differenza che conta: **senza firma**. Una qui…"
+    }
+   ],
+   "needs_marco": true,
    "marco_mentioned": true
   },
   {
