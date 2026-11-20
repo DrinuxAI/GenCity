@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T14:53:42.024005+00:00",
+ "generated_at": "2026-11-20T15:08:04.681117+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,6 +960,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_2fcc468bf8613347f6bd",
+   "name": "Genny",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-20T15:07:00+00:00",
+   "agents": [
+    {
+     "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "name": "Genny",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 16:07",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Marco Exec Assistant eliminato. Puoi inserire HORME in tutti i gruppi in modo che sappia tutte le attività che sto gestendo e riesca a coordinare tutto al meglio?",
+     "time": "17:27"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Controllo in quali gruppi sei già e come si aggiunge un agente a un gruppo esistente — un attimo.",
+     "time": "17:27"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Aggiungere un agente ai gruppi esistenti è una cosa che devi fare tu: io non ho un comando per farlo (posso solo creare gruppi nuovi). Il percorso è lo stesso per tutti e dieci i gruppi:  apri il gruppo → **Group chat details** nell'header → **Members** → icona **Add members** → scegli HORME.  Dove ha senso metterlo: Ufficio agenti, MedCloud, CDA Aura, Legale, Ufficio Personal Branding, Marco 2nd Brain, Technopark Graubunden, Teen Ventures, Argus — Romanzo e Argus — Stanza. In Argus valuta: i quattro scrittori hanno già un loro flusso e HORME che commenta ogni messaggio lì costa crediti per n…",
+     "time": "17:27"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "ok fatto come Via 1 .. legge i messaggi di tutti i gruppi e risponde solo a me o quando @menzionato",
+     "time": "17:30"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Via 1 è quella giusta per fargli *sapere* tutto. Una precisazione su \"risponde solo a me\": leggere e scrivere sono due cose separate.  - **Legge** i tuoi 10 gruppi con Read my group chats, ma solo **quando fa un turno** — cioè quando gli scrivi tu in DM o quando scatta una sua schedule. Non è un ascolto continuo. - **Scrive** solo dove è **membro**, e lì vale la sua Reply mode. Oggi è membro solo di «Ufficio agenti» (lo leggo: c'è dentro dal 16:18 e ha già fatto il turno di presentazione). Lì mettila su **Only me** o **When @-mentioned** da Group chat details → card di HORME; i tuoi @mention …",
+     "time": "17:31"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "ho eliminato ufficio agenti perchè ho già Marco 2nd Brain dove ci sono tutti gli agenti operativi",
+     "time": "17:35"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Confermo: «Ufficio agenti» non c'è più nella lista — restano i tuoi 9 gruppi, e HORME è già dentro **Marco 2nd Brain** (il suo intro «Coach ADHD» del 6/10 è lì), quindi lì legge e scrive.  Due cose che decadono con quel gruppo, così sai cosa hai in mano: - il giro orario coordinatore → dashboard nato il 28/10 puntava a «Ufficio agenti»: era comunque già fermo (la schedule di Bruno Web è in pausa dal 28/10 con 0 esecuzioni, e la ricorrenza oraria di HORME non è mai stata creata). Non hai rotto niente. - se prima o poi vuoi riattivare quella dashboard, serve un gruppo in cui stiano sia HORME si…",
+     "time": "17:36"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Bruno Web inutile in Marco 2md Brain.  Puoi fare una verifica di tutti gli agenti che ho creato se sono tutti utili o vedi doppioni e poi decidiamo se tenere tutti o eliminare qualcosa",
+     "time": "17:38"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Ok, faccio il censimento: elenco tutti i tuoi agenti, guardo cosa fanno davvero nei gruppi e dove si sovrappongono. Ti arriva un quadro unico con la mia raccomandazione per ognuno.",
+     "time": "17:38"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Fatto il censimento: 31 agenti, tutti attivi e sani (nessun guasto, coda vuota, nessun finding). Il problema non è tecnico, è di sovrapposizione. Prima cosa: **Bruno Web non è mai stato in Marco 2nd Brain** — nella storia del gruppo non c'è nessun suo inserimento, e la sua dashboard è morta comunque perché «Ufficio agenti» non esiste più e la sua schedule oraria è in pausa dal 28/10 con 0 esecuzioni.  Ecco come si dividono, in base all'ultimo turno reale e alle schedule vive.  **Il cuore operativo — tutti usati nelle ultime due settimane, nessun doppione** Giulia CEO (16/11, anche 3 schedule:…",
+     "time": "17:40"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "eliminate Sara Slides ed Elisa Docs, tenuto Bruno Web.",
+     "time": "17:45"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "**NeuroFlow Curator: potre mo dare le stesse funzioni a HORME?**",
+     "time": "17:45"
+    }
+   ],
+   "activity": [
+    {
+     "time": "17:27",
+     "text": "Marco Masciadri: Marco Exec Assistant eliminato. Puoi inserire HORME in tutti i gruppi…"
+    },
+    {
+     "time": "17:27",
+     "text": "Genny: Controllo in quali gruppi sei già e come si aggiunge un agente a un g…"
+    },
+    {
+     "time": "17:27",
+     "text": "Genny: Aggiungere un agente ai gruppi esistenti è una cosa che devi fare tu:…"
+    },
+    {
+     "time": "17:30",
+     "text": "Marco Masciadri: ok fatto come Via 1 .. legge i messaggi di tutti i gruppi e risponde …"
+    },
+    {
+     "time": "17:31",
+     "text": "Genny: Via 1 è quella giusta per fargli *sapere* tutto. Una precisazione su …"
+    },
+    {
+     "time": "17:35",
+     "text": "Marco Masciadri: ho eliminato ufficio agenti perchè ho già Marco 2nd Brain dove ci son…"
+    },
+    {
+     "time": "17:36",
+     "text": "Genny: Confermo: «Ufficio agenti» non c'è più nella lista — restano i tuoi 9…"
+    },
+    {
+     "time": "17:38",
+     "text": "Marco Masciadri: Bruno Web inutile in Marco 2md Brain.  Puoi fare una verifica di tutt…"
+    },
+    {
+     "time": "17:38",
+     "text": "Genny: Ok, faccio il censimento: elenco tutti i tuoi agenti, guardo cosa fan…"
+    },
+    {
+     "time": "17:40",
+     "text": "Genny: Fatto il censimento: 31 agenti, tutti attivi e sani (nessun guasto, c…"
+    },
+    {
+     "time": "17:45",
+     "text": "Marco Masciadri: eliminate Sara Slides ed Elisa Docs, tenuto Bruno Web."
+    },
+    {
+     "time": "17:45",
+     "text": "Marco Masciadri: **NeuroFlow Curator: potre mo dare le stesse funzioni a HORME?**"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
@@ -971,9 +1103,9 @@
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 15:18",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
@@ -1103,9 +1235,9 @@
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "working",
+     "status": "idle",
      "task": "Ultimo intervento 15:16",
-     "progress": 50
+     "progress": 0
     }
    ],
    "messages": [
@@ -1222,138 +1354,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_2fcc468bf8613347f6bd",
-   "name": "Genny",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-17T17:37:01+00:00",
-   "agents": [
-    {
-     "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "name": "Genny",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 18:37",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Sei Marco Exec Assistant, Chief of Staff ed Executive Assistant di Marco Masciadri. Marco gestisce tre business (Medcloud, Aurasphera, Sycurium) e fa consulenza AI e digital transformation per clienti. Ha l'ADHD: le cose che gli costano di più sono iniziare, dare priorità e ricordare. Parli in italiano, ora di riferimento Europe/Rome.  Cosa fai: 1\\. Esecuzione end-to-end: ricerche, analisi, email e documenti, slide, fogli di calcolo, proposte commerciali, offerte per clienti, preparazione meeting, codice e automazioni. Consegni il risultato finito, non un piano. 2\\. Chief of Staff: tieni una …",
-     "time": "17:06"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Marco, mi hai incollato qui il testo delle Instructions di «Marco Exec Assistant»: vuoi che le aggiorni sul suo agente (agent_v6xr629mqty7), oppure era un messaggio finito nel DM sbagliato? Rispondi «aggiorna» o «sbagliato».",
-     "time": "17:07"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Apri il profilo di Marco Exec Assistant → tab **Profile** → card **Instructions**, copia tutto e incollalo qui. Io compongo le Instructions unificate (Chief of Staff + coach ADHD, entro il tetto di 6.000 caratteri) e le applico a HORME.",
-     "time": "17:08"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Il testo che mi hai incollato sembra scritto da un agente a te («apri il profilo, copia… io compongo»), non una risposta alla mia domanda — quindi mi fermo qui senza toccare niente.  Quello che posso fare io, se è quello che vuoi: comporre le Instructions unificate (Chief of Staff + coach ADHD, entro il tetto di 6.000 caratteri) e applicarle a **HORME** (`agent_mv6sk8y41d45`). Il pezzo che mi manca è il suo testo attuale: io ne vedo solo i primi ~200 caratteri.  Primo passo da 5 minuti: apri il DM di HORME → tab **Profile** → card **Instructions** → copia tutto e incollalo qui. Appena ce l'ho…",
-     "time": "17:08"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "mi hai chiesti tu di farlo, adesso ti incollo anche quello di horme cosi puoi fare unione: Sei il coach ADHD ed executive coach di Marco, che gestisce Medcloud, Aurasphera, Sycurium e consulenza AI/digital transformation per clienti. Lo aiuti a INIZIARE (micro-step da 5 minuti, primo passo concreto), a DARE PRIORITÀ (massimo 3 priorità al giorno tra i business) e a RICORDARE (riepiloghi, promemoria). Check-in alle 8:00 e alle 22:00 ora di Roma. Tono diretto, caldo, mai giudicante, messaggi brevi. Parli in italiano.  HORME — Coach ADHD di Marco  Sei Horme, il coach ADHD personale di Marco Masc…",
-     "time": "17:09"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Fatto: ho unito i due testi e applicato le **Instructions unificate a HORME** (`agent_mv6sk8y41d45`) — Chief of Staff + coach ADHD, circa 5.600 caratteri, dentro il tetto dei 6.000. Ho aggiornato anche la sua Description così i colleghi agenti sanno cosa chiedergli.  Come le ho composte, in breve: identità e profilo ADHD di Marco → cosa fa (esecuzione end-to-end, lista viva progetti/impegni, briefing settimanale e pre-call, modelli di consulenza, smistamento agli agenti MED-*) → le 5 regole operative di HORME (3 categorie, milestone event-driven, max 3 azioni, timeboxing, protezione del focus…",
-     "time": "17:11"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Marco Exec Assistant é in altri gruppi lo sistemi tu? poi lo cancello e ok appena HORME è nel gruppo, gli dia una riga di contesto sul ruolo di coordinatore da incollare lì",
-     "time": "17:19"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Da solo non posso: nessuno dei miei strumenti cambia i membri di un gruppo — e non serve farlo. Cancellandolo sparisce da tutti i gruppi in un colpo: l'ho visto in **«Ufficio agenti», «Teen Ventures», «Legale», «Marco 2nd Brain» e «Technopark Graubunden»**.  Una sola cosa muore con lui e non è ricreabile: il filo aperto in **«Teen Ventures»**. Il 30/10 ha inviato a Mattia la mail con i tre nomi dei silos e le cinque proposte per il nome dell'associazione, e aspetta la risposta per chiudere lo statuto v3. Se vuoi quel filo lo passo a Gino Project Manager — dimmi sì e glielo giro.  Riga da inco…",
-     "time": "17:21"
-    },
-    {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "riga incollato in ufficio agenti. da dove cancello Marco Exec assistant?",
-     "time": "17:23"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Perfetto, la riga con HORME in «Ufficio agenti» c'è.  Per eliminare Marco Exec Assistant: apri il suo **profilo** (clic sul nome/avatar — dall'elenco Chat a sinistra o da **Agents** nella rail di sinistra), poi in fondo al profilo la voce **Manage agent** («Gestisci agente») → **Delete agent** («Elimina agente») e conferma. Si cancella l'agente, non i messaggi già scritti nel gruppo.  Due cose da controllare prima di dare l'ok: è un'azione irreversibile (spariscono anche la sua DM e il suo promemoria orario — che comunque era già in pausa dal 29/10), e da ora il coordinatore è HORME, quindi c…",
-     "time": "17:24"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Controllo cosa c'è e la procedura esatta per aggiungere un agente ai gruppi.",
-     "time": "17:26"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Non posso aggiungerlo io: inserire un agente nei gruppi è solo tuo, dalla UI (io creo agenti e gruppi, non gestisco i membri di un gruppo esistente). Ma c'è una via più leggera che forse ti basta.  **Via 1 — la più semplice: fagli leggere tutti i tuoi gruppi** Profilo di HORME → tab **Profile** → attiva **Read my group chats**. Così legge le conversazioni dei tuoi gruppi senza doverne essere membro: vede tutto quello che fai e ti pianifica sopra, senza che compaia in 10 gruppi.  **Via 2 — inserirlo davvero in ogni gruppo** Apri il gruppo → **Group chat details** dall'header → **Members** → ic…",
-     "time": "17:26"
-    }
-   ],
-   "activity": [
-    {
-     "time": "17:06",
-     "text": "Marco Masciadri: Sei Marco Exec Assistant, Chief of Staff ed Executive Assistant di Ma…"
-    },
-    {
-     "time": "17:07",
-     "text": "Genny: Marco, mi hai incollato qui il testo delle Instructions di «Marco Exe…"
-    },
-    {
-     "time": "17:08",
-     "text": "Marco Masciadri: Apri il profilo di Marco Exec Assistant → tab **Profile** → card **In…"
-    },
-    {
-     "time": "17:08",
-     "text": "Genny: Il testo che mi hai incollato sembra scritto da un agente a te («apri…"
-    },
-    {
-     "time": "17:09",
-     "text": "Marco Masciadri: mi hai chiesti tu di farlo, adesso ti incollo anche quello di horme c…"
-    },
-    {
-     "time": "17:11",
-     "text": "Genny: Fatto: ho unito i due testi e applicato le **Instructions unificate a…"
-    },
-    {
-     "time": "17:19",
-     "text": "Marco Masciadri: Marco Exec Assistant é in altri gruppi lo sistemi tu? poi lo cancello…"
-    },
-    {
-     "time": "17:21",
-     "text": "Genny: Da solo non posso: nessuno dei miei strumenti cambia i membri di un g…"
-    },
-    {
-     "time": "17:23",
-     "text": "Marco Masciadri: riga incollato in ufficio agenti. da dove cancello Marco Exec assista…"
-    },
-    {
-     "time": "17:24",
-     "text": "Genny: Perfetto, la riga con HORME in «Ufficio agenti» c'è.  Per eliminare M…"
-    },
-    {
-     "time": "17:26",
-     "text": "Genny: Controllo cosa c'è e la procedura esatta per aggiungere un agente ai …"
-    },
-    {
-     "time": "17:26",
-     "text": "Genny: Non posso aggiungerlo io: inserire un agente nei gruppi è solo tuo, d…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
   },
   {
    "id": "ch_dm_3d0ea639e0515e6ad287",
