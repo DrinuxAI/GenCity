@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T13:57:15.213586+00:00",
+ "generated_at": "2026-11-20T14:11:11.429934+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -964,29 +964,19 @@
    "name": "Coach ADHD",
    "project": "ufficio",
    "type": "studio",
-   "unread": 1,
-   "last_activity": "2026-11-20T12:22:16+00:00",
+   "unread": 0,
+   "last_activity": "2026-11-20T14:10:06+00:00",
    "agents": [
     {
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
+     "status": "working",
+     "task": "Ultimo intervento 15:10",
+     "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Buongiorno. Due cose arrivate stanotte, una buona e una da decidere tu: **Meazzo ha risposto** al fascicolo — ti invita in ufficio da lui a Lugano la settimana prossima (o a Como), e chiede solo una data. Nessuna firma da inseguire: Evelino è l'unico nuovo firmato.  **Oggi, tre cose:** 1. **SBS, i 7 punti — 10:00, 30 min.** Prima di tutto il resto: la regola secca è \"Allegato C a 0.00/0% → non si firma\". Il resto sono conseguenze. 2. **Intervista La Provincia di Como, 17:00.** Non hai niente di preparato in agenda: ti scrivo io un brief da una pagina (chi ti intervista, 3 messaggi chiave, 2 d…",
-     "time": "08:02"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**SBS — i sette punti, 10:00.** Asciutti, nell'ordine in cui vanno detti a Luigi:  1. **Allegato C compilato** con numeri veri: contratti clienti CHF 50'000 · spese fuori budget CHF 5'000 · pagamenti con seconda autorizzazione oltre CHF 10'000 · RC CHF 2'000'000 · passaggio consegne CHF 150/ora. Più art. 4.2: silenzio = consenso dopo 5 giorni. 2. **Art. 3.5 cancellato**: nessuna opzione automatica; eventuale trasferimento a valore di mercato, perito del Tribunale in caso di disaccordo. 3. **Art. 3.2**: licenza solo per il perimetro dei Servizi e solo per la durata del contratto; fuori MedClou…",
-     "time": "10:01"
-    },
     {
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "trovami contratto di lavoro Giancarlo Cuffari con Axentra Swisstech SA e busta paga",
@@ -1036,17 +1026,19 @@
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "mi servono solocome demo",
      "time": "16:35"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Eccoli, come demo: due fac-simile **con filigrana \"FAC-SIMILE — NON VALIDO\"** e la riga in rosso in testa, senza nessuna firma (né la tua né quella di Cuffari). Hanno la stessa struttura del cedolino di maggio, con lo straordinario che cambia il netto: settembre 280 di straordinario → netto 5'828.48; ottobre 140 → netto 5'707.69. Le deduzioni sono calcolate con le stesse aliquote, così i conti tornano riga per riga.  Servono per far vedere com'è fatto il documento, non per un fascicolo. Se un giorno ti serve quello vero, si chiede a chi tiene le paghe e si emette con i numeri reali — quello l…",
+     "time": "16:35"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "dovresti ricevere mail con report da parte di gencode, così sei aggiornata sui progetti di sviluppo codice",
+     "time": "20:14"
     }
    ],
    "activity": [
-    {
-     "time": "08:02",
-     "text": "HORME: Buongiorno. Due cose arrivate stanotte, una buona e una da decidere t…"
-    },
-    {
-     "time": "10:01",
-     "text": "HORME: **SBS — i sette punti, 10:00.** Asciutti, nell'ordine in cui vanno de…"
-    },
     {
      "time": "16:24",
      "text": "Marco Masciadri: trovami contratto di lavoro Giancarlo Cuffari con Axentra Swisstech S…"
@@ -1086,9 +1078,17 @@
     {
      "time": "16:35",
      "text": "Marco Masciadri: mi servono solocome demo"
+    },
+    {
+     "time": "16:35",
+     "text": "HORME: Eccoli, come demo: due fac-simile **con filigrana \"FAC-SIMILE — NON V…"
+    },
+    {
+     "time": "20:14",
+     "text": "Marco Masciadri: dovresti ricevere mail con report da parte di gencode, così sei aggio…"
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": true
   },
   {
@@ -1109,11 +1109,6 @@
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Dashboard pronta: in alto i tre numeri che contano (aperti · aspettano te · fermi su terzi), i punti che dipendono da te come chip che saltano alla riga, filtri per stato, area e visibilità P/I, e la ricerca. Spunti una riga quando è risolta: si attenua, scende in fondo e resta salvata sul browser — poi «Copia le spuntate» e me le passi, così le chiudo nel registro.  Mail partita: **marco.masciadri@medcloud.group**, oggetto «Registro Issues MedCloud — sintesi del 19 novembre», con registro e dashboard in allegato. È uscita dall'account primario; dalla prossima parte come medcloud.group.  Il v…",
-     "time": "19:14"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "ok possiamo fissare il link alla dashboard in modo che la possa visionare facilmente in genspark?",
@@ -1168,13 +1163,14 @@
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "memorizza contratto UNione consulenti Roberto rossi, lo compilo come MedCloud GroupSRL lo puoi fare tu?",
      "time": "19:53"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì — leggo il modulo, lo compilo come MedCloud Group S.r.l. e te lo rimando.",
+     "time": "19:53"
     }
    ],
    "activity": [
-    {
-     "time": "19:14",
-     "text": "Giulia CEO: Dashboard pronta: in alto i tre numeri che contano (aperti · aspettan…"
-    },
     {
      "time": "19:15",
      "text": "Marco Masciadri: ok possiamo fissare il link alla dashboard in modo che la possa visio…"
@@ -1218,6 +1214,10 @@
     {
      "time": "19:53",
      "text": "Marco Masciadri: memorizza contratto UNione consulenti Roberto rossi, lo compilo come …"
+    },
+    {
+     "time": "19:53",
+     "text": "Giulia CEO: Sì — leggo il modulo, lo compilo come MedCloud Group S.r.l. e te lo r…"
     }
    ],
    "needs_marco": false,
