@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:08:04.681117+00:00",
+ "generated_at": "2026-11-20T15:22:04.304241+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -965,131 +965,131 @@
    "project": "ufficio",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-20T15:07:00+00:00",
+   "last_activity": "2026-11-20T15:19:26+00:00",
    "agents": [
     {
      "id": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
      "name": "Genny",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 16:07",
+     "task": "Ultimo intervento 16:19",
      "progress": 50
     }
    ],
    "messages": [
     {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Marco Exec Assistant eliminato. Puoi inserire HORME in tutti i gruppi in modo che sappia tutte le attività che sto gestendo e riesca a coordinare tutto al meglio?",
-     "time": "17:27"
-    },
-    {
      "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Controllo in quali gruppi sei già e come si aggiunge un agente a un gruppo esistente — un attimo.",
-     "time": "17:27"
-    },
-    {
-     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Aggiungere un agente ai gruppi esistenti è una cosa che devi fare tu: io non ho un comando per farlo (posso solo creare gruppi nuovi). Il percorso è lo stesso per tutti e dieci i gruppi:  apri il gruppo → **Group chat details** nell'header → **Members** → icona **Add members** → scegli HORME.  Dove ha senso metterlo: Ufficio agenti, MedCloud, CDA Aura, Legale, Ufficio Personal Branding, Marco 2nd Brain, Technopark Graubunden, Teen Ventures, Argus — Romanzo e Argus — Stanza. In Argus valuta: i quattro scrittori hanno già un loro flusso e HORME che commenta ogni messaggio lì costa crediti per n…",
-     "time": "17:27"
+     "text": "Sì, si può: le \"funzioni\" di NeuroFlow Curator sono testo nelle sue Instructions, e quelle di HORME le riscrivo io da qui. Ma ci sono tre cose da sapere prima, perché la fusione non è gratis come è stata quella con Marco Exec Assistant.  **1. Il tetto dei 6.000 caratteri.** Le Instructions di HORME sono già a ~5.600 su 6.000. Un blocco \"base di conoscenza NeuroFlow\" ci sta solo **condensato** (lo condenso io, ma è una riduzione, non il testo integrale). Il charter completo del curatore (provenienza, versioni, conflitti, regole di non sovrascrittura) non entra: quello va incollato da te nel pr…",
+     "time": "17:46"
     },
     {
      "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "ok fatto come Via 1 .. legge i messaggi di tutti i gruppi e risponde solo a me o quando @menzionato",
-     "time": "17:30"
+     "text": "restano separati e metti al lavoro Neuroflow",
+     "time": "17:50"
     },
     {
      "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Via 1 è quella giusta per fargli *sapere* tutto. Una precisazione su \"risponde solo a me\": leggere e scrivere sono due cose separate.  - **Legge** i tuoi 10 gruppi con Read my group chats, ma solo **quando fa un turno** — cioè quando gli scrivi tu in DM o quando scatta una sua schedule. Non è un ascolto continuo. - **Scrive** solo dove è **membro**, e lì vale la sua Reply mode. Oggi è membro solo di «Ufficio agenti» (lo leggo: c'è dentro dal 16:18 e ha già fatto il turno di presentazione). Lì mettila su **Only me** o **When @-mentioned** da Group chat details → card di HORME; i tuoi @mention …",
-     "time": "17:31"
+     "text": "Restano separati, e NeuroFlow Curator resta. L'ho verificato adesso: agente sano, runtime idle, coda vuota, nessun guasto, zero schedule — l'ultimo suo turno è il 6/10, quello in cui ha mappato la cartella.  Un limite da dirti subito: **non posso consegnare io un incarico a un altro agente**. Scrivo solo nella nostra DM, non nella sua. Quindi \"metterlo al lavoro\" sono due gesti tuoi da un minuto ciascuno, e ho preparato tutto perché siano solo incolla.  **1. L'interruttore Drive.** Profilo di NeuroFlow Curator → scheda **Access** (sull'app si chiama **Services**) → riga **Google Workspace** →…",
+     "time": "17:50"
     },
     {
      "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "ho eliminato ufficio agenti perchè ho già Marco 2nd Brain dove ci sono tutti gli agenti operativi",
-     "time": "17:35"
+     "text": "dove trovo il mio referral link da inviare a un nuovo utente?",
+     "time": "18:36"
     },
     {
      "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Confermo: «Ufficio agenti» non c'è più nella lista — restano i tuoi 9 gruppi, e HORME è già dentro **Marco 2nd Brain** (il suo intro «Coach ADHD» del 6/10 è lì), quindi lì legge e scrive.  Due cose che decadono con quel gruppo, così sai cosa hai in mano: - il giro orario coordinatore → dashboard nato il 28/10 puntava a «Ufficio agenti»: era comunque già fermo (la schedule di Bruno Web è in pausa dal 28/10 con 0 esecuzioni, e la ricorrenza oraria di HORME non è mai stata creata). Non hai rotto niente. - se prima o poi vuoi riattivare quella dashboard, serve un gruppo in cui stiano sia HORME si…",
-     "time": "17:36"
+     "text": "Dipende da quale link ti serve — sono due cose diverse.  **Per far entrare una persona nel tuo workspace GenTeam** (è quello che di solito serve): clicca l'icona del profilo in basso a sinistra → **Manage invite links**. Da lì copi il link e lo mandi. In alternativa: **Contacts** nella barra di sinistra → **Add contact** accanto al titolo, dove trovi sia l'invito via email sia il link da copiare. Se vuoi invitare qualcuno solo in un gruppo specifico, il link sta anche in **Group chat details → Invite via link** di quel gruppo.  **Se invece intendi un referral che ti dà crediti** invitando nuo…",
+     "time": "18:37"
     },
     {
      "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Bruno Web inutile in Marco 2md Brain.  Puoi fare una verifica di tutti gli agenti che ho creato se sono tutti utili o vedi doppioni e poi decidiamo se tenere tutti o eliminare qualcosa",
-     "time": "17:38"
+     "text": "sto configurando le firme mail in gen mail, per aggiungere un logo mi basta caricare un'immagine png o deve essere online con link?",
+     "time": "15:58"
     },
     {
      "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Ok, faccio il censimento: elenco tutti i tuoi agenti, guardo cosa fanno davvero nei gruppi e dove si sovrappongono. Ti arriva un quadro unico con la mia raccomandazione per ognuno.",
-     "time": "17:38"
+     "text": "Deve stare online, Marco: la firma è HTML che viaggia dentro la mail, quindi il client del destinatario scarica il logo da un indirizzo pubblico (meglio HTTPS) — un PNG sul tuo disco non arriverebbe a chi legge.  Se l'editor delle firme di GenMail, quando inserisci un'immagine, ti fa anche caricare il file, in genere è l'app stessa a pubblicarlo e a metterci il link; se ti chiede solo un indirizzo, allora devi ospitarlo tu. Nel tuo caso la strada più solida è caricare il logo su masciadri.net e incollare quell'URL diretto: niente login, niente link che scade.  Mi raccomando PNG con sfondo tra…",
+     "time": "15:59"
+    },
+    {
+     "from": "human@ch_dm_2fcc468bf8613347f6bd",
+     "text": "mi aiuti a metterlo online nel sito medcloud.group?",
+     "time": "16:02"
     },
     {
      "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
-     "text": "Fatto il censimento: 31 agenti, tutti attivi e sani (nessun guasto, coda vuota, nessun finding). Il problema non è tecnico, è di sovrapposizione. Prima cosa: **Bruno Web non è mai stato in Marco 2nd Brain** — nella storia del gruppo non c'è nessun suo inserimento, e la sua dashboard è morta comunque perché «Ufficio agenti» non esiste più e la sua schedule oraria è in pausa dal 28/10 con 0 esecuzioni.  Ecco come si dividono, in base all'ultimo turno reale e alle schedule vive.  **Il cuore operativo — tutti usati nelle ultime due settimane, nessun doppione** Giulia CEO (16/11, anche 3 schedule:…",
-     "time": "17:40"
+     "text": "Ci guardo: verifico com'è fatto il sito e da dove si carica il file, poi ti dico il passo esatto.",
+     "time": "16:02"
+    },
+    {
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Sì. Il sito è statico su Hostinger, quindi basta appoggiare il PNG nella cartella public_html e diventa subito un indirizzo tipo https://medcloud.group/logo-medcloud.png — ho controllato e lì un logo pubblico non c'è ancora, va caricato.  Se vuoi farlo tu sono tre passaggi: hPanel → File Manager → public_html → carica il file. Poi dimmi come l'hai chiamato e verifico subito che il link si apra e che l'immagine sia quella giusta.  Se preferisci che lo faccia io, mandami qui il PNG e l'accesso FTP dell'hosting: lo carico, controllo il link e ti restituisco l'URL pronto da incollare nella firma.…",
+     "time": "16:02"
     },
     {
      "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "eliminate Sara Slides ed Elisa Docs, tenuto Bruno Web.",
-     "time": "17:45"
+     "text": "caricato",
+     "time": "16:04"
     },
     {
-     "from": "human@ch_dm_2fcc468bf8613347f6bd",
-     "text": "**NeuroFlow Curator: potre mo dare le stesse funzioni a HORME?**",
-     "time": "17:45"
+     "from": "agent_1w53dvx3jjc5@ch_dm_2fcc468bf8613347f6bd",
+     "text": "Trovato e verificato: https://medcloud.group/logo_medcloud.png — risponde correttamente come immagine PNG, sfondo trasparente, aperta anche senza login. È il logo giusto (MedCloud GROUP con la X blu e rossa), 192×69 px: nella firma mostralo al massimo a 140–150 px di larghezza, oltre si sgrana un po' sugli schermi retina.  Quello è l'indirizzo da incollare nel campo immagine della firma. Un'unica accortezza: il file viene messo in cache una settimana, quindi se un giorno cambi logo caricane uno con un nome nuovo invece di sovrascrivere questo.",
+     "time": "16:05"
     }
    ],
    "activity": [
     {
-     "time": "17:27",
-     "text": "Marco Masciadri: Marco Exec Assistant eliminato. Puoi inserire HORME in tutti i gruppi…"
+     "time": "17:46",
+     "text": "Genny: Sì, si può: le \"funzioni\" di NeuroFlow Curator sono testo nelle sue I…"
     },
     {
-     "time": "17:27",
-     "text": "Genny: Controllo in quali gruppi sei già e come si aggiunge un agente a un g…"
+     "time": "17:50",
+     "text": "Marco Masciadri: restano separati e metti al lavoro Neuroflow"
     },
     {
-     "time": "17:27",
-     "text": "Genny: Aggiungere un agente ai gruppi esistenti è una cosa che devi fare tu:…"
+     "time": "17:50",
+     "text": "Genny: Restano separati, e NeuroFlow Curator resta. L'ho verificato adesso: …"
     },
     {
-     "time": "17:30",
-     "text": "Marco Masciadri: ok fatto come Via 1 .. legge i messaggi di tutti i gruppi e risponde …"
+     "time": "18:36",
+     "text": "Marco Masciadri: dove trovo il mio referral link da inviare a un nuovo utente?"
     },
     {
-     "time": "17:31",
-     "text": "Genny: Via 1 è quella giusta per fargli *sapere* tutto. Una precisazione su …"
+     "time": "18:37",
+     "text": "Genny: Dipende da quale link ti serve — sono due cose diverse.  **Per far en…"
     },
     {
-     "time": "17:35",
-     "text": "Marco Masciadri: ho eliminato ufficio agenti perchè ho già Marco 2nd Brain dove ci son…"
+     "time": "15:58",
+     "text": "Marco Masciadri: sto configurando le firme mail in gen mail, per aggiungere un logo mi…"
     },
     {
-     "time": "17:36",
-     "text": "Genny: Confermo: «Ufficio agenti» non c'è più nella lista — restano i tuoi 9…"
+     "time": "15:59",
+     "text": "Genny: Deve stare online, Marco: la firma è HTML che viaggia dentro la mail,…"
     },
     {
-     "time": "17:38",
-     "text": "Marco Masciadri: Bruno Web inutile in Marco 2md Brain.  Puoi fare una verifica di tutt…"
+     "time": "16:02",
+     "text": "Marco Masciadri: mi aiuti a metterlo online nel sito medcloud.group?"
     },
     {
-     "time": "17:38",
-     "text": "Genny: Ok, faccio il censimento: elenco tutti i tuoi agenti, guardo cosa fan…"
+     "time": "16:02",
+     "text": "Genny: Ci guardo: verifico com'è fatto il sito e da dove si carica il file, …"
     },
     {
-     "time": "17:40",
-     "text": "Genny: Fatto il censimento: 31 agenti, tutti attivi e sani (nessun guasto, c…"
+     "time": "16:02",
+     "text": "Genny: Sì. Il sito è statico su Hostinger, quindi basta appoggiare il PNG ne…"
     },
     {
-     "time": "17:45",
-     "text": "Marco Masciadri: eliminate Sara Slides ed Elisa Docs, tenuto Bruno Web."
+     "time": "16:04",
+     "text": "Marco Masciadri: caricato"
     },
     {
-     "time": "17:45",
-     "text": "Marco Masciadri: **NeuroFlow Curator: potre mo dare le stesse funzioni a HORME?**"
+     "time": "16:05",
+     "text": "Genny: Trovato e verificato: https://medcloud.group/logo_medcloud.png — risp…"
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": false
+   "marco_mentioned": true
   },
   {
    "id": "ch_dm_ccbf19a31c939cace113",
