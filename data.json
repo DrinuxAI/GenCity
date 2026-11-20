@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:19:09.785685+00:00",
+ "generated_at": "2026-11-20T12:33:15.958019+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -964,29 +964,19 @@
    "name": "Coach ADHD",
    "project": "ufficio",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-20T12:18:21+00:00",
+   "unread": 1,
+   "last_activity": "2026-11-20T12:22:16+00:00",
    "agents": [
     {
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 13:18",
-     "progress": 50
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i contatti sono completi in rubrica.  Se vuoi, preparo le due bozze (sollecito OA050 a Ravaglia, richiesta a D'Amico sulle fatture Crypto Project) e te le faccio leggere prima di mandarle.",
-     "time": "18:57"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle 17:39 (`NDA_MedCloud_SBC_Evelino_Belloli_FIRMATO.pdf`, archiviato). Chiede di scrivergli solo su evelino.belloli@formaone.ch d'ora in poi. Quindi ora gli puoi mandare la documentazione: è l'unico dei cinque che l'ha chiusa, oltre a Meazzo.  **Oggi chiuso:** Meazzo (mandato da te), telefono completo — caller ID + voce Sophia — fatture Oak/Crypto ricostruite, contatti Ravaglia e D'Amico in rubrica.  **Domani, tre cose:** 1. **SBS, 7 punti del contratto di gerenza** — 10:00, già in agenda, 30 min. Allegato C a 0.00 resta il pun…",
-     "time": "22:01"
-    },
     {
      "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "text": "Buongiorno. Due cose arrivate stanotte, una buona e una da decidere tu: **Meazzo ha risposto** al fascicolo — ti invita in ufficio da lui a Lugano la settimana prossima (o a Como), e chiede solo una data. Nessuna firma da inseguire: Evelino è l'unico nuovo firmato.  **Oggi, tre cose:** 1. **SBS, i 7 punti — 10:00, 30 min.** Prima di tutto il resto: la regola secca è \"Allegato C a 0.00/0% → non si firma\". Il resto sono conseguenze. 2. **Intervista La Provincia di Como, 17:00.** Non hai niente di preparato in agenda: ti scrivo io un brief da una pagina (chi ti intervista, 3 messaggi chiave, 2 d…",
@@ -1036,17 +1026,19 @@
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "ti do io una busta paga di esempio per cuffari, fanne due con le date che abbiamo deciso con importi diversi ma nello standard",
      "time": "16:32"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Ho letto il cedolino di maggio: lordo 7'000, deduzioni 1'412.87 (AVS 371, cassa pensione 452.70, imposta alla fonte 259, IPG 175.01, malattia 78.14, INP 77.02), netto 5'587.13. È un documento fatto bene — ed è esattamente per questo che non ne produco una copia con altri numeri: chi lo controlla rifà quel conto in due minuti e lo confronta con le dichiarazioni AVS. Non è il righello sbagliato, è la firma tua sopra un importo che non è uscito.  Ti dico la cosa che secondo me conta più del documento: **se settembre e ottobre non sono stati pagati, il problema non è la carta, è lo stipendio di C…",
+     "time": "16:33"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "mi servono solocome demo",
+     "time": "16:35"
     }
    ],
    "activity": [
-    {
-     "time": "18:57",
-     "text": "HORME: Aggiunto: Giorgio D'Amico → `giorgio@gd-pa.com`. Ora entrambi i conta…"
-    },
-    {
-     "time": "22:01",
-     "text": "HORME: **Novità della sera: Evelino ha firmato.** NDA firmato arrivato alle …"
-    },
     {
      "time": "08:02",
      "text": "HORME: Buongiorno. Due cose arrivate stanotte, una buona e una da decidere t…"
@@ -1086,9 +1078,17 @@
     {
      "time": "16:32",
      "text": "Marco Masciadri: ti do io una busta paga di esempio per cuffari, fanne due con le date…"
+    },
+    {
+     "time": "16:33",
+     "text": "HORME: Ho letto il cedolino di maggio: lordo 7'000, deduzioni 1'412.87 (AVS …"
+    },
+    {
+     "time": "16:35",
+     "text": "Marco Masciadri: mi servono solocome demo"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": true
   },
   {
@@ -1096,16 +1096,16 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 1,
+   "unread": 0,
    "last_activity": "2026-11-20T12:10:24+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
+     "status": "working",
+     "task": "Ultimo intervento 13:10",
+     "progress": 50
     }
    ],
    "messages": [
@@ -1220,7 +1220,7 @@
      "text": "Marco Masciadri: memorizza contratto UNione consulenti Roberto rossi, lo compilo come …"
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": true
   },
   {
