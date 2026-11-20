@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T14:11:11.429934+00:00",
+ "generated_at": "2026-11-20T14:25:08.474730+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,53 +960,155 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-20T14:18:49+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 15:18",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto — l'ho salvato tra i contatti e le relazioni.",
+     "time": "19:50"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Salvato nella scheda Meazzo (notes/contatti.md), accanto a mail e NDA. Ho letto anche il sito: oltre dieci anni di data engineering (SQL Server, data platform), oggi guida team di AI generativa in produzione (RAG, agenti, LLM), costruisce ancora lui (raggio, il SQL Server Diagnostic Book) e organizza il Ticino Data Conference e il capitolo svizzero di AI Saloon.  Lo terrò come ponte sulla rete tech ticinese più che come canale commerciale — se vuoi che lo agganci al piano contatti del Ticino, dimmelo e lo inserisco lì.",
+     "time": "19:51"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "memorizza contratto UNione consulenti Roberto rossi, lo compilo come MedCloud GroupSRL lo puoi fare tu?",
+     "time": "19:53"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì — leggo il modulo, lo compilo come MedCloud Group S.r.l. e te lo rimando.",
+     "time": "19:53"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Memorizzato il contratto, e il modulo lo sto compilando a nome di MedCloud Group S.r.l. (via Monteverdi 20, 70022 Altamura; CF/P.IVA 09232760729; legale rappr. Marco Masciadri) — firma e data le lasciamo a te.  Un avviso prima che lo firmi, perché non è un preventivo: è un incarico con UCSI S.r.l. (Unione Consulenti Sviluppo Imprese, legale rappr. Alessandro Nocco) da 900 € + IVA alla presentazione della domanda, più il 12% dell'agevolazione fino a 200.000 € e il 6% del fondo perduto oltre. È un mandato irrevocabile, con foro esclusivo Milano e le clausole 2, 3 e 5 da approvare per iscritto e…",
+     "time": "19:54"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco il contratto compilato come MedCloud Group S.r.l.: ragione sociale, Altamura (BA), Via Monteverdi 20 — 70022, CF e P.IVA 09232760729, legale rappresentante Marco Masciadri. Data e due firme le ho lasciate in bianco per la penna.  Il file si chiama «Impegnativa» ma il contenuto è il contratto di consulenza con UCSI, e non c'è nessun campo che quel nome suggerisca: se al bando serve anche un'impegna in senso proprio, va chiesta a Rossi a parte.  Nel riepilogo trovi cosa la società sottoscrive articolo per articolo. Due cose restano da chiarire prima della firma: quale bando è (c'è scritto …",
+     "time": "19:56"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "La mia email a `marco@masciadri.net` — “Re: DermaTrex — report attività piattaforma 5–19 novembre 2026” — non è stata recapitata: l'indirizzo non esiste.",
+     "time": "20:09"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "l'indirizzo esiste e funziona altrimenti manda a drinux@gmail.com",
+     "time": "20:10"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Perfetto — uso demo@medcloud.group come casella unica delle richieste demo, con drinux@gmail.com come ripiego.",
+     "time": "20:10"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Registrato: demo@medcloud.group è la casella delle richieste demo, drinux@gmail.com il ripiego se smette di ricevere.  Una cosa che ho visto aprendo il sito stasera: la pagina /demo pubblica come recapito «Oppure scrivici: marco.masciadri@medcloud.group». Finché resta così la casella unica non è unica — va cambiato il testo della pagina e, se il modulo manda lì, anche il destinatario. Lo metto in coda con il resto della demo.",
+     "time": "20:11"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@medcloud.group**](mailto:marco.masciadri@medcloud.group)",
+     "time": "20:18"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Annotato: marco@masciadri.net e marco.masciadri@medcloud.group sono i due indirizzi da cui ti scrivo io.",
+     "time": "20:18"
+    }
+   ],
+   "activity": [
+    {
+     "time": "19:50",
+     "text": "Giulia CEO: Fatto — l'ho salvato tra i contatti e le relazioni."
+    },
+    {
+     "time": "19:51",
+     "text": "Giulia CEO: Salvato nella scheda Meazzo (notes/contatti.md), accanto a mail e NDA…"
+    },
+    {
+     "time": "19:53",
+     "text": "Marco Masciadri: memorizza contratto UNione consulenti Roberto rossi, lo compilo come …"
+    },
+    {
+     "time": "19:53",
+     "text": "Giulia CEO: Sì — leggo il modulo, lo compilo come MedCloud Group S.r.l. e te lo r…"
+    },
+    {
+     "time": "19:54",
+     "text": "Giulia CEO: Memorizzato il contratto, e il modulo lo sto compilando a nome di Med…"
+    },
+    {
+     "time": "19:56",
+     "text": "Giulia CEO: Ecco il contratto compilato come MedCloud Group S.r.l.: ragione socia…"
+    },
+    {
+     "time": "20:09",
+     "text": "Giulia CEO: La mia email a `marco@masciadri.net` — “Re: DermaTrex — report attivi…"
+    },
+    {
+     "time": "20:10",
+     "text": "Marco Masciadri: l'indirizzo esiste e funziona altrimenti manda a drinux@gmail.com"
+    },
+    {
+     "time": "20:10",
+     "text": "Giulia CEO: Perfetto — uso demo@medcloud.group come casella unica delle richieste…"
+    },
+    {
+     "time": "20:11",
+     "text": "Giulia CEO: Registrato: demo@medcloud.group è la casella delle richieste demo, dr…"
+    },
+    {
+     "time": "20:18",
+     "text": "Marco Masciadri: le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@m…"
+    },
+    {
+     "time": "20:18",
+     "text": "Giulia CEO: Annotato: marco@masciadri.net e marco.masciadri@medcloud.group sono i…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": true
+  },
+  {
    "id": "ch_dm_84f86f488c883fac6295",
    "name": "Coach ADHD",
    "project": "ufficio",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-20T14:10:06+00:00",
+   "last_activity": "2026-11-20T14:16:26+00:00",
    "agents": [
     {
      "id": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "name": "HORME",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 15:10",
+     "task": "Ultimo intervento 15:16",
      "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "trovami contratto di lavoro Giancarlo Cuffari con Axentra Swisstech SA e busta paga",
-     "time": "16:24"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Cerco: contratto di lavoro e busta paga di Giancarlo Cuffari su Axentra Swisstech, tra documenti e posta.",
-     "time": "16:24"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "**Contratto trovato e firmato da entrambi** — 3 pagine, Paradiso 27 aprile 2026. In allegato il PDF originale.  I termini chiave: durata indeterminata dal **01.05.2026**, impiegato 100%, **CHF 91'000 lordi** in 13 mensilità da 7'000, 25 giorni di vacanza, AVS/AI/IPG/AD/LAINF e LPP 50%.  **Una cosa stona:** dice \"impiegato al 100%\" ma anche \"orario di 20 ore settimanali\". Se è un part-time al 50%, lo stipendio e le 20 ore non stanno insieme; se è un full-time, le 20 ore sono un errore da correggere. Meglio saperlo prima che lo contesti qualcun altro.  **Busta paga: quella vera non c'è.** In ar…",
-     "time": "16:25"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "creami due quietanze di pagamento una datata settembre 2026 e una ottobre 2026 uguali a quella di maggio 2026",
-     "time": "16:28"
-    },
-    {
-     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
-     "text": "Le preparo, ma con una differenza che conta: **senza firma**. Una quietanza attesta che Cuffari ha ricevuto quei soldi, e la firma in fondo è la sua dichiarazione: quella non la metto io, gliela fai mettere a lui quando le consegni. Se invece ti serve la mia firma solo come Axentra (timbro e firma autorizzata), quella la aggiungo.  E devono dire il vero: se settembre e ottobre sono stati pagati davvero, mi servono tre cose per ciascuna — **data di pagamento, metodo (contanti o bonifico) e importo netto**. Il netto di maggio era 5'587.13, ma non è detto che resti identico: con LPP e conguagli …",
-     "time": "16:28"
-    },
-    {
-     "from": "human@ch_dm_84f86f488c883fac6295",
-     "text": "metti per entrambe date dine mese, firma mia come axentra e cambia leggermente i due importi",
-     "time": "16:29"
-    },
     {
      "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
      "text": "Qui mi fermo, e ti dico perché in una riga: una quietanza con importi \"cambiati leggermente\" non è una formalità, è un documento che dichiara cifre che non sono state pagate — e finisce in un fascicolo che qualcuno legge e confronta con i bonifici. La firma di Axentra la metto volentieri, ma sopra numeri veri.  Quello che faccio subito, appena mi dai i due netti effettivi: due quietanze in PDF, data di fine mese, timbro e firma Axentra predisposti per la tua firma, campo firma di Cuffari vuoto per lui. Se i netti di settembre e ottobre sono diversi da maggio, me li dici e li scrivo — quelli v…",
@@ -1036,33 +1138,39 @@
      "from": "human@ch_dm_84f86f488c883fac6295",
      "text": "dovresti ricevere mail con report da parte di gencode, così sei aggiornata sui progetti di sviluppo codice",
      "time": "20:14"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Il report l'ho ricevuto, ma **da te** (marco@masciadri.net, \"DermaTrex — report attività di coding 19 novembre 2026\", 20:10) — non da gencode. In casella ci sono solo quello e una notifica di mancata consegna delle 20:08 verso marco@masciadri.net.  Il motivo è la regola della mia casella: accetto solo mittenti che tu hai autorizzato. Se gencode scrive da un indirizzo suo, il messaggio viene bloccato prima di arrivarmi e io non lo vedo nemmeno.  Dammi l'indirizzo (o il dominio) da cui manda i report: se me lo autorizzi come contatto, i prossimi arrivano e li archivio io nel diario sviluppo sen…",
+     "time": "20:14"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "La mia email a `marco@masciadri.net` — “Re: TEST — DermaTrex: attività di oggi 19 novembre” — non è stata recapitata: l'indirizzo non esiste.",
+     "time": "20:15"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@medcloud.group**](mailto:marco.masciadri@medcloud.group)",
+     "time": "20:17"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Chiaro: il canale sono quei due indirizzi, non serve autorizzare gencode. Segnato — d'ora in poi ogni report che arriva da marco@masciadri.net o marco.masciadri@medcloud.group lo archivio nel diario di sviluppo del progetto e ti segnalo solo quello che richiede una tua decisione, senza girarti il riepilogo.",
+     "time": "20:17"
+    },
+    {
+     "from": "agent_mv6sk8y41d45@ch_dm_84f86f488c883fac6295",
+     "text": "Stasera la cosa che conta non è il codice: alle 12:59 **Fernanda Meduri (Studio Nantea, CFO di SBC) ha scritto che rassegna le dimissioni** se non si sistemano quattro pendenze — annuncio del nuovo beneficiario economico in banca, versamento del fondo spese, pagamento dell'affitto, e la ricerca di uffici propri per non far risultare la società una sede soggetta alla LRD. È l'unica cosa in mano tua con una scadenza vera, e non è tecnica: è amministrativa.  Poi, il resto della giornata: il **deploy demo** su Hostinger è fallito alle 17:49 (la produzione è sana, è solo il demo), hai il contratto…",
+     "time": "22:01"
+    },
+    {
+     "from": "human@ch_dm_84f86f488c883fac6295",
+     "text": "Ok prepara risposte a Fernanda",
+     "time": "07:42"
     }
    ],
    "activity": [
-    {
-     "time": "16:24",
-     "text": "Marco Masciadri: trovami contratto di lavoro Giancarlo Cuffari con Axentra Swisstech S…"
-    },
-    {
-     "time": "16:24",
-     "text": "HORME: Cerco: contratto di lavoro e busta paga di Giancarlo Cuffari su Axent…"
-    },
-    {
-     "time": "16:25",
-     "text": "HORME: **Contratto trovato e firmato da entrambi** — 3 pagine, Paradiso 27 a…"
-    },
-    {
-     "time": "16:28",
-     "text": "Marco Masciadri: creami due quietanze di pagamento una datata settembre 2026 e una ott…"
-    },
-    {
-     "time": "16:28",
-     "text": "HORME: Le preparo, ma con una differenza che conta: **senza firma**. Una qui…"
-    },
-    {
-     "time": "16:29",
-     "text": "Marco Masciadri: metti per entrambe date dine mese, firma mia come axentra e cambia le…"
-    },
     {
      "time": "16:29",
      "text": "HORME: Qui mi fermo, e ti dico perché in una riga: una quietanza con importi…"
@@ -1086,142 +1194,34 @@
     {
      "time": "20:14",
      "text": "Marco Masciadri: dovresti ricevere mail con report da parte di gencode, così sei aggio…"
+    },
+    {
+     "time": "20:14",
+     "text": "HORME: Il report l'ho ricevuto, ma **da te** (marco@masciadri.net, \"DermaTre…"
+    },
+    {
+     "time": "20:15",
+     "text": "HORME: La mia email a `marco@masciadri.net` — “Re: TEST — DermaTrex: attivit…"
+    },
+    {
+     "time": "20:17",
+     "text": "Marco Masciadri: le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@m…"
+    },
+    {
+     "time": "20:17",
+     "text": "HORME: Chiaro: il canale sono quei due indirizzi, non serve autorizzare genc…"
+    },
+    {
+     "time": "22:01",
+     "text": "HORME: Stasera la cosa che conta non è il codice: alle 12:59 **Fernanda Medu…"
+    },
+    {
+     "time": "07:42",
+     "text": "Marco Masciadri: Ok prepara risposte a Fernanda"
     }
    ],
    "needs_marco": false,
-   "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-20T12:10:24+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 13:10",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ok possiamo fissare il link alla dashboard in modo che la possa visionare facilmente in genspark?",
-     "time": "19:15"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Lo fisso così lo trovi sempre in cima.",
-     "time": "19:15"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Il link stabile è questo: [Dashboard Registro Issues](https://www.genspark.ai/second-brain/s/7a01e4b6-08bd-4700-9680-5dcffd202075/6b48aeef-efd9-4d5a-a4a6-c296baac9237). Sta in AI Drive sotto **MedCloud → Dashboard_Registro_Issues_MedCloud.html**, e resta lo stesso ogni volta: il venerdì sovrascrivo il file, il link non cambia.  Nelle chat dirette non posso fissare messaggi, quindi il modo perché lo trovi sempre in due tocchi è la cartella MedCloud: da lì apri il file dal browser, anche dal telefono, e funziona senza server.  Se preferisci, quando aggiorno ti mando anche la versione allegata i…",
-     "time": "19:16"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ok",
-     "time": "19:16"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Tutto allineato: registro e dashboard in MedCloud, mail e sintesi ogni venerdì alle 17:00. Quando spunti qualcosa nella dashboard, mandami l'elenco con «Copia le spuntate» e chiudo i punti nel registro.",
-     "time": "19:16"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "lo vedo da crome e l'ho messo nei preferiti, quindi perfetto. si aggiorna automaticamente?",
-     "time": "19:18"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sì, ma non in tempo reale: il link è sempre lo stesso e il contenuto cambia quando riscrivo il file — quindi quando aggiungo o chiudo un punto, alla riapertura o con un refresh vedi la versione nuova. Se resta vecchia, Ctrl+Maiusc+R forza il ricaricamento: il browser tiene una copia in cache.  Ho appena aggiunto in testa alla pagina la scritta «aggiornato al …» con data e ora: così in un secondo capisci se stai guardando la versione di oggi. Le spunte che metti tu restano invece locali al browser, e non vengono toccate dagli aggiornamenti.",
-     "time": "19:18"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "memorizza [https://emanuelemeazzo.com/](https://emanuelemeazzo.com/) per future relazioni con Emanuele Meazzo",
-     "time": "19:50"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fatto — l'ho salvato tra i contatti e le relazioni.",
-     "time": "19:50"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Salvato nella scheda Meazzo (notes/contatti.md), accanto a mail e NDA. Ho letto anche il sito: oltre dieci anni di data engineering (SQL Server, data platform), oggi guida team di AI generativa in produzione (RAG, agenti, LLM), costruisce ancora lui (raggio, il SQL Server Diagnostic Book) e organizza il Ticino Data Conference e il capitolo svizzero di AI Saloon.  Lo terrò come ponte sulla rete tech ticinese più che come canale commerciale — se vuoi che lo agganci al piano contatti del Ticino, dimmelo e lo inserisco lì.",
-     "time": "19:51"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "memorizza contratto UNione consulenti Roberto rossi, lo compilo come MedCloud GroupSRL lo puoi fare tu?",
-     "time": "19:53"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sì — leggo il modulo, lo compilo come MedCloud Group S.r.l. e te lo rimando.",
-     "time": "19:53"
-    }
-   ],
-   "activity": [
-    {
-     "time": "19:15",
-     "text": "Marco Masciadri: ok possiamo fissare il link alla dashboard in modo che la possa visio…"
-    },
-    {
-     "time": "19:15",
-     "text": "Giulia CEO: Lo fisso così lo trovi sempre in cima."
-    },
-    {
-     "time": "19:16",
-     "text": "Giulia CEO: Il link stabile è questo: [Dashboard Registro Issues](https://www.gen…"
-    },
-    {
-     "time": "19:16",
-     "text": "Marco Masciadri: ok"
-    },
-    {
-     "time": "19:16",
-     "text": "Giulia CEO: Tutto allineato: registro e dashboard in MedCloud, mail e sintesi ogn…"
-    },
-    {
-     "time": "19:18",
-     "text": "Marco Masciadri: lo vedo da crome e l'ho messo nei preferiti, quindi perfetto. si aggi…"
-    },
-    {
-     "time": "19:18",
-     "text": "Giulia CEO: Sì, ma non in tempo reale: il link è sempre lo stesso e il contenuto …"
-    },
-    {
-     "time": "19:50",
-     "text": "Marco Masciadri: memorizza [https://emanuelemeazzo.com/](https://emanuelemeazzo.com/) …"
-    },
-    {
-     "time": "19:50",
-     "text": "Giulia CEO: Fatto — l'ho salvato tra i contatti e le relazioni."
-    },
-    {
-     "time": "19:51",
-     "text": "Giulia CEO: Salvato nella scheda Meazzo (notes/contatti.md), accanto a mail e NDA…"
-    },
-    {
-     "time": "19:53",
-     "text": "Marco Masciadri: memorizza contratto UNione consulenti Roberto rossi, lo compilo come …"
-    },
-    {
-     "time": "19:53",
-     "text": "Giulia CEO: Sì — leggo il modulo, lo compilo come MedCloud Group S.r.l. e te lo r…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
+   "marco_mentioned": false
   },
   {
    "id": "ch_dm_2fcc468bf8613347f6bd",
