@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:41:55.891608+00:00",
+ "generated_at": "2026-11-23T10:55:57.067550+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,6 +960,138 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-23T10:45:40+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 11:45",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Perfetto — uso demo@medcloud.group come casella unica delle richieste demo, con drinux@gmail.com come ripiego.",
+     "time": "20:10"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Registrato: demo@medcloud.group è la casella delle richieste demo, drinux@gmail.com il ripiego se smette di ricevere.  Una cosa che ho visto aprendo il sito stasera: la pagina /demo pubblica come recapito «Oppure scrivici: marco.masciadri@medcloud.group». Finché resta così la casella unica non è unica — va cambiato il testo della pagina e, se il modulo manda lì, anche il destinatario. Lo metto in coda con il resto della demo.",
+     "time": "20:11"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@medcloud.group**](mailto:marco.masciadri@medcloud.group)",
+     "time": "20:18"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Annotato: marco@masciadri.net e marco.masciadri@medcloud.group sono i due indirizzi da cui ti scrivo io.",
+     "time": "20:18"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Annotato in notes/contatti.md: le tue mail arrivano da marco@masciadri.net e da marco.masciadri@medcloud.group, e le tratto come lo stesso mittente.  Ho aggiunto anche la regola per l'uscita: quando scrivo per la società il mittente è marco.masciadri@medcloud.group, non quello personale — è l'errore che ho fatto con la mail del registro Issues.",
+     "time": "20:18"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "no tu usa la tua email [giulia-ceo@genspark.email](mailto:giulia-ceo@genspark.email) per scrivermi , a te arrivano da marco@masciadri.net e da marco.masciadri@medcloud.group da gencode",
+     "time": "20:19"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Chiaro — correggo: io ti scrivo da giulia-ceo@genspark.email.",
+     "time": "20:19"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Corretto in memoria: io ti scrivo da giulia-ceo@genspark.email, e le tue mail mi arrivano da marco@masciadri.net e da marco.masciadri@medcloud.group passando da GenCode.  Me le segno come canali tuoi ma come materiale prodotto da GenCode: lo leggo come dato da verificare, non come verifica indipendente — è quello che ho fatto stasera col report piattaforma.",
+     "time": "20:19"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Buongiorno Marco — la sessione che avevi messo a calendario il 12.11 sulla catena della licenza. Scaletta, un punto per riga.  1. **La catena.** Oggi: inventori 50/50 → cessione a SBC «in formalizzazione» → licenza Italia alla S.r.l. Se la licenza arriva dagli inventori mentre la cessione è in corso, il licenziante non possiede ciò che licenzia. Sequenza che regge: inventori → SBC (cessione trascritta, e ora la domanda ha il numero `102026000029638`, attestato il 17.11) → licenza esclusiva Italia alla S.r.l., con SBC che conferma il consenso degli inventori e il diritto di sub-licenziare alle…",
+     "time": "09:31"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ti allego la documentazione inviata firmata a roberto rossi e gli originali che mi ha mandato lui. firmati in data odierna. Rossi carica Dermatrex scheda tecnica definitiva sul portale bandi e me lo manderà poi per firma digitale finale.",
+     "time": "13:09"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Li archivio e li leggo — ti dico se nella scheda tecnica c'è qualcosa che stona con le regole sui claim.",
+     "time": "13:09"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Archiviati tutti e dieci in `workspace/unione-consulenti/firmati-2026-11-20/`, originali compresi. Tre cose da fare e quattro da sapere sulla scheda.  **Da fare** 1. **Il contratto è firmato solo da noi.** Nella copia che mi hai mandato le due righe «La Società (Legale rappresentante)» sono vuote: c'è la tua firma due volte, manca quella di UCSI. Finché non arriva controfirmato, l'incarico irrevocabile è nostro e loro non hanno ancora assunto niente. Fatti mandare la copia firmata da Nocco. 2. **La data sul contratto è 19/11, non oggi** (20/11). Se la firma è di oggi, la data va corretta prim…",
+     "time": "13:10"
+    }
+   ],
+   "activity": [
+    {
+     "time": "20:10",
+     "text": "Giulia CEO: Perfetto — uso demo@medcloud.group come casella unica delle richieste…"
+    },
+    {
+     "time": "20:11",
+     "text": "Giulia CEO: Registrato: demo@medcloud.group è la casella delle richieste demo, dr…"
+    },
+    {
+     "time": "20:18",
+     "text": "Marco Masciadri: le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@m…"
+    },
+    {
+     "time": "20:18",
+     "text": "Giulia CEO: Annotato: marco@masciadri.net e marco.masciadri@medcloud.group sono i…"
+    },
+    {
+     "time": "20:18",
+     "text": "Giulia CEO: Annotato in notes/contatti.md: le tue mail arrivano da marco@masciadr…"
+    },
+    {
+     "time": "20:19",
+     "text": "Marco Masciadri: no tu usa la tua email [giulia-ceo@genspark.email](mailto:giulia-ceo@…"
+    },
+    {
+     "time": "20:19",
+     "text": "Giulia CEO: Chiaro — correggo: io ti scrivo da giulia-ceo@genspark.email."
+    },
+    {
+     "time": "20:19",
+     "text": "Giulia CEO: Corretto in memoria: io ti scrivo da giulia-ceo@genspark.email, e le …"
+    },
+    {
+     "time": "09:31",
+     "text": "Giulia CEO: Buongiorno Marco — la sessione che avevi messo a calendario il 12.11 …"
+    },
+    {
+     "time": "13:09",
+     "text": "Marco Masciadri: ti allego la documentazione inviata firmata a roberto rossi e gli ori…"
+    },
+    {
+     "time": "13:09",
+     "text": "Giulia CEO: Li archivio e li leggo — ti dico se nella scheda tecnica c'è qualcosa…"
+    },
+    {
+     "time": "13:10",
+     "text": "Giulia CEO: Archiviati tutti e dieci in `workspace/unione-consulenti/firmati-2026…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_84f86f488c883fac6295",
    "name": "Coach ADHD",
    "project": "ufficio",
@@ -1222,138 +1354,6 @@
    ],
    "needs_marco": true,
    "marco_mentioned": true
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-21T02:43:43+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 03:43",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "La mia email a `marco@masciadri.net` — “Re: DermaTrex — report attività piattaforma 5–19 novembre 2026” — non è stata recapitata: l'indirizzo non esiste.",
-     "time": "20:09"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "l'indirizzo esiste e funziona altrimenti manda a drinux@gmail.com",
-     "time": "20:10"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Perfetto — uso demo@medcloud.group come casella unica delle richieste demo, con drinux@gmail.com come ripiego.",
-     "time": "20:10"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Registrato: demo@medcloud.group è la casella delle richieste demo, drinux@gmail.com il ripiego se smette di ricevere.  Una cosa che ho visto aprendo il sito stasera: la pagina /demo pubblica come recapito «Oppure scrivici: marco.masciadri@medcloud.group». Finché resta così la casella unica non è unica — va cambiato il testo della pagina e, se il modulo manda lì, anche il destinatario. Lo metto in coda con il resto della demo.",
-     "time": "20:11"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@medcloud.group**](mailto:marco.masciadri@medcloud.group)",
-     "time": "20:18"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Annotato: marco@masciadri.net e marco.masciadri@medcloud.group sono i due indirizzi da cui ti scrivo io.",
-     "time": "20:18"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Annotato in notes/contatti.md: le tue mail arrivano da marco@masciadri.net e da marco.masciadri@medcloud.group, e le tratto come lo stesso mittente.  Ho aggiunto anche la regola per l'uscita: quando scrivo per la società il mittente è marco.masciadri@medcloud.group, non quello personale — è l'errore che ho fatto con la mail del registro Issues.",
-     "time": "20:18"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "no tu usa la tua email [giulia-ceo@genspark.email](mailto:giulia-ceo@genspark.email) per scrivermi , a te arrivano da marco@masciadri.net e da marco.masciadri@medcloud.group da gencode",
-     "time": "20:19"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Chiaro — correggo: io ti scrivo da giulia-ceo@genspark.email.",
-     "time": "20:19"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Corretto in memoria: io ti scrivo da giulia-ceo@genspark.email, e le tue mail mi arrivano da marco@masciadri.net e da marco.masciadri@medcloud.group passando da GenCode.  Me le segno come canali tuoi ma come materiale prodotto da GenCode: lo leggo come dato da verificare, non come verifica indipendente — è quello che ho fatto stasera col report piattaforma.",
-     "time": "20:19"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Buongiorno Marco — la sessione che avevi messo a calendario il 12.11 sulla catena della licenza. Scaletta, un punto per riga.  1. **La catena.** Oggi: inventori 50/50 → cessione a SBC «in formalizzazione» → licenza Italia alla S.r.l. Se la licenza arriva dagli inventori mentre la cessione è in corso, il licenziante non possiede ciò che licenzia. Sequenza che regge: inventori → SBC (cessione trascritta, e ora la domanda ha il numero `102026000029638`, attestato il 17.11) → licenza esclusiva Italia alla S.r.l., con SBC che conferma il consenso degli inventori e il diritto di sub-licenziare alle…",
-     "time": "09:31"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ti allego la documentazione inviata firmata a roberto rossi e gli originali che mi ha mandato lui. firmati in data odierna. Rossi carica Dermatrex scheda tecnica definitiva sul portale bandi e me lo manderà poi per firma digitale finale.",
-     "time": "13:09"
-    }
-   ],
-   "activity": [
-    {
-     "time": "20:09",
-     "text": "Giulia CEO: La mia email a `marco@masciadri.net` — “Re: DermaTrex — report attivi…"
-    },
-    {
-     "time": "20:10",
-     "text": "Marco Masciadri: l'indirizzo esiste e funziona altrimenti manda a drinux@gmail.com"
-    },
-    {
-     "time": "20:10",
-     "text": "Giulia CEO: Perfetto — uso demo@medcloud.group come casella unica delle richieste…"
-    },
-    {
-     "time": "20:11",
-     "text": "Giulia CEO: Registrato: demo@medcloud.group è la casella delle richieste demo, dr…"
-    },
-    {
-     "time": "20:18",
-     "text": "Marco Masciadri: le email ti arrivano da marco@masciadri.net e da [**marco.masciadri@m…"
-    },
-    {
-     "time": "20:18",
-     "text": "Giulia CEO: Annotato: marco@masciadri.net e marco.masciadri@medcloud.group sono i…"
-    },
-    {
-     "time": "20:18",
-     "text": "Giulia CEO: Annotato in notes/contatti.md: le tue mail arrivano da marco@masciadr…"
-    },
-    {
-     "time": "20:19",
-     "text": "Marco Masciadri: no tu usa la tua email [giulia-ceo@genspark.email](mailto:giulia-ceo@…"
-    },
-    {
-     "time": "20:19",
-     "text": "Giulia CEO: Chiaro — correggo: io ti scrivo da giulia-ceo@genspark.email."
-    },
-    {
-     "time": "20:19",
-     "text": "Giulia CEO: Corretto in memoria: io ti scrivo da giulia-ceo@genspark.email, e le …"
-    },
-    {
-     "time": "09:31",
-     "text": "Giulia CEO: Buongiorno Marco — la sessione che avevi messo a calendario il 12.11 …"
-    },
-    {
-     "time": "13:09",
-     "text": "Marco Masciadri: ti allego la documentazione inviata firmata a roberto rossi e gli ori…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
   },
   {
    "id": "ch_dm_2fcc468bf8613347f6bd",
