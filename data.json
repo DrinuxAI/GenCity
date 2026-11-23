@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:43:51.502487+00:00",
+ "generated_at": "2026-11-23T14:57:57.450763+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,11 +960,143 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-23T14:55:53+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 15:55",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sto rigenerando il PDF con le tre frasi su SBC smussate — te lo mando appena è pronto, con le righe cambiate indicate.  Una cosa in più, visto che Dima è un intermediario e il documento andrà ai suoi: nel frattempo ho corretto anche lo stato della domanda di bando, che era scritto «filed» — i documenti sono firmati e il deposito è in corso tramite Rossi, non ancora avvenuto. Meglio che non lo scopra un suo avvocato.",
+     "time": "12:07"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Modifiche al testo fatte: le tre frasi su SBC sono ora «nostra lettura del registro, verifica legale in corso», e lo stato del bando non dice più «filed». Il PDF rigenerato te lo mando appena è pronto.",
+     "time": "12:07"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco il PDF smussato, 19 pagine, impianto invariato.  Cosa ho cambiato, in tre punti e nella didascalia del grafico: dove diceva che l'oggetto sociale di SBC «non comprende i dispositivi medici e va esteso», ora dice che **la nostra lettura del registro è che non li nomini, e che la conseguenza è in verifica da un legale svizzero — «we are not treating that as settled»**. Nessuna frase del documento afferma più come fatto acclarato che l'estensione serva.  In più, due cose che ho corretto perché il documento va oltre Dima: la domanda di bando non è più «filed» ma «signed, deposito in corso tr…",
+     "time": "12:09"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Importante aggiungere che l'ananlisi clinica é stata fatto in base all'esperienza clinica e ospedaliera di 20 anni del Dr. Marco Torno con specializzazione in wound care",
+     "time": "12:15"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Lo aggiungo — nella parte sull'evidenza clinica e nella scheda dei contributori, dove serve.",
+     "time": "12:15"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto, 20 pagine. I vent'anni di Torno entrano in due punti: nella riga dei contributori, dove si dice chi ha fissato i requisiti clinici e i criteri di accettazione, e in un paragrafo nuovo in §1.5 che risponde alla domanda «che dati clinici avete» dicendo che non ce ne sono e che la specifica si regge sull'esperienza.  L'ho scritto così di proposito: «Declared — il CV documenta l'esperienza, nessun dato documenta la specifica», e poi perché conta — è il motivo per cui i criteri sono concreti e la sperimentazione è di flusso e non di esito — chiudendo con «it is expertise, and we are not pre…",
+     "time": "12:17"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "il primo prototipo della parte elettronica per le analisi da banco sarà pronta per la metà di dicembre, validata dal dipartimento di elettronica dell'Università Supsi di Lugano, seguono test e verifiche con CSEM di Landquart Graubunden già prenotate. La scelta del produttore sarà determinata dal costo della produzione, già presi contatti verbali con Coloplast (Italia-Danimarca) e selezione due potenziali produttori in Cina. Stiamo valutando l'apertura di una società cinese nel distretto medicale di Hainan, per il deposito brevetto riconosciuto da autorità cinese. Abbiamo costituito una societ…",
+     "time": "12:20"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Le integro nel documento: cambiano tre risposte, non solo una.",
+     "time": "12:21"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Aggiornato, 20 pagine. I quattro fatti nuovi sono dentro e coerenti in tutto il documento, non solo dove li ho inseriti.  **Prototipo** (§1.3): la riga «December 2026 – January 2027» è diventata il prototipo elettronico per il banco a metà dicembre, rivisto dal dipartimento di elettronica della SUPSI a Lugano e poi test e verifiche con CSEM a Landquart con le sessioni prenotate. È la modifica che alza di più il documento: un intermediario vede una data, due istituzioni con un nome e una sessione già in calendario. L'ho però scritto come «review» e «sessions booked», mai «validated» — finché n…",
+     "time": "12:24"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Aggiungi che le certificazioni internazionali e approvazioni come dispositivo medicale, nel nostro modello di business, sono affidate in licenza a produttori già presenti sul mercato con reti distributive, in modo da tenere snella la struttura di ricerca e gestione delle royalties. Si puo' però pensare in caso di disponibilità di finanziamenti di eseguire queste procedure in collaborazione con un produttore, affidando la produzione per nostro conto come terzista e definire accordi di commercializzazione con gruppi internazionali. Ovviamente questo comporta cambiamenti nel modello di business …",
+     "time": "12:33"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Integro tutto; su due punti ti chiedo una precisazione prima di scriverli, perché il documento va a un intermediario.",
+     "time": "12:33"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Pronto, 21 pagine. Dentro tutto quello che mi hai dettato, con una sezione nuova che vale la pena leggere per prima: §4.6 «The other model, and what it would cost» — il modello in cui teniamo noi la certificazione, con un terzista che produce per nostro conto e accordi di commercializzazione con gruppi internazionali. L'ho scritto come destinazione naturale dopo il design freeze, non come primo passo da TRL 3: cambia il fabbisogno di capitale di un ordine di grandezza e sposta il baricentro da ricerca a operations, e dirlo così è più forte che nasconderlo — un industriale lo capisce e apprezz…",
+     "time": "12:38"
+    }
+   ],
+   "activity": [
+    {
+     "time": "12:07",
+     "text": "Giulia CEO: Sto rigenerando il PDF con le tre frasi su SBC smussate — te lo mando…"
+    },
+    {
+     "time": "12:07",
+     "text": "Giulia CEO: Modifiche al testo fatte: le tre frasi su SBC sono ora «nostra lettur…"
+    },
+    {
+     "time": "12:09",
+     "text": "Giulia CEO: Ecco il PDF smussato, 19 pagine, impianto invariato.  Cosa ho cambiat…"
+    },
+    {
+     "time": "12:15",
+     "text": "Marco Masciadri: Importante aggiungere che l'ananlisi clinica é stata fatto in base al…"
+    },
+    {
+     "time": "12:15",
+     "text": "Giulia CEO: Lo aggiungo — nella parte sull'evidenza clinica e nella scheda dei co…"
+    },
+    {
+     "time": "12:17",
+     "text": "Giulia CEO: Fatto, 20 pagine. I vent'anni di Torno entrano in due punti: nella ri…"
+    },
+    {
+     "time": "12:20",
+     "text": "Marco Masciadri: il primo prototipo della parte elettronica per le analisi da banco sa…"
+    },
+    {
+     "time": "12:21",
+     "text": "Giulia CEO: Le integro nel documento: cambiano tre risposte, non solo una."
+    },
+    {
+     "time": "12:24",
+     "text": "Giulia CEO: Aggiornato, 20 pagine. I quattro fatti nuovi sono dentro e coerenti i…"
+    },
+    {
+     "time": "12:33",
+     "text": "Marco Masciadri: Aggiungi che le certificazioni internazionali e approvazioni come dis…"
+    },
+    {
+     "time": "12:33",
+     "text": "Giulia CEO: Integro tutto; su due punti ti chiedo una precisazione prima di scriv…"
+    },
+    {
+     "time": "12:38",
+     "text": "Giulia CEO: Pronto, 21 pagine. Dentro tutto quello che mi hai dettato, con una se…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_6590d278d9d7a256b108",
    "name": "dm-6590d278d9d7a256b108",
    "project": "ufficio",
    "type": "studio",
-   "unread": 1,
+   "unread": 0,
    "last_activity": "2026-11-23T13:46:23+00:00",
    "agents": [],
    "messages": [
@@ -1081,138 +1213,6 @@
    ],
    "needs_marco": false,
    "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-23T11:54:19+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ultimo intervento 12:54",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Vorrei che tu leggessi la mia rete di contatti e mi facessi una lista di quelli che possono essere utili al progetto MedCloud e perché",
-     "time": "03:43"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Il connettore non vede la tua rete — ti dico come aggirarlo in un minuto.",
-     "time": "03:43"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Il connettore LinkedIn non espone la rete: legge solo il tuo profilo e i post. Quindi da lì la lista non esce, e ricollegare il token non cambierebbe niente.  La via pulita è l'export: su LinkedIn, Impostazioni → Privacy dei dati → Scarica i tuoi dati → spunta **Contatti** (arriva un `Connections.csv` via mail, di solito in pochi minuti). Mandamelo qui e te lo leggo io.  L'alternativa è il browser: apro LinkedIn, il login lo fai tu, e leggo la pagina delle connessioni — più lento, si pagine a poco a poco, e LinkedIn non ama essere sfogliato in automatico. L'export è meglio.  Appena ho il file…",
-     "time": "03:43"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "ti allego un documento che mi ha mandato un potenziale investitore, il suo nome é Dima. Analizza le domande, confronta con la documentazione che abbiamo preparato e preparami le risposte in un documento che riporti le loro domande e le nostre risposte. é un'occasione molto importante per il progetto, quindi dobbiamo essere professionali ma anche impostare una prosta molto interessante per loro e per noi.",
-     "time": "11:45"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Lo leggo subito e ti preparo il documento domanda-risposta, con in fondo la proposta da mettere sul tavolo.",
-     "time": "11:45"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Pronto: 19 pagine in inglese, domanda per domanda, con la proposta in fondo. In allegato il documento per Dima e la nota in italiano con le cinque decisioni che spettano a te.  L'impianto: prende atto della loro diagnosi invece di contestarla — non c'è prototipo integrato, non c'è dato clinico, non c'è CE, non c'è FTO, non c'è unit economics — e ogni affermazione è etichettata verificato / dichiarato / non esiste. È la pagina che in due diligence gli farà più effetto, perché nessun altro gliela mette davanti.  Sulla proposta non gli diamo il «mondiale» in un colpo: licenza esclusiva mondiale …",
-     "time": "11:57"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "smussa prima e fammelo vedere. devo mandarlo prima dell'incontro perché Dima é un intermediario",
-     "time": "12:06"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sto rigenerando il PDF con le tre frasi su SBC smussate — te lo mando appena è pronto, con le righe cambiate indicate.  Una cosa in più, visto che Dima è un intermediario e il documento andrà ai suoi: nel frattempo ho corretto anche lo stato della domanda di bando, che era scritto «filed» — i documenti sono firmati e il deposito è in corso tramite Rossi, non ancora avvenuto. Meglio che non lo scopra un suo avvocato.",
-     "time": "12:07"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Modifiche al testo fatte: le tre frasi su SBC sono ora «nostra lettura del registro, verifica legale in corso», e lo stato del bando non dice più «filed». Il PDF rigenerato te lo mando appena è pronto.",
-     "time": "12:07"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco il PDF smussato, 19 pagine, impianto invariato.  Cosa ho cambiato, in tre punti e nella didascalia del grafico: dove diceva che l'oggetto sociale di SBC «non comprende i dispositivi medici e va esteso», ora dice che **la nostra lettura del registro è che non li nomini, e che la conseguenza è in verifica da un legale svizzero — «we are not treating that as settled»**. Nessuna frase del documento afferma più come fatto acclarato che l'estensione serva.  In più, due cose che ho corretto perché il documento va oltre Dima: la domanda di bando non è più «filed» ma «signed, deposito in corso tr…",
-     "time": "12:09"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Importante aggiungere che l'ananlisi clinica é stata fatto in base all'esperienza clinica e ospedaliera di 20 anni del Dr. Marco Torno con specializzazione in wound care",
-     "time": "12:15"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Lo aggiungo — nella parte sull'evidenza clinica e nella scheda dei contributori, dove serve.",
-     "time": "12:15"
-    }
-   ],
-   "activity": [
-    {
-     "time": "03:43",
-     "text": "Marco Masciadri: Vorrei che tu leggessi la mia rete di contatti e mi facessi una lista…"
-    },
-    {
-     "time": "03:43",
-     "text": "Giulia CEO: Il connettore non vede la tua rete — ti dico come aggirarlo in un min…"
-    },
-    {
-     "time": "03:43",
-     "text": "Giulia CEO: Il connettore LinkedIn non espone la rete: legge solo il tuo profilo …"
-    },
-    {
-     "time": "11:45",
-     "text": "Marco Masciadri: ti allego un documento che mi ha mandato un potenziale investitore, i…"
-    },
-    {
-     "time": "11:45",
-     "text": "Giulia CEO: Lo leggo subito e ti preparo il documento domanda-risposta, con in fo…"
-    },
-    {
-     "time": "11:57",
-     "text": "Giulia CEO: Pronto: 19 pagine in inglese, domanda per domanda, con la proposta in…"
-    },
-    {
-     "time": "12:06",
-     "text": "Marco Masciadri: smussa prima e fammelo vedere. devo mandarlo prima dell'incontro perc…"
-    },
-    {
-     "time": "12:07",
-     "text": "Giulia CEO: Sto rigenerando il PDF con le tre frasi su SBC smussate — te lo mando…"
-    },
-    {
-     "time": "12:07",
-     "text": "Giulia CEO: Modifiche al testo fatte: le tre frasi su SBC sono ora «nostra lettur…"
-    },
-    {
-     "time": "12:09",
-     "text": "Giulia CEO: Ecco il PDF smussato, 19 pagine, impianto invariato.  Cosa ho cambiat…"
-    },
-    {
-     "time": "12:15",
-     "text": "Marco Masciadri: Importante aggiungere che l'ananlisi clinica é stata fatto in base al…"
-    },
-    {
-     "time": "12:15",
-     "text": "Giulia CEO: Lo aggiungo — nella parte sull'evidenza clinica e nella scheda dei co…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": true
   },
   {
    "id": "ch_dm_84f86f488c883fac6295",
@@ -1351,15 +1351,15 @@
    "name": "Genspark for WhatsApp",
    "project": "ufficio",
    "type": "studio",
-   "unread": 1,
+   "unread": 0,
    "last_activity": "2026-11-22T16:35:14+00:00",
    "agents": [
     {
      "id": "agent_wy4xp0ssp92z@ch_dm_8f66c37a120f96ed7179",
      "name": "Genspark for WhatsApp",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
+     "status": "idle",
+     "task": "Ultimo intervento 17:35",
      "progress": 0
     }
    ],
@@ -1475,7 +1475,7 @@
      "text": "Genspark for WhatsApp: Vado a ripescare quella ricerca su Alfa Bank, un attimo."
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": true
   },
   {
