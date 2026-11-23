@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:12:05.808044+00:00",
+ "generated_at": "2026-11-23T15:26:23.459708+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -964,44 +964,19 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 1,
-   "last_activity": "2026-11-23T15:08:23+00:00",
+   "unread": 0,
+   "last_activity": "2026-11-23T15:21:44+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
+     "status": "working",
+     "task": "Ultimo intervento 16:21",
+     "progress": 50
     }
    ],
    "messages": [
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Importante aggiungere che l'ananlisi clinica é stata fatto in base all'esperienza clinica e ospedaliera di 20 anni del Dr. Marco Torno con specializzazione in wound care",
-     "time": "12:15"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Lo aggiungo — nella parte sull'evidenza clinica e nella scheda dei contributori, dove serve.",
-     "time": "12:15"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Fatto, 20 pagine. I vent'anni di Torno entrano in due punti: nella riga dei contributori, dove si dice chi ha fissato i requisiti clinici e i criteri di accettazione, e in un paragrafo nuovo in §1.5 che risponde alla domanda «che dati clinici avete» dicendo che non ce ne sono e che la specifica si regge sull'esperienza.  L'ho scritto così di proposito: «Declared — il CV documenta l'esperienza, nessun dato documenta la specifica», e poi perché conta — è il motivo per cui i criteri sono concreti e la sperimentazione è di flusso e non di esito — chiudendo con «it is expertise, and we are not pre…",
-     "time": "12:17"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "il primo prototipo della parte elettronica per le analisi da banco sarà pronta per la metà di dicembre, validata dal dipartimento di elettronica dell'Università Supsi di Lugano, seguono test e verifiche con CSEM di Landquart Graubunden già prenotate. La scelta del produttore sarà determinata dal costo della produzione, già presi contatti verbali con Coloplast (Italia-Danimarca) e selezione due potenziali produttori in Cina. Stiamo valutando l'apertura di una società cinese nel distretto medicale di Hainan, per il deposito brevetto riconosciuto da autorità cinese. Abbiamo costituito una societ…",
-     "time": "12:20"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Le integro nel documento: cambiano tre risposte, non solo una.",
-     "time": "12:21"
-    },
     {
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Aggiornato, 20 pagine. I quattro fatti nuovi sono dentro e coerenti in tutto il documento, non solo dove li ho inseriti.  **Prototipo** (§1.3): la riga «December 2026 – January 2027» è diventata il prototipo elettronico per il banco a metà dicembre, rivisto dal dipartimento di elettronica della SUPSI a Lugano e poi test e verifiche con CSEM a Landquart con le sessioni prenotate. È la modifica che alza di più il documento: un intermediario vede una data, due istituzioni con un nome e una sessione già in calendario. L'ho però scritto come «review» e «sessions booked», mai «validated» — finché n…",
@@ -1036,29 +1011,34 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Prima di allegarlo: dei 93 pagine esistono due versioni. Il fascicolo Technopark interno (21,8 MB: prezzi, TAM, partner nominati, il 51 µW e il €600 che nel documento per Dima abbiamo appena corretto) e la versione neutra preparata apposta per la condivisione esterna. Allegare l'interno a un intermediario significa consegnargli anche le contraddizioni che abbiamo appena sistemato, e 22 MB di materiale pre-PCT.  Quale allego — il neutro (mia raccomandazione) o l'interno? E con Dima c'è un NDA firmato? Se non c'è, la pagina di riservatezza che sto scrivendo è un'intenzione, non una protezione: …",
      "time": "12:42"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "allega il neutro. con Dima non cé NDA firmato, ma dobbiamo accettare il rischio vista l'importanza dell'interesse che stanno dimostrando",
+     "time": "12:44"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Vado con il neutro. Il capitolo sulla riservatezza lo scrivo come «riservato, tutti i diritti riservati, NDA pronto allo scambio» — dichiarare un NDA che non è firmato è peggio che non averlo, e con Dima come intermediario la differenza la vedrebbe un suo legale.",
+     "time": "12:44"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "aggiungi logo medcloud sulle pagine",
+     "time": "12:44"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Aggiungo logo, Helvetica e il capitolo riservatezza in un'unica passata. Cerco il file del logo giusto.",
+     "time": "12:44"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "aggiungi la mia email di contato marco.masciadri@medcloud.group",
+     "time": "12:46"
     }
    ],
    "activity": [
-    {
-     "time": "12:15",
-     "text": "Marco Masciadri: Importante aggiungere che l'ananlisi clinica é stata fatto in base al…"
-    },
-    {
-     "time": "12:15",
-     "text": "Giulia CEO: Lo aggiungo — nella parte sull'evidenza clinica e nella scheda dei co…"
-    },
-    {
-     "time": "12:17",
-     "text": "Giulia CEO: Fatto, 20 pagine. I vent'anni di Torno entrano in due punti: nella ri…"
-    },
-    {
-     "time": "12:20",
-     "text": "Marco Masciadri: il primo prototipo della parte elettronica per le analisi da banco sa…"
-    },
-    {
-     "time": "12:21",
-     "text": "Giulia CEO: Le integro nel documento: cambiano tre risposte, non solo una."
-    },
     {
      "time": "12:24",
      "text": "Giulia CEO: Aggiornato, 20 pagine. I quattro fatti nuovi sono dentro e coerenti i…"
@@ -1086,9 +1066,29 @@
     {
      "time": "12:42",
      "text": "Giulia CEO: Prima di allegarlo: dei 93 pagine esistono due versioni. Il fascicolo…"
+    },
+    {
+     "time": "12:44",
+     "text": "Marco Masciadri: allega il neutro. con Dima non cé NDA firmato, ma dobbiamo accettare …"
+    },
+    {
+     "time": "12:44",
+     "text": "Giulia CEO: Vado con il neutro. Il capitolo sulla riservatezza lo scrivo come «ri…"
+    },
+    {
+     "time": "12:44",
+     "text": "Marco Masciadri: aggiungi logo medcloud sulle pagine"
+    },
+    {
+     "time": "12:44",
+     "text": "Giulia CEO: Aggiungo logo, Helvetica e il capitolo riservatezza in un'unica passa…"
+    },
+    {
+     "time": "12:46",
+     "text": "Marco Masciadri: aggiungi la mia email di contato marco.masciadri@medcloud.group"
     }
    ],
-   "needs_marco": true,
+   "needs_marco": false,
    "marco_mentioned": false
   },
   {
