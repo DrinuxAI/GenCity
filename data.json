@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:47:01.320293+00:00",
+ "generated_at": "2026-11-23T14:01:12.485467+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -960,6 +960,129 @@
    "marco_mentioned": true
   },
   {
+   "id": "ch_dm_6590d278d9d7a256b108",
+   "name": "dm-6590d278d9d7a256b108",
+   "project": "ufficio",
+   "type": "studio",
+   "unread": 1,
+   "last_activity": "2026-11-23T13:46:23+00:00",
+   "agents": [],
+   "messages": [
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "ciao benvenuta",
+     "time": "17:48"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "Ciao",
+     "time": "17:48"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "prepare report avanzamento aurasphera per partners",
+     "time": "17:50"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I invited you to a workspace on Dashboards & CRM: \"CRM Clarify Migration\" https://www.genspark.ai/agentbase?ws=85b738bf-8df4-44b4-acc3-1d801f191f14&utm_source=workspace_invite_dm",
+     "time": "18:19"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"SBC SA\" https://www.genspark.ai/hub?id=77154d71-53f9-4b80-b27c-f05a39dbf73c&utm_source=hub_invite_dm",
+     "time": "16:48"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"Vanguard Sentry Data Solutions\" https://www.genspark.ai/hub?id=61b4534e-6a99-4640-a44c-fb8abf0156f4&utm_source=hub_invite_dm",
+     "time": "16:48"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"MedCloud Dermatrex\" https://www.genspark.ai/hub?id=0bd6ac0e-30b6-4328-8977-ec9cd817f394&utm_source=hub_invite_dm",
+     "time": "16:49"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"Sycurium\" https://www.genspark.ai/hub?id=c69dce49-cd73-4b97-830b-b36267205688&utm_source=hub_invite_dm",
+     "time": "16:49"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"Agrotek\" https://www.genspark.ai/hub?id=e8c0a599-0e2e-41a2-a64d-a4a76e65668f&utm_source=hub_invite_dm",
+     "time": "16:49"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"Criolab swiss\" https://www.genspark.ai/hub?id=c6655a79-d730-4164-8248-2a8726a7b804&utm_source=hub_invite_dm",
+     "time": "16:50"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"Federico Rossini Garden\" https://www.genspark.ai/hub?id=c106569f-73f5-497d-9582-9ad3a68bed90&utm_source=hub_invite_dm",
+     "time": "16:50"
+    },
+    {
+     "from": "human@ch_dm_6590d278d9d7a256b108",
+     "text": "I added you to a Hub on Genspark: \"Aurasphera\" https://www.genspark.ai/hub?id=603535a9-da23-4c1b-bcfd-ab623b765582&utm_source=hub_invite_dm",
+     "time": "16:53"
+    }
+   ],
+   "activity": [
+    {
+     "time": "17:48",
+     "text": "Marco Masciadri: ciao benvenuta"
+    },
+    {
+     "time": "17:48",
+     "text": "Alessia Primerano: Ciao"
+    },
+    {
+     "time": "17:50",
+     "text": "Marco Masciadri: prepare report avanzamento aurasphera per partners"
+    },
+    {
+     "time": "18:19",
+     "text": "Marco Masciadri: I invited you to a workspace on Dashboards & CRM: \"CRM Clarify Migrat…"
+    },
+    {
+     "time": "16:48",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"SBC SA\" https://www.genspark.ai/hu…"
+    },
+    {
+     "time": "16:48",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Vanguard Sentry Data Solutions\" ht…"
+    },
+    {
+     "time": "16:49",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"MedCloud Dermatrex\" https://www.ge…"
+    },
+    {
+     "time": "16:49",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Sycurium\" https://www.genspark.ai/…"
+    },
+    {
+     "time": "16:49",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Agrotek\" https://www.genspark.ai/h…"
+    },
+    {
+     "time": "16:50",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Criolab swiss\" https://www.genspar…"
+    },
+    {
+     "time": "16:50",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Federico Rossini Garden\" https://w…"
+    },
+    {
+     "time": "16:53",
+     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Aurasphera\" https://www.genspark.a…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
+  },
+  {
    "id": "ch_dm_ccbf19a31c939cace113",
    "name": "MED-CEO",
    "project": "medcloud",
@@ -1737,129 +1860,6 @@
     {
      "time": "15:21",
      "text": "Nadia News: Ecco il quadro, con una premessa che conta: quel round non è di quest…"
-    }
-   ],
-   "needs_marco": false,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_6590d278d9d7a256b108",
-   "name": "dm-6590d278d9d7a256b108",
-   "project": "ufficio",
-   "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-09T14:13:32+00:00",
-   "agents": [],
-   "messages": [
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "ciao benvenuta",
-     "time": "17:48"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "Ciao",
-     "time": "17:48"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "prepare report avanzamento aurasphera per partners",
-     "time": "17:50"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I invited you to a workspace on Dashboards & CRM: \"CRM Clarify Migration\" https://www.genspark.ai/agentbase?ws=85b738bf-8df4-44b4-acc3-1d801f191f14&utm_source=workspace_invite_dm",
-     "time": "18:19"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"SBC SA\" https://www.genspark.ai/hub?id=77154d71-53f9-4b80-b27c-f05a39dbf73c&utm_source=hub_invite_dm",
-     "time": "16:48"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"Vanguard Sentry Data Solutions\" https://www.genspark.ai/hub?id=61b4534e-6a99-4640-a44c-fb8abf0156f4&utm_source=hub_invite_dm",
-     "time": "16:48"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"MedCloud Dermatrex\" https://www.genspark.ai/hub?id=0bd6ac0e-30b6-4328-8977-ec9cd817f394&utm_source=hub_invite_dm",
-     "time": "16:49"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"Sycurium\" https://www.genspark.ai/hub?id=c69dce49-cd73-4b97-830b-b36267205688&utm_source=hub_invite_dm",
-     "time": "16:49"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"Agrotek\" https://www.genspark.ai/hub?id=e8c0a599-0e2e-41a2-a64d-a4a76e65668f&utm_source=hub_invite_dm",
-     "time": "16:49"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"Criolab swiss\" https://www.genspark.ai/hub?id=c6655a79-d730-4164-8248-2a8726a7b804&utm_source=hub_invite_dm",
-     "time": "16:50"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"Federico Rossini Garden\" https://www.genspark.ai/hub?id=c106569f-73f5-497d-9582-9ad3a68bed90&utm_source=hub_invite_dm",
-     "time": "16:50"
-    },
-    {
-     "from": "human@ch_dm_6590d278d9d7a256b108",
-     "text": "I added you to a Hub on Genspark: \"Aurasphera\" https://www.genspark.ai/hub?id=603535a9-da23-4c1b-bcfd-ab623b765582&utm_source=hub_invite_dm",
-     "time": "16:53"
-    }
-   ],
-   "activity": [
-    {
-     "time": "17:48",
-     "text": "Marco Masciadri: ciao benvenuta"
-    },
-    {
-     "time": "17:48",
-     "text": "Alessia Primerano: Ciao"
-    },
-    {
-     "time": "17:50",
-     "text": "Marco Masciadri: prepare report avanzamento aurasphera per partners"
-    },
-    {
-     "time": "18:19",
-     "text": "Marco Masciadri: I invited you to a workspace on Dashboards & CRM: \"CRM Clarify Migrat…"
-    },
-    {
-     "time": "16:48",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"SBC SA\" https://www.genspark.ai/hu…"
-    },
-    {
-     "time": "16:48",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Vanguard Sentry Data Solutions\" ht…"
-    },
-    {
-     "time": "16:49",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"MedCloud Dermatrex\" https://www.ge…"
-    },
-    {
-     "time": "16:49",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Sycurium\" https://www.genspark.ai/…"
-    },
-    {
-     "time": "16:49",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Agrotek\" https://www.genspark.ai/h…"
-    },
-    {
-     "time": "16:50",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Criolab swiss\" https://www.genspar…"
-    },
-    {
-     "time": "16:50",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Federico Rossini Garden\" https://w…"
-    },
-    {
-     "time": "16:53",
-     "text": "Marco Masciadri: I added you to a Hub on Genspark: \"Aurasphera\" https://www.genspark.a…"
     }
    ],
    "needs_marco": false,
