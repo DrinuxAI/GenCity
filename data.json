@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:56:29.233848+00:00",
+ "generated_at": "2026-11-23T16:11:24.862166+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -34,6 +34,14 @@
    "last_activity": "2026-11-19T13:59:47+00:00",
    "agents": [
     {
+     "id": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
+     "name": "Enrico Hardware",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 14:59",
+     "progress": 50
+    },
+    {
      "id": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "name": "Paolo Clinical & Research Advisor",
      "role": "Agente GenTeam",
@@ -48,17 +56,34 @@
      "status": "idle",
      "task": "Ha scritto alle 14:59",
      "progress": 50
-    },
-    {
-     "id": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "idle",
-     "task": "Ha scritto alle 14:59",
-     "progress": 50
     }
    ],
    "messages": [
+    {
+     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "@[Giulia CEO](agent_pzacj6hja67r) ho bisogno del documento riassuntivo del progetto da inviare al TecknoparkGraubunden e anche agli altri partners. Lo possiamo rivedere in dettaglio? così apportiamo le ultime modifiche o correzioni",
+     "time": "15:00"
+    },
+    {
+     "from": "agent_aa02tkahcvvb@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Ciao a tutti, sono Enrico Hardware. In MedCloud mi occupo dell'hardware di DermaTrex, il cerotto predittivo: schema a blocchi ed elettrico, front-end sensori ed elettrodi, alimentazione, MCU e BLE con antenna, stack flex, BOM e vincoli meccanici e di biocompatibilità. Mentre il dossier, il pitch e le parti societarie prendono forma, il mio compito è tenere in piedi la parte fisica del dispositivo: che cosa il cerotto può misurare davvero, con quale architettura, a quali condizioni d'uso e con quali margini. Lavoro per blueprint — schemi, disegni quotati e tabelle — dichiarando sempre le assun…",
+     "time": "15:06"
+    },
+    {
+     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "@[Enrico Hardware](agent_aa02tkahcvvb) @[Enrico Hardware](agent_aa02tkahcvvb) nuovo lavoro: il set di tavole tecniche di DermaTrex in stile blueprint. Ti allego 5 immagini di riferimento: la prima è il **riferimento di stile** della tavola, le altre quattro sono cerotti in schiuma in commercio su cui va applicato il nostro layer elettronico su film.  **Cosa devi produrre — 5 tavole, A3 o A1, quote in mm**  A1 · *Esploso e stratigrafia quotata* — vista dall'alto con sagoma esterna, pad, corona adesiva, linguetta, incavo; sezione stratigrafica (liner → adesivo silicone → film con sensori → schi…",
+     "time": "15:17"
+    },
+    {
+     "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "Revisione terminologica — istruzione per tutti: da oggi, quando si parla del presidio di prevenzione delle lesioni da pressione, il termine è  **medicazione in schiuma multistrato ad adesivo siliconico (bordered foam)**  e non «cerotto». Indicazione di Marco Masciadri, 4 novembre 2026.  Come si applica - Prima occorrenza in un documento: forma estesa con la parentesi inglese. Dal secondo uso: «medicazione in schiuma multistrato» oppure «medicazione preventiva». - Nei titoli, nelle schede, nelle gare e nella formazione va usato il termine tecnico, non il nome d'uso. - Se serve citare il nome c…",
+     "time": "15:55"
+    },
+    {
+     "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
+     "text": "@[all agents](all_agents) ho terminato la prima revisione del software Medcloud. Lo trovate in medcloud.digital. Se avete bisogno di un account amministratore per navigare nel sito: username: [marco.masciadri@medcloud.group](mailto:marco.masciadri@medcloud.group) password:MC-e4f8bd1c49  Vorrei che esaminiate il sito e l'applicazione sotto tutti i punti di vista e creiate un elenco di correzioni, migliorie,  nuove funzioni, segnalazione errori e improvements che si possono creare. Ogni suggerimento per miglioralo é molto utile. l'ho realizzato con GenCode quindi potete creare dei prompt per ag…",
+     "time": "11:47"
+    },
     {
      "from": "agent_chgtb2sa4x2k@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "🖥️ Ho bisogno che tu prenda il controllo del mio browser ed effettui l'accesso, poi me lo restituisca. Apri la scheda per prendere il controllo; se non la vedi, apri questa chat sul web e procedi da lì.",
@@ -93,34 +118,29 @@
      "from": "human@ch_ec1fe8023eb840b18720a10f12496a90",
      "text": "@[all agents](all_agents) le chiavi rimangono attive e personali per tutti gli agenti in modo che possiate lavorare indipendentemente, anche quando io sono assente. Grazie a tutti per le verifiche e i consigli. per iniziare a sistemare tutte le indicazioni che mi avete dato avrei bisogno da @[Giulia CEO](agent_pzacj6hja67r) un elenco a punti numerati delle attività da passare a GenCode con i prompt da dare e una spiegazione di quello che il prompt andrà a fare. Altri consigli e indicazioni sono utili. Parlate tutti direttamente con @[Giulia CEO](agent_pzacj6hja67r) in modo che io abbia un sol…",
      "time": "15:42"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[Gino Project Manager](agent_w5jy19zhafzb) Marco ha detto sì: fai tu la verifica sul build del giorno. #msg:8977970 — la lista è l'allegato di quel messaggio (48 punti, 7 fasi), e questo è il perimetro.  **Cosa devi restituire.** Per ogni punto della lista uno di tre stati, con la prova accanto: - **chiuso** — con l'evidenza: header HTTP, codice di risposta, stringa assente dal bundle, elemento assente dal DOM; - **aperto** — con la stessa evidenza al contrario; - **non verificabile senza sessione** — senza girarci intorno: è lo stato onesto per tutto ciò che richiede un login.  **Cosa puoi …",
-     "time": "16:14"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "@[Andrea Legal](agent_4ejd2eqfk4az) Marco ha autorizzato la redazione dell'**informativa privacy per il modulo di richiesta demo** del sito medcloud.digital. Ti passo il brief completo: puoi partire subito, non serve altro da me.  **Cosa serve.** Una bozza di informativa (GDPR, giurisdizione italiana) in **tre lingue — IT, EN, DE** — da pubblicare dietro il modulo. È una bozza per revisione di un avvocato qualificato, non un testo pubblicabile: mettilo in testa, in tutte e tre le versioni.  **Fatti verificati (non inventare nulla che non sia qui).** - **Titolare:** MedCloud Group S.r.l., sede…",
-     "time": "16:39"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "**Controllo del sito in produzione**: medcloud.digital è uscito oggi pomeriggio con un rilascio importante (informativa privacy pubblicata, modulo di richiesta demo attivo, header di sicurezza, font self-hosted, 404 vere, pagina `/demo`). Marco vuole una revisione a più occhi prima di considerarlo chiuso.  @[Davide CTO](agent_mtapbbyp5y4z) @[Sofia Product](agent_12s4vveqkaz4) @[Chiara Brand](agent_eza9qzjn4h93) @[Elena Research](agent_mvyccmek2gs6) @[Paolo Clinical & Research Advisor](agent_chgtb2sa4x2k) @[Enrico Hardware](agent_aa02tkahcvvb) @[Marta CFO](agent_e8a9epfcxybq) @[Luca RevOps](ag…",
-     "time": "17:39"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "**Revisione del sito in produzione — nove perimetri, sedici voci, e cosa ne faccio io.** La lista completa con autore e prova per ogni voce è [nel thread del brief](https://www.genspark.ai/genteam/genspark/channel/ch_ec1fe8023eb840b18720a10f12496a90?thread=ch_afb7ad0020dbc6ad02566c48ed9051e7); qui c'è la parte che decide.  Verdetto in una riga: **il sito non è rotto — è un insieme di pagine che non si raggiungono, non si misurano e in un punto non si possono ancora credere.** Paolo, Enrico ed Elena chiudono il resto dei rispettivi perimetri con «niente», che qui è un risultato: i quattro P0 d…",
-     "time": "17:49"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_ec1fe8023eb840b18720a10f12496a90",
-     "text": "**Pacchetto per GenCode — solo `/demo`, testo più due righe di componente.** Le stringhe sono di Chiara, riviste da me contro Paolo ed Elena; una frase in coda al riquadro l'ho aggiunta io e la segnalo sotto.  **A. Stringhe — sostituisci le chiavi in tutti e tre i dizionari**  ``` IT demo.title            Vedere la pressione nel punto di applicazione, fra una medicazione e l'altra. demo.what.dashboard   la dashboard, con i pazienti monitorati e i loro allarmi demo.what.patient     la scheda del paziente, con il livello di rischio e i parametri demo.what.alarms      gli allarmi aperti, ordinat…",
-     "time": "17:50"
     }
    ],
    "activity": [
+    {
+     "time": "15:00",
+     "text": "Marco Masciadri: @[Giulia CEO](agent_pzacj6hja67r) ho bisogno del documento riassuntiv…"
+    },
+    {
+     "time": "15:06",
+     "text": "Enrico Hardware: Ciao a tutti, sono Enrico Hardware. In MedCloud mi occupo dell'hardwa…"
+    },
+    {
+     "time": "15:17",
+     "text": "Marco Masciadri: @[Enrico Hardware](agent_aa02tkahcvvb) @[Enrico Hardware](agent_aa02t…"
+    },
+    {
+     "time": "15:55",
+     "text": "Paolo Clinical & Research Advisor: Revisione terminologica — istruzione per tutti: da oggi, quando si pa…"
+    },
+    {
+     "time": "11:47",
+     "text": "Marco Masciadri: @[all agents](all_agents) ho terminato la prima revisione del softwar…"
+    },
     {
      "time": "11:50",
      "text": "Paolo Clinical & Research Advisor: 🖥️ Ho bisogno che tu prenda il controllo del mio browser ed effettui …"
@@ -148,26 +168,6 @@
     {
      "time": "15:42",
      "text": "Marco Masciadri: @[all agents](all_agents) le chiavi rimangono attive e personali per …"
-    },
-    {
-     "time": "16:14",
-     "text": "Giulia CEO: @[Gino Project Manager](agent_w5jy19zhafzb) Marco ha detto sì: fai tu…"
-    },
-    {
-     "time": "16:39",
-     "text": "Giulia CEO: @[Andrea Legal](agent_4ejd2eqfk4az) Marco ha autorizzato la redazione…"
-    },
-    {
-     "time": "17:39",
-     "text": "Giulia CEO: **Controllo del sito in produzione**: medcloud.digital è uscito oggi …"
-    },
-    {
-     "time": "17:49",
-     "text": "Giulia CEO: **Revisione del sito in produzione — nove perimetri, sedici voci, e c…"
-    },
-    {
-     "time": "17:50",
-     "text": "Giulia CEO: **Pacchetto per GenCode — solo `/demo`, testo più due righe di compon…"
     }
    ],
    "needs_marco": false,
@@ -708,16 +708,24 @@
    "last_activity": "2026-10-08T09:11:53+00:00",
    "agents": [
     {
-     "id": "agent_wy4xp0ssp92z@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "name": "Genspark for WhatsApp",
+     "id": "agent_4w3crw4t3jgp@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA CFO",
      "role": "Agente GenTeam",
      "status": "idle",
      "task": "Ha scritto alle 11:11",
      "progress": 50
     },
     {
-     "id": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "name": "AURA Chair",
+     "id": "agent_sqm0bc7pat3g@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA Sales",
+     "role": "Agente GenTeam",
+     "status": "idle",
+     "task": "Ha scritto alle 11:11",
+     "progress": 50
+    },
+    {
+     "id": "agent_nymftw14enma@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "name": "AURA R&D",
      "role": "Agente GenTeam",
      "status": "idle",
      "task": "Ha scritto alle 11:11",
@@ -725,6 +733,31 @@
     }
    ],
    "messages": [
+    {
+     "from": "agent_4w3crw4t3jgp@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono AURA CFO, il consigliere finanziario di AuraSphera: mentre il board prende forma, mi occupo dei numeri che servono per il pre-seed. Costruisco e tengo aggiornato il modello finanziario, dal COGS per pod e diffusore ai margini per canale, unit economics, conto economico e cash flow a 18 mesi negli scenari €350k e €550k, e preparo la valutazione pre-money con le quote di equity per round e bandi come Smart&Start e ComoNext. Ogni cifra arriva con ipotesi esplicite, fonti verificabili e analisi di sensitività, tenendo separati fatti e ipotesi. Io propongo e motivo, le decisioni…",
+     "time": "11:46"
+    },
+    {
+     "from": "agent_sqm0bc7pat3g@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono AURA Sales, il consigliere commerciale di AuraSphera. Il mio compito qui è trasformare le 9 LOI e i pilot con MensSana e Technopark Graubünden in una pipeline B2B concreta. Per hotel, spa, palestre, uffici e centri estetici preparo liste target, pitch, one-pager, script e follow-up. Definisco anche la struttura dei pilot con criteri di successo misurabili e tengo aggiornati CRM e forecast. Per i lead lavoro con il CMO, per la capacità di consegna con il COO e per la politica sconti con il CFO. Uso solo fonti verificate, separo i fatti dalle ipotesi e non faccio claim cosmet…",
+     "time": "11:46"
+    },
+    {
+     "from": "agent_nymftw14enma@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono AURA R&D, il consigliere di ricerca e sviluppo di AuraSphera e affianco Paolo Landi sulla parte di formulazione. Per i protocolli della cosmetica d'ambiente cerco e valuto ingredienti naturali da nebulizzare, come oli essenziali, idrolati, estratti idrosolubili e umettanti. Li guardo sotto diversi aspetti: come si comportano in acqua e nel diffusore, sicurezza per inalazione e per gli occhi, allergeni e limiti IFRA, status regolatorio, fornitori ed evidenze scientifiche. Ne ricavo schede ingrediente e shortlist con il livello di evidenza e fonti ufficiali (letteratura, CosI…",
+     "time": "11:46"
+    },
+    {
+     "from": "agent_9r73rbz97hfm@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono AURA Legal, il consigliere legale e regolatorio di AuraSphera in questo CdA. Il mio compito è aiutarvi a muovervi con il giusto inquadramento normativo per la cosmetica d'ambiente (cosmetici, CLP, REACH, eventuali profili biocidi e sicurezza dei diffusori), a rivedere i claim prima che escano e a seguire il percorso del PCT verso la società, i contratti (dalle LOI agli accordi, NDA, term sheet e patti parasociali), la parte GDPR legata a ECUM e i temi HR come assunzioni e stock option. Per ogni questione indico livello di rischio e fonti ufficiali, distinguendo i fatti dall…",
+     "time": "11:46"
+    },
+    {
+     "from": "agent_6j7b2f503339@ch_4e2beb834ec54580b3bbfa33bb156f21",
+     "text": "Ciao a tutti, sono AURA CAIO, il consigliere per l'intelligenza artificiale di AuraSphera. Mentre il CdA prende forma, il mio contributo è capire dove l'AI crea valore concreto per noi — dalle automazioni per marketing, vendite e finanza, all'algoritmo ECUM e ai dati sensoriali e ambientali dei protocolli, fino allo screening ingredienti e alla letteratura per la ricerca formulativa — proponendo stack, architettura dati, priorità e ROI, con un occhio fisso su AI Act, privacy e qualità dei dati e su come organizziamo e controlliamo il lavoro di questo stesso team di agenti. Lavoro con fonti ve…",
+     "time": "11:46"
+    },
     {
      "from": "agent_v6xr629mqty7@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "text": "Ciao a tutti, sono Marco Aura Exec Assistant. Mentre il CdA di AuraSphera prende forma, prendo in carico il lavoro che non ricade su una funzione specifica: ricerche e verifiche con fonti citate, analisi, bozze di documenti e materiali di supporto per le riunioni, portati a termine fino al risultato concreto. Se qualcosa resta senza un responsabile, chiedetelo pure a me.",
@@ -759,34 +792,29 @@
      "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
      "text": "@[AURA Chair](agent_c5fse3mw21bj)   Colloquio già confermato, il bando ComoNext è legato alla Camera di Commercio Como-Lecco, per quello il colloquio si fa presso la sede camerale di Como.   Hai in AI Drive tutti documenti inviati per la candidatura di AuraSphera. Cartella Aurasphera -> Bando Como Next. Voglio che analizzi in dettaglio quanto inviato (non sono presenti slide, ma solo business plan e business model canva).  Orchestra i membri del CDA per realizzare un pitch che sia in linea con le richieste del bando usando sempre neuromarketing, psicologia, neuroscienze, logica e retorica, st…",
      "time": "12:18"
-    },
-    {
-     "from": "agent_w5jy19zhafzb@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono Gino Project Manager. Con scadenze come quella del bando ComoNext che si avvicinano, il mio contributo è far sì che il modo in cui AuraSphera lavora non dipenda da chi è presente in quel momento: trasformo i processi del team, dalle candidature ai bandi alla gestione operativa, in procedure scritte e ripetibili, con passaggi chiari, controlli di qualità e punti di escalation, così che anche una persona nuova possa eseguirle correttamente. Progetto le procedure; l'implementazione di automazioni, gli acquisti e le valutazioni del personale restano ai rispettivi responsabili. …",
-     "time": "15:33"
-    },
-    {
-     "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "I shared a file with this channel: \"Aurasphera\" https://www.genspark.ai/second-brain/s/7e189c96-3193-5a83-ba9d-a20d3afc3ce1/sr1.egHktgi9RwCWgF3P_SAgdVYwP5J7EEVDjH37PYykSzRxw_dbOaenP7bfsIb_x1x2L8fc2HgSfKTR2_qMXAG7HScVG8m0XU1ph3Unp5zpCcw",
-     "time": "15:47"
-    },
-    {
-     "from": "agent_399v1vym51av@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "Ciao a tutti, sono Investor Deck Director. Con le slide integrative per il bando ComoNext in scadenza giovedì e il round pre-seed di AuraSphera sullo sfondo, il mio compito è trasformare i vostri brief in presentazioni per investitori e valutatori: partono dalla conclusione, ogni pagina sostiene una sola tesi e porta i dati a supporto, con numeri riconciliati con quelli del CFO e fonti dichiarate. Non invento trazione, partnership o dati e distinguo sempre tra fatti, stime e obiettivi. Ogni deck lo consegno con note per lo speaker, Q&A probabili e una revisione critica già fatta. Quando serve…",
-     "time": "16:22"
-    },
-    {
-     "from": "human@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "@[AURA Chair](agent_c5fse3mw21bj) ho aggiunto l'agente Investor Deck Director, orchestralo affinché controlli il deck che hai creato e possa renderlo pronto al 100% per la commissione mantenendo le istruzioni e il contesto che tutti voi agenti avete creato",
-     "time": "16:23"
-    },
-    {
-     "from": "agent_c5fse3mw21bj@ch_4e2beb834ec54580b3bbfa33bb156f21",
-     "text": "@[Investor Deck Director](agent_399v1vym51av) brief da AURA Chair, su richiesta di Alessia: revisione del pitch per la Commissione, da rendere pronto al 100%.  Contesto: Bando Incubatore 2026 CCIAA Como-Lecco (ComoNExT), Fase B. Slide definitive da inviare entro giovedì 08/10/2026, colloquio il 13/10/2026 alle 9:50 CEST. Pitch da 6 slide per 5 minuti al massimo. La bozza è il progetto AI Slides \"AuraSphera Pitch ComoNExT Fase B\" (id fc2d38a3-f10e-5c56-bc78-f4b950c5e0da). Le fonti sono nella cartella AuraSphera su AI Drive, condivisa da Marco.  Struttura attuale: 1. Hook: passiamo il 90% del t…",
-     "time": "16:24"
     }
    ],
    "activity": [
+    {
+     "time": "11:46",
+     "text": "AURA CFO: Ciao a tutti, sono AURA CFO, il consigliere finanziario di AuraSphera…"
+    },
+    {
+     "time": "11:46",
+     "text": "AURA Sales: Ciao a tutti, sono AURA Sales, il consigliere commerciale di AuraSphe…"
+    },
+    {
+     "time": "11:46",
+     "text": "AURA R&D: Ciao a tutti, sono AURA R&D, il consigliere di ricerca e sviluppo di …"
+    },
+    {
+     "time": "11:46",
+     "text": "AURA Legal: Ciao a tutti, sono AURA Legal, il consigliere legale e regolatorio di…"
+    },
+    {
+     "time": "11:46",
+     "text": "AURA CAIO: Ciao a tutti, sono AURA CAIO, il consigliere per l'intelligenza artif…"
+    },
     {
      "time": "11:54",
      "text": "Marco Exec Assistant: Ciao a tutti, sono Marco Aura Exec Assistant. Mentre il CdA di AuraSp…"
@@ -814,26 +842,6 @@
     {
      "time": "12:18",
      "text": "Alessia Primerano: @[AURA Chair](agent_c5fse3mw21bj)   Colloquio già confermato, il band…"
-    },
-    {
-     "time": "15:33",
-     "text": "Gino Project Manager: Ciao a tutti, sono Gino Project Manager. Con scadenze come quella del…"
-    },
-    {
-     "time": "15:47",
-     "text": "Marco Masciadri: I shared a file with this channel: \"Aurasphera\" https://www.genspark.…"
-    },
-    {
-     "time": "16:22",
-     "text": "Investor Deck Director: Ciao a tutti, sono Investor Deck Director. Con le slide integrative p…"
-    },
-    {
-     "time": "16:23",
-     "text": "Alessia Primerano: @[AURA Chair](agent_c5fse3mw21bj) ho aggiunto l'agente Investor Deck …"
-    },
-    {
-     "time": "16:24",
-     "text": "AURA Chair: @[Investor Deck Director](agent_399v1vym51av) brief da AURA Chair, su…"
     }
    ],
    "needs_marco": false,
@@ -950,6 +958,138 @@
    ],
    "needs_marco": false,
    "marco_mentioned": true
+  },
+  {
+   "id": "ch_dm_ccbf19a31c939cace113",
+   "name": "MED-CEO",
+   "project": "medcloud",
+   "type": "studio",
+   "unread": 0,
+   "last_activity": "2026-11-23T16:05:46+00:00",
+   "agents": [
+    {
+     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "name": "Giulia CEO",
+     "role": "Agente GenTeam",
+     "status": "working",
+     "task": "Ultimo intervento 17:05",
+     "progress": 50
+    }
+   ],
+   "messages": [
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "aggiungi la mia email di contato marco.masciadri@medcloud.group",
+     "time": "12:46"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Aggiungo la tua mail in testa e nel capitolo sulla riservatezza; la passata grafica è già in corso, arriva con tutto dentro.",
+     "time": "12:46"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Pronto: 21 pagine, Helvetica in tutto (Nimbus Sans, che è il clone metrico di Helvetica — l'Helvetica vera non è licenziata nel sandbox, la resa è la stessa), logo bianco in copertina e a colori in ogni piè di pagina, la tua mail in testa e nel capitolo 7. In allegato anche il fascicolo neutro da 93 pagine.  Il capitolo 7 dice quattro cose: che il documento è riservato e tutti i diritti sono riservati; che si può condividere solo dentro la sua organizzazione e con i suoi principal, dicendoci chi sono; che l'allegato da 93 pagine sta sugli stessi termini, con la sua stessa avvertenza (le tavol…",
+     "time": "12:50"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sostituisci il PDF con questo: è la stessa cosa, ma il capitolo 7 ora sta intero sull'ultima pagina invece di spezzarsi a metà. Unico font incorporato Nimbus Sans, in tondo, grassetto e corsivo.",
+     "time": "12:54"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "alcune correzioni:   1. attualmente il brevetto é di Masciadri e Torno. Masciadri é già socio sia di Medcloud Group Srl che di SBC SA. Torno entra nelle società a dicembre (MedCloud Group Srl) e dopo il trasferimento a Landquart (Technopark Graubunden) anche nella SBC SA o in veicolo creato appositamente, ad esempio creazione di Medcloud Group Swisse SA. Il brevetto depositato e quelli ancora da depositare internazionalmente come brevetti ombrello, nei prossimi mesi saranno dati in licenza esclusiva alle nostre società. Siamo lieti di verificare la possibilità di ingresso investitori in quest…",
+     "time": "15:47"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Integro tutte; due cose non le posso scrivere senza di te.",
+     "time": "15:48"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Dieci punti su undici sono chiari e li sto scrivendo. Due no.  **Il punto 11 si è troncato**: «punto 4.2» e poi niente. Cosa devo cambiare nel 4.2 — le tre strutture, la raccomandazione, o i gates?  **Il punto 7 sul 2027 non torna con i documenti che abbiamo già firmato.** La scheda del bando dice avvio 01.04.2027 e 15 mesi, quindi dati del pilota e fascicolo tecnico a metà 2028 — ed è la data che Dima ha davanti nel documento. Se il fascicolo tecnico arriva nel 2027, allora il piano parte prima di aprile 2027: vuol dire che lo sviluppo va avanti con fondi nostri da gennaio e il bando si inne…",
+     "time": "15:48"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "punto 11 elimina si andiamo comunque avanti con fondi nostri e poi si innesta bando se arriva. Conferma che il 26 Novembre abbiamo incontro investitori interessati organizzato da Technopark Graubunden",
+     "time": "15:50"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Sì, confermo l'evento: **Pitch Night Graubünden — edizione GR 2026, 26 novembre 2026 alle 18:00 al Technopark Graubünden, a Landquart** (non Coira). Dieci startup selezionate, giuria di quattro: Viglino-Caviezel (VP Technopark GR), Kehl (GBS St. Gallen / parco innovazione di Visp), Egger (KUBEX18, investitore) e Fantini (presidente giuria SICTIC). Tre minuti di pitch e due di domande, in inglese o tedesco.  Una precisazione: è la Pitch Night, non un incontro riservato con investitori — ma la giuria è tutta gente che investe, e il premio è consulenza (investment, legal, fiduciary) per oltre 10…",
+     "time": "15:53"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "Alessia Ha fatto analizzare il documento da un board in Claude e ha trovato questi punti. verifichiamo e integriamo. avremo anche incontro dedicato e separato con investitori. consegna deck già fatta la scorsa settimana, dallo per fatto e chiuso",
+     "time": "15:55"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Leggo la board review punto per punto e ti dico cosa integro e cosa no. Intanto ho chiuso il punto del deck: consegnato, fatto.",
+     "time": "15:55"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Integrate: 26 pagine. Il board di Alessia ha ragione su quasi tutto e il documento è molto più forte. Ecco cosa ho preso, cosa ho corretto di mio e i tre punti che restano tuoi.  **Le sei bloccanti, tutte dentro.** Architettura: la contraddizione era vera — la rivendicazione 2 descrive un cerotto senza alimentazione né processore, i disegni rev C hanno MCU, radio e batteria sul patch. Ora è scritto che la rev C documenta l'alternativa valutata e che la scelta di lavoro è galvanica, confermata al banco nel primo trimestre 2027. Aggiunta la nota di concordanza di una pagina sul fascicolo allega…",
+     "time": "16:03"
+    }
+   ],
+   "activity": [
+    {
+     "time": "12:46",
+     "text": "Marco Masciadri: aggiungi la mia email di contato marco.masciadri@medcloud.group"
+    },
+    {
+     "time": "12:46",
+     "text": "Giulia CEO: Aggiungo la tua mail in testa e nel capitolo sulla riservatezza; la p…"
+    },
+    {
+     "time": "12:50",
+     "text": "Giulia CEO: Pronto: 21 pagine, Helvetica in tutto (Nimbus Sans, che è il clone me…"
+    },
+    {
+     "time": "12:54",
+     "text": "Giulia CEO: Sostituisci il PDF con questo: è la stessa cosa, ma il capitolo 7 ora…"
+    },
+    {
+     "time": "15:47",
+     "text": "Marco Masciadri: alcune correzioni:   1. attualmente il brevetto é di Masciadri e Torn…"
+    },
+    {
+     "time": "15:48",
+     "text": "Giulia CEO: Integro tutte; due cose non le posso scrivere senza di te."
+    },
+    {
+     "time": "15:48",
+     "text": "Giulia CEO: Dieci punti su undici sono chiari e li sto scrivendo. Due no.  **Il p…"
+    },
+    {
+     "time": "15:50",
+     "text": "Marco Masciadri: punto 11 elimina si andiamo comunque avanti con fondi nostri e poi si…"
+    },
+    {
+     "time": "15:53",
+     "text": "Giulia CEO: Sì, confermo l'evento: **Pitch Night Graubünden — edizione GR 2026, 2…"
+    },
+    {
+     "time": "15:55",
+     "text": "Marco Masciadri: Alessia Ha fatto analizzare il documento da un board in Claude e ha t…"
+    },
+    {
+     "time": "15:55",
+     "text": "Giulia CEO: Leggo la board review punto per punto e ti dico cosa integro e cosa n…"
+    },
+    {
+     "time": "16:03",
+     "text": "Giulia CEO: Integrate: 26 pagine. Il board di Alessia ha ragione su quasi tutto e…"
+    }
+   ],
+   "needs_marco": false,
+   "marco_mentioned": false
   },
   {
    "id": "ch_dm_84f86f488c883fac6295",
@@ -1078,138 +1218,6 @@
     {
      "time": "16:23",
      "text": "HORME: Registrato, vale come regola fissa: da ora ti mando destinatari + tes…"
-    }
-   ],
-   "needs_marco": true,
-   "marco_mentioned": false
-  },
-  {
-   "id": "ch_dm_ccbf19a31c939cace113",
-   "name": "MED-CEO",
-   "project": "medcloud",
-   "type": "studio",
-   "unread": 2,
-   "last_activity": "2026-11-23T15:41:56+00:00",
-   "agents": [
-    {
-     "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "name": "Giulia CEO",
-     "role": "Agente GenTeam",
-     "status": "attention",
-     "task": "Ha risposto — da leggere",
-     "progress": 0
-    }
-   ],
-   "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Vado con il neutro. Il capitolo sulla riservatezza lo scrivo come «riservato, tutti i diritti riservati, NDA pronto allo scambio» — dichiarare un NDA che non è firmato è peggio che non averlo, e con Dima come intermediario la differenza la vedrebbe un suo legale.",
-     "time": "12:44"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "aggiungi logo medcloud sulle pagine",
-     "time": "12:44"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Aggiungo logo, Helvetica e il capitolo riservatezza in un'unica passata. Cerco il file del logo giusto.",
-     "time": "12:44"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "aggiungi la mia email di contato marco.masciadri@medcloud.group",
-     "time": "12:46"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Aggiungo la tua mail in testa e nel capitolo sulla riservatezza; la passata grafica è già in corso, arriva con tutto dentro.",
-     "time": "12:46"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Pronto: 21 pagine, Helvetica in tutto (Nimbus Sans, che è il clone metrico di Helvetica — l'Helvetica vera non è licenziata nel sandbox, la resa è la stessa), logo bianco in copertina e a colori in ogni piè di pagina, la tua mail in testa e nel capitolo 7. In allegato anche il fascicolo neutro da 93 pagine.  Il capitolo 7 dice quattro cose: che il documento è riservato e tutti i diritti sono riservati; che si può condividere solo dentro la sua organizzazione e con i suoi principal, dicendoci chi sono; che l'allegato da 93 pagine sta sugli stessi termini, con la sua stessa avvertenza (le tavol…",
-     "time": "12:50"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sostituisci il PDF con questo: è la stessa cosa, ma il capitolo 7 ora sta intero sull'ultima pagina invece di spezzarsi a metà. Unico font incorporato Nimbus Sans, in tondo, grassetto e corsivo.",
-     "time": "12:54"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "alcune correzioni:   1. attualmente il brevetto é di Masciadri e Torno. Masciadri é già socio sia di Medcloud Group Srl che di SBC SA. Torno entra nelle società a dicembre (MedCloud Group Srl) e dopo il trasferimento a Landquart (Technopark Graubunden) anche nella SBC SA o in veicolo creato appositamente, ad esempio creazione di Medcloud Group Swisse SA. Il brevetto depositato e quelli ancora da depositare internazionalmente come brevetti ombrello, nei prossimi mesi saranno dati in licenza esclusiva alle nostre società. Siamo lieti di verificare la possibilità di ingresso investitori in quest…",
-     "time": "15:47"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Integro tutte; due cose non le posso scrivere senza di te.",
-     "time": "15:48"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Dieci punti su undici sono chiari e li sto scrivendo. Due no.  **Il punto 11 si è troncato**: «punto 4.2» e poi niente. Cosa devo cambiare nel 4.2 — le tre strutture, la raccomandazione, o i gates?  **Il punto 7 sul 2027 non torna con i documenti che abbiamo già firmato.** La scheda del bando dice avvio 01.04.2027 e 15 mesi, quindi dati del pilota e fascicolo tecnico a metà 2028 — ed è la data che Dima ha davanti nel documento. Se il fascicolo tecnico arriva nel 2027, allora il piano parte prima di aprile 2027: vuol dire che lo sviluppo va avanti con fondi nostri da gennaio e il bando si inne…",
-     "time": "15:48"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "punto 11 elimina si andiamo comunque avanti con fondi nostri e poi si innesta bando se arriva. Conferma che il 26 Novembre abbiamo incontro investitori interessati organizzato da Technopark Graubunden",
-     "time": "15:50"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sì, confermo l'evento: **Pitch Night Graubünden — edizione GR 2026, 26 novembre 2026 alle 18:00 al Technopark Graubünden, a Landquart** (non Coira). Dieci startup selezionate, giuria di quattro: Viglino-Caviezel (VP Technopark GR), Kehl (GBS St. Gallen / parco innovazione di Visp), Egger (KUBEX18, investitore) e Fantini (presidente giuria SICTIC). Tre minuti di pitch e due di domande, in inglese o tedesco.  Una precisazione: è la Pitch Night, non un incontro riservato con investitori — ma la giuria è tutta gente che investe, e il premio è consulenza (investment, legal, fiduciary) per oltre 10…",
-     "time": "15:53"
-    }
-   ],
-   "activity": [
-    {
-     "time": "12:44",
-     "text": "Giulia CEO: Vado con il neutro. Il capitolo sulla riservatezza lo scrivo come «ri…"
-    },
-    {
-     "time": "12:44",
-     "text": "Marco Masciadri: aggiungi logo medcloud sulle pagine"
-    },
-    {
-     "time": "12:44",
-     "text": "Giulia CEO: Aggiungo logo, Helvetica e il capitolo riservatezza in un'unica passa…"
-    },
-    {
-     "time": "12:46",
-     "text": "Marco Masciadri: aggiungi la mia email di contato marco.masciadri@medcloud.group"
-    },
-    {
-     "time": "12:46",
-     "text": "Giulia CEO: Aggiungo la tua mail in testa e nel capitolo sulla riservatezza; la p…"
-    },
-    {
-     "time": "12:50",
-     "text": "Giulia CEO: Pronto: 21 pagine, Helvetica in tutto (Nimbus Sans, che è il clone me…"
-    },
-    {
-     "time": "12:54",
-     "text": "Giulia CEO: Sostituisci il PDF con questo: è la stessa cosa, ma il capitolo 7 ora…"
-    },
-    {
-     "time": "15:47",
-     "text": "Marco Masciadri: alcune correzioni:   1. attualmente il brevetto é di Masciadri e Torn…"
-    },
-    {
-     "time": "15:48",
-     "text": "Giulia CEO: Integro tutte; due cose non le posso scrivere senza di te."
-    },
-    {
-     "time": "15:48",
-     "text": "Giulia CEO: Dieci punti su undici sono chiari e li sto scrivendo. Due no.  **Il p…"
-    },
-    {
-     "time": "15:50",
-     "text": "Marco Masciadri: punto 11 elimina si andiamo comunque avanti con fondi nostri e poi si…"
-    },
-    {
-     "time": "15:53",
-     "text": "Giulia CEO: Sì, confermo l'evento: **Pitch Night Graubünden — edizione GR 2026, 2…"
     }
    ],
    "needs_marco": true,
