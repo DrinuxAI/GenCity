@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:57:57.450763+00:00",
+ "generated_at": "2026-11-23T15:12:05.808044+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -964,34 +964,19 @@
    "name": "MED-CEO",
    "project": "medcloud",
    "type": "studio",
-   "unread": 0,
-   "last_activity": "2026-11-23T14:55:53+00:00",
+   "unread": 1,
+   "last_activity": "2026-11-23T15:08:23+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
-     "status": "working",
-     "task": "Ultimo intervento 15:55",
-     "progress": 50
+     "status": "attention",
+     "task": "Ha risposto — da leggere",
+     "progress": 0
     }
    ],
    "messages": [
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sto rigenerando il PDF con le tre frasi su SBC smussate — te lo mando appena è pronto, con le righe cambiate indicate.  Una cosa in più, visto che Dima è un intermediario e il documento andrà ai suoi: nel frattempo ho corretto anche lo stato della domanda di bando, che era scritto «filed» — i documenti sono firmati e il deposito è in corso tramite Rossi, non ancora avvenuto. Meglio che non lo scopra un suo avvocato.",
-     "time": "12:07"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Modifiche al testo fatte: le tre frasi su SBC sono ora «nostra lettura del registro, verifica legale in corso», e lo stato del bando non dice più «filed». Il PDF rigenerato te lo mando appena è pronto.",
-     "time": "12:07"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Ecco il PDF smussato, 19 pagine, impianto invariato.  Cosa ho cambiato, in tre punti e nella didascalia del grafico: dove diceva che l'oggetto sociale di SBC «non comprende i dispositivi medici e va esteso», ora dice che **la nostra lettura del registro è che non li nomini, e che la conseguenza è in verifica da un legale svizzero — «we are not treating that as settled»**. Nessuna frase del documento afferma più come fatto acclarato che l'estensione serva.  In più, due cose che ho corretto perché il documento va oltre Dima: la domanda di bando non è più «filed» ma «signed, deposito in corso tr…",
-     "time": "12:09"
-    },
     {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "Importante aggiungere che l'ananlisi clinica é stata fatto in base all'esperienza clinica e ospedaliera di 20 anni del Dr. Marco Torno con specializzazione in wound care",
@@ -1036,21 +1021,24 @@
      "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "text": "Pronto, 21 pagine. Dentro tutto quello che mi hai dettato, con una sezione nuova che vale la pena leggere per prima: §4.6 «The other model, and what it would cost» — il modello in cui teniamo noi la certificazione, con un terzista che produce per nostro conto e accordi di commercializzazione con gruppi internazionali. L'ho scritto come destinazione naturale dopo il design freeze, non come primo passo da TRL 3: cambia il fabbisogno di capitale di un ordine di grandezza e sposta il baricentro da ricerca a operations, e dirlo così è più forte che nasconderlo — un industriale lo capisce e apprezz…",
      "time": "12:38"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "usa font Helvetica per tutto il documento. Aggiungi un capitolo sul fatto che tutto il documento é riservato e sottoposto a NDA e tutti i diritti sono riservati. Aggiungi che per la fiducia che abbiamo in Dima, alleghiamo il nostro documento interno di 93 pagine esplicativo di tutto il progetto in dettaglio",
+     "time": "12:42"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Faccio Helvetica e il capitolo sulla riservatezza. Sull'allegato da 93 pagine ti fermo un secondo: c'è una scelta da fare prima.",
+     "time": "12:42"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Prima di allegarlo: dei 93 pagine esistono due versioni. Il fascicolo Technopark interno (21,8 MB: prezzi, TAM, partner nominati, il 51 µW e il €600 che nel documento per Dima abbiamo appena corretto) e la versione neutra preparata apposta per la condivisione esterna. Allegare l'interno a un intermediario significa consegnargli anche le contraddizioni che abbiamo appena sistemato, e 22 MB di materiale pre-PCT.  Quale allego — il neutro (mia raccomandazione) o l'interno? E con Dima c'è un NDA firmato? Se non c'è, la pagina di riservatezza che sto scrivendo è un'intenzione, non una protezione: …",
+     "time": "12:42"
     }
    ],
    "activity": [
-    {
-     "time": "12:07",
-     "text": "Giulia CEO: Sto rigenerando il PDF con le tre frasi su SBC smussate — te lo mando…"
-    },
-    {
-     "time": "12:07",
-     "text": "Giulia CEO: Modifiche al testo fatte: le tre frasi su SBC sono ora «nostra lettur…"
-    },
-    {
-     "time": "12:09",
-     "text": "Giulia CEO: Ecco il PDF smussato, 19 pagine, impianto invariato.  Cosa ho cambiat…"
-    },
     {
      "time": "12:15",
      "text": "Marco Masciadri: Importante aggiungere che l'ananlisi clinica é stata fatto in base al…"
@@ -1086,9 +1074,21 @@
     {
      "time": "12:38",
      "text": "Giulia CEO: Pronto, 21 pagine. Dentro tutto quello che mi hai dettato, con una se…"
+    },
+    {
+     "time": "12:42",
+     "text": "Marco Masciadri: usa font Helvetica per tutto il documento. Aggiungi un capitolo sul f…"
+    },
+    {
+     "time": "12:42",
+     "text": "Giulia CEO: Faccio Helvetica e il capitolo sulla riservatezza. Sull'allegato da 9…"
+    },
+    {
+     "time": "12:42",
+     "text": "Giulia CEO: Prima di allegarlo: dei 93 pagine esistono due versioni. Il fascicolo…"
     }
    ],
-   "needs_marco": false,
+   "needs_marco": true,
    "marco_mentioned": false
   },
   {
