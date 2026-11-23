@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T16:39:37.610628+00:00",
+ "generated_at": "2026-11-23T16:53:46.147372+00:00",
  "mode": "full",
  "workspace": "genspark",
  "projects": {
@@ -965,127 +965,127 @@
    "project": "medcloud",
    "type": "studio",
    "unread": 0,
-   "last_activity": "2026-11-23T16:35:08+00:00",
+   "last_activity": "2026-11-23T16:49:17+00:00",
    "agents": [
     {
      "id": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
      "name": "Giulia CEO",
      "role": "Agente GenTeam",
      "status": "working",
-     "task": "Ultimo intervento 17:35",
+     "task": "Ultimo intervento 17:49",
      "progress": 50
     }
    ],
    "messages": [
     {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sostituisci il PDF con questo: è la stessa cosa, ma il capitolo 7 ora sta intero sull'ultima pagina invece di spezzarsi a metà. Unico font incorporato Nimbus Sans, in tondo, grassetto e corsivo.",
-     "time": "12:54"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "alcune correzioni:   1. attualmente il brevetto é di Masciadri e Torno. Masciadri é già socio sia di Medcloud Group Srl che di SBC SA. Torno entra nelle società a dicembre (MedCloud Group Srl) e dopo il trasferimento a Landquart (Technopark Graubunden) anche nella SBC SA o in veicolo creato appositamente, ad esempio creazione di Medcloud Group Swisse SA. Il brevetto depositato e quelli ancora da depositare internazionalmente come brevetti ombrello, nei prossimi mesi saranno dati in licenza esclusiva alle nostre società. Siamo lieti di verificare la possibilità di ingresso investitori in quest…",
-     "time": "15:47"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Integro tutte; due cose non le posso scrivere senza di te.",
-     "time": "15:48"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Dieci punti su undici sono chiari e li sto scrivendo. Due no.  **Il punto 11 si è troncato**: «punto 4.2» e poi niente. Cosa devo cambiare nel 4.2 — le tre strutture, la raccomandazione, o i gates?  **Il punto 7 sul 2027 non torna con i documenti che abbiamo già firmato.** La scheda del bando dice avvio 01.04.2027 e 15 mesi, quindi dati del pilota e fascicolo tecnico a metà 2028 — ed è la data che Dima ha davanti nel documento. Se il fascicolo tecnico arriva nel 2027, allora il piano parte prima di aprile 2027: vuol dire che lo sviluppo va avanti con fondi nostri da gennaio e il bando si inne…",
-     "time": "15:48"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "punto 11 elimina si andiamo comunque avanti con fondi nostri e poi si innesta bando se arriva. Conferma che il 26 Novembre abbiamo incontro investitori interessati organizzato da Technopark Graubunden",
-     "time": "15:50"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sì, confermo l'evento: **Pitch Night Graubünden — edizione GR 2026, 26 novembre 2026 alle 18:00 al Technopark Graubünden, a Landquart** (non Coira). Dieci startup selezionate, giuria di quattro: Viglino-Caviezel (VP Technopark GR), Kehl (GBS St. Gallen / parco innovazione di Visp), Egger (KUBEX18, investitore) e Fantini (presidente giuria SICTIC). Tre minuti di pitch e due di domande, in inglese o tedesco.  Una precisazione: è la Pitch Night, non un incontro riservato con investitori — ma la giuria è tutta gente che investe, e il premio è consulenza (investment, legal, fiduciary) per oltre 10…",
-     "time": "15:53"
-    },
-    {
-     "from": "human@ch_dm_ccbf19a31c939cace113",
-     "text": "Alessia Ha fatto analizzare il documento da un board in Claude e ha trovato questi punti. verifichiamo e integriamo. avremo anche incontro dedicato e separato con investitori. consegna deck già fatta la scorsa settimana, dallo per fatto e chiuso",
-     "time": "15:55"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Leggo la board review punto per punto e ti dico cosa integro e cosa no. Intanto ho chiuso il punto del deck: consegnato, fatto.",
-     "time": "15:55"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Integrate: 26 pagine. Il board di Alessia ha ragione su quasi tutto e il documento è molto più forte. Ecco cosa ho preso, cosa ho corretto di mio e i tre punti che restano tuoi.  **Le sei bloccanti, tutte dentro.** Architettura: la contraddizione era vera — la rivendicazione 2 descrive un cerotto senza alimentazione né processore, i disegni rev C hanno MCU, radio e batteria sul patch. Ora è scritto che la rev C documenta l'alternativa valutata e che la scelta di lavoro è galvanica, confermata al banco nel primo trimestre 2027. Aggiunta la nota di concordanza di una pagina sul fascicolo allega…",
-     "time": "16:03"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sostituisci il PDF: stesso documento, un solo rimando corretto — le tutele per il licenziatario sono il §4.3.6 e il testo puntava al 4.3.7, che dopo il riordino è la forma della transazione. 26 pagine.",
-     "time": "16:06"
-    },
-    {
-     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
-     "text": "Sostituisci il PDF, 26 pagine: allineato «assignment» a «licenza esclusiva» in tre punti (§0.2, §3.3, §4.3.7 punto 3), così il documento dice una cosa sola in tutto il percorso — trasferimento agli inventori con atto trascritto oppure licenza esclusiva trascritta se il titolo resta a loro, e in ogni caso il licenziante è la società, non due persone fisiche.",
-     "time": "16:08"
-    },
-    {
      "from": "human@ch_dm_ccbf19a31c939cace113",
      "text": "1. confermo io 2. ok 3. ok 4. mettiamo che abbiamo utilizzato motori pubblici di AI per simulare l'analisi dei dati e dare supporto al personale di assistenza, clinico, amministrativo e compliance/risk management. Nella versione finale si potrà decidere di utilizzare un modello di mercato ( con tutela della privacy e senza passare dati sensibili) o un modello personalizzato e con personalizzazione dei dataset. Per questo motivo abbiamo già preso contatto con il responsabile AI di Acer Svizzera per la creazione di un LLM personalizzato e fatto girare non solo in cloud ma anche on premise su ma…",
      "time": "16:15"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Integro: galvanica confermata, e l'AI la scrivo come livello assistente distinto dalla logica allarmi — con dentro Acer, il cloud e l'on-premise.",
+     "time": "16:15"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Fatto, 26 pagine: galvanica scritta come decisa, S.r.l. titolare del brevetto, e il livello AI dentro al §1.3.  Sull'AI l'ho scritto così, e ti spiego perché. La logica allarmi resta a regole — è quella che finisce nell'output operativo, ed è la verità che ci tiene fuori dal percorso regolatorio pesante. Il livello assistente invece esiste, è vero, e nel documento è dichiarato per quello che è: motori pubblici usati su dati generati per simulare l'analisi e il supporto a personale, clinici, amministrazione e compliance, e sono quelli a cui si riferiscono le etichette «AI Agent» della demo. Po…",
+     "time": "16:19"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok adesso rendilo appetibile per l'investitore, verifica che tutto sia a posto e confermiamo la versione inglese. poi quando hai fatto chiedimelo e prepariamo anche una versione in russo per andare incontro alla lingua dell'investitore.",
+     "time": "16:21"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Faccio la passata finale: QA su tutto, poi una pagina di apertura che rende il documento desiderabile senza toccare l'onestà. Poi ti chiedo per il russo.",
+     "time": "16:21"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Versione inglese confermata: 27 pagine, con una pagina di apertura nuova — «The offer, in one page» — che rende il documento desiderabile senza toccarne l'onestà: cosa è, cinque ragioni per parlarne ora, cosa chiediamo (finanziare i gate, non una valutazione), cosa ottiene lui, cosa tratteniamo noi, e cosa il documento non nasconde. Te lo mando nel messaggio dopo.  Verifica fatta e pulita: tutti i rimandi interni risolvono, «€600» compare solo dove è dichiarato superato, 51 µW e 16,6 µW sempre insieme e sempre dichiarati non misurati, nessun residuo del vecchio 2028, etichette verificato/dich…",
+     "time": "16:27"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "ok, in russo traduci solo le 27 pagine. l'allegato di 93 lo mandiamo in inglese e lo hai già IN AI drive",
+     "time": "16:29"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ricevuto: russo solo sulle 27 pagine, allegato in inglese. Avvio la traduzione adesso e ti mando prima l'inglese confermato.",
+     "time": "16:29"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco l'inglese confermato, 27 pagine. Apertura nuova a pagina 2, tabella di concordanza sull'allegato che scorre senza lasciare mezze pagine bianche, capitolo 7 intero in fondo.  Il russo è in traduzione adesso — stesse 27 pagine, stesso impianto, con la clausola «prevale il testo inglese» in copertina e nel §7, e i nomi delle società e i riferimenti normativi lasciati in inglese. Te lo mando appena è pronto.",
+     "time": "16:29"
+    },
+    {
+     "from": "human@ch_dm_ccbf19a31c939cace113",
+     "text": "nel footer a MedCloud Group S.r.l. aggiungi Italy e SBC SA Swiss",
+     "time": "16:38"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Aggiungo Italy e SBC SA Swiss nel piè di pagina, su inglese e russo.",
+     "time": "16:38"
+    },
+    {
+     "from": "agent_pzacj6hja67r@ch_dm_ccbf19a31c939cace113",
+     "text": "Ecco i due file, entrambi con il piè di pagina aggiornato: «© 2026 MedCloud Group S.r.l. (Italy) · SBC Swiss Beauty Cosmetic SA (Switzerland) — confidential» — in russo la stessa riga con «конфиденциально».  L'inglese resta a 27 pagine. Il russo è 29 — il cirillico è più lungo, non c'è nulla in più: stessa struttura, stesse sezioni numerate, stesse cifre (523 240 €, 418 592 €, 16,6 µW, 51 µW, 673 record, 250 событий, 15 000–150 000), in copertina e nel §7 la clausola che in caso di divergenza prevale il testo inglese. Terminologia tenuta ferma: «модуль датчика», «под», «повязка», «накладка» (…",
+     "time": "16:41"
     }
    ],
    "activity": [
     {
-     "time": "12:54",
-     "text": "Giulia CEO: Sostituisci il PDF con questo: è la stessa cosa, ma il capitolo 7 ora…"
-    },
-    {
-     "time": "15:47",
-     "text": "Marco Masciadri: alcune correzioni:   1. attualmente il brevetto é di Masciadri e Torn…"
-    },
-    {
-     "time": "15:48",
-     "text": "Giulia CEO: Integro tutte; due cose non le posso scrivere senza di te."
-    },
-    {
-     "time": "15:48",
-     "text": "Giulia CEO: Dieci punti su undici sono chiari e li sto scrivendo. Due no.  **Il p…"
-    },
-    {
-     "time": "15:50",
-     "text": "Marco Masciadri: punto 11 elimina si andiamo comunque avanti con fondi nostri e poi si…"
-    },
-    {
-     "time": "15:53",
-     "text": "Giulia CEO: Sì, confermo l'evento: **Pitch Night Graubünden — edizione GR 2026, 2…"
-    },
-    {
-     "time": "15:55",
-     "text": "Marco Masciadri: Alessia Ha fatto analizzare il documento da un board in Claude e ha t…"
-    },
-    {
-     "time": "15:55",
-     "text": "Giulia CEO: Leggo la board review punto per punto e ti dico cosa integro e cosa n…"
-    },
-    {
-     "time": "16:03",
-     "text": "Giulia CEO: Integrate: 26 pagine. Il board di Alessia ha ragione su quasi tutto e…"
-    },
-    {
-     "time": "16:06",
-     "text": "Giulia CEO: Sostituisci il PDF: stesso documento, un solo rimando corretto — le t…"
-    },
-    {
-     "time": "16:08",
-     "text": "Giulia CEO: Sostituisci il PDF, 26 pagine: allineato «assignment» a «licenza escl…"
+     "time": "16:15",
+     "text": "Marco Masciadri: 1. confermo io 2. ok 3. ok 4. mettiamo che abbiamo utilizzato motori …"
     },
     {
      "time": "16:15",
-     "text": "Marco Masciadri: 1. confermo io 2. ok 3. ok 4. mettiamo che abbiamo utilizzato motori …"
+     "text": "Giulia CEO: Integro: galvanica confermata, e l'AI la scrivo come livello assisten…"
+    },
+    {
+     "time": "16:19",
+     "text": "Giulia CEO: Fatto, 26 pagine: galvanica scritta come decisa, S.r.l. titolare del …"
+    },
+    {
+     "time": "16:21",
+     "text": "Marco Masciadri: ok adesso rendilo appetibile per l'investitore, verifica che tutto si…"
+    },
+    {
+     "time": "16:21",
+     "text": "Giulia CEO: Faccio la passata finale: QA su tutto, poi una pagina di apertura che…"
+    },
+    {
+     "time": "16:27",
+     "text": "Giulia CEO: Versione inglese confermata: 27 pagine, con una pagina di apertura nu…"
+    },
+    {
+     "time": "16:29",
+     "text": "Marco Masciadri: ok, in russo traduci solo le 27 pagine. l'allegato di 93 lo mandiamo …"
+    },
+    {
+     "time": "16:29",
+     "text": "Giulia CEO: Ricevuto: russo solo sulle 27 pagine, allegato in inglese. Avvio la t…"
+    },
+    {
+     "time": "16:29",
+     "text": "Giulia CEO: Ecco l'inglese confermato, 27 pagine. Apertura nuova a pagina 2, tabe…"
+    },
+    {
+     "time": "16:38",
+     "text": "Marco Masciadri: nel footer a MedCloud Group S.r.l. aggiungi Italy e SBC SA Swiss"
+    },
+    {
+     "time": "16:38",
+     "text": "Giulia CEO: Aggiungo Italy e SBC SA Swiss nel piè di pagina, su inglese e russo."
+    },
+    {
+     "time": "16:41",
+     "text": "Giulia CEO: Ecco i due file, entrambi con il piè di pagina aggiornato: «© 2026 Me…"
     }
    ],
    "needs_marco": false,
